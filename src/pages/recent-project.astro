@@ -1,0 +1,35 @@
+---
+import { readAll } from "../lib/markdoc/read";
+import { project } from "../lib/markdoc/frontmatter.schema";
+
+const projects = await readAll({
+  directory: "projects",
+  frontmatterSchema: project,
+});
+
+const sortedProjects = projects
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+// 최근 3개의 프로젝트 가져오기
+const recentProjects = sortedProjects.slice(0,3);
+---
+
+<ul class="list-none">
+  {recentProjects.map((project) => {
+    return (
+      <li class="mb-4" :key={project.slug}>
+        <a
+          href={project.frontmatter.url ? project.frontmatter.url : '/project/${project.slug}'}
+          class="text-text-link hover:underline"
+        >
+          <h4 class="text-x2 font-bold mb-4">{project.frontmatter.title}</h4>
+        </a>
+      </li>
+    );
+  })}
+</ul>

@@ -1,0 +1,35 @@
+---
+import { readAll } from "../lib/markdoc/read";
+import { blog } from "../lib/markdoc/frontmatter.schema";
+
+const posts = await readAll({
+  directory: "blog",
+  frontmatterSchema: blog,
+});
+
+const sortedPosts = posts
+  .filter((p) => p.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  );
+
+// 최근 3개의 게시물을 가져오기
+const recentPosts = sortedPosts.slice(0, 3);
+---
+
+<ul class="list-none">
+  {recentPosts.map((post) => {
+    return (
+      <li class="mb-4" :key={post.slug}>
+        <a
+          href={post.frontmatter.external ? post.frontmatter.url : `/blog/${post.slug}`}
+          class="text-text-link hover:underline"
+        >
+          <h4 class="text-x2 font-bold mb-4">{post.frontmatter.title}</h4>
+        </a>
+      </li>
+    );
+  })}
+</ul>
