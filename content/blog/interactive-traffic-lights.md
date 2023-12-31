@@ -1,6 +1,7 @@
 ---
 external: false
 title: "interactive traffic lights"
+tag: [Arduino, C++]
 date: 2022-09-05
 ---
 

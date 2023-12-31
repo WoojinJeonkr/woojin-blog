@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Re split()"
+tag: [Hackerrank, Python]
 date: 2023-09-15
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Computer's internal language structure"
+tag: [CS]
 date: 2022-09-07
 ---
 

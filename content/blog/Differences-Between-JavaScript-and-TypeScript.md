@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Differences Between JavaScript and TypeScript"
+tag: [Typescript, Javascript]
 date: 2022-10-13
 ---
 

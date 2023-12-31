@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Java Datatypes"
+tag: [Hackerrank, Java]
 date: 2023-10-04
 ---
 

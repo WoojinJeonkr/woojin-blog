@@ -1,6 +1,7 @@
 ---
 external: false
 title : "emoji"
+tag: [Typescript, Study]
 date: 2022-10-26
 ---
 

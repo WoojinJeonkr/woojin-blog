@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Compare the Triplets"
+tag: [Hackerrank, Python]
 date: 2023-12-06
 ---
 

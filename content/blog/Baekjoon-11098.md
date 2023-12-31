@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 11098"
+tag: [Baekjoon, Python]
 date: 2023-05-20
 ---
 
@@ -10,7 +11,7 @@ date: 2023-05-20
 
 ## 2. Solution
 
-### 1. Python (memory: 31256KB, time: 308ms)
+### 2-1. Python (memory: 31256KB, time: 308ms)
 
 ```python
 n = int(input())
@@ -19,7 +20,7 @@ for _ in range(n):
     print(max((input().split() for _ in range(p)), key=lambda x: int(x[0]))[1])
 ```
 
-### 2. Explanation
+### 2-2. Explanation
 
 ```python
 n = int(input())

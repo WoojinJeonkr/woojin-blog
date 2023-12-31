@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Glossary of React Terms"
+tag: [React]
 date: 2022-11-06
 ---
 

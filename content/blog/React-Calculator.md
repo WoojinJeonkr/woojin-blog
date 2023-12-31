@@ -1,6 +1,7 @@
 ---
 external: false
 title : "React Calculator"
+tag: [React, Typescript]
 date: 2022-11-20
 ---
 

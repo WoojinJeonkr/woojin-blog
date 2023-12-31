@@ -1,6 +1,7 @@
 ---
 external: false
 title : "React CRUD Page"
+tag: [React, Typescript]
 date: 2022-11-11
 ---
 

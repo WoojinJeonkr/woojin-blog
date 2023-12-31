@@ -2,6 +2,7 @@
 external: false
 title : "About CORS"
 description : "What is CORS?"
+tag: [Study, CS]
 date: 2022-10-09
 ---
 

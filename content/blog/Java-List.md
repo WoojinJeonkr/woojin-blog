@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Java List"
+tag: [Hackerrank, Java]
 date: 2023-09-27
 ---
 

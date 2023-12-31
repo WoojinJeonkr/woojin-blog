@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Revising Aggregations Averages"
+tag: [Hackerrank, SQL]
 date: 2023-08-20
 ---
 

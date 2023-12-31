@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Alarm"
+tag: [Arduino, C++]
 date: 2022-09-08
 ---
 

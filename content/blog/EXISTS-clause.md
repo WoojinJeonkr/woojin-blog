@@ -1,6 +1,7 @@
 ---
 external: false
 title: "EXISTS clause"
+tag: [Database, SQL]
 date: 2023-11-13
 ---
 

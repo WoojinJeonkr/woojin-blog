@@ -2,7 +2,7 @@
 external: false
 title : "3 Tips to help you learn code quickly"
 description: "Let's find out about advice that helps with learning to code"
-tag: study
+tag: [Study]
 date: 2022-09-29
 ---
 

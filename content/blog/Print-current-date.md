@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Print current date"
+tag: [C++]
 date: 2023-06-11
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "number systems manipulation"
+tag: [Python]
 date: 2022-09-11
 ---
 

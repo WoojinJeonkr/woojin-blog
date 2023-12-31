@@ -2,6 +2,7 @@
 external: false
 title: "Cascading Dropdown"
 description: "Let's create a dropdown that receives values sequentially according to the key value"
+tag: [React, Typescript]
 date: 2022-11-25
 ---
 

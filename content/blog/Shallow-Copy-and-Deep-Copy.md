@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Shallow copy and Deep copy"
+tag: [Typescript]
 date: 2022-11-18
 ---
 

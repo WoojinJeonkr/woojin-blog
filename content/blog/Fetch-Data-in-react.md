@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Fetch Data in React"
+tag: [React, Typescript]
 date: 2022-11-02
 ---
 

@@ -2,6 +2,7 @@
 external: false
 title : "React Search"
 description : "Simple React Search"
+tag: [React, Typescript]
 date: 2022-11-14
 ---
 

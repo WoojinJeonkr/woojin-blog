@@ -2,6 +2,7 @@
 external: false
 title : "for Loops"
 description : "Let's learn about for and for-in iteration"
+tag: [Typescript]
 date: 2022-10-05
 ---
 

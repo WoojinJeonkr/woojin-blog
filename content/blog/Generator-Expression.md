@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Generator Expression"
+tag: [Python]
 date: 2023-05-21
 ---
 

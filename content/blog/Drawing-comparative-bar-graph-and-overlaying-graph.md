@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Drawing comparative bar graph and overlaying graph"
+tag: [Python, Graph]
 date: 2022-09-19
 ---
 

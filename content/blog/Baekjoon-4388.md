@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 4388"
+tag: [Baekjoon, Python]
 date: 2023-07-07
 ---
 
@@ -8,7 +9,7 @@ date: 2023-07-07
 
 [문제 확인하기](https://www.acmicpc.net/problem/4388)
 
-## 2. Solution 1 (Python, memory: 31256KB, time: 44ms)
+## 2. Solution (Python, memory: 31256KB, time: 44ms)
 
 ```python
 while True:

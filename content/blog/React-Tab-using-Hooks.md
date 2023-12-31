@@ -2,6 +2,7 @@
 external: false
 title : "React Tab using Hooks"
 description : "React Example"
+tag: [React, Typescript]
 date: 2022-11-17
 ---
 

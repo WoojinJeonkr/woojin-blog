@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Change Background using React hook"
+tag: [React, Typescript]
 date: 2022-11-10
 ---
 

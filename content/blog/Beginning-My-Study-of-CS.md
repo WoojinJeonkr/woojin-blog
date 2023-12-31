@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Beginning My Study of CS"
+tag: [CS]
 date: 2022-09-06
 ---
 

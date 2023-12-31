@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Create Recent Post Feature"
+tag: [Astro, Feature]
 date: 2023-12-30
 ---
 

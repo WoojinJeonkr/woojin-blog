@@ -1,6 +1,7 @@
 ---
 external: false
 title : "How to remove whitespace"
+tag: [Typescript]
 date: 2022-10-25
 ---
 

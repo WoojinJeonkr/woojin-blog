@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Display text count in Textarea"
+tag: [Javascript]
 date: 2022-11-21
 ---
 

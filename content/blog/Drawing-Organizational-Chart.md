@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Drawing Organizational Chart"
+tag: [Python, Graph]
 date: 2022-09-23
 ---
 

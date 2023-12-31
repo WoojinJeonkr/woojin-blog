@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Array Initialization"
+tag: [Typescript]
 date: 2022-12-20
 ---
 

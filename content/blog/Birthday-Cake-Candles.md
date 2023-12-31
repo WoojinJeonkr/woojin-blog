@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Birthday Cake Candles"
+tag: [Hackerrank, Python]
 date: 2023-12-23
 ---
 

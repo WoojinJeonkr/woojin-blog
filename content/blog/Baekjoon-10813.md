@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 10813"
+tag: [Baekjoon, Python]
 date: 2023-04-30
 ---
 
@@ -8,9 +9,7 @@ date: 2023-04-30
 
 [문제 확인하기](https://www.acmicpc.net/problem/10813)
 
-## 2. Solution
-
-## 1. Python (memory: 31256KB, time: 48ms)
+## 2. Solution (Python, memory: 31256KB, time: 48ms)
 
 ```python
 n, m = map(int, input().split())

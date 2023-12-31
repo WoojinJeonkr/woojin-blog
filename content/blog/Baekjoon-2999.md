@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 2999"
+tag: [Baekjoon, Python]
 date: 2023-06-10
 ---
 
@@ -8,9 +9,7 @@ date: 2023-06-10
 
 [문제 확인하기](https://www.acmicpc.net/problem/2999)
 
-## 2. Solution
-
-### 1. Python (memory: 31256KB, time: 44ms)
+## 2. Solution (Python, memory: 31256KB, time: 44ms)
 
 ```python
 input_str = input()

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Identify output format"
+tag: [C++]
 date: 2023-06-11
 ---
 

@@ -2,6 +2,7 @@
 external: false
 title : "React map()"
 description : "How to print 2nd Array in React?"
+tag: [React, Typescript]
 date: 2022-11-16
 ---
 

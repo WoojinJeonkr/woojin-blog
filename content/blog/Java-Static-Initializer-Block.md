@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Java Static Initializer Block"
+tag: [Hackerrank, Java]
 date: 2023-11-01
 ---
 

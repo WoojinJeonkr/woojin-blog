@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Algorithm Visualization Website"
+tag: [site, Python]
 date: 2022-09-21
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 2491"
+tag: [Baekjoon, Python]
 date: 2023-01-02
 ---
 

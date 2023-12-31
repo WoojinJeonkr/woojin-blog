@@ -1,6 +1,7 @@
 ---
 external: false
 title : "link and navigate"
+tag: [React, Typescript]
 date: 2022-10-12
 ---
 

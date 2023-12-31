@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Creating a Counter using React Hooks"
+tag: [React, Typescript]
 date: 2022-10-30
 ---
 

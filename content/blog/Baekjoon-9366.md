@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 9366"
+tag: [Baekjoon, Java]
 date: 2023-08-16
 ---
 

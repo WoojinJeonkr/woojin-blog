@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Pointer"
+tag: [Hackerrank, C++]
 date: 2023-09-17
 ---
 

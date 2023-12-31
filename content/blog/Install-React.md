@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Install React"
+tag: [React]
 date: 2023-01-28
 ---
 

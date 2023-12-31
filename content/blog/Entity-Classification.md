@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Entity Classification"
+tag: [CS]
 date: 2023-11-17
 ---
 

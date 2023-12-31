@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Comparing Equality"
+tag: [Hackerrank, Java]
 date: 2022-10-08
 ---
 

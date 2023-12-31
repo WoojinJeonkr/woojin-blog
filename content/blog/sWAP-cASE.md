@@ -1,6 +1,7 @@
 ---
 external: false
 title: "sWAP cASE"
+tag: [Hackerrank, Python]
 date: 2023-08-29
 ---
 

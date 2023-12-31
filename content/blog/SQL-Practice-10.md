@@ -1,6 +1,7 @@
 ---
 external: false
 title: "SQL Practice 10"
+tag: [SQL Practice, SQL]
 date: 2023-08-04
 ---
 

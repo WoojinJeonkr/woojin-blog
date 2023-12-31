@@ -1,6 +1,7 @@
 ---
 external: false
 title : "React Accordion"
+tag: [React, Typescript]
 date: 2022-11-07
 ---
 

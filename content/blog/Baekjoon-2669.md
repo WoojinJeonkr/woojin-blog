@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 2669"
+tag: [Baekjoon, Python]
 date: 2023-04-23
 ---
 
@@ -8,9 +9,7 @@ date: 2023-04-23
 
 [문제 확인하기](https://www.acmicpc.net/problem/2669)
 
-## 2. Solution
-
-## 1. Python (memory: 31256KB, time: 40ms)
+## 2. Solution(Python, memory: 31256KB, time: 40ms)
 
 ```python
 # 2차원 배열 생성 (시간 복잡도: O(n^2))

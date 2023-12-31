@@ -2,6 +2,7 @@
 external: false
 title : "jekyll vs hugo vs hexo"
 description : Let's explore the differences between Jekyll, Hugo, and Hexo.
+tag: [Jekyll]
 date: 2022-09-30
 ---
 

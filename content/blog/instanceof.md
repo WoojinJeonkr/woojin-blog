@@ -2,6 +2,7 @@
 external: false
 title : "instanceof"
 description : "Let's learn about instanceof and polymorphism"
+tag: [Typescript]
 date: 2022-10-06
 ---
 

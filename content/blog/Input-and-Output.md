@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Input and Output"
+tag: [Hackerrank, C++]
 date: 2023-08-18
 ---
 

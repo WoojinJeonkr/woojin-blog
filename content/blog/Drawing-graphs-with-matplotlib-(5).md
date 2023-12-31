@@ -1,6 +1,7 @@
 ---
 external: false
 title : "drawing graphs with matplotlib (5)"
+tag: [Python, Graph]
 date: 2022-09-27
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Definition of npmrc and Difference between Interface and Type"
+tag: [React]
 date: 2023-03-13
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "simple array sum"
+tag: [Hackerrank, Python]
 date: 2023-12-05
 ---
 

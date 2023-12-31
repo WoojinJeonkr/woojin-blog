@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Finding the percentage"
+tag: [Hackerrank, Python]
 date: 2023-08-31
 ---
 
@@ -10,7 +11,7 @@ date: 2023-08-31
 
 ## 2. 정답 코드 (Python)
 
-```sql
+```python
 if __name__ == '__main__':
   n = int(input())
   student_marks = []

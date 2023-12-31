@@ -1,6 +1,7 @@
 ---
 external: false
 title: "React Hook (1)"
+tag: [React, Typescript]
 date: 2023-02-06
 ---
 

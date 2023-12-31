@@ -1,6 +1,7 @@
 ---
 external: false
 title: "springfox & springdoc"
+tag: [Java, Swagger]
 date: 2023-01-21
 ---
 

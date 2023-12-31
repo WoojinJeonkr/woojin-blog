@@ -1,6 +1,7 @@
 ---
 external: false
 title : "CRA and Manifest"
+tag: [React]
 date: 2022-10-21
 ---
 

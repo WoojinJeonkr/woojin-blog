@@ -1,6 +1,7 @@
 ---
 external: false
 title: "OLAP Opreation Types"
+tag: [Hackerrank]
 date: 2023-10-20
 ---
 

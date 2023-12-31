@@ -1,6 +1,7 @@
 ---
 external: false
 title: "color RGB LED"
+tag: [Arduino, C++]
 date: 2022-09-07
 ---
 

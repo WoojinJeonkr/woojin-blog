@@ -1,6 +1,7 @@
 ---
 external: false
 title : "How to create Bar Chart in React"
+tag: [React, Typescript, Graph]
 date: 2022-11-12
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Government funded training program"
+tag: [Study]
 date: 2022-09-04
 ---
 

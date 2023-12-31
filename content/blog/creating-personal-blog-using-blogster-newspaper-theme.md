@@ -2,6 +2,7 @@
 external: false
 title: "Creating Personal Blog Using Blogster Newspaper Theme"
 description: "Let's create blog using Blogster Newspaper theme, one of the Astro themes."
+tag: [Astro, Feature]
 date: 2023-12-28
 ---
 

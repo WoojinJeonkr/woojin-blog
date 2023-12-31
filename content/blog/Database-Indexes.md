@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Database Indexes"
+tag: [Hackerrank, Database]
 date: 2023-10-15
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Database Normalization 1"
+tag: [Hackerrank, Database]
 date: 2023-10-16
 ---
 

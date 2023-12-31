@@ -2,6 +2,7 @@
 external: false
 title : "Conditional Statement in React"
 description : How to use Conditional Statement in React?
+tag: [React, Typescript]
 date: 2022-11-08
 ---
 

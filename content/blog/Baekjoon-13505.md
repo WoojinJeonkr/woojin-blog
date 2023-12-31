@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 13505"
+tag: [Baekjoon, Python]
 date: 2023-07-08
 ---
 
@@ -14,7 +15,7 @@ date: 2023-07-08
 - 주어진 수들을 이진수로 표현하고, 가장 왼쪽 비트부터 차례대로 XOR 결과를 구해나갑니다.
 - 이를 위해 mask 변수를 사용하여 현재 비트까지의 비트 마스크를 만들고, nums 리스트의 모든 수에 이 마스크를 적용하여 XOR 연산을 수행한 결과를 xor_set에 저장한 뒤 candidate 변수를 업데이트하면서 candidate XOR prefix 값이 xor_set에 있는지 확인하여 최대 XOR 값을 찾습니다.
 
-## 3. 풀이 1 (Python, memory: 45332KB, time: 476ms)
+## 3. 풀이 (Python, memory: 45332KB, time: 476ms)
 
 ```python
 # 이 함수는 주어진 정수 리스트 nums에서 두 수의 XOR 결과가 최대가 되는 값을 찾는 함수입니다.

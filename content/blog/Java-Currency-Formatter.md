@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Java Currency Formatter"
+tag: [Hackerrank, Java]
 date: 2023-11-01
 ---
 

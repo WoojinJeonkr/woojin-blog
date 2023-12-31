@@ -1,6 +1,7 @@
 ---
 external: false
 title: "aggrid vs mui table"
+tag: [React]
 date: 2023-03-14
 ---
 

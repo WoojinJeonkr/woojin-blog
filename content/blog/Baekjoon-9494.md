@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 9494"
+tag: [Baekjoon, Java]
 date: 2023-11-03
 ---
 
@@ -10,7 +11,7 @@ date: 2023-11-03
 
 ## 2. 정답 코드 (Java, memory: 14200KB, time: 120ms)
 
-```python
+```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

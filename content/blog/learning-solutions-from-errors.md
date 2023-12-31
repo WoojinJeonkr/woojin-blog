@@ -1,6 +1,7 @@
 ---
 external: false
 title: "learning solutions from errors"
+tag: [Study, Git]
 date: 2023-03-09
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "flush"
+tag: [Java]
 date: 2023-05-12
 ---
 

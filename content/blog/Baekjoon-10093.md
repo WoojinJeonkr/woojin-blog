@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 10093"
+tag: [Baekjoon, Python]
 date: 2023-05-19
 ---
 
@@ -10,7 +11,7 @@ date: 2023-05-19
 
 ## 2. Solution
 
-### 1. Python (memory: 36676KB, time: 88ms)
+### 2-1. Python (memory: 36676KB, time: 88ms)
 
 ```python
 A, B = sorted(map(int, input().split()))
@@ -19,7 +20,7 @@ print(n)
 if n > 0: print(*range(A + 1, B), end=' ')
 ```
 
-### 2. Python (memory: 35892KB, time: 88ms)
+### 2-2. Python (memory: 35892KB, time: 88ms)
 
 ```python
 A, B = sorted(map(int, input().split()))
@@ -27,7 +28,7 @@ n = max(0, B - A - 1)
 print(n, *(range(A + 1, B)) if n else [])
 ```
 
-### 3. Python (memory: 35892KB, time: 84ms)
+### 2-3. Python (memory: 35892KB, time: 84ms)
 
 ```python
 A, B = sorted(map(int, input().split()))

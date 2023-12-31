@@ -1,6 +1,7 @@
 ---
 external: false
 title: "African Cities"
+tag: [Hackerrank, SQL]
 date: 2023-09-01
 ---
 

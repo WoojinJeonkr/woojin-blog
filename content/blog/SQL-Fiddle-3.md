@@ -1,6 +1,7 @@
 ---
 external: false
 title: "SQL Fiddle 3"
+tag: [SQL]
 date: 2023-08-01
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "COUNT()"
+tag: [Hackerrank, SQL]
 date: 2023-11-15
 ---
 

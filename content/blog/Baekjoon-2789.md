@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 2789"
+tag: [Baekjoon, C++]
 date: 2023-06-23
 ---
 

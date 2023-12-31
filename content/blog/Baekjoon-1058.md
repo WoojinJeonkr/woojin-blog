@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Baekjoon 1058"
+tag: [Baekjoon, Python]
 date: 2022-11-28
 ---
 

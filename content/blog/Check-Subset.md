@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Check Subset"
+tag: [Hackerrank, Python]
 date: 2023-08-13
 ---
 
