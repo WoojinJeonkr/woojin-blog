@@ -2,11 +2,11 @@
 external: false
 title : "3 Tips to help you learn code quickly"
 description: "Let's find out about advice that helps with learning to code"
+tag: study
 date: 2022-09-29
 ---
 
-> 이 문서는 Coding with Lewis의 **These 3 tips will help you learn code FASTER**이라는 영상의 내용과 댓글들을 정리하였습니다.
-> [영상 보러 가기](https://youtu.be/UVxhEk3ph5w)
+이 문서는 Coding with Lewis의 [**These 3 tips will help you learn code FASTER**]((https://youtu.be/UVxhEk3ph5w))이라는 영상의 내용과 댓글들을 정리하였습니다.
 
 ## 1. 튜토리얼을 너무 많이 하지 말아라
 
@@ -61,4 +61,4 @@ Google은 당신의 가장 친한 친구이다.
 
 ## 5. 자료 출처
 
-[youtube: Coding with Lewis - These 3 tips will help you learn code FASTER 👩‍💻](https://youtu.be/UVxhEk3ph5w)
+Coding with Lewis - [These 3 tips will help you learn code FASTER](https://youtu.be/UVxhEk3ph5w) 👩‍💻
