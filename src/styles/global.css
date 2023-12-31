@@ -207,4 +207,12 @@
     }
 
     /* ------ REUSABLE UTILS - END ------ */
+
+    .tags span {
+        font-size: 12px;
+        margin-right: 0.2px;
+        background-color: cornflowerblue;
+        color: whitesmoke;
+        border-radius: 4px;
+    }
 }

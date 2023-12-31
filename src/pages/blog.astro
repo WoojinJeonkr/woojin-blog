@@ -60,6 +60,17 @@ const sortedPosts = posts
                   {formattedDate}
                 </time>
               </div>
+              <div class="tags">
+                {post.frontmatter.tag && (
+                  <ul class="list-none p-0 m-0">
+                    {post.frontmatter.tag.map((tag) => (
+                      <div class="tag-item inline-block mr-2">
+                        <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded">{tag}</span>
+                      </div>
+                    ))}
+                  </ul>
+                )}
+              </div>
             </li>
           );
         })
