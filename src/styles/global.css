@@ -208,6 +208,10 @@
 
     /* ------ REUSABLE UTILS - END ------ */
 
+    .tags {
+        margin-top: -9px;
+    }
+    
     .tags span {
         font-size: 12px;
         margin-right: 0.2px;
