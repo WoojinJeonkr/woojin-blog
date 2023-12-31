@@ -1,6 +1,7 @@
 ---
 external: false
 title : "tenant, region, Availability Zone"
+tag: [AWS]
 date: 2022-11-03
 ---
 

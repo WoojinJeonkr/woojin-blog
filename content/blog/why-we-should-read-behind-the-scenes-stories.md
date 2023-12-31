@@ -2,6 +2,7 @@
 external: false
 title : "Why We should read behind the scenes stories"
 description : "What is a behind-the-scenes story and why should we be interested in it?"
+tag: [Study]
 date: 2022-10-15
 ---
 

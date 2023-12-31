@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Time complexity and Space complexity"
+tag: [CS]
 date: 2022-10-19
 ---
 

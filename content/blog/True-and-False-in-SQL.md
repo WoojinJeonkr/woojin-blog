@@ -1,6 +1,7 @@
 ---
 external: false
 title: "True and False in SQL"
+tag: [SQL]
 date: 2023-11-17
 ---
 

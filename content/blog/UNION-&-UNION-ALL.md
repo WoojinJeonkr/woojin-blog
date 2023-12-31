@@ -1,6 +1,7 @@
 ---
 external: false
 title: "UNION & UNION ALL"
+tag: [SQL]
 date: 2023-11-17
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title : "Type Casting"
+tag: [Typescript]
 date: 2022-11-27
 ---
 

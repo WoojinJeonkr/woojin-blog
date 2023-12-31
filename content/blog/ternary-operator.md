@@ -1,6 +1,7 @@
 ---
 external: false
 title: "ternary operator"
+tag: [Python]
 date: 2022-09-14
 ---
 

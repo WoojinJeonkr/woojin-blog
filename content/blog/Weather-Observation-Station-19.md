@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Weather Observation Station 19"
+tag: [Hackerrank, SQL]
 date: 2023-09-02
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Where clause and Having clause"
+tag: [SQL]
 date: 2023-11-13
 ---
 

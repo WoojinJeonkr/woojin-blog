@@ -1,6 +1,7 @@
 ---
 external: false
 title: "What is RoboZZle"
+tag: [RoboZZle]
 date: 2023-12-01
 ---
 

@@ -1,6 +1,7 @@
 ---
 external: false
 title: "Temperature Alarm"
+tag: [Arduino, C++]
 date: 2022-09-09
 ---
 
