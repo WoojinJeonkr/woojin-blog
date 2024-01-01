@@ -17,11 +17,28 @@ const sortedPosts = posts
       new Date(b.frontmatter.date).valueOf() -
       new Date(a.frontmatter.date).valueOf()
   );
+
+const allTags = Array.from(
+  new Set(
+    posts
+      .filter((p) => p.frontmatter.draft !== true && p.frontmatter.tag)
+      .flatMap((p) => p.frontmatter.tag)
+  )
+).sort((a, b) => a.localeCompare(b));
 ---
 
 <PageLayout>
   <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
+    <div class="tag-section">
+      <div class="tag-container">
+        {allTags.map((tag) => (
+          <div class="tag-item inline-block mr-2">
+            <span>{tag}</span>
+          </div>
+        ))}
+      </div>
+    </div>
     <ul>
       {
         sortedPosts.map((post) => {
