@@ -207,32 +207,4 @@
     }
 
     /* ------ REUSABLE UTILS - END ------ */
-
-    .tag-section {
-        margin-left: 20px;
-    }
-    
-    .tag-container {
-        margin-right: 4px;
-    }
-
-    .tag-item {
-        display: inline-block;
-        margin-right: 8px; /* 필요한 경우 조절하세요 */
-        margin-bottom: 8px; /* 필요한 경우 조절하세요 */
-    }
-    
-    .tag-item span {
-        font-size: 12px;
-        margin-right: 0.2px;
-        background-color: lightblue;
-        color: whitesmoke;
-        border-radius: 4px;
-        padding: 6px 10px;
-        transition: background-color 0.3s;
-    }
-
-    .tag-item span:hover {
-        background-color: royalblue;
-    }
 }

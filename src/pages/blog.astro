@@ -30,15 +30,6 @@ const allTags = Array.from(
 <PageLayout>
   <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
-    <div class="tag-section">
-      <div class="tag-container">
-        {allTags.map((tag) => (
-          <div class="tag-item inline-block mr-2">
-            <span>{tag}</span>
-          </div>
-        ))}
-      </div>
-    </div>
     <ul>
       {
         sortedPosts.map((post) => {
@@ -76,17 +67,6 @@ const allTags = Array.from(
                 <time datetime={post.frontmatter.date.toISOString()}>
                   {formattedDate}
                 </time>
-              </div>
-              <div class="tags">
-                {post.frontmatter.tag
-                  .slice()
-                  .sort((a, b) => a.localeCompare(b))
-                  .map((tag) => (
-                    <div class="tag-item inline-block mr-2">
-                      <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded">{tag}</span>
-                    </div>
-                  ))
-                }
               </div>
             </li>
           );
