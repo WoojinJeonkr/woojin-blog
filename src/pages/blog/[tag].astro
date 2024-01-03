@@ -35,6 +35,11 @@ const posts = await readAll({
 
 const filteredPosts = posts
   .filter((post) => post.frontmatter.tag.includes(tag) && post.frontmatter.draft !== true)
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.date).valueOf() -
+      new Date(a.frontmatter.date).valueOf()
+  )
   .map((post) => ({
     title: post.frontmatter.title,
     tag: post.frontmatter.tag,
@@ -46,7 +51,8 @@ const filteredPosts = posts
     slug: post.slug,
     external: post.frontmatter.external,
     draft: post.frontmatter.draft,
-}));
+  })
+);
 
 const tagcount = filteredPosts.length;
 ---
