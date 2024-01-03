@@ -207,4 +207,70 @@
     }
 
     /* ------ REUSABLE UTILS - END ------ */
+
+    .tag-post-container {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    
+    .tag-post-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .tag-post-item {
+        margin-bottom: 16px;
+    }
+
+    .tag-post-tag {
+        margin-top: 8px;
+    }
+    
+    .tag-container {
+        text-align: center;
+    }
+
+    .tag-item {
+        display: inline-block;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .tag-selected {
+        font-size: 14px;
+        color: white;
+        border-color: gray;
+        max-width: 220px;
+        height: 35px;
+        line-height: center;
+        display: inline-block;
+        border-radius: 8px;
+        padding: 2px 5px;
+        background-color: royalblue;
+        transition: background-color 0.3s;
+    }
+
+    .tag-link {
+        text-decoration: none;
+    }
+    
+    .tag-badge {
+        font-size: 14px;
+        color: gray;
+        border-color: cornflowerblue;
+        border-width: 1px;
+        max-width: 220px;
+        height: 35px;
+        line-height: center;
+        display: inline-block;
+        border-radius: 8px;
+        padding: 2px 5px;
+        background-color: whitesmoke;
+        transition: background-color 0.3s;
+    }
+    
+    .tag-badge:hover {
+        background-color: royalblue;
+        color: white;
+    }
 }
