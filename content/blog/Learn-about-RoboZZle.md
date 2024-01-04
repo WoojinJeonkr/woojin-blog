@@ -1,6 +1,6 @@
 ---
 external: false
-title: "What is RoboZZle"
+title: "Learn about RoboZZle"
 tag: [RoboZZle]
 date: 2023-12-01
 ---

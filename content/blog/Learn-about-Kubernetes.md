@@ -1,7 +1,6 @@
 ---
 external: false
-title : "What is Kubernetes"
-description : Let's find about Kubernetes
+title : "Learn about Kubernetes"
 tag: [Kubernetes]
 date: 2022-10-17
 ---
