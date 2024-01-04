@@ -11,7 +11,7 @@ RoboZZle은 게임 보드의 모든 별을 선택하도록 로봇을 프로그�
 RoboZZle을 풀어보고 싶다면 [여기](http://www.robozzle.com/beta/)에 접속하여 튜토리얼부터 다양한 문제를 풀어볼 수 있습니다.  
 접속하면 다음과 같은 튜토리얼을 통해 문제를 푸는 방법에 대해 학습할 수 있습니다.  
 
-![RoboZZle Tutorial 1](/public/images/RoboZZle.png)
+![RoboZZle Tutorial 1](/images/RoboZZle.png)
 
 ## 2. RoboZZle의 역사
 
@@ -40,7 +40,13 @@ Silverlight는 XAML을 사용하여 사용자 인터페이스를 정의하고 �
 
 현재 RoboZZle은 앞서 설명한 [RoboZZle.com](http://www.robozzle.com/beta/)(Desktop)이나 [RoboZZle Droid](https://play.google.com/store/apps/details?id=com.team242.robozzle&hl=en)에서 플레이해볼 수 있으며 [ecole 42](https://42.fr/en/homepage/), [42SEOUL](https://42seoul.kr/seoul42/main/view)에서 온라인 테스트 중 한 종류로 사용하고 있습니다.
 
-## 4. 예제 문제 및 풀이: [Leftovers](http://www.robozzle.com/beta/index.html?puzzle=376)
+## 4. 예제 문제 및 풀이
+
+### 4-1. 예제
+
+해당 예제 문제를 풀어보고 싶으시다면 [이곳](http://www.robozzle.com/beta/index.html?puzzle=376)을 확인하세요.
+
+### 4-2. 풀이
 
 ![RoboZZle - Leftovers](/images/RoboZZle_Leftovers.gif)
 
