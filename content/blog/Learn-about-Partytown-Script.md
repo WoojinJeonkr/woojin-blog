@@ -7,7 +7,7 @@ date: 2024-01-04
 
 ## 1. Reason for Using Partytown Script
 
-해당 블로그에 대해 Google Analytics를 사용하기 위해서 관련 코드를 입력하던 중 다음과 같이 사용하게 되었다.
+해당 블로그에 대해 Google Analytics를 사용하기 위해서 관련 코드를 입력하던 중 다음과 같이 사용하게 되었습니다.
 
 ```astro
 <script type="text/partytown">
