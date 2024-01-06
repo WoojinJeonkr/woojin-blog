@@ -1,0 +1,16 @@
+---
+import PageLayout from "../layouts/PageLayout.astro";
+import SearchBar from "../components/SearchBar.astro";
+import PageMeta from "../components/PageMeta.astro";
+import { SITE_TITLE } from "../config";
+---
+
+<PageLayout>
+  <PageMeta title={`Search | ${SITE_TITLE}`} slot="meta" />
+  <section slot="main">
+    <h2 class="mb-8 text-2xl"><strong>Search</strong></h2>
+    <div class="max-w-3xl mx-auto">
+      <SearchBar />
+    </div>
+  </section>
+</PageLayout>

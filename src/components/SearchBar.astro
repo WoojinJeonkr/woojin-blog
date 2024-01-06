@@ -1,0 +1,14 @@
+---
+import { blog } from '../lib/markdoc/frontmatter.schema';
+import { readAll } from '../lib/markdoc/read';
+import Search from './Search';
+
+const allPosts = await readAll({
+  directory: "blog",
+  frontmatterSchema: blog,
+});
+
+const posts = allPosts.filter(post => (post.frontmatter.draft !== true));
+---
+
+<Search client:load searchList={posts}></Search>

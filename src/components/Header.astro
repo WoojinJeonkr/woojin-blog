@@ -3,6 +3,18 @@ import HeaderLink from "./HeaderLink.astro";
 import DarkModeToggle from "./DarkModeToggle.astro";
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var svgElement = document.getElementById('link-svg');
+    if (svgElement) {
+      svgElement.addEventListener('click', function() {
+        var destinationLink = '/search';
+        window.location.href = destinationLink;
+      });
+    }
+  });
+</script>
+
 <header>
   <a 
     class="unset absolute z-10 left-[50%] -top-[100rem] translate-x-[-50%] bg-white text-black px-8 py-2 focus:top-[initial]" 
@@ -22,6 +34,9 @@ import DarkModeToggle from "./DarkModeToggle.astro";
   <div
     class="justify-self-end flex items-center content-center text-text-bold"
   >
+    <svg id="link-svg" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+      <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+    </svg>
     <DarkModeToggle />
   </div>
 </header>
