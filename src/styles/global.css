@@ -273,4 +273,9 @@
         background-color: royalblue;
         color: white;
     }
+
+    .dark #link-svg {
+        stroke: #000;
+        fill: #fff;
+    }
 }
