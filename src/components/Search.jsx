@@ -1,8 +1,6 @@
 import Fuse from "fuse.js";
 import { useState } from "react";
 
-// Configs fuse.js
-// https://fusejs.io/api/options.html
 const options = {
   keys: ["frontmatter.title", "frontmatter.tag"],
   includeMatches: true,
@@ -26,22 +24,22 @@ function Search({ searchList }) {
   return (
     <div>
       <div className="relative">
-      <input
-        type="text"
-        id="search"
-        value={query}
-        onChange={handleOnSearch}
-        className="block w-full p-4 pl-10 text-xl 
-                                  text-gray-900 
-                                  border border-gray-300
-                                  rounded-lg bg-gray-50
-                                  focus:outline-none
-                                  focus:ring-blue-500
-                                  focus:border-blue-500
-                                  rounded-md
-        "
-        placeholder="Please search in English..."
-      />
+        <input
+          type="text"
+          id="search"
+          value={query}
+          onChange={handleOnSearch}
+          className="block w-full p-4 pl-10 text-xl 
+                                    text-gray-900 
+                                    border border-gray-300
+                                    rounded-lg bg-gray-50
+                                    focus:outline-none
+                                    focus:ring-blue-500
+                                    focus:border-blue-500
+                                    rounded-md
+          "
+          placeholder="Please enter at least 2 characters for your search..."
+        />
       </div>
 
       {query.length > 1 && (
