@@ -1,17 +1,17 @@
 ---
+import Profile from "./Profile.astro";
 ---
 
 <section class="mb-8">
   <div class="mb-6">
-    <h1
-      class="font-bold uppercase text-center text-4xl md:text-5xl xtracking-tighter py-6 overflow-hidden"
-    >
-      <span
-        class="bg-gradient-to-br from-[#334155] via-[#1e293b] to-[#0f172a] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent"
-      >
-        Woojin's Tech Blog
+    <h1 class="font-extrabold uppercase text-center text-4xl md:text-5xl xtracking-tighter py-6 overflow-hidden">
+      <span class="bg-gradient-to-br from-[#1a202c] via-[#2d3a4a] to-[#475569] dark:from-primary-main dark:via-primary-main dark:to-primary-main bg-clip-text text-transparent">
+        Tech Chronicles
       </span>
-    </h1>
+      <span class="block text-gray-500 text-sm uppercase tracking-wide mt-2">
+        Exploring Code, Conquering Challenges, Building Tomorrow
+      </span>
+    </h1>    
     <div
       class="border-b-[1px] border-t-[1px] border-current py-1 flex items-center justify-center gap-1"
     >
@@ -25,17 +25,5 @@
     </div>
     <!-- <p class="text-2xl pb-4">Web Developer. OSS Wizard. Blogger.</p> -->
   </div>
-  <div>
-    <p class="mb-8">
-      Hello! My blog is created using flexdinesh's <a href={"https://blogster-newspaper.netlify.app"} target="_blank"
-      >blogster-newspaper</a> theme.
-      If you want to learn more about the theme, please visit <a href={"https://github.com/flexdinesh/blogster"} target="_blank"
-      >Blogster</a>.
-      To use this theme, simply enter the following command in the terminal and execute it:
-    </p>
-    <p class="text-center whitespace-nowrap overflow-auto">
-      <code class="py-1 px-2">npx create-blogster@latest --theme newspaper</code
-      >
-    </p>
-  </div>
+  <Profile />
 </section>
