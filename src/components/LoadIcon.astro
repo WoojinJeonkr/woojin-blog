@@ -1,0 +1,7 @@
+---
+import GetIcons from '../logic/Icons';
+
+const {name} = Astro.props;
+---
+
+<GetIcons client:load name={name} />
