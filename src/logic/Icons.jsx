@@ -8,8 +8,10 @@ function GetIcons({name}) {
     return `${name}에 해당하는 Icon이 없습니다.`;
   }
 
+  const isLastItem = (itemName) => itemName === "C++" || itemName === "Intellij";
+
   return (
-    <span style={{ display: 'flex', alignItems: 'center' }}>
+    <span style={{ display: 'flex', alignItems: 'center', marginRight: '8px' }}>
       <svg xmlns={xmlns} height={height} width={width} viewBox={viewBox}>
         {Array.isArray(paths) ? (
           paths.map((path, index) => (
@@ -19,9 +21,10 @@ function GetIcons({name}) {
           <path d={paths.d} fill={paths.fill || 'currentColor'} />
         )}
       </svg>
-      <span style={{ marginLeft: '8px', marginRight: '8px' }}>
+      <span style={{ marginLeft: '8px' }}>
         {name}
       </span>
+      {!isLastItem(name) && <>, </>}
     </span>
   );
 
