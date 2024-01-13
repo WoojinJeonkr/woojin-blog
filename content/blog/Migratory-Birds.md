@@ -137,3 +137,7 @@ if __name__ == '__main__':
   # 파일 닫기
   fptr.close()
 ```
+
+## 4. Reference
+
+- [collections - Python docs](https://docs.python.org/ko/3/library/collections.html#collections.Counter)
