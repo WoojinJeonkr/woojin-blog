@@ -9,7 +9,7 @@ date: 2024-02-01
 
 해당 문제는 [여기](https://www.acmicpc.net/problem/1380)에서 확인하실 수 있습니다.
 
-## 2. Solve (memory: KB, time: ms)
+## 2. Solve (memory: 31256KB, time: 56ms)
 
 ```python
 # case 변수 초기화
