@@ -1,5 +1,5 @@
 ---
-external: false;
+external: false
 title: "Baekjoon 1238"
 tag: [Baekjoon, Python]
 date: 2024-02-07
