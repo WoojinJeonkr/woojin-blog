@@ -1,7 +1,7 @@
 ---
 external : false
 title : "bash read"
-tag : [Hackerrank, linux]
+tag : [Hackerrank, Linux]
 date : 2024-02-22
 ---
 
