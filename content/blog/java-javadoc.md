@@ -1,7 +1,7 @@
 ---
 external: false
-title: "java javadoc"
-tag: [java, javadoc]
+title: "Java Javadoc"
+tag:[Java, Javadoc]
 date: 2024-03-03
 ---
 
