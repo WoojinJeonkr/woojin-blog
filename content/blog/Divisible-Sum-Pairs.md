@@ -2,7 +2,7 @@
 external: false
 title: "Divisible Sum Pairs"
 tag: [Hackerrank, Java]
-date: 2024-01-05
+date : 2024-01-05
 ---
 
 ## 1. Problem

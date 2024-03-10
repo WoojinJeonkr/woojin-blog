@@ -2,7 +2,7 @@
 external: false
 title: "Angry Professor"
 tag: [Hackerrank, Java]
-date: 2024-01-19
+date : 2024-01-19
 ---
 
 ## 1. Problem

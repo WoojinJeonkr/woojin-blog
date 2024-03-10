@@ -2,7 +2,7 @@
 external : false
 title : "bash sort"
 tag: [Hackerrank, Linux]
-date: 2024-02-25
+date : 2024-02-25
 ---
 
 ## 1. sort 명령어

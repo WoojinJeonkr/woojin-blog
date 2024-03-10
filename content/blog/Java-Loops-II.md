@@ -2,7 +2,7 @@
 external: false
 title: "Java Loops II"
 tag: [Hackerrank, java]
-date: 2024-02-28
+date : 2024-02-28
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
 external: false
-title: "Pattern Syntax Checker"
-tag: [Hackerrank, Java]
-date: 2024-03-05
+title : "Pattern Syntax Checker"
+tag : [Hackerrank, Java]
+date : 2024-03-05
 ---
 
 ## 1. Problem

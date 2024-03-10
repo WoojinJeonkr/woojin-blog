@@ -2,7 +2,7 @@
 external: false
 title: "Drawing Book"
 tag: [Hackerrank, java]
-date: 2024-02-15
+date : 2024-02-15
 ---
 
 ## 1. Problem

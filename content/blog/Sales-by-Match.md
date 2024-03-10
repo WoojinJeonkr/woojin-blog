@@ -2,7 +2,7 @@
 external: false
 title: "Sales by Match"
 tag: [Hackerrank, Java]
-date: 2024-02-11
+date : 2024-02-11
 ---
 
 ## 1. Problem

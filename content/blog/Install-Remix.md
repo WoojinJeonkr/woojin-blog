@@ -2,7 +2,7 @@
 external: false
 title: "Install Remix"
 tag: [Remix, TypeScript]
-date: 2024-01-17
+date : 2024-01-17
 ---
 
 해당 글에서는 Remix란 무엇인지, 그리고 Remix 설치 방법에 대해 소개하겠습니다.

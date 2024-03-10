@@ -3,7 +3,7 @@ external: false
 title: "Organizing Repositories while Preserving Commit History"
 description: "Flow of Code: Refining Repositories while Upholding Commit Records"
 tag: [Git]
-date: 2024-01-18
+date : 2024-01-18
 ---
 
 해당 글에서는 커밋 기록을 유지하면서 repository를 정리하는 방법에 대해 알아보겠습니다.

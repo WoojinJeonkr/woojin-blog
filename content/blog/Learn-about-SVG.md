@@ -3,7 +3,7 @@ external: false
 title: "Learn about SVG"
 description: "We will learn about the definition, structure, and usage of SVG."
 tag: [CS, Astro]
-date: 2024-01-10
+date : 2024-01-10
 ---
 
 이번 글에서는 SVG의 정의와 구조, 그리고 사용 방법에 대해 알아보겠습니다.

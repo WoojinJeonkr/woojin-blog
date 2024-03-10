@@ -2,7 +2,7 @@
 external: false
 title: "Java Substring Comparisons"
 tag: [Hackerrank, Java]
-date: 2024-02-05
+date : 2024-02-05
 ---
 
 ## 1. Problem

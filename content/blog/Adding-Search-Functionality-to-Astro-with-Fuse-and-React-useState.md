@@ -2,7 +2,7 @@
 external: false
 title: "Adding Search Functionality to Astro with Fuse and React useState"
 tag: [Astro, React, Fuse]
-date: 2024-01-07
+date : 2024-01-07
 ---
 
 이번 글에서는 블로그에 검색 기능이 필요한 이유와 기능을 구현하는 방법에 대해 알아보겠습니다.

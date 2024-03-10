@@ -2,7 +2,7 @@
 external: false
 title: "Migratory Birds"
 tag: [Hackerrank, Python]
-date: 2024-01-13
+date : 2024-01-13
 ---
 
 ## 1. Problem

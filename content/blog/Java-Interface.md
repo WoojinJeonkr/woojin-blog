@@ -2,7 +2,7 @@
 external: false
 title: "Java Interface"
 tag: [Hackerrank, Java]
-date: 2024-02-29
+date : 2024-02-29
 ---
 
 ## 1. Problem

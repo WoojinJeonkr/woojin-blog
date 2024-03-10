@@ -2,7 +2,7 @@
 external: false
 title: "Append and Delete"
 tag: [Hackerrank, Java]
-date: 2024-03-02
+date : 2024-03-02
 ---
 
 ## 1. Problem

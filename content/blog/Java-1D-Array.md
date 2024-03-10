@@ -2,7 +2,7 @@
 external: false
 title: "Java 1D Array"
 tag: [Hackerrank, Java]
-date: 2024-01-31
+date : 2024-01-31
 ---
 
 ## 1. Problem

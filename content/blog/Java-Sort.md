@@ -2,7 +2,7 @@
 external: false
 title: "Java Sort"
 tag: [Hackerrank, Java]
-date: 2024-02-19
+date : 2024-02-19
 ---
 
 ## 1. Problem

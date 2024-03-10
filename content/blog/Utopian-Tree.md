@@ -2,7 +2,7 @@
 external: false
 title: "Utopian Tree"
 tag: [Hackerrank, Java]
-date: 2024-01-28
+date : 2024-01-28
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external: false
-title: "Repeated String"
-tag: [Hackerrank, Java]
-date: 2024-03-07
+external : false
+title : "Repeated String"
+tag : [Hackerrank, Java]
+date : 2024-03-07
 ---
 
 ## 1. Problem

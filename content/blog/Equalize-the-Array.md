@@ -2,7 +2,7 @@
 external: false
 title: "Equalize the Array"
 tag: [Hackerrank, Java]
-date: 2024-01-20
+date : 2024-01-20
 ---
 
 ## 1. Problem

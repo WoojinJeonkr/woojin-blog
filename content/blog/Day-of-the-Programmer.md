@@ -2,7 +2,7 @@
 external: false
 title: "Day of the Programmer"
 tag: [Hackerrank, Java]
-date: 2024-02-08
+date : 2024-02-08
 ---
 
 ## 1. Problem

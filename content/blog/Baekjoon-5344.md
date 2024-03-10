@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 5344"
 tag: [Baekjoon, Java]
-date: 2024-02-12
+date : 2024-02-12
 ---
 
 ## 1. Problem

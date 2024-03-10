@@ -2,7 +2,7 @@
 external: false
 title : "Sequence Equation"
 tag: [Hackerrank, Java]
-date: 2024-01-02
+date : 2024-01-02
 ---
 
 ## 1. Problem

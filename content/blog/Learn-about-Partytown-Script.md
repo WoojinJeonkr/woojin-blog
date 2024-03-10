@@ -2,7 +2,7 @@
 external: false
 title: "Learn about Partytown Script"
 tag: [Partytown, Astro]
-date: 2024-01-04
+date : 2024-01-04
 ---
 
 ## 1. Reason for Using Partytown Script
