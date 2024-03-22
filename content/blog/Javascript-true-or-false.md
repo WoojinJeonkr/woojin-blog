@@ -7,7 +7,7 @@ date : 2024-03-21
 
 ## 1. 문제
 
-문제 출처 : [BFE.dev Javascript Quizzes 39. var](https://bigfrontend.dev/quiz/true-or-false)
+문제 출처 : [BFE.dev Javascript Quizzes 26. true or false](https://bigfrontend.dev/quiz/true-or-false)
 
 ```js
 console.log([] == 0)
