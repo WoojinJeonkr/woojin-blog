@@ -1,7 +1,7 @@
 ---
 external: false
 title: "Install Remix"
-tag: [Remix, TypeScript]
+tag: [Remix, Typescript]
 date : 2024-01-17
 ---
 
