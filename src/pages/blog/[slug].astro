@@ -40,13 +40,24 @@ const ogImageAbsoluteUrl =
 ---
 
 <ContentLayout title={frontmatter.title} date={frontmatter.date} tag={frontmatter.tag}>
-  <BlogPostMeta
-    title={frontmatter.title}
-    description={frontmatter.external ? undefined : frontmatter.description}
-    publishDate={frontmatter.date.toISOString()}
-    pagePath={`/blog/${slug}`}
-    ogImageAbsoluteUrl={ogImageAbsoluteUrl}
-    slot="meta"
-  />
+  if (slug !== "") {
+    <BlogPostMeta
+      title={frontmatter.title}
+      description={frontmatter.external ? undefined : frontmatter.description}
+      publishDate={frontmatter.date.toISOString()}
+      pagePath={`/blog/${slug}`}
+      ogImageAbsoluteUrl={ogImageAbsoluteUrl}
+      slot="meta"
+    />
+  } else {
+    <BlogPostMeta
+      title={frontmatter.title}
+      description={frontmatter.external ? undefined : frontmatter.description}
+      publishDate={frontmatter.date.toISOString()}
+      pagePath={`/blog`}
+      ogImageAbsoluteUrl={ogImageAbsoluteUrl}
+      slot="meta"
+    />
+  }
   <Renderer content={content} slot="content" />
 </ContentLayout>
