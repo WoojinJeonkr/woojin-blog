@@ -1,7 +1,7 @@
 ---
 external: false
 title : "CSS Practice Website"
-tag: [site, css]
+tag: [Site, CSS]
 date: 2022-09-22
 ---
 

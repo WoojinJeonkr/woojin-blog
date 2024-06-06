@@ -1,7 +1,7 @@
 ---
 external: false
 title: "style or sx"
-tag: [css]
+tag: [CSS]
 date: 2023-02-14
 ---
 

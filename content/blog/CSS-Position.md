@@ -1,7 +1,7 @@
 ---
 external: false
 title : "CSS Position"
-tag: [css]
+tag: [CSS]
 date: 2022-10-28
 ---
 

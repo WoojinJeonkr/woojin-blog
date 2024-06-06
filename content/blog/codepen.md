@@ -2,7 +2,7 @@
 external: false
 title : "codepen"
 description : "What is codepen?"
-tag: [site]
+tag: [Site]
 date: 2022-10-16
 ---
 
