@@ -1,7 +1,7 @@
 ---
 external : false
 title : "bash unique"
-tag : [Hakerrank, Linux]
+tag : [Hackerrank, Linux]
 date : 2024-02-26
 ---
 
