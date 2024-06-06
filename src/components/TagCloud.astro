@@ -1,5 +1,6 @@
 ---
-const { posts } = Astro.props;
+const { posts, page } = Astro.props;
+
 let cloud: { [key: string]: number } = {};
 posts.forEach((post: { frontmatter: { tag: string[] } }) => {
   post.frontmatter.tag.forEach((tag) => {
@@ -12,13 +13,22 @@ let tags: string[] = [];
 for (let prop in cloud) {
   tags.push(prop);
 }
+
+const filterTag = ['BFE', 'Programmers', 'Hackerrank', 'Baekjoon', 'JSChallenger', 'SQL Practice'];
+
+if (page === "algorithm") {
+  tags = filterTag;
+} else {
+  tags = tags.filter((item) => !filterTag.includes(item));
+}
+
 let taglist = tags.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
 ---
 
 <div class="tag-container">
   {taglist.map((tag) => (
     <div class="tag-item">
-      <a href={`/blog/${tag}`} class="tag-link">
+      <a href={`/${page}/${tag}`} class="tag-link">
         {tag === Astro.params.tag ? (
             <div class="tag-selected">
               {tag}

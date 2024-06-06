@@ -1,15 +1,18 @@
 ---
-import { readAll } from "../../lib/markdoc/read";
-import { blog } from "../../lib/markdoc/frontmatter.schema";
+import { readAlgorithmPostAll } from "../../lib/markdoc/read";
+import { algorithm } from "../../lib/markdoc/frontmatter.schema";
 import TagCloud from "../../components/TagCloud.astro";
 import PageLayout from "../../layouts/PageLayout.astro";
 import PageMeta from "../../components/PageMeta.astro";
 import { SITE_TITLE } from "../../config";
 
 export async function getStaticPaths() {
-  const posts = await readAll({
+  const tagsToFilter = ['BFE', 'Programmers', 'Hackerrank', 'Baekjoon', 'JSChallenger', 'SQL Practice'];
+
+  const posts = await readAlgorithmPostAll({
     directory: "blog",
-    frontmatterSchema: blog,
+    frontmatterSchema: algorithm,
+    filterByTags: tagsToFilter
   });
 
   const tags = Array.from(
@@ -28,9 +31,9 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params;
 
-const posts = await readAll({
+const posts = await readAlgorithmPostAll({
   directory: "blog",
-  frontmatterSchema: blog,
+  frontmatterSchema: algorithm,
 });
 
 const filteredPosts = posts
@@ -54,22 +57,22 @@ const filteredPosts = posts
   })
 );
 
-const tagcount = filteredPosts.length;
+const postCount = filteredPosts.length;
 ---
 
 <PageLayout>
-  <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
+  <PageMeta title={`Alogrithm | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
-    <TagCloud posts={posts} page="blog" />
+    <TagCloud posts={posts} page="algorithm"/>
     <div style="margin-top: 5px; margin-bottom: 25px; text-align: right; font-size: 13px; color: gray;">
-      Total {tagcount} { tagcount > 1 ? "posts" : "post" }
+      Total {postCount} { postCount > 1 ? "posts" : "post" }
     </div>
     <ul class="tag-post-list">
       {
       filteredPosts && filteredPosts.map((post) => (
         <li class="grid grid-cols-[1fr] md:grid-cols-[1fr_auto] mb-3 md:gap-2 items-start">
           <div class="title">
-            <a href={`/blog/${post.slug}`} class="unset hover:text-text-link">
+            <a href={`/algorithm/${post.slug}`} class="unset hover:text-text-link">
               {post.title}
             </a>
           </div>
@@ -81,7 +84,7 @@ const tagcount = filteredPosts.length;
           <div>
             {post.tag.map(tag => (
               <div class="tag-item">
-                <a href={`/blog/${tag}`}>
+                <a href={`/algorithm/${tag}`}>
                   {tag === Astro.params.tag ? (
                     <div class="tag-selected">
                       {tag}

@@ -1,5 +1,5 @@
 ---
-import { readBlogPostAll } from "../lib/markdoc/read";
+import { readAlgorithmPostAll } from "../lib/markdoc/read";
 import { blog } from "../lib/markdoc/frontmatter.schema";
 import PageLayout from "../layouts/PageLayout.astro";
 import PageMeta from "../components/PageMeta.astro";
@@ -7,11 +7,12 @@ import TagCloud from "../components/TagCloud.astro";
 import { SITE_TITLE } from "../config";
 
 const tagsToFilter = ['BFE', 'Programmers', 'Hackerrank', 'Baekjoon', 'JSChallenger', 'SQL Practice'];
-const posts = await readBlogPostAll({
+const posts = await readAlgorithmPostAll({
   directory: "blog",
   frontmatterSchema: blog,
   filterByTags: tagsToFilter
 });
+
 
 const sortedPosts = posts
   .filter((p) => p.frontmatter.draft !== true)
@@ -25,9 +26,9 @@ const postCount = sortedPosts.length;
 ---
 
 <PageLayout>
-  <PageMeta title={`Blog | ${SITE_TITLE}`} slot="meta" />
+  <PageMeta title={`Algorithm | ${SITE_TITLE}`} slot="meta" />
   <section slot="main">
-    <TagCloud posts={posts} page="blog" />
+    <TagCloud posts={posts} page="algorithm" />
     <div style="margin-top: 5px; margin-bottom: 25px; text-align: right; font-size: 13px; color: gray;">
       Total {postCount} { postCount > 1 ? "posts" : "post" }
     </div>

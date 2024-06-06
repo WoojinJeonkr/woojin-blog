@@ -97,6 +97,54 @@ export async function readAll<T extends z.ZodTypeAny>({
 }) {
   const pathToDir = path.posix.join(contentDirectory, directory);
   const paths = await globby(`${pathToDir}/*.md`);
+  let posts = await Promise.all(paths.map((path) => read({ filepath: path, schema })));
 
-  return Promise.all(paths.map((path) => read({ filepath: path, schema })));
+  return posts;
+}
+
+export async function readAlgorithmPostAll<T extends z.ZodTypeAny>({
+  directory,
+  frontmatterSchema: schema,
+  filterByTags
+}: {
+  directory: string;
+  frontmatterSchema: T;
+  filterByTags?: string[];
+}) {
+  const pathToDir = path.posix.join(contentDirectory, directory);
+  const paths = await globby(`${pathToDir}/*.md`);
+  let posts = await Promise.all(paths.map((path) => read({ filepath: path, schema })));
+
+  if (filterByTags) {
+    posts = posts.filter((post: {frontmatter: {tag: string[]}}) => 
+      post.frontmatter.tag.some(tag => filterByTags.includes(tag)));
+  }
+
+  return posts;
+}
+
+export async function readBlogPostAll<T extends z.ZodTypeAny>({
+  directory,
+  frontmatterSchema: schema,
+  filterByTags
+}: {
+  directory: string;
+  frontmatterSchema: T;
+  filterByTags?: string[];
+}) {
+  const pathToDir = path.posix.join(contentDirectory, directory);
+  const paths = await globby(`${pathToDir}/*.md`);
+  let posts = await Promise.all(paths.map((path) => read({ filepath: path, schema })));
+
+  if (filterByTags) {
+    const filteredTags = posts
+      .flatMap(post => post.frontmatter.tag)
+      .filter(tag => !filterByTags.includes(tag));
+
+    posts = posts.filter((post: { frontmatter: { tag: string[] } }) =>
+      post.frontmatter.tag.every(tag => filteredTags.includes(tag))
+    );
+  }
+
+  return posts;
 }
