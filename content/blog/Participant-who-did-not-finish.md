@@ -1,6 +1,6 @@
 ---
 external : false
-title : "participant who did not finish"
+title : "Participant who did not finish"
 tag : [Programmers, Java]
 date : 2024-06-22
 ---
