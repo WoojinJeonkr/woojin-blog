@@ -7,7 +7,7 @@ date : 2024-07-09
 
 ## 1. Problem
 
-해당 문제는 [여기]()에서 확인하실 수 있습니다
+해당 문제는 [여기](https://school.programmers.co.kr/learn/courses/30/lessons/181901)에서 확인하실 수 있습니다
 
 ## 2. Answer
 
