@@ -1,6 +1,6 @@
 ---
 external : false
-title : "에어컨"
+title : "Air conditioner"
 tag : [Programmers, Java]
 date : 2024-07-29
 ---
