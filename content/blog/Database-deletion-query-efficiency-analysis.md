@@ -9,6 +9,8 @@ date : 2024-08-08
 
 Okky Q&A 글 중 [Sql 삭제 쿼리에 대한 2가지 방법 중 어떤 방법이 효율적인지 질문하는 글](https://okky.kr/questions/1510764?topic=questions&page=1)을 보고 해당 내용에 대해 조사해보았습니다.
 
+![Okky - Which SQL Deletion Method is More Efficient?](https://github.com/WoojinJeonkr/woojin-blog/blob/main/public/images/sql-delete-query.png)
+
 ## 2. 데이터베이스 삭제 쿼리 처리 방법
 
 ### 2-1. Java 단에서 반복적으로 DELETE 쿼리 실행
