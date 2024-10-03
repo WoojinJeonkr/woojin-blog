@@ -1,7 +1,7 @@
 ---
 external : false
 title : "QA and QC Roles and Differences in Software Development"
-tag : [Programmers, Java]
+tag : [Study]
 date : 2024-10-03
 ---
 
