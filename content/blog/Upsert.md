@@ -5,6 +5,8 @@ tag : [SQL]
 date : 2024-10-21
 ---
 
+![what is upsert?](/public/images/sql_question.png)
+
 Upsert는 Insert와 Update의 합성어로, 데이터베이스에서 레코드를 삽입하거나, 삽입하려는 데이터가 이미 존재할 경우에는 그 레코드를 업데이트하는 작업을 의미합니다.  
 Upsert는 보통 데이터 중복 처리를 간단하게 해결하기 위한 방법으로 사용되며, 여러 데이터베이스 시스템에서 이 기능을 다양한 방식으로 지원합니다.
 
