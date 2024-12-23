@@ -21,7 +21,7 @@ date : 2024-12-23
 
 ## 3. Answer
 
-```java
+```python
 def solution(video_len, pos, op_start, op_end, commands):
   # 시간을 "mm:ss" 형식에서 초로 변환하는 함수
   def time_to_sec(time_str):
