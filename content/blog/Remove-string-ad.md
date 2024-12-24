@@ -1,7 +1,7 @@
 ---
 external : false
 title : "Remove string ad"
-tag : [Programmmers, Java]
+tag : [Programmers, Java]
 date : 2024-07-27
 ---
 

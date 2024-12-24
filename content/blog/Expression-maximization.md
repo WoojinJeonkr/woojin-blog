@@ -1,7 +1,7 @@
 ---
 external : false
 title : "Expression maximization"
-tag : [Programmer, Java]
+tag : [Programmers, Java]
 date : 2024-09-29
 ---
 

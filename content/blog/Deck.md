@@ -1,7 +1,7 @@
 ---
 external : false
 title : "Deck"
-tag : [Programmer, Python]
+tag : [Programmers, Python]
 date : 2024-12-22
 ---
 
