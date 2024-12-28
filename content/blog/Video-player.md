@@ -1,6 +1,6 @@
 ---
 external : false
-title : "PCCP past exam question video player"
+title : "Video player"
 tag : [Programmers, Python]
 date : 2024-12-23
 ---

@@ -1,6 +1,6 @@
 ---
 external : false
-title : "PCCE sample question 3 age calculation"
+title : "Age-calculation"
 tag : [Programmers, Java]
 date : 2024-07-12
 ---
