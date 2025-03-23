@@ -87,18 +87,18 @@ HTML 명세에 따르면, `<input>` 요소의 value 속성은 두 가지 방식�
 </script>
 ```
 
-처음 태그에서 `.getAttribute`를 통해 HTML 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오고, `.value`를 통해 DOM 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오는 것을 확인할 수 있습니다.  
+처음 태그에서 `.getAttribute`를 통해 HTML 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오고, `.value`를 통해 DOM 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오는 것을 확인할 수 있다.  
 
-그 다음, 각각의 DOM 속성값을 "NewRadioValue", "NewSubmitValue"로 변경하면 HTML 속성값은 여전히 "RadioValue", "SubmitValue"이지만 DOM 속성값은 "NewRadioValue", "NewSubmitValue"로 바뀌는 것을 확인할 수 있습니다.
+그 다음, 각각의 DOM 속성값을 "NewRadioValue", "NewSubmitValue"로 변경하면 HTML 속성값은 여전히 "RadioValue", "SubmitValue"이지만 DOM 속성값은 "NewRadioValue", "NewSubmitValue"로 바뀌는 것을 확인할 수 있다.
 
 ## 5. 요약
 
-`type="radio"`와 `type="submit"`의 value 속성은 각 요소의 목적과 사용 사례에 따라 최적화된 결과입니다.
+`type="radio"`와 `type="submit"`의 value 속성은 각 요소의 목적과 사용 사례에 따라 최적화된 결과이다.
 
 - `type="radio"`
-  - 사용자의 선택 데이터를 서버로 전달해야 하므로, value가 **전송 데이터**를 정의합니다.
-  - 사용자에게는 선택 항목(예: 레이블)만 표시되고, 실제 전달 값은 숨겨진 형태로 동작합니다.
+  - 사용자의 선택 데이터를 서버로 전달해야 하므로, value가 **전송 데이터**를 정의한한다.
+  - 사용자에게는 선택 항목(예: 레이블)만 표시되고, 실제 전달 값은 숨겨진 형태로 동작한한다.
 
 - `type="submit"`
-  - 제출이라는 동작을 수행하는 UI 요소이므로, 사용자에게 명확한 안내를 제공하기 위해 value가 **텍스트 레이블**로 사용됩니다.
-  - 데이터 전송보다는 시각적 피드백과 상호작용에 초점이 맞춰져 있습니다.
+  - 제출이라는 동작을 수행하는 UI 요소이므로, 사용자에게 명확한 안내를 제공하기 위해 value가 **텍스트 레이블**로 사용된된다.
+  - 데이터 전송보다는 시각적 피드백과 상호작용에 초점이 맞춰져 있다.
