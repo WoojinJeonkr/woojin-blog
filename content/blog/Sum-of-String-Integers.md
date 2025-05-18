@@ -2,6 +2,7 @@
 external : false
 title : "Sum of String Integers"
 tag : [Programmers, Python]
+date : 2025-04-23
 ---
 
 ## 1. Problem
