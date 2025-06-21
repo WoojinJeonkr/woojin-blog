@@ -1,6 +1,6 @@
 ---
 external : false
-title : "PCCE Oil drilling"
+title : "PCCP Oil drilling"
 tag : [Programmers, Python]
 date : 2025-06-20
 ---
