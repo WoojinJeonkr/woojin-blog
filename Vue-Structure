@@ -1,0 +1,123 @@
+---
+external : false
+title : "Vue Structure"
+tag : [Vue]
+date : 2025-06-26
+---
+
+## Vue.js 핵심 구조 한눈에 보기
+
+Vue.js는 프론트엔드 개발을 위한 프로그레시브 프레임워크로, 배우기 쉽고 유연하며 성능이 뛰어납니다. 컴포넌트 기반 아키텍처를 채택하여 재사용 가능한 UI 블록을 만들고 관리하는 데 용이합니다. Vue의 핵심 구조를 간결하게 정리해봅니다.
+
+# 1. Vue 인스턴스 (Vue Instance)
+
+Vue 애플리케이션의 시작점은 Vue 인스턴스입니다. new Vue()를 통해 생성되며, Vue 앱의 루트(Root) 인스턴스가 됩니다. 각 Vue 인스턴스는 특정 DOM 요소를 제어하며, 데이터, 메서드, 라이프사이클 훅 등을 포함합니다.
+
+```vue
+new Vue({
+  el: '#app', // 이 인스턴스가 제어할 DOM 요소
+  data: {
+    message: 'Hello Vue!' // 인스턴스의 데이터
+  },
+  methods: {
+    greet: function () {
+      alert(this.message);
+    }
+  }
+});
+```
+
+## 2. 컴포넌트 (Components)
+
+Vue는 컴포넌트를 중심으로 UI를 구축합니다. 컴포넌트는 재사용 가능한 Vue 인스턴스라고 할 수 있으며, 자체적인 템플릿, 스크립트, 스타일을 가질 수 있습니다. 복잡한 UI를 작고 독립적인 단위로 분할하여 개발 효율성을 높입니다.
+**싱글 파일 컴포넌트 (Single File Components, SFC)**는 .vue 확장자를 가지며, <template>, <script>, <style> 블록으로 구성되어 하나의 파일에서 컴포넌트의 모든 요소를 관리할 수 있게 해줍니다.
+```vue
+<template>
+  <div>
+    <h2>{{ title }}</h2>
+    <p>{{ content }}</p>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ['title', 'content'], // 부모로부터 전달받을 속성
+  data() {
+    return {
+      // 컴포넌트 내부 데이터
+    };
+  }
+};
+</script>
+
+<style scoped>
+/* 컴포넌트에만 적용되는 스타일 */
+h2 {
+  color: blue;
+}
+</style>
+```
+
+## 3. 템플릿 문법 (Template Syntax)
+
+Vue는 HTML 기반의 템플릿 문법을 사용하여 선언적으로 DOM을 렌더링합니다. 데이터를 HTML에 연결하거나 조건부 렌더링, 반복 렌더링 등을 쉽게 구현할 수 있습니다.
+ * 텍스트 보간법 (Text Interpolation): {{ data }} 형태로 데이터를 표시합니다.
+ * 디렉티브 (Directives): v- 접두사를 가지며, HTML 요소에 특별한 반응형 동작을 적용합니다.
+   * v-bind: (축약형 :) : HTML 속성에 Vue 데이터를 바인딩합니다.
+   * v-on: (축약형 @) : DOM 이벤트를 수신하고 스크립트를 실행합니다.
+   * v-if, v-else-if, v-else: 조건부 렌더링
+   * v-for: 리스트 렌더링
+   * v-model: 양방향 데이터 바인딩 (주로 폼 요소에 사용)
+
+```vue
+<!-- end list -->
+<template>
+  <div id="app">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">메시지 뒤집기</button>
+    <input v-model="message">
+    <p v-if="seen">지금 나를 볼 수 있습니다.</p>
+    <ul>
+      <li v-for="item in items" :key="item.id">{{ item.text }}</li>
+    </ul>
+  </div>
+</template>
+```
+
+## 4. 반응형 시스템 (Reactivity System)
+
+Vue의 핵심 강점 중 하나는 반응형 시스템입니다. Vue 인스턴스의 data 속성에 있는 데이터가 변경되면, Vue는 자동으로 해당 데이터를 사용하는 DOM 부분을 효율적으로 업데이트합니다. 개발자가 직접 DOM을 조작할 필요가 없어 생산성을 높여줍니다.
+
+## 5. 라이프사이클 훅 (Lifecycle Hooks)
+
+각 Vue 인스턴스/컴포넌트는 생성부터 소멸까지 일련의 라이프사이클 단계를 거칩니다. 각 단계에서 특정 로직을 실행할 수 있도록 미리 정의된 함수를 라이프사이클 훅이라고 합니다.
+
+### 주요 라이프사이클 훅
+
+ * beforeCreate: 인스턴스가 생성되었지만, 데이터나 이벤트가 준비되지 않은 상태
+ * created: 데이터와 이벤트가 준비되어 접근 가능한 상태 (가장 흔하게 초기 데이터 로딩에 사용)
+ * beforeMount: DOM에 마운트되기 직전
+ * mounted: DOM에 마운트 완료 (DOM 접근 가능)
+ * beforeUpdate: 데이터 변경으로 DOM이 업데이트되기 직전
+ * updated: DOM 업데이트 완료
+ * beforeDestroy: 인스턴스 소멸 직전
+ * destroyed: 인스턴스 소멸 완료
+
+```vue
+<!-- end list -->
+new Vue({
+  data: {
+    message: 'Hello'
+  },
+  created: function () {
+    // 인스턴스가 생성된 후 실행
+    console.log('Component created!');
+  },
+  mounted: function () {
+    // DOM에 마운트된 후 실행
+    console.log('Component mounted to DOM!');
+  }
+});
+```
+
+이처럼 Vue는 직관적인 구조와 강력한 기능을 제공하여 웹 애플리케이션 개발을 쉽고 효율적으로 만들어줍니다. 컴포넌트 기반으로 설계하고, 반응형 데이터를 활용하며, 적절한 라이프사이클 훅을 사용하는 것이 Vue 개발의 핵심입니다.
