@@ -1,7 +1,7 @@
 ---
 external : false
 title : "Nickname rules"
-tag : [Programmer, Python]
+tag : [Programmers, Python]
 date : 2025-05-23
 ---
 

@@ -1,7 +1,7 @@
 ---
 external : false
 title : "Park"
-tag : ["Programmers, Python"]
+tag : [Programmers, Python]
 date : 2025-05-09
 ---
 
