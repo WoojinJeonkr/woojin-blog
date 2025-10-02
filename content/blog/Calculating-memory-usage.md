@@ -49,14 +49,14 @@ PromLens 데모 환경에서 다음과 같은 메트릭이 있다고 하자.
 
 `(node_memory_MemTotal_bytes - node_memory_MemAvailable_bytes) / node_memory_MemTotal_bytes * 100`
 
-![Calculating-memory-usage-answer-result](https://raw.githubusercontent.com/WoojinJeonkr/woojin-blog/blob/main/public/images/PromQL/Calculating-memory-usage-answer-result.png)
+![Calculating-memory-usage-answer-result](/public/images/PromQL/Calculating-memory-usage-answer-result.png)
 
 ## 5. Result
 
 1. Table
 
-    ![Calculating-memory-usage-answer-table](https://raw.githubusercontent.com/WoojinJeonkr/woojin-blog/blob/main/public/images/PromQL/Calculating-memory-usage-answer-table.png)
+    ![Calculating-memory-usage-answer-table](/public/images/PromQL/Calculating-memory-usage-answer-table.png)
 
 2. Graph
 
-    ![Calculating-memory-usage-answer-graph](https://raw.githubusercontent.com/WoojinJeonkr/woojin-blog/blob/main/public/images/PromQL/Calculating-memory-usage-answer-graph.png)
+    ![Calculating-memory-usage-answer-graph](/public/images/PromQL/Calculating-memory-usage-answer-graph.png)
