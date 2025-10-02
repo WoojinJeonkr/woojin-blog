@@ -34,7 +34,7 @@ Prometheus 노드 익스포터(Node Exporter)에서 제공하는
 
 3. 5분 구간 지정하기
 
-    rate(node_network_receive_bytes_total[5m])
+    rate(node_network_receive_bytes_total[5m])  
     → 최근 5분 동안의 초당 수신 속도를 계산합니다.
 
 ## 4. 정답
