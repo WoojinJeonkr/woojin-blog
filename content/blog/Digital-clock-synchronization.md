@@ -1,6 +1,6 @@
 ---
 external : false
-title : "Digital Clock Synchronization"
+title : "Digital clock synchronization"
 tag : [Python]
 date : 2026-05-17
 ---
