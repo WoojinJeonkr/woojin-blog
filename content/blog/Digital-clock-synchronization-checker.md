@@ -26,23 +26,23 @@ N개의 서버 시간이 주어질 때,
 가장 빠른 시간과 가장 늦은 시간의 차이가
 K초 이하인지 판별하는 프로그램을 작성하시오.
 
-## 3. Input
+## 2. Input
 
 - 첫째 줄에 서버 개수 N과 허용 가능한 최대 시간 차이 K가 주어진다.
 - 다음 N개의 줄에는 각 서버 시간이 `HH:MM:SS` 형식으로 주어진다.
 
-## 5. Limit
+## 3. Limit
 
 - 2 ≤ N ≤ 1000
 - 0 ≤ K ≤ 86400
 - 모든 시간은 올바른 24시간 형식
 
-## 6. Output
+## 4. Output
 
 - 가장 빠른 시간과 가장 늦은 시간의 차이가 K 이하이면 `SYNC`
 - 초과하면 `OUT OF SYNC` 를 출력한다.
 
-## 7. Input Example
+## 5. Input Example
 
 ```text
 4 20
@@ -52,13 +52,13 @@ K초 이하인지 판별하는 프로그램을 작성하시오.
 12:00:05
 ```
 
-## 8. Output Example
+## 6. Output Example
 
 ```text
 SYNC
 ```
 
-## 9. Example Explanation
+## 7. Example Explanation
 
 각 시간을 초 단위로 변환하면:
 
@@ -76,7 +76,7 @@ SYNC
 
 이며 허용 범위 K=20 이하이므로 동기화 상태이다.
 
-## 10. Answer
+## 8. Answer
 
 ```py
 import sys
