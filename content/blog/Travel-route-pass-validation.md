@@ -1,6 +1,6 @@
 ---
 external : false
-title : "Travel Route Pass Validation"
+title : "Travel route pass validation"
 tag : [Python]
 date : 2026-06-07
 ---
