@@ -59,13 +59,13 @@ date : 2026-06-13
 
 ## 3. Output Example
 
-### Example 1
+### 3.1. Example 1
 
 ```text
 9
 ```
 
-### Example 2
+### 3.2. Example 2
 
 ```text
 -6
@@ -75,7 +75,7 @@ date : 2026-06-13
 
 ## 4. Explanation
 
-### Example 1
+### 4.1. Example 1
 
 길이가 2 이상인 구간 중
 
@@ -85,7 +85,7 @@ date : 2026-06-13
 
 가장 큰 영향력은 9이다.
 
-### Example 2
+### 4.2. Example 2
 
 모든 수가 음수이므로
 
