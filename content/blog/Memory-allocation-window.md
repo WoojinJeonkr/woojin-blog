@@ -2,7 +2,7 @@
 external : false
 title : "Memory allocation window"
 tag : [Python]
-date : 2026-08-01
+date : 2026-08-02
 ---
 
 ## 1. Problem
