@@ -1,7 +1,7 @@
 ---
 external: false
-title : "jekyll youtube plugin"
-description : "Let's find out about jekyll-youtube among jekyll plugins"
+title: "jekyll youtube plugin"
+description: "Let's find out about jekyll-youtube among jekyll plugins"
 tag: [Jekyll]
 date: 2022-10-03
 ---
@@ -35,7 +35,7 @@ jekyll-youtube plugin은 Youtube URL을 사용하고 사이트에 비디오를 �
 
 이제 이 코드를 사용하여 작성하면 다음과 같은 동영상을 출력할 수 있다.
 
-{% youtube url="https://www.youtube.com/embed/vjdzmGiLgTY?si=HNTfRcEEJgl7y8Tk" label="YouTube video player" /%}
+{% youtube url="<https://www.youtube.com/embed/vjdzmGiLgTY?si=HNTfRcEEJgl7y8Tk>" label="YouTube video player" /%}
 
 ## 4. 참고 자료
 

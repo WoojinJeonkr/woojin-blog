@@ -21,7 +21,7 @@ y2,m2,d2 = map(int,input().split())
 
 day_interval = int(str(datetime.date(y2,m2,d2) - datetime.date(y1,m1,d1)).split()[0])
 
-plus_day = 0 
+plus_day = 0
 for i in range(0,1000) :
     if i % 400 == 0 :
         plus_day += 366
@@ -34,6 +34,6 @@ for i in range(0,1000) :
 
 if day_interval >= plus_day :
     print('gg')
-else :
+else:
     print(f'D-{day_interval}')
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fog dissipation schedule"
-tag : [Python]
-date : 2026-06-27
+external: false
+title: "Fog dissipation schedule"
+tag: [Python]
+date: 2026-06-27
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Quad compression count"
-tag : [Programmers, Java]
-date : 2024-09-28
+external: false
+title: "Quad compression count"
+tag: [Programmers, Java]
+date: 2024-09-28
 ---
 
 ## 1. Problem
@@ -22,28 +22,28 @@ date : 2024-09-28
 ```java
 class Solution {
   int[] answer = new int[2];
-  
+
   public int[] solution(int[][] arr) {
     compress(arr, 0, 0, arr.length);  // 배열의 전체 크기에서 압축 시작
     return answer;
   }
-  
+
   private void compress(int[][] arr, int row, int col, int size) {
     // 현재 구역이 모두 같은 값인지 확인
     if (isSameValue(arr, row, col, size)) {
       answer[arr[row][col]]++;  // 모든 값이 같다면 그 값을 answer에 반영
       return;
     }
-    
+
     int newSize = size / 2;  // 크기를 절반으로 줄임
-    
+
     // 4개의 부분으로 나누어 재귀 호출
     compress(arr, row, col, newSize);               // 왼쪽 위
     compress(arr, row, col + newSize, newSize);     // 오른쪽 위
     compress(arr, row + newSize, col, newSize);     // 왼쪽 아래
     compress(arr, row + newSize, col + newSize, newSize); // 오른쪽 아래
   }
-  
+
   private boolean isSameValue(int[][] arr, int row, int col, int size) {
     int value = arr[row][col];  // 구역의 첫 번째 값을 기준으로 설정
     for (int i = row; i < row + size; i++) {

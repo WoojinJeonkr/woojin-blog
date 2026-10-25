@@ -1,6 +1,6 @@
 ---
 external: false
-title : "DTO, VO and Entity"
+title: "DTO, VO and Entity"
 tag: [Java]
 date: 2022-10-10
 ---

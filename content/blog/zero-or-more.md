@@ -1,8 +1,8 @@
 ---
-external : false
-title : "zero or more"
-tag : [Programmers, Python]
-date : 2025-05-18
+external: false
+title: "zero or more"
+tag: [Programmers, Python]
+date: 2025-05-18
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Toy donation scheduler"
-tag : [Python]
-date : 2026-06-25
+external: false
+title: "Toy donation scheduler"
+tag: [Python]
+date: 2026-06-25
 ---
 
 ## 1. Problem

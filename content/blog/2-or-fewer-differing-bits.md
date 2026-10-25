@@ -1,8 +1,8 @@
 ---
-external : false
-title : "2 or fewer differing bits"
-tag : [Programmers, Java]
-date : 2024-10-12
+external: false
+title: "2 or fewer differing bits"
+tag: [Programmers, Java]
+date: 2024-10-12
 ---
 
 ## 1. Problem
@@ -21,10 +21,10 @@ date : 2024-10-12
 class Solution {
   public long[] solution(long[] numbers) {
     long[] answer = new long[numbers.length];
-    
+
     for (int i = 0; i < numbers.length; i++) {
       long number = numbers[i];
-      
+
       // 짝수인 경우: 가장 오른쪽 비트가 항상 0이므로 1을 더하면 비트가 1개만 달라진다.
       // 예: 2(000...0010)의 경우, 3(000...0011)이 되며 비트가 1개만 다름.
       if (number % 2 == 0) {
@@ -33,21 +33,21 @@ class Solution {
         // 홀수인 경우: 가장 오른쪽에서 첫 번째로 나오는 01 패턴을 10으로 바꿔야 한다.
         // 이를 위해 비트마스크를 사용하여 가장 오른쪽의 0을 찾고, 그 자리에 1을 설정한다.
         // 예: 7(000...0111)에서 11(000...1011)이 됨.
-        
+
         long bitMask = 1;  // 1을 초기값으로 설정하여 오른쪽부터 검사
-        
+
         // number와 bitMask의 AND 연산이 0이 될 때까지 왼쪽으로 비트를 이동
         // 0을 만날 때까지 비트마스크를 왼쪽으로 이동하여 가장 오른쪽의 0을 찾음
         while ((number & bitMask) != 0) {
           bitMask <<= 1;
         }
-        
+
         // 찾은 위치에서 01 패턴을 10으로 바꾸기 위해 bitMask를 더하고
         // bitMask의 절반 값을 뺌으로써 01을 10으로 변환
         answer[i] = number + bitMask - (bitMask >> 1);
       }
     }
-    
+
     return answer;
   }
 }

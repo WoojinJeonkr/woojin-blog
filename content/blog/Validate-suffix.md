@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Validate suffix"
-tag : [Programmers, Java]
-date : 2024-06-04
+external: false
+title: "Validate suffix"
+tag: [Programmers, Java]
+date: 2024-06-04
 ---
 
 ## 1. Problem
@@ -31,10 +31,10 @@ class Solution {
 
     // 접미사 배열을 알파벳 순으로 정렬
     Arrays.sort(suffix);
-    
+
     // 배열을 리스트로 변환하여 contains 메소드 사용 가능하게 함
     List<String> suffixList = new ArrayList<>(Arrays.asList(suffix));
-    
+
     // 접미사 리스트에 is_suffix가 포함되어 있는지 확인
     // 포함되어 있다면 1을, 그렇지 않다면 0을 반환
     return suffixList.contains(is_suffix) ? 1 : 0;

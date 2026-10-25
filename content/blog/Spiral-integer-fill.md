@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Spiral integer fill"
-tag : [Programmers, Python]
-date : 2025-05-17
+external: false
+title: "Spiral integer fill"
+tag: [Programmers, Python]
+date: 2025-05-17
 ---
 
 ## 1. Problem

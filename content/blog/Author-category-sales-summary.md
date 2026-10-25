@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Author category sales summary"
-tag : [Programmers, SQL]
-date : 2025-01-22
+external: false
+title: "Author category sales summary"
+tag: [Programmers, SQL]
+date: 2025-01-22
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ date : 2025-01-22
 ## 4. Answer
 
 ```sql
-/* 
+/*
   실행 순서:
   1. FROM 절: 테이블 조인
   2. WHERE 절: 날짜 필터링
@@ -36,24 +36,24 @@ date : 2025-01-22
   5. ORDER BY 절: 결과 정렬
 */
 
-SELECT 
+SELECT
   A.AUTHOR_ID,                         /* 저자 ID */
   A.AUTHOR_NAME,                       /* 저자명 */
   B.CATEGORY,                          /* 카테고리 */
   SUM(BS.SALES * B.PRICE) AS TOTAL_SALES  /* 총 매출액 = 판매량 * 판매가 */
-FROM 
+FROM
   AUTHOR A
   JOIN BOOK B                          /* AUTHOR와 BOOK 테이블을 저자 ID로 조인 */
     ON A.AUTHOR_ID = B.AUTHOR_ID
   JOIN BOOK_SALES BS                   /* BOOK과 BOOK_SALES 테이블을 도서 ID로 조인 */
     ON B.BOOK_ID = BS.BOOK_ID
-WHERE 
+WHERE
   BS.SALES_DATE BETWEEN '2022-01-01' AND '2022-01-31'  /* 2022년 1월 데이터만 필터링 */
-GROUP BY 
+GROUP BY
   A.AUTHOR_ID,                         /* 저자 ID로 그룹화 */
   A.AUTHOR_NAME,                       /* 저자명으로 그룹화 */
   B.CATEGORY                           /* 카테고리로 그룹화 */
-ORDER BY 
+ORDER BY
   A.AUTHOR_ID ASC,                     /* 저자 ID 오름차순 정렬 */
   B.CATEGORY DESC                      /* 카테고리 내림차순 정렬 */
 ```

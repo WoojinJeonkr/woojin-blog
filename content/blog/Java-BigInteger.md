@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java BigInteger"
-tag : [Hackerrank, Java]
-date : 2024-03-20
+external: false
+title: "Java BigInteger"
+tag: [Hackerrank, Java]
+date: 2024-03-20
 ---
 
 ## 1. Problem

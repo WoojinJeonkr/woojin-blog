@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Parcel sorting system"
-tag : [Python]
-date : 2026-10-10
+external: false
+title: "Parcel sorting system"
+tag: [Python]
+date: 2026-10-10
 ---
 
 ## 1. Problem

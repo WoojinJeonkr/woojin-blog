@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Add and remove in array"
-tag : [Programmers, Python]
-date : 2025-10-07
+external: false
+title: "Add and remove in array"
+tag: [Programmers, Python]
+date: 2025-10-07
 ---
 
 ## 1. Problem

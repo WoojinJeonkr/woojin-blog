@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pythagorean theorem"
-tag : [Programmers, Java]
-date : 2024-07-18
+external: false
+title: "Pythagorean theorem"
+tag: [Programmers, Java]
+date: 2024-07-18
 ---
 
 ## 1. Problem

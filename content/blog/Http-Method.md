@@ -1,15 +1,15 @@
 ---
 external: false
-title : "HTTP Method"
+title: "HTTP Method"
 tag: [CS]
 date: 2022-11-19
 ---
 
 ## 1. HTTP Method
 
-클라이언트가 웹 서버에게 사용자 요청의 목적이나 종류를 알리는 수단을 말한다.  
-HTTP Method에는 GET, POST, PUT, HEAD, DELETE, PATCH, OPTIONS, CONNECT, TRACE가 있다.  
-이 중 POST와 GET을 가장 많이 사용한다.  
+클라이언트가 웹 서버에게 사용자 요청의 목적이나 종류를 알리는 수단을 말한다.
+HTTP Method에는 GET, POST, PUT, HEAD, DELETE, PATCH, OPTIONS, CONNECT, TRACE가 있다.
+이 중 POST와 GET을 가장 많이 사용한다.
 
 ### 1-2. GET Method
 

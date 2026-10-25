@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Prime factorization"
-tag : [Programmers, Python]
-date : 2025-05-06
+external: false
+title: "Prime factorization"
+tag: [Programmers, Python]
+date: 2025-05-06
 ---
 
 ## 1. Problem

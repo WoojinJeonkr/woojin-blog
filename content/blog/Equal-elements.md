@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Equal Elements"
-tag : [Codechef, Python]
-date : 2026-04-23
+external: false
+title: "Equal Elements"
+tag: [Codechef, Python]
+date: 2026-04-23
 ---
 
 ## 1. Problem

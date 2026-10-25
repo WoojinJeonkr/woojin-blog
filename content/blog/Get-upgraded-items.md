@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Get upgraded items"
-tag : [Programmers, SQL]
-date : 2024-07-01
+external: false
+title: "Get upgraded items"
+tag: [Programmers, SQL]
+date: 2024-07-01
 ---
 
 ## 1. Problem

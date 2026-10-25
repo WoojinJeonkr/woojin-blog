@@ -1,14 +1,14 @@
 ---
 external: false
-title : "React Detail RU"
-description : React example
+title: "React Detail RU"
+description: React example
 tag: [React, Typescript]
 date: 2022-11-15
 ---
 
 ## 1. React Detail Read / Update
 
-{% codepen url="https://codepen.io/calomys/full/rNKzyXY" title="React Detail RU" /%}
+{% codepen url="<https://codepen.io/calomys/full/rNKzyXY>" title="React Detail RU" /%}
 
 ## 2. Reference
 

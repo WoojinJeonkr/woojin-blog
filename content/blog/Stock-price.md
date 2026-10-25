@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Stock price"
-tag : [Programmers, Java]
-date : 2024-08-22
+external: false
+title: "Stock price"
+tag: [Programmers, Java]
+date: 2024-08-22
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ class Solution {
     int n = prices.length;
     int[] answer = new int[n];
     Stack<Integer> stack = new Stack<>();
-    
+
     for (int i = 0; i < n; i++) {
       // 현재 가격이 스택의 상단에 있는 가격보다 낮으면
       while (!stack.isEmpty() && prices[i] < prices[stack.peek()]) {
@@ -34,13 +34,13 @@ class Solution {
       }
       stack.push(i); // 현재 인덱스를 스택에 추가
     }
-    
+
     // 스택에 남아있는 인덱스 처리
     while (!stack.isEmpty()) {
       int index = stack.pop();
       answer[index] = n - index - 1; // 마지막까지 가격이 떨어지지 않은 시간 계산
     }
-    
+
     return answer;
   }
 }

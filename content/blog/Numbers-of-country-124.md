@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Numbers of country 124"
-tag : [Programmers, Java]
-date : 2024-09-27
+external: false
+title: "Numbers of country 124"
+tag: [Programmers, Java]
+date: 2024-09-27
 ---
 
 ## 1. Problem
@@ -21,10 +21,10 @@ date : 2024-09-27
 class Solution {
   public String solution(int n) {
     StringBuilder answer = new StringBuilder(); // 결과를 저장할 StringBuilder 생성
-    
+
     while (n > 0) {
       int remainder = n % 3; // n을 3으로 나눈 나머지를 계산
-      
+
       if (remainder == 0) { // 나머지가 0일 때
         answer.append("4"); // 124 나라에서 0 대신 4를 사용
         n = n / 3 - 1; // 몫에서 1을 빼서 자릿수 조정
@@ -33,7 +33,7 @@ class Solution {
         n /= 3; // n을 3으로 나눈 몫으로 갱신
       }
     }
-    
+
     return answer.reverse().toString(); // 계산한 값을 역순으로 반환
   }
 }

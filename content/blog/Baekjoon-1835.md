@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1835"
 tag: [Baekjoon, Java]
-date : 2024-02-14
+date: 2024-02-14
 ---
 
 ## 1. Problem
@@ -48,7 +48,7 @@ public class Main {
     }
 
     // 덱의 내용을 출력
-    Iterator<Integer> iterator = deck.iterator(); 
+    Iterator<Integer> iterator = deck.iterator();
     while (iterator.hasNext()) {
       System.out.print(iterator.next() + " ");
     }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sum of hidden numbers (2)"
-tag : [Programmers, Python]
-date : 2025-09-30
+external: false
+title: "Sum of hidden numbers (2)"
+tag: [Programmers, Python]
+date: 2025-09-30
 ---
 
 ## 1. Problem

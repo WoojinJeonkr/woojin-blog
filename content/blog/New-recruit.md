@@ -1,8 +1,8 @@
 ---
-external : false
-title : "New recruit"
-tag : [Baekjoon, Python]
-date : 2025-11-04
+external: false
+title: "New recruit"
+tag: [Baekjoon, Python]
+date: 2025-11-04
 ---
 
 ## 1. Problem

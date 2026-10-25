@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sportswear"
-tag : [Programmers, Java]
-date : 2024-11-11
+external: false
+title: "Sportswear"
+tag: [Programmers, Java]
+date: 2024-11-11
 ---
 
 ## 1. Problem
@@ -25,24 +25,24 @@ date : 2024-11-11
 class Solution {
   public int solution(int n, int[] lost, int[] reserve) {
     int[] students = new int[n];
-    
+
     // 모든 학생들이 체육복을 가지고 있는 상태로 초기화
     for (int i = 0; i < n; i++) {
       students[i] = 1;
     }
-    
+
     // 도난당한 학생의 체육복 개수를 1 감소
     for (int i = 0; i < lost.length; i++) {
       int lostStudent = lost[i] - 1;
       students[lostStudent]--;
     }
-    
+
     // 여벌 체육복이 있는 학생의 체육복 개수를 1 증가
     for (int i = 0; i < reserve.length; i++) {
       int reserveStudent = reserve[i] - 1;
       students[reserveStudent]++;
     }
-    
+
     // 체육복을 빌려줄 수 있는 경우를 확인하여 조정
     for (int i = 0; i < n; i++) {
       if (students[i] == 2) {  // 여벌 체육복이 있는 학생
@@ -55,7 +55,7 @@ class Solution {
         }
       }
     }
-    
+
     // 체육수업에 참여할 수 있는 학생 수 계산
     int answer = 0;
     for (int i = 0; i < n; i++) {
@@ -63,7 +63,7 @@ class Solution {
         answer++;
       }
     }
-    
+
     return answer;
   }
 }

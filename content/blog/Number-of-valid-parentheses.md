@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number of valid parentheses"
-tag : [Programmers, Python]
-date : 2025-08-31
+external: false
+title: "Number of valid parentheses"
+tag: [Programmers, Python]
+date: 2025-08-31
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ def solution(n):
     dp = [0] * (n + 1)
     # 괄호 쌍이 0개일 때는 올바른 문자열이 1개("") 존재
     dp[0] = 1
-    
+
     # 카탈란 수 점화식을 이용해 dp 채우기
     # C_0 = 1
     # C_n = Σ (C_i * C_{n-1-i}), 0 <= i < n
@@ -26,7 +26,7 @@ def solution(n):
         for j in range(i):
             # C_i = Σ (C_j * C_(i-1-j))
             dp[i] += dp[j] * dp[i - 1 - j]
-    
+
     # n개의 괄호 쌍으로 만들 수 있는 올바른 괄호 문자열 개수 반환
     return dp[n]
 ```

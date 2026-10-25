@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Bus"
+external: false
+title: "Bus"
 tag: [Programmers, Python]
-date : 2025-05-28
+date: 2025-05-28
 ---
 
 ## 1. Problem
@@ -49,7 +49,7 @@ def func4(station):
 def solution(seat, passengers):
   # 버스에 현재 탑승하고 있는 승객의 수를 나타냅니다. 기점에서 출발 시 0명입니다.
   num_passenger = 0
-  
+
   # 영진이가 기다리는 정거장까지 각 정거장의 승하차 정보를 순회합니다.
   for station in passengers:
     # 각 정거장에서 승차한 승객 수를 현재 탑승 승객 수에 더합니다.

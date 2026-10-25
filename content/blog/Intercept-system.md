@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Intercept system"
-tag : [Programmers, Java]
-date : 2024-10-15
+external: false
+title: "Intercept system"
+tag: [Programmers, Java]
+date: 2024-10-15
 ---
 
 ## 1. Problem
@@ -26,21 +26,21 @@ class Solution {
   public int solution(int[][] targets) {
     // 폭격 미사일의 끝점을 기준으로 정렬
     Arrays.sort(targets, (a, b) -> Integer.compare(a[1], b[1]));
-    
+
     int answer = 0;
     int lastInterceptPoint = -1;
-    
+
     for (int[] target : targets) {
       int start = target[0];
       int end = target[1];
-      
+
       // 현재 미사일의 시작점이 마지막 요격 지점보다 크면 새로운 요격 미사일이 필요
       if (start >= lastInterceptPoint) {
         answer++;
         lastInterceptPoint = end;  // 새로운 요격 미사일의 위치는 현재 폭격 미사일의 끝점
       }
     }
-    
+
     return answer;
   }
 }

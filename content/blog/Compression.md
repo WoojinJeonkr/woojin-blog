@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Compression"
-tag : [Programmers, Java]
-date : 2024-09-20
+external: false
+title: "Compression"
+tag: [Programmers, Java]
+date: 2024-09-20
 ---
 
 ## 1. Problem
@@ -34,12 +34,12 @@ class Solution {
     // 결과를 저장할 리스트
     List<Integer> result = new ArrayList<>();
     int i = 0;
-    
+
     // 입력 문자열 처리
     while (i < msg.length()) {
       String w = "";
       int index = i;
-      
+
       // 사전에서 가장 긴 문자열 w 찾기
       while (index < msg.length() && dictionary.containsKey(msg.substring(i, index + 1))) {
         w = msg.substring(i, index + 1);

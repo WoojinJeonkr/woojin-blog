@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Cache"
-tag : [Programmers, Java]
-date : 2024-09-21
+external: false
+title: "Cache"
+tag: [Programmers, Java]
+date: 2024-09-21
 ---
 
 ## 1. Problem
@@ -28,13 +28,13 @@ class Solution {
   public int solution(int cacheSize, String[] cities) {
     // 캐시 크기가 0일 경우, 모든 요청이 캐시 미스
     if (cacheSize == 0) return cities.length * 5;
-    
+
     LinkedList<String> cache = new LinkedList<>(); // LRU 캐시를 저장할 리스트
     int answer = 0; // 총 실행 시간을 저장할 변수
-    
+
     for (String city : cities) {
       city = city.toLowerCase(); // 대소문자 구분하지 않기 위해 소문자로 변환
-      
+
       if (cache.contains(city)) { // 캐시 히트
         cache.remove(city); // 해당 항목을 제거하고
         cache.addFirst(city); // 캐시의 가장 앞에 다시 추가 (최근 사용됨)
@@ -47,7 +47,7 @@ class Solution {
         answer += 5; // 캐시 미스 시 실행시간 5 추가
       }
     }
-    
+
     return answer; // 총 실행시간 반환
   }
 }

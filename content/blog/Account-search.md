@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Account search"
-tag : [Python]
-date : 2026-08-22
+external: false
+title: "Account search"
+tag: [Python]
+date: 2026-08-22
 ---
 
 ## 1. Problem

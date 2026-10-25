@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dot product"
-tag : [Programmers, Java]
-date : 2024-11-04
+external: false
+title: "Dot product"
+tag: [Programmers, Java]
+date: 2024-11-04
 ---
 
 ## 1. Problem
@@ -22,12 +22,12 @@ class Solution {
   public int solution(int[] a, int[] b) {
     // answer를 문제에서 지정한 초기값으로 설정
     int answer = 1234567890;
-    
+
     // 배열 a와 b의 같은 인덱스 요소를 곱하여 answer에 누적
     for (int i = 0; i < a.length; i++) {
       answer += a[i] * b[i];
     }
-    
+
     // 초기값을 보정하여 최종 내적 결과를 반환
     return answer - 1234567890;
   }

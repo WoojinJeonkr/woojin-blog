@@ -1,7 +1,7 @@
 ---
-external : false
-title : "Hall of fame 1"
-tag : [Programmers, Java]
+external: false
+title: "Hall of fame 1"
+tag: [Programmers, Java]
 date: 2024-11-09
 ---
 
@@ -26,21 +26,21 @@ class Solution {
     int[] answer = new int[score.length];
     // 명예의 전당을 관리할 PriorityQueue 생성 (오름차순)
     PriorityQueue<Integer> hallOfFame = new PriorityQueue<>();
-    
+
     // 매일 점수를 처리
     for (int i = 0; i < score.length; i++) {
       // 새로운 점수를 명예의 전당에 추가
       hallOfFame.add(score[i]);
-      
+
       // 명예의 전당에 k개보다 많은 점수가 있으면 최하위 점수 제거
       if (hallOfFame.size() > k) {
         hallOfFame.poll();
       }
-      
+
       // 현재 명예의 전당의 최하위 점수를 결과에 저장
       answer[i] = hallOfFame.peek();
     }
-    
+
     return answer;
   }
 }

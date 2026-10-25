@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Deserted island trip"
-tag : [Programmers, Java]
-date : 2024-12-03
+external: false
+title: "Deserted island trip"
+tag: [Programmers, Java]
+date: 2024-12-03
 ---
 
 ## 1. Problem
@@ -56,7 +56,7 @@ class Solution {
             int ny = y + dy[k];
 
             // 이동 가능한 위치인지 확인
-            if (nx >= 0 && nx < rows && ny >= 0 && ny < cols && 
+            if (nx >= 0 && nx < rows && ny >= 0 && ny < cols &&
                 maps[nx].charAt(ny) != 'X' && !visited[nx][ny]) {
               queue.add(new int[] { nx, ny }); // 큐에 추가
               visited[nx][ny] = true; // 방문 처리

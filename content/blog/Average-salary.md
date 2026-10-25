@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Average salary"
-tag : [Codechef, SQL]
-date : 2026-05-10
+external: false
+title: "Average salary"
+tag: [Codechef, SQL]
+date: 2026-05-10
 ---
 
 ## 1. Problem

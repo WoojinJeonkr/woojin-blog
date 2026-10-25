@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Progressing with assignments"
-tag : [Programmers, Java]
-date : 2024-10-20
+external: false
+title: "Progressing with assignments"
+tag: [Programmers, Java]
+date: 2024-10-20
 ---
 
 ## 1. Problem
@@ -26,13 +26,13 @@ class Solution {
   public String[] solution(String[][] plans) {
     // 1. plans 배열을 시작 시간을 기준으로 정렬
     Arrays.sort(plans, (a, b) -> convertToMinutes(a[1]) - convertToMinutes(b[1]));
-    
+
     // 2. 과제를 끝낸 순서를 담을 리스트
     List<String> completedTasks = new ArrayList<>();
-    
+
     // 3. 멈춘 과제를 저장할 스택
     Stack<String[]> pausedTasks = new Stack<>();
-    
+
     // 4. 현재 시각을 저장할 변수
     int currentTime = 0;
 

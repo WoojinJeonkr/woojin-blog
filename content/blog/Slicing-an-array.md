@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Slicing an array"
-tag : [Programmers, Python]
-date : 2025-05-26
+external: false
+title: "Slicing an array"
+tag: [Programmers, Python]
+date: 2025-05-26
 ---
 
 ## 1. Problem

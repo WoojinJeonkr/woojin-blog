@@ -2,7 +2,7 @@
 external: false
 title: "Java Arraylist"
 tag: [Hackerrank, Java]
-date : 2024-02-02
+date: 2024-02-02
 ---
 
 ## 1. Problem
@@ -18,8 +18,8 @@ import java.util.*;
 public class Solution {
 
   public static void main(String[] args) {
-    // 코드를 입력하세요. 
-    // STDIN에서 입력을 읽고 STDOUT으로 출력해야 합니다. 
+    // 코드를 입력하세요.
+    // STDIN에서 입력을 읽고 STDOUT으로 출력해야 합니다.
     // 클래스 이름은 Solution이어야 합니다.
     Scanner scan = new Scanner(System.in);
 

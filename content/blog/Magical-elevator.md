@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Magical elevator"
-tag : [Programmers, Python]
-date : 2025-01-08
+external: false
+title: "Magical elevator"
+tag: [Programmers, Python]
+date: 2025-01-08
 ---
 
 ## 1. Problem

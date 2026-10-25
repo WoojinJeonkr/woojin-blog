@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Nearest matching character"
-tag : [Programmers, Java]
-date : 2024-10-28
+external: false
+title: "Nearest matching character"
+tag: [Programmers, Java]
+date: 2024-10-28
 ---
 
 ## 1. Problem
@@ -26,7 +26,7 @@ class Solution {
   public int[] solution(String s) {
     int[] answer = new int[s.length()]; // 결과를 저장할 배열
     HashMap<Character, Integer> lastSeenIndex = new HashMap<>(); // 각 문자의 최근 인덱스를 저장할 해시맵
-    
+
     for (int i = 0; i < s.length(); i++) {
       char c = s.charAt(i);
       if (lastSeenIndex.containsKey(c)) { // 문자가 이전에 등장한 적이 있는지 확인
@@ -36,7 +36,7 @@ class Solution {
       }
       lastSeenIndex.put(c, i); // 현재 문자의 위치를 해시맵에 업데이트
     }
-    
+
     return answer; // 결과 배열 반환
   }
 }

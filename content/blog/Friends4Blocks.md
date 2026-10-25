@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Friends4Blocks"
-tag : [Programmers, Python]
-date : 2025-06-30
+external: false
+title: "Friends4Blocks"
+tag: [Programmers, Python]
+date: 2025-06-30
 ---
 
 ## 1. Problem

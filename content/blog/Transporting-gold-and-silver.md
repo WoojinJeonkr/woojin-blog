@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Transporting gold and silver"
-tag : [Programmers, Python]
-date : 2025-09-18
+external: false
+title: "Transporting gold and silver"
+tag: [Programmers, Python]
+date: 2025-09-18
 ---
 
 ## 1. Problem

@@ -1,11 +1,11 @@
 ---
-external : false
-title : "Let's know LPAD logic"
-tag : [SQL]
-date : 2025-03-28
+external: false
+title: "Let's know LPAD logic"
+tag: [SQL]
+date: 2025-03-28
 ---
 
-데이터베이스에서 저장된 데이터 형식을 일관되게 유지하거나 특정 길이로 맞추기 위해 LPAD를 사용합니다.  
+데이터베이스에서 저장된 데이터 형식을 일관되게 유지하거나 특정 길이로 맞추기 위해 LPAD를 사용합니다.
 오늘은 LPAD의 동작 방식에 대해 알아보겠습니다.
 
 ## 1. LPAD 함수

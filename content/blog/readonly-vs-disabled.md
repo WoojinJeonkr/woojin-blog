@@ -1,8 +1,8 @@
 ---
-external : false
-title : "readonly vs disabled"
-tag : [HTML]
-date : 2024-06-12
+external: false
+title: "readonly vs disabled"
+tag: [HTML]
+date: 2024-06-12
 ---
 
 HTML의 `<input>` 요소에는 `readonly`와 `disabled` 속성이 있습니다. 두 가지 모두 입력 필드를 비활성화할 때 사용되지만, 그들 간에는 몇 가지 중요한 차이가 있습니다.

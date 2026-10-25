@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Desktop cleanup"
-tag : [Programmers, Python]
-date : 2024-12-19
+external: false
+title: "Desktop cleanup"
+tag: [Programmers, Python]
+date: 2024-12-19
 ---
 
 ## 1. Problem
@@ -22,21 +22,21 @@ def solution(wallpaper):
   answer = []
 
   # 파일들의 위치를 저장할 변수 초기화
-  min_x = float('inf')  # 가장 위쪽 파일의 위치 
+  min_x = float('inf')  # 가장 위쪽 파일의 위치
   min_y = float('inf')  # 가장 왼쪽 파일의 위치
   max_x = float('-inf') # 가장 아래쪽 파일의 위치
   max_y = float('-inf') # 가장 오른쪽 파일의 위치
- 
+
   # 바탕화면의 모든 위치를 확인
   for i in range(len(wallpaper)):
     for j in range(len(wallpaper[0])):
       if wallpaper[i][j] == '#':
         # 파일이 있는 위치를 기준으로 드래그 영역의 시작점과 끝점 계산
         min_x = min(min_x, i)
-        min_y = min(min_y, j) 
+        min_y = min(min_y, j)
         max_x = max(max_x, i + 1)
         max_y = max(max_y, j + 1)
- 
+
   # 드래그 시작점(min_x,min_y)과 끝점(max_x,max_y) 반환
   answer = [min_x, min_y, max_x, max_y]
   return answer

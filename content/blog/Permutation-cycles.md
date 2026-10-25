@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Permutation cycles"
-tag : [Baekjoon, Python]
-date : 2025-12-29
+external: false
+title: "Permutation cycles"
+tag: [Baekjoon, Python]
+date: 2025-12-29
 ---
 
 ## 1. Problem

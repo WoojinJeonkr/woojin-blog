@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1830"
 tag: [Baekjoon, Python]
-date : 2024-02-01
+date: 2024-02-01
 ---
 
 ## 1. Problem
@@ -19,14 +19,14 @@ case = 1
 while True:
   # 참가자 수 입력
   n = int(input())
-  
+
   # 참가자 수가 0이면 루프 종료
   if n == 0:
       break
 
   # 참가자 이름 입력
   names = [input() for _ in range(n)]
-  
+
   # 각 참가자의 득표 수 초기화
   count = [0] * n
 
@@ -41,7 +41,7 @@ while True:
 
   # 결과 출력
   print(f"{case} {winner_name}")
-  
+
   # case 변수 증가
   case += 1
 ```

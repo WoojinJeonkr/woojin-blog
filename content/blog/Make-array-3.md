@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Make array 3"
-tag : [Programmers, Python]
-date : 2025-09-02
+external: false
+title: "Make array 3"
+tag: [Programmers, Python]
+date: 2025-09-02
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Snail movement"
-tag : [Python]
-date : 2026-09-17
+external: false
+title: "Snail movement"
+tag: [Python]
+date: 2026-09-17
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Career transition planner"
-tag : [Python]
-date : 2026-07-01
+external: false
+title: "Career transition planner"
+tag: [Python]
+date: 2026-07-01
 ---
 
 ## 1. Problem

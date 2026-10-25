@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Animals neutered at a shelter"
-tag : [Programmers, SQL]
-date : 2024-06-02
+external: false
+title: "Animals neutered at a shelter"
+tag: [Programmers, SQL]
+date: 2024-06-02
 ---
 
 ## 1. Problem

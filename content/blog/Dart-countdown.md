@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dart countdown"
-tag : [Programmers, Python]
-date : 2025-09-26
+external: false
+title: "Dart countdown"
+tag: [Programmers, Python]
+date: 2025-09-26
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date : 2025-09-26
 def solution(target):
     # 가능한 점수와 해당 점수가 싱글/불인지 여부를 저장
     scores = set()
-    
+
     for i in range(1, 21):
         scores.add((i, 1))       # 싱글 (1~20) - 싱글/불 카운트 +1
         scores.add((i * 2, 0))   # 더블 (2~40)

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Keylogger"
-tag : [Baekjoon, Java]
-date : 2025-11-13
+external: false
+title: "Keylogger"
+tag: [Baekjoon, Java]
+date: 2025-11-13
 ---
 
 ## 1. Problem

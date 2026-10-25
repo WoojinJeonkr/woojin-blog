@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Count character"
-tag : [Programmers, Java]
-date : 2024-07-07
+external: false
+title: "Count character"
+tag: [Programmers, Java]
+date: 2024-07-07
 ---
 
 ## 1. Problem

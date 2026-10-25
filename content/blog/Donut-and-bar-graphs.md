@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Donut and bar graphs"
-tag : [Programmers, Python]
-date : 2025-06-18
+external: false
+title: "Donut and bar graphs"
+tag: [Programmers, Python]
+date: 2025-06-18
 ---
 
 ## 1. Problem

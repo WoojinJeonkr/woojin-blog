@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Stepping stones"
-tag : [Programmers, Python]
-date : 2025-08-16
+external: false
+title: "Stepping stones"
+tag: [Programmers, Python]
+date: 2025-08-16
 ---
 
 ## 1. Problem

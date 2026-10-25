@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Gem shopping"
-tag : [Programmers, Python]
-date : 2025-08-15
+external: false
+title: "Gem shopping"
+tag: [Programmers, Python]
+date: 2025-08-15
 ---
 
 ## 1. Problem
@@ -17,13 +17,13 @@ from collections import defaultdict
 def solution(gems):
     total_types = len(set(gems))  # 전체 보석 종류 개수
     n = len(gems)  # 보석 진열대 길이
-    
+
     start, end = 0, 0  # 투 포인터 시작 위치
     gem_count = defaultdict(int)  # 현재 구간 내 보석 개수 저장
-    
+
     answer = [1, n]  # 최소 구간 결과 (기본값: 전체 구간)
     gem_count[gems[0]] = 1  # 첫 번째 보석 개수 추가
-    
+
     while start < n and end < n:
         # 현재 구간에 모든 보석 종류가 포함된 경우
         if len(gem_count) == total_types:
@@ -40,6 +40,6 @@ def solution(gems):
             end += 1
             if end < n:
                 gem_count[gems[end]] += 1
-    
+
     return answer
 ```

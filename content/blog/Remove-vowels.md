@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Remove vowels"
-tag : [Programmers, Python]
-date : 2025-02-21
+external: false
+title: "Remove vowels"
+tag: [Programmers, Python]
+date: 2025-02-21
 ---
 
 ## 1. Problem
@@ -29,13 +29,13 @@ def solution(my_string):
   vowels = 'aeiou'
   # 결과 문자열을 초기화합니다
   answer = ''
-  
+
   # 입력 문자열의 각 문자를 순회합니다
   for char in my_string:
     # 문자가 모음이 아니면 결과 문자열에 추가합니다
     if char not in vowels:
       answer += char
-  
+
   # 모음을 제거한 문자열을 반환합니다
   return answer
 ```

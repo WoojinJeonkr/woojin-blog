@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Database Normalization 10"
-tag : [Hackerrank, Database]
-date : 2024-05-04
+external: false
+title: "Database Normalization 10"
+tag: [Hackerrank, Database]
+date: 2024-05-04
 ---
 
 ## 1. Problem

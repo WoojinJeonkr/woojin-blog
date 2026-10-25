@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Control Z"
-tag : [Programmers, Python]
-date : 2025-05-02
+external: false
+title: "Control Z"
+tag: [Programmers, Python]
+date: 2025-05-02
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date : 2025-05-02
 def solution(s):
   # 스택 초기화: 숫자를 저장할 리스트
   stack = []
-  
+
   # 문자열을 공백 기준으로 분할하여 각 요소 처리
   for item in s.split():
     # 현재 요소가 'Z'인 경우
@@ -27,7 +27,7 @@ def solution(s):
     else:
       # 정수로 변환 후 스택에 추가
       stack.append(int(item))
-  
+
   # 최종 결과 계산
   if len(stack) > 0:
     return sum(stack)

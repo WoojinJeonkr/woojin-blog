@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Word transformation"
-tag : [Programmers, Java]
-date : 2024-11-12
+external: false
+title: "Word transformation"
+tag: [Programmers, Java]
+date: 2024-11-12
 ---
 
 ## 1. Problem
@@ -67,7 +67,7 @@ class Solution {
       for (int i = 0; i < words.length; i++) {
         if (!visited[i]) {
           int diffCount = 0;
-          
+
           // 현재 단어와 비교하여 한 글자 차이인지 확인
           for (int j = 0; j < currentWord.length(); j++) {
             if (currentWord.charAt(j) != words[i].charAt(j)) {

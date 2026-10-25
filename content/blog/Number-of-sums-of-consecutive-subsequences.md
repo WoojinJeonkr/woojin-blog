@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number of sums of consecutive subsequences"
-tag : [Programmers, Java]
-date : 2024-07-14
+external: false
+title: "Number of sums of consecutive subsequences"
+tag: [Programmers, Java]
+date: 2024-07-14
 ---
 
 ## 1. Problem
@@ -39,7 +39,7 @@ class Solution {
         // 계산된 연속된 부분 합 집합에 추가
         set.add(value);
       }
-      
+
       // 다음 길이 (start) 로 진행
       start++;
     }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding the adoption time (2)"
-tag : [Programmers, SQL]
-date : 2025-01-13
+external: false
+title: "Finding the adoption time (2)"
+tag: [Programmers, SQL]
+date: 2025-01-13
 ---
 
 ## 1. Problem
@@ -27,10 +27,10 @@ date : 2025-01-13
 ## 4. Answer
 
 ```sql
-SELECT 
+SELECT
   (h1.HOUR + h2.h * 4) AS HOUR,  -- 5. 0부터 23까지의 시간을 계산하여 HOUR 컬럼으로 선택
   COUNT(A.ANIMAL_ID) AS COUNT    -- 6. 각 시간대별 입양된 동물 수를 계산
-FROM 
+FROM
   (
     SELECT 0 HOUR
     UNION SELECT 1
@@ -47,14 +47,14 @@ FROM
     UNION SELECT 5
   ) h2                           -- 2. 0부터 5까지의 숫자를 생성하는 서브쿼리
                                  -- 3. CROSS JOIN으로 두 서브쿼리를 결합하여 0부터 23까지의 조합 생성
-LEFT JOIN 
-  ANIMAL_OUTS A ON (h1.HOUR + h2.h * 4) = HOUR(A.DATETIME)  
+LEFT JOIN
+  ANIMAL_OUTS A ON (h1.HOUR + h2.h * 4) = HOUR(A.DATETIME)
                                  -- 4. 생성된 시간과 ANIMAL_OUTS 테이블을 LEFT JOIN
                                  --    모든 시간대를 유지하면서 해당 시간에 입양된 동물 정보 연결
-WHERE 
+WHERE
   (h1.HOUR + h2.h * 4) < 24      -- 7. 24 미만의 시간만 선택 (0-23 시간대 유지)
-GROUP BY 
+GROUP BY
   (h1.HOUR + h2.h * 4)           -- 8. 계산된 시간별로 결과를 그룹화
-ORDER BY 
+ORDER BY
   (h1.HOUR + h2.h * 4)           -- 9. 시간 순으로 결과를 정렬
 ```

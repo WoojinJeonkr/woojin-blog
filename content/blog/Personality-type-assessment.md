@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Personality type assessment"
-tag : [Programmers, Java]
-date : 2024-11-03
+external: false
+title: "Personality type assessment"
+tag: [Programmers, Java]
+date: 2024-11-03
 ---
 
 ## 1. Problem
@@ -46,7 +46,7 @@ class Solution {
       // 선택지가 4보다 작으면 비동의 타입에 점수 추가
       if (choice < 4) {
         scores.put(disagreeType, scores.get(disagreeType) + (4 - choice));
-      } 
+      }
       // 선택지가 4보다 크면 동의 타입에 점수 추가
       else if (choice > 4) {
         scores.put(agreeType, scores.get(agreeType) + (choice - 4));

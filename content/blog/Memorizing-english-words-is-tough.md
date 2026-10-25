@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Memorizing english words is tough"
-tag : [Baekjoon, Python]
-date : 2025-11-14
+external: false
+title: "Memorizing english words is tough"
+tag: [Baekjoon, Python]
+date: 2025-11-14
 ---
 
 ## 1. Problem

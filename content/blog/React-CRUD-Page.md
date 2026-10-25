@@ -1,13 +1,13 @@
 ---
 external: false
-title : "React CRUD Page"
+title: "React CRUD Page"
 tag: [React, Typescript]
 date: 2022-11-11
 ---
 
 ## 1. React CRUD Page Example
 
-{% codepen url="https://codepen.io/calomys/full/poKeGNO" title="React CRUD Page" /%}
+{% codepen url="<https://codepen.io/calomys/full/poKeGNO>" title="React CRUD Page" /%}
 
 ## 2. Reference
 

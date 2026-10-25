@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Three delimiters"
-tag : [Programmers, Python]
-date : 2025-04-28
+external: false
+title: "Three delimiters"
+tag: [Programmers, Python]
+date: 2025-04-28
 ---
 
 ## 1. Problem

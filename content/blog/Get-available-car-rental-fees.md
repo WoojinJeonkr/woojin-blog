@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Get available car rental fees"
-tag : [Programmers, SQL]
-date : 2025-02-08
+external: false
+title: "Get available car rental fees"
+tag: [Programmers, SQL]
+date: 2025-02-08
 ---
 
 ## 1. Problem
@@ -34,18 +34,18 @@ SELECT DISTINCT                                    -- 1. 중복 제거하여 최
   C.CAR_ID,                                        -- 차량 ID
   C.CAR_TYPE,                                      -- 차량 타입
   FLOOR(C.DAILY_FEE * 30 * (1 - D.DISCOUNT_RATE/100)) AS FEE    -- 30일 대여 시 할인된 총 금액
-FROM 
+FROM
   CAR_RENTAL_COMPANY_CAR C                         -- 2. 차량 기본 정보 테이블
-LEFT JOIN 
+LEFT JOIN
   CAR_RENTAL_COMPANY_RENTAL_HISTORY H              -- 3. 대여 이력과 LEFT JOIN
   ON C.CAR_ID = H.CAR_ID
   AND H.START_DATE <= '2022-11-30'                 -- 11월 대여 가능 여부 확인
   AND H.END_DATE >= '2022-11-01'
-JOIN 
+JOIN
   CAR_RENTAL_COMPANY_DISCOUNT_PLAN D               -- 4. 할인 정책 정보와 JOIN
   ON C.CAR_TYPE = D.CAR_TYPE
   AND D.DURATION_TYPE = '30일 이상'                -- 30일 이상 할인율만 선택
-WHERE 
+WHERE
   C.CAR_TYPE IN ('세단', 'SUV')                    -- 5. 세단, SUV만 필터링
   AND H.CAR_ID IS NULL                             -- 6. 11월에 대여 이력이 없는 차량만 선택
   AND C.DAILY_FEE * 30 * (1 - D.DISCOUNT_RATE/100) >= 500000    -- 7. 50만원 이상

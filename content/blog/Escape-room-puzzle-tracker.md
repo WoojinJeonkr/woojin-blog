@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Escape room puzzle tracker"
-tag : [Python]
-date : 2026-10-22
+external: false
+title: "Escape room puzzle tracker"
+tag: [Python]
+date: 2026-10-22
 ---
 
 ## 1. Problem

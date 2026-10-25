@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Group strings by length"
-tag : [Programmers, Python]
-date : 2025-07-04
+external: false
+title: "Group strings by length"
+tag: [Programmers, Python]
+date: 2025-07-04
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ def solution(strArr):
   # 딕셔너리가 비어있으면 0을 반환 (strArr이 비어있는 경우)
   if not length_counts:
     return 0
-      
+
   # 딕셔너리의 값(개수) 중에서 최댓값 반환
   return max(length_counts.values())
 ```

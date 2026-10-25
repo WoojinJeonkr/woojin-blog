@@ -1,8 +1,8 @@
 ---
-external : false
-title : "rny_string"
-tag : [Programmers, Python]
-date : 2025-03-13
+external: false
+title: "rny_string"
+tag: [Programmers, Python]
+date: 2025-03-13
 ---
 
 ## 1. Problem
@@ -23,10 +23,10 @@ date : 2025-03-13
 def solution(rny_string):
   # 결과를 저장할 변수 정의
   answer = ''
-  
+
   # 입력 문자열에서 'm'을 'rn'으로 대체
   answer = rny_string.replace('m', "rn")
-  
+
   # 변환된 문자열 반환
   return answer
 ```

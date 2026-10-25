@@ -1,13 +1,13 @@
 ---
 external: false
-title : "drawing graphs with matplotlib (1)"
+title: "drawing graphs with matplotlib (1)"
 tag: [Python, Graph]
 date: 2022-09-15
 ---
 
 ## 1. matplotlib이란?
 
-Python 프로그래밍 언어 및 수학적 확장 NumPy 라이브러리를 활용한 플로팅 라이브러리이다.  
+Python 프로그래밍 언어 및 수학적 확장 NumPy 라이브러리를 활용한 플로팅 라이브러리이다.
 matplotlib.pyplot 모듈의 각각의 함수를 사용해서 간편하게 그래프를 만들고 변화를 줄 수 있다.
 
 ## 2. 막대 그래프 그리기

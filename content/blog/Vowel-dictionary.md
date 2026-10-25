@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Vowel dictionary"
-tag : [Programmers, Java]
-date : 2024-07-15
+external: false
+title: "Vowel dictionary"
+tag: [Programmers, Java]
+date: 2024-07-15
 ---
 
 ## 1. Problem
@@ -18,9 +18,9 @@ class Solution {
     int[] weights = {781, 156, 31, 6, 1};
     // 모음 리스트
     char[] vowels = {'A', 'E', 'I', 'O', 'U'};
-    
+
     int answer = 0;
-    
+
     // 단어의 각 문자를 확인
     for (int i = 0; i < word.length(); i++) {
       // 현재 문자가 모음 리스트에서 몇 번째인지 찾기
@@ -34,7 +34,7 @@ class Solution {
       // 각 자리의 순서 가중치를 더해줌
       answer += weights[i] * index + 1;
     }
-    
+
     return answer;
   }
 }

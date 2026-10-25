@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Calculate string expression"
-tag : [Programmers, Python]
-date : 2025-07-12
+external: false
+title: "Calculate string expression"
+tag: [Programmers, Python]
+date: 2025-07-12
 ---
 
 ## 1. Problem

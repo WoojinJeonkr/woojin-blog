@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Datepicker"
+title: "Datepicker"
 tag: [React]
 date: 2022-11-26
 ---
@@ -20,7 +20,7 @@ date: 2022-11-26
 
 ## 2. Datepicker Example in codepen
 
-{% codepen url="https://codepen.io/calomys/full/zYaaqMY" title="Datepicker" /%}
+{% codepen url="<https://codepen.io/calomys/full/zYaaqMY>" title="Datepicker" /%}
 
 ## 3. Reference
 

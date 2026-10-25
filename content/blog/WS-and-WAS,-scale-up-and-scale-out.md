@@ -1,7 +1,7 @@
 ---
 external: false
-title : "WS and WAS, scale up and scale out"
-description : "Let's take a look at WS and WAS, the difference between scale up and scale out"
+title: "WS and WAS, scale up and scale out"
+description: "Let's take a look at WS and WAS, the difference between scale up and scale out"
 tag: [CS]
 date: 2022-10-04
 ---

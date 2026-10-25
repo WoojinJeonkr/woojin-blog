@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Retrieve employee information matching conditions"
-tag : [Programmers, SQL]
-date : 2024-06-26
+external: false
+title: "Retrieve employee information matching conditions"
+tag: [Programmers, SQL]
+date: 2024-06-26
 ---
 
 ## 1. Problem
@@ -13,12 +13,12 @@ date : 2024-06-26
 
 ```sql
 -- 직원들의 2022년 연간 총점을 조회합니다
-SELECT 
-  SUM(SCORE) AS SCORE, 
-  HG.EMP_NO, 
-  HE.EMP_NAME, 
-  HE.POSITION, 
-  HE.EMAIL 
+SELECT
+  SUM(SCORE) AS SCORE,
+  HG.EMP_NO,
+  HE.EMP_NAME,
+  HE.POSITION,
+  HE.EMAIL
 FROM HR_EMPLOYEES HE  -- HR_EMPLOYEES 테이블을 HE라는 별칭으로 사용합니다
 -- 직원 번호 기준으로 JOIN합니다
 INNER JOIN HR_GRADE HG ON HE.EMP_NO = HG.EMP_NO

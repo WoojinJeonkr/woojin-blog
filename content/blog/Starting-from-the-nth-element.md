@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Starting from the nth element"
-tag : [Programmers, Python]
-date : 2025-09-04
+external: false
+title: "Starting from the nth element"
+tag: [Programmers, Python]
+date: 2025-09-04
 ---
 
 ## 1. Problem

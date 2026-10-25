@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Radar obstacle detection"
-tag : [Python]
-date : 2026-09-09
+external: false
+title: "Radar obstacle detection"
+tag: [Python]
+date: 2026-09-09
 ---
 
 ## 1. Problem

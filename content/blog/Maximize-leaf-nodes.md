@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Maximize leaf nodes"
-tag : [Programmers, Java]
-date : 2026-04-18
+external: false
+title: "Maximize leaf nodes"
+tag: [Programmers, Java]
+date: 2026-04-18
 ---
 
 ## 1. Problem

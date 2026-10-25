@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Expression of numbers"
-tag : [Programmers, Java]
-date : 2024-08-29
+external: false
+title: "Expression of numbers"
+tag: [Programmers, Java]
+date: 2024-08-29
 ---
 
 ## 1. Problem
@@ -21,7 +21,7 @@ date : 2024-08-29
 class Solution {
   public int solution(int n) {
     int answer = 0;
-    
+
     // l은 연속된 숫자의 개수, l은 1부터 차례대로 증가시킴
     for (int l = 1; l * (l + 1) / 2 <= n; l++) {
       // (n - l * (l - 1) / 2) % l == 0 이면 a가 자연수
@@ -29,7 +29,7 @@ class Solution {
         answer++;
       }
     }
-    
+
     return answer;
   }
 }

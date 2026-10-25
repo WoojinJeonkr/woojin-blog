@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Count Primes in k base"
-tag : [Programmers, Java]
-date : 2024-09-18
+external: false
+title: "Count Primes in k base"
+tag: [Programmers, Java]
+date: 2024-09-18
 ---
 
 ## 1. Problem
@@ -33,7 +33,7 @@ class Solution {
   public int solution(int n, int k) {
     // n을 k진수로 변환
     String converted = Integer.toString(n, k);
-    
+
     // 0을 기준으로 숫자를 분리
     String[] parts = converted.split("0+");
 

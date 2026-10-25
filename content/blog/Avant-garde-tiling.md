@@ -1,8 +1,8 @@
 ---
-external : False
-title : "Avant garde tiling"
-tag : [Programmers, Python]
-date : 2025-09-09
+external: False
+title: "Avant garde tiling"
+tag: [Programmers, Python]
+date: 2025-09-09
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Remove rust"
-tag : [Python]
-date : 2026-08-25
+external: false
+title: "Remove rust"
+tag: [Python]
+date: 2026-08-25
 ---
 
 ## 1. Problem

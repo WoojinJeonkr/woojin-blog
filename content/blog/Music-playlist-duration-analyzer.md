@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Music playlist duration analyzer"
-tag : [Python]
-date : 2026-10-16
+external: false
+title: "Music playlist duration analyzer"
+tag: [Python]
+date: 2026-10-16
 ---
 
 ## 1. Problem

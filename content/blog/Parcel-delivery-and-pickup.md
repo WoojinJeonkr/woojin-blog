@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Parcel delivery and pickup"
-tag : [Programmers, Python]
-date : 2025-06-17
+external: false
+title: "Parcel delivery and pickup"
+tag: [Programmers, Python]
+date: 2025-06-17
 ---
 
 ## 1. Problem

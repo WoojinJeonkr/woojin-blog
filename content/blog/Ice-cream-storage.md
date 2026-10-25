@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ice Cream Storage"
-tag : [Python]
-date : 2026-09-02
+external: false
+title: "Ice Cream Storage"
+tag: [Python]
+date: 2026-09-02
 ---
 
 ## 1. Problem

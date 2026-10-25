@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Budget"
-tag : [Programmers, Python]
-date : 2024-12-31
+external: false
+title: "Budget"
+tag: [Programmers, Python]
+date: 2024-12-31
 ---
 
 ## 1. Problem
@@ -22,7 +22,7 @@ def solution(d, budget):
   # 부서별 요청 금액을 오름차순으로 정렬
   d.sort()
   answer = 0
-  
+
   # 요청 금액을 순회하며 지원 가능한 부서 수 계산
   for cost in d:
     if budget >= cost:  # 현재 부서를 지원할 수 있는 경우
@@ -30,6 +30,6 @@ def solution(d, budget):
       answer += 1        # 지원한 부서 수 증가
     else:
       break  # 예산이 부족하면 종료
-  
+
   return answer
 ```

@@ -1,18 +1,18 @@
 ---
-external : false
-title : "Covariant Return Types"
-tag : [Hackerrank, Java]
-date : 2024-03-24
+external: false
+title: "Covariant Return Types"
+tag: [Hackerrank, Java]
+date: 2024-03-24
 ---
 
 ## 1. Covariant Return Types
 
-자바는 Covariant Return Types을 허용합니다. Covariant Return Types을 사용하면 메소드를 오버라이딩할 때 하위 클래스의 반환 유형을 지정할 수 있습니다. 이는 다형성의 한 측면으로, 코드의 유연성을 높여줍니다.  
+자바는 Covariant Return Types을 허용합니다. Covariant Return Types을 사용하면 메소드를 오버라이딩할 때 하위 클래스의 반환 유형을 지정할 수 있습니다. 이는 다형성의 한 측면으로, 코드의 유연성을 높여줍니다.
 예를 들어, 슈퍼클래스에서 반환 유형으로 Animal을 지정하고, 서브클래스에서는 Dog나 Cat과 같은 구체적인 서브클래스를 반환할 수 있습니다. 이는 메소드를 사용하는 클라이언트가 호출 결과를 보다 구체적인 타입으로 다룰 수 있도록 합니다.
 
 ## 2 Method Overriding
 
-메소드 오버라이딩은 하위 클래스가 기존의 슈퍼클래스 메소드의 동작을 재정의하고 원래 반환 유형의 하위 클래스를 지정할 수 있도록 합니다.  
+메소드 오버라이딩은 하위 클래스가 기존의 슈퍼클래스 메소드의 동작을 재정의하고 원래 반환 유형의 하위 클래스를 지정할 수 있도록 합니다.
 슈퍼클래스 메소드를 오버라이드할 때는 @Override 주석을 사용하는 것이 좋은 관행입니다.
 
 ## 3. 문제

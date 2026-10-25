@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Car rental status check"
-tag : [Programmers, SQL]
-date : 2025-02-04
+external: false
+title: "Car rental status check"
+tag: [Programmers, SQL]
+date: 2025-02-04
 ---
 
 ## 1. Problem
@@ -30,7 +30,7 @@ SELECT DISTINCT CAR_ID,                           -- 1. 중복 제거된 자동�
   CASE                                            -- 2. 각 자동차의 대여 상태 확인 시작
     WHEN CAR_ID IN (                              -- 3. 해당 자동차가 대여중인지 확인
       SELECT CAR_ID                               -- 4. 서브쿼리: 대여중인 자동차 ID 조회
-      FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY      
+      FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
       WHERE '2022-10-16' BETWEEN START_DATE       -- 5. 특정 날짜가 대여 기간에 포함되는지 확인
                           AND END_DATE
     ) THEN '대여중'                               -- 6. 대여중인 경우

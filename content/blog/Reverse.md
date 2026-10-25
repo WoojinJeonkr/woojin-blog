@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Reverse"
-tag : [Baekjoon, Python]
-date : 2026-02-03
+external: false
+title: "Reverse"
+tag: [Baekjoon, Python]
+date: 2026-02-03
 ---
 
 ## 1. Problem
@@ -25,10 +25,10 @@ n = int(input())
 for _ in range(n):
     # 문자열 s와 제거할 구간의 시작 i, 끝 j 입력
     s, i, j = input().split()
-    
+
     # 인덱스를 정수로 변환
     i, j = int(i), int(j)
-    
+
     # 문자열에서 [i, j) 구간을 제거한 결과 출력
     print(s[:i] + s[j:])
 ```

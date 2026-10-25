@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Javascript true or false"
-tag : [BFE, Javascript]
-date : 2024-03-21
+external: false
+title: "Javascript true or false"
+tag: [BFE, Javascript]
+date: 2024-03-21
 ---
 
 ## 1. 문제

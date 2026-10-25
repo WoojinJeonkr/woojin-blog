@@ -1,8 +1,8 @@
 ---
-external : false
-title : "National competition selection exam"
-tag : [Programmers, Python]
-date : 2025-05-03
+external: false
+title: "National competition selection exam"
+tag: [Programmers, Python]
+date: 2025-05-03
 ---
 
 ## 1. Problem
@@ -19,18 +19,18 @@ def solution(rank, attendance):
     for i in range(len(attendance)):
         if attendance[i]:
             candidates.append(i)
-    
+
     # 등수와 인덱스를 튜플로 저장 후 정렬
     ranked = []
     for idx in candidates:
         ranked.append((rank[idx], idx))
     ranked.sort()
-    
+
     # 상위 3명 추출
     a = ranked[0][1]
     b = ranked[1][1]
     c = ranked[2][1]
-    
+
     answer = 10000 * a + 100 * b + c
     return answer
 ```

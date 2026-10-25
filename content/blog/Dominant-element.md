@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dominant element"
-tag : [Codechef, Python]
-date : 2026-04-24
+external: false
+title: "Dominant element"
+tag: [Codechef, Python]
+date: 2026-04-24
 ---
 
 ## 1. Problem

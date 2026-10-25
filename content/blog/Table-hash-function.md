@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Table hash function"
-tag : [Programmers, Java]
-date : 2024-10-13
+external: false
+title: "Table hash function"
+tag: [Programmers, Java]
+date: 2024-10-13
 ---
 
 ## 1. Problem

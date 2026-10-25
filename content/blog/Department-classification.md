@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Department classification"
-tag : [Programmers, Python]
-date : 2025-05-22
+external: false
+title: "Department classification"
+tag: [Programmers, Python]
+date: 2025-05-22
 ---
 
 ## 1. Problem

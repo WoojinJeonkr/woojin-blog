@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Array Reversal"
-tag : [Hackerrank, C]
-date : 2024-05-18
+external: false
+title: "Array Reversal"
+tag: [Hackerrank, C]
+date: 2024-05-18
 ---
 
 ## 1. Problem
@@ -38,7 +38,7 @@ int main()
     // num-1-i번째 값에 temp에 저장해둔 i번째 값을 대입
     arr[num-1-i] = temp;
   }
-  
+
   // 배열의 내용을 출력
   for(i = 0; i < num; i++)
     printf("%d ", *(arr + i));

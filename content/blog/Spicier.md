@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Spicier"
-tag : [Programmers, Java]
-date : 2024-08-01
+external: false
+title: "Spicier"
+tag: [Programmers, Java]
+date: 2024-08-01
 ---
 
 ## 1. Problem
@@ -22,7 +22,7 @@ class Solution {
   public int solution(int[] scoville, int K) {
   int answer = 0;
   PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-  
+
   // 힙 초기화
   for (int num : scoville) {
     minHeap.offer(num);
@@ -40,7 +40,7 @@ class Solution {
     // 섞은 횟수 증가
     answer++;
   }
-  
+
     // 모든 음식의 스코빌 지수가 K 이상인지 확인
     return minHeap.peek() >= K ? answer : -1;
   }

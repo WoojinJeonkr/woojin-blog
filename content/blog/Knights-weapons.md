@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Knights weapons"
-tag : [Programmers, Java]
-date : 2024-10-29
+external: false
+title: "Knights weapons"
+tag: [Programmers, Java]
+date: 2024-10-29
 ---
 
 ## 1. Problem
@@ -23,11 +23,11 @@ date : 2024-10-29
 class Solution {
   public int solution(int number, int limit, int power) {
     int answer = 0;
-    
+
     // 1부터 number까지 각 기사의 번호에 대해 반복
     for (int i = 1; i <= number; i++) {
       int divisorCount = getDivisorCount(i); // 현재 번호의 약수 개수 계산
-      
+
       // 약수 개수가 제한 수치를 초과하는 경우
       if (divisorCount > limit) {
         answer += power; // 제한 수치를 초과하면 지정된 공격력(power) 사용
@@ -35,14 +35,14 @@ class Solution {
         answer += divisorCount; // 그렇지 않으면 약수 개수를 공격력으로 사용
       }
     }
-    
+
     return answer;
   }
 
   // 주어진 숫자의 약수 개수를 계산하는 메서드
   private int getDivisorCount(int num) {
     int count = 0;
-    
+
     // 숫자의 제곱근까지만 반복하여 약수를 찾음
     for (int i = 1; i * i <= num; i++) {
       if (num % i == 0) { // i가 num의 약수인 경우
@@ -52,7 +52,7 @@ class Solution {
         }
       }
     }
-    
+
     return count;
   }
 }

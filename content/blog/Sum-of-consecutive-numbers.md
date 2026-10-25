@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sum of consecutive numbers"
-tag : [Programmers, Python]
-date : 2025-08-17
+external: false
+title: "Sum of consecutive numbers"
+tag: [Programmers, Python]
+date: 2025-08-17
 ---
 
 ## 1. Problem
@@ -14,15 +14,15 @@ date : 2025-08-17
 ```py
 def solution(num, total):
     answer = []
-    
+
     # 연속된 num개의 수의 합이 total이 되도록 하는 시작 숫자 계산
     # 시작 숫자 = (평균값) - (num-1)//2
     start = total // num - (num - 1) // 2
-    
+
     # 시작 숫자부터 num개의 연속된 정수를 answer에 추가
     for i in range(num):
         answer.append(start + i)
-    
+
     # 결과 반환
     return answer
 ```

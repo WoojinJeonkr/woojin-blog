@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Elements at intervals of n"
-tag : [Programmers, Python]
-date : 2025-08-12
+external: false
+title: "Elements at intervals of n"
+tag: [Programmers, Python]
+date: 2025-08-12
 ---
 
 ## 1. Problem

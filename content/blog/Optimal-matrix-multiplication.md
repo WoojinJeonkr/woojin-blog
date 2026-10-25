@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Optimal matrix multiplication"
-tag : [Programmers, Python]
-date : 2025-09-25
+external: false
+title: "Optimal matrix multiplication"
+tag: [Programmers, Python]
+date: 2025-09-25
 ---
 
 ## 1. Problem
@@ -36,7 +36,7 @@ def solution(matrix_sizes):
 
                 # 더 작은 연산 횟수로 갱신
                 dp[i][j] = min(dp[i][j], cost)
-    
+
     # 전체 행렬(0부터 n-1까지)을 곱한 최소 연산 횟수 반환
     return dp[0][n - 1]
 ```

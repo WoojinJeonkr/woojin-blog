@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Doki Doki snack dreamy"
-tag : [Baekjoon, Python]
-date : 2025-11-24
+external: false
+title: "Doki Doki snack dreamy"
+tag: [Baekjoon, Python]
+date: 2025-11-24
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ for student in line:
     while stack and stack[-1] == target:
         stack.pop()
         target += 1
-    
+
     # 현재 학생이 바로 나갈 번호라면 바로 통과
     if student == target:
         target += 1

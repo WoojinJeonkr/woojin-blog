@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pedestrian heaven"
-tag : [Programmers, java]
-date : 2025-10-15
+external: false
+title: "Pedestrian heaven"
+tag: [Programmers, java]
+date: 2025-10-15
 ---
 
 ## 1. Problem

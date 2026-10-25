@@ -1,8 +1,8 @@
 ---
-external : false
-title : "PCCP Finding collision risks"
-tag : [Programmers, Python]
-date : 2025-06-21
+external: false
+title: "PCCP Finding collision risks"
+tag: [Programmers, Python]
+date: 2025-06-21
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ def solution(points, routes):
     ex, ey = points[end_point_idx - 1]    # 도착 포인트 좌표
 
     path = []
-    
+
     # r 좌표를 먼저 이동
     while sx != ex:
       path.append((sx, sy))
@@ -32,7 +32,7 @@ def solution(points, routes):
         sx += 1
       else:
         sx -= 1
-    
+
     # c 좌표를 이동
     while sy != ey:
       path.append((sx, sy))
@@ -40,7 +40,7 @@ def solution(points, routes):
         sy += 1
       else:
         sy -= 1
-    
+
     path.append((ex, ey)) # 마지막 도착점 추가
 
     return path
@@ -50,7 +50,7 @@ def solution(points, routes):
   for robot_idx, route in enumerate(routes):
     robot_current_position_idx = route[0]
     robot_path_with_time = []
-    
+
     # 첫 번째 포인트에서의 시작
     robot_path_with_time.append((points[robot_current_position_idx - 1][0], points[robot_current_position_idx - 1][1], 0))
 
@@ -58,15 +58,15 @@ def solution(points, routes):
     for i in range(len(route) - 1):
       start_point_idx = route[i]
       end_point_idx = route[i+1]
-      
+
       # 현재 포인트에서 다음 포인트까지의 경로 계산
       segment_path = get_robot_path(start_point_idx, end_point_idx)
-      
+
       # 첫 번째 이동은 이미 출발점으로 처리했으므로 두 번째부터 추가
       for j in range(1, len(segment_path)):
         current_time += 1
         robot_path_with_time.append((segment_path[j][0], segment_path[j][1], current_time))
-    
+
     all_robot_movements.extend(robot_path_with_time)
 
   # (r, c, time)을 키로 하여 각 위치에 몇 대의 로봇이 있는지 세기

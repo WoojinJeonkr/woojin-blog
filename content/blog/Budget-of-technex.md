@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Budget of technex"
-tag : [Codechef, Python]
-date : 2026-05-15
+external: false
+title: "Budget of technex"
+tag: [Codechef, Python]
+date: 2026-05-15
 ---
 
 ## 1. Problem

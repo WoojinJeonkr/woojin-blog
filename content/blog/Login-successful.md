@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Login successful"
-tag : [Programmers, Python]
-date : 2025-04-16
+external: false
+title: "Login successful"
+tag: [Programmers, Python]
+date: 2025-04-16
 ---
 
 ## 1. Problem

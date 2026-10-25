@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Battle droid expenses"
-tag : [Baekjoon, Python]
-date : 2025-12-31
+external: false
+title: "Battle droid expenses"
+tag: [Baekjoon, Python]
+date: 2025-12-31
 ---
 
 ## 1. Problem
@@ -31,7 +31,7 @@ t = int(input())
 for _ in range(t):
     # 필요한 부품 개수 입력
     A, B, C, D, E = map(int, input().split())
-    
+
     # 총 비용 계산
     total = (
         A * PRICE_BLASTER +  # 블래스터 라이플 비용
@@ -40,7 +40,7 @@ for _ in range(t):
         D * PRICE_ARM +      # 팔 비용
         E * PRICE_LEG        # 다리 비용
     )
-    
+
     # 달러 표시와 함께 소수점 둘째 자리까지 출력
     print(f"${total:.2f}")
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Hello World Beginners"
-tag : [Python]
-date : 2026-09-01
+external: false
+title: "Hello World Beginners"
+tag: [Python]
+date: 2026-09-01
 ---
 
 ## 1. Problem

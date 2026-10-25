@@ -2,7 +2,7 @@
 external: false
 title: "Divisible Sum Pairs"
 tag: [Hackerrank, Java]
-date : 2024-01-05
+date: 2024-01-05
 ---
 
 ## 1. Problem
@@ -11,7 +11,7 @@ date : 2024-01-05
 
 ## 2. Interpretation of Problem
 
-`Divisible Sum Pairs`는 주어진 배열에서 특정 조건을 만족하는 요소 쌍을 찾는 간단한 문제입니다.  
+`Divisible Sum Pairs`는 주어진 배열에서 특정 조건을 만족하는 요소 쌍을 찾는 간단한 문제입니다.
 첫 줄에는 배열 ar 요소의 수인 n과 나눌 수 k를 입력 받고 그 다음 줄에는 배열의 요소를 입력받습니다.
 이제 작성하는 부분에는 배열 안의 두 요소의 합이 k로 나누어 떨어지는 쌍의 개수를 구하면 됩니다.
 
@@ -24,10 +24,10 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 class Result {
-  
+
   /*
    * 두 요소의 합이 k로 나누어 떨어지는 경우를 찾는 함수입니다.
-   * 
+   *
    * @param n: 배열 ar의 요소 수
    * @param k: 나눌 수
    * @param ar: 정수 배열

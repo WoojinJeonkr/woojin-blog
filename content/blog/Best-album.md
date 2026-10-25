@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Best album"
-tag : [Programmers, Java]
-date : 2024-11-19
+external: false
+title: "Best album"
+tag: [Programmers, Java]
+date: 2024-11-19
 ---
 
 ## 1. Problem
@@ -28,21 +28,21 @@ class Solution {
     Map<String, Integer> genrePlayCount = new HashMap<>();
     // 장르별 노래 리스트를 저장할 Map
     Map<String, List<int[]>> genreToSongs = new HashMap<>();
-    
+
     // 각 노래의 장르와 재생 횟수를 기반으로 데이터를 Map에 저장
     for (int i = 0; i < genres.length; i++) {
       genrePlayCount.put(genres[i], genrePlayCount.getOrDefault(genres[i], 0) + plays[i]);
       genreToSongs.putIfAbsent(genres[i], new ArrayList<>());
       genreToSongs.get(genres[i]).add(new int[] {i, plays[i]}); // 고유 번호와 재생 횟수를 저장
     }
-    
+
     // 장르를 총 재생 횟수 기준으로 내림차순 정렬
     List<String> sortedGenres = new ArrayList<>(genrePlayCount.keySet());
     sortedGenres.sort((g1, g2) -> genrePlayCount.get(g2) - genrePlayCount.get(g1));
-    
+
     // 베스트 앨범을 저장할 리스트
     List<Integer> bestAlbum = new ArrayList<>();
-    
+
     // 각 장르에 대해 노래를 정렬하고 최대 두 곡을 선택
     for (String genre : sortedGenres) {
       List<int[]> songs = genreToSongs.get(genre);
@@ -52,7 +52,7 @@ class Solution {
         bestAlbum.add(songs.get(i)[0]); // 고유 번호를 베스트 앨범에 추가
       }
     }
-    
+
     // 베스트 앨범 리스트를 배열로 변환하여 반환
     return bestAlbum.stream().mapToInt(i -> i).toArray();
   }

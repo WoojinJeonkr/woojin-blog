@@ -2,7 +2,7 @@
 external: false
 title: "Migratory Birds"
 tag: [Hackerrank, Python]
-date : 2024-01-13
+date: 2024-01-13
 ---
 
 ## 1. Problem
@@ -11,7 +11,7 @@ date : 2024-01-13
 
 ## 2. collections.Counter
 
-Counter는 해시 가능한 객체를 세는 데 사용되는 dict 하위 클래스로, 요소가 딕셔너리 키로 저장되고 해당 요소의 개수가 딕셔너리 값으로 저장되는 컬렉션입니다. 개수는 Counter 객체에서 각 요소의 출현 횟수를 말하며 제로 또는 음수일 수 있는 모든 정수 값이 허용됩니다.  
+Counter는 해시 가능한 객체를 세는 데 사용되는 dict 하위 클래스로, 요소가 딕셔너리 키로 저장되고 해당 요소의 개수가 딕셔너리 값으로 저장되는 컬렉션입니다. 개수는 Counter 객체에서 각 요소의 출현 횟수를 말하며 제로 또는 음수일 수 있는 모든 정수 값이 허용됩니다.
 기본 구조는 다음과 같습니다.
 
 ```python
@@ -20,7 +20,7 @@ import collections
 collections.Counter([iterable-or-mapping])
 ```
 
-여기서 `[iterable-or-mapping]`은 세어야 하는 요소의 반복 가능한 컬렉션이나 매핑을 의미합니다.  
+여기서 `[iterable-or-mapping]`은 세어야 하는 요소의 반복 가능한 컬렉션이나 매핑을 의미합니다.
 위의 코드는 다음과 같이 줄여서 사용할 수도 있습니다.
 
 ```python
@@ -104,16 +104,16 @@ from collections import Counter
 def migratoryBirds(arr):
   # 배열에서 새의 종류별 등장 횟수를 세는 Counter 생성
   bird_count = Counter(arr)
-  
+
   # 등장 횟수에 따라 새의 종류를 내림차순으로 정렬
   most_common_birds = bird_count.most_common()
-  
+
   # 가장 빈번하게 등장하는 새의 종류의 등장 횟수
   max_freq = most_common_birds[0][1]
-  
+
   # 가장 빈번하게 등장하는 새 중에서 가장 작은 종류를 찾음
   min_bird = min((bird for bird, freq in most_common_birds if freq == max_freq), default=float('inf'))
-  
+
   # 결과로 찾은 가장 빈번하게 등장하는 새의 종류 반환
   return min_bird
 

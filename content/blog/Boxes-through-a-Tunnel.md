@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Boxes through a Tunnel"
-tag : [Hackerrank, C]
-date : 2024-05-10
+external: false
+title: "Boxes through a Tunnel"
+tag: [Hackerrank, C]
+date: 2024-05-10
 ---
 
 ## 1. Problem

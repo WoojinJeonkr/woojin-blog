@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Document filing scheduler"
-tag : [Python]
-date : 2026-06-22
+external: false
+title: "Document filing scheduler"
+tag: [Python]
+date: 2026-06-22
 ---
 
 ## 1. Problem

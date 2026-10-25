@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Smaller substrings"
-tag : [Programmers, Java]
-date : 2024-12-11
+external: false
+title: "Smaller substrings"
+tag: [Programmers, Java]
+date: 2024-12-11
 ---
 
 ## 1. Problem

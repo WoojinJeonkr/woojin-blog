@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Goldbach partition"
-tag : [Baekjoon, Python]
-date : 2025-11-15
+external: false
+title: "Goldbach partition"
+tag: [Baekjoon, Python]
+date: 2025-11-15
 ---
 
 ## 1. Problem

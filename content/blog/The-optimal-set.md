@@ -1,8 +1,8 @@
 ---
-external : false
-title : "The optimal set"
-tag : [Programmers, Python]
-date : 2025-02-07
+external: false
+title: "The optimal set"
+tag: [Programmers, Python]
+date: 2025-02-07
 ---
 
 ## 1. Problem
@@ -30,19 +30,19 @@ def solution(n, s):
   # 1. 자연수 n개로 합 s를 만들 수 없는 경우 체크
   if s < n or s // n == 0:
     return [-1]
-  
+
   # 2. 기본값 계산 (합을 n으로 나눈 몫)
   base = s // n
-  
+
   # 3. 나머지 계산 (합을 n으로 나눈 나머지)
   remainder = s % n
-  
+
   # 4. 모든 원소를 기본값으로 초기화
   result = [base] * n
-  
+
   # 5. 나머지를 1씩 뒤에서부터 더해줌
   for i in range(n - remainder, n):
     result[i] += 1
-  
+
   return result
 ```

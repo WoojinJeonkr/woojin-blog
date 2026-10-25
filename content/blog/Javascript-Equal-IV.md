@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Equal IV"
-tag : [BFE, Javascript]
-date : 2024-03-25
+external: false
+title: "Equal IV"
+tag: [BFE, Javascript]
+date: 2024-03-25
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Personal data retention period"
-tag : [Programmers, Python]
-date : 2025-02-26
+external: false
+title: "Personal data retention period"
+tag: [Programmers, Python]
+date: 2025-02-26
 ---
 
 ## 1. Problem
@@ -27,38 +27,38 @@ from datetime import datetime
 def solution(today, terms, privacies):
   # 오늘 날짜를 datetime 객체로 변환
   today_date = datetime.strptime(today, "%Y.%m.%d")
-  
+
   # 약관 종류와 유효기간을 딕셔너리로 저장
   term_dict = {}
   for term in terms:
     term_type, duration = term.split()
     term_dict[term_type] = int(duration)
-  
+
   # 파기해야 할 개인정보 번호를 저장할 리스트
   answer = []
-  
+
   # 각 개인정보에 대해 유효기간 계산
   for i, privacy in enumerate(privacies, start=1):
     date_str, term_type = privacy.split()
     # 개인정보 수집 날짜를 datetime 객체로 변환
     privacy_date = datetime.strptime(date_str, "%Y.%m.%d")
-    
+
     # 유효기간 만료일 계산
     duration = term_dict[term_type]
     months = duration % 12
     years = duration // 12
-    
+
     # 만료일 계산 시 년도가 넘어가는 경우 처리
     if privacy_date.month + months > 12:
       years += 1
       months -= 12
-    
+
     # 유효기간 만료일을 datetime 객체로 변환
     expiration_date = datetime(privacy_date.year + years, privacy_date.month + months, privacy_date.day)
-    
+
     # 만약 유효기간이 지났다면 파기해야 함
     if expiration_date <= today_date:
       answer.append(i)
-  
+
   return answer
 ```

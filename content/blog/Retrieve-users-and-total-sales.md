@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Retrieve users and total sales"
-tag : [Programmers, SQL]
-date : 2024-07-06
+external: false
+title: "Retrieve users and total sales"
+tag: [Programmers, SQL]
+date: 2024-07-06
 ---
 
 ## 1. Problem
@@ -22,15 +22,15 @@ FROM USED_GOODS_BOARD A
 JOIN USED_GOODS_USER B
   ON A.WRITER_ID = B.USER_ID  -- 두 테이블의 WRITER_ID 기준으로 JOIN
 
--- 판매 상태가 'DONE' (판매 완료) 인 데이터만 필터링  
+-- 판매 상태가 'DONE' (판매 완료) 인 데이터만 필터링
 WHERE A.STATUS = 'DONE'
 
 -- 사용자별로 판매 금액을 합계하여 그룹화
 GROUP BY B.USER_ID  -- B 테이블의 USER_ID 별로 그룹화
 
 -- 총 판매 금액이 700,000 이상인 사용자만 추출 (HAVING 절)
-HAVING TOTAL_SALES >= 700000  -- 총_판매_금액 합계가 700,000 이상인 데이터만 필터링  
+HAVING TOTAL_SALES >= 700000  -- 총_판매_금액 합계가 700,000 이상인 데이터만 필터링
 
 -- 총 판매 금액 순으로 정렬
-ORDER BY TOTAL_SALES;   
+ORDER BY TOTAL_SALES;
 ```

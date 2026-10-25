@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Places owned by heavy users"
-tag : [Programmers, SQL]
-date : 2025-03-04
+external: false
+title: "Places owned by heavy users"
+tag: [Programmers, SQL]
+date: 2025-03-04
 ---
 
 ## 1. Problem
@@ -19,24 +19,24 @@ date : 2025-03-04
 
 ```sql
 -- 헤비 유저가 등록한 공간의 정보를 아이디 순으로 조회하는 쿼리
-SELECT 
+SELECT
   P.ID,  -- 공간의 아이디
   P.NAME,  -- 공간의 이름
   P.HOST_ID  -- 공간을 소유한 유저의 아이디
-FROM 
+FROM
   PLACES P  -- PLACES 테이블을 P로 별칭 지정
-WHERE 
+WHERE
   -- 헤비 유저(2개 이상의 공간을 등록한 호스트)의 HOST_ID를 필터링
   P.HOST_ID IN (
-    SELECT 
+    SELECT
       HOST_ID  -- 각 호스트의 아이디
-    FROM 
+    FROM
       PLACES  -- PLACES 테이블
-    GROUP BY 
+    GROUP BY
       HOST_ID  -- 호스트별로 그룹화
-    HAVING 
+    HAVING
       COUNT(ID) > 1  -- 등록된 공간이 2개 이상인 호스트만 선택
   )
-ORDER BY 
+ORDER BY
   P.ID;  -- 결과를 공간의 아이디 순으로 정렬
 ```

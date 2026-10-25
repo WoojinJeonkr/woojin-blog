@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Video player"
-tag : [Programmers, Python]
-date : 2024-12-23
+external: false
+title: "Video player"
+tag: [Programmers, Python]
+date: 2024-12-23
 ---
 
 ## 1. Problem
@@ -33,7 +33,7 @@ def solution(video_len, pos, op_start, op_end, commands):
   video_len_sec = time_to_sec(video_len)
   opening_start_sec = time_to_sec(op_start)
   opening_end_sec = time_to_sec(op_end)
-  
+
   # 현재 위치가 오프닝 구간에 있을 경우 오프닝 끝으로 이동
   if opening_start_sec <= current_pos_sec <= opening_end_sec:
     current_pos_sec = opening_end_sec
@@ -44,22 +44,22 @@ def solution(video_len, pos, op_start, op_end, commands):
       current_pos_sec -= 10
     else:  # "next"일 경우 10초 후로 이동
       current_pos_sec += 10
-    
+
     # 현재 위치가 0초보다 작은 경우, 0초로 설정
     if current_pos_sec < 0:
       current_pos_sec = 0
     # 현재 위치가 동영상의 길이를 초과한 경우, 동영상 끝으로 설정
     elif current_pos_sec > video_len_sec:
       current_pos_sec = video_len_sec
-    
+
     # 현재 위치가 오프닝 구간에 있을 경우, 오프닝 끝으로 이동
     if opening_start_sec <= current_pos_sec <= opening_end_sec:
       current_pos_sec = opening_end_sec
-  
+
   # 결과를 "mm:ss" 형식으로 변환
   final_minutes = current_pos_sec // 60
   final_seconds = current_pos_sec % 60
   result = ':'.join(map(lambda x: str(x) if x >= 10 else '0' + str(x), [final_minutes, final_seconds]))
-  
+
   return result
 ```

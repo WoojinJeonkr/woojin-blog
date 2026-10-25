@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Query max views files"
-tag : [Programmers, SQL]
-date : 2025-02-05
+external: false
+title: "Query max views files"
+tag: [Programmers, SQL]
+date: 2025-02-05
 ---
 
 ## 1. Problem

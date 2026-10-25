@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Joystick"
-tag : [Programmers, Java]
-date : 2024-10-14
+external: false
+title: "Joystick"
+tag: [Programmers, Java]
+date: 2024-10-14
 ---
 
 ## 1. Problem
@@ -33,7 +33,7 @@ class Solution {
     int move = length - 1; // 커서를 오른쪽 끝까지 이동하는 경우
     for (int i = 0; i < length; i++) {
       int next = i + 1;
-      
+
       // 'A'가 연속된 구간을 찾기
       while (next < length && name.charAt(next) == 'A') {
         next++;

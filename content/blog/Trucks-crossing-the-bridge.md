@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Trucks crossing the bridge"
-tag : [Programmers, Java]
-date : 2024-10-01
+external: false
+title: "Trucks crossing the bridge"
+tag: [Programmers, Java]
+date: 2024-10-01
 ---
 
 ## 1. Problem
@@ -27,34 +27,34 @@ class Solution {
   class Truck {
     int weight;
     int distance;
-    
+
     // 트럭 생성자: 트럭의 무게를 받아 초기화하고, 이동 거리는 0으로 설정
     Truck(int weight) {
       this.weight = weight;
       this.distance = 0;
     }
-    
+
     // 트럭을 한 칸 전진시키는 메서드
     void move() {
       this.distance++;
     }
   }
-  
+
   public int solution(int bridge_length, int weight, int[] truck_weights) {
     int time = 0; // 경과 시간
     int totalWeightOnBridge = 0; // 다리 위의 총 무게
     Queue<Truck> bridge = new LinkedList<>(); // 다리 위의 트럭들을 관리할 큐
     int idx = 0; // 대기 중인 트럭의 인덱스
-    
+
     while (idx < truck_weights.length || !bridge.isEmpty()) {
       time++; // 1초 경과
-      
+
       // 다리에서 트럭을 내림 (다리 끝에 도착한 트럭 제거)
       if (!bridge.isEmpty() && bridge.peek().distance == bridge_length) {
         Truck truck = bridge.poll();
         totalWeightOnBridge -= truck.weight;
       }
-      
+
       // 새로운 트럭을 다리에 올림 (무게가 허용 범위 내일 때)
       if (idx < truck_weights.length && totalWeightOnBridge + truck_weights[idx] <= weight) {
         Truck truck = new Truck(truck_weights[idx]);
@@ -62,13 +62,13 @@ class Solution {
         totalWeightOnBridge += truck_weights[idx];
         idx++;
       }
-      
+
       // 다리 위의 모든 트럭을 한 칸씩 이동시킴
       for (Truck truck : bridge) {
         truck.move();
       }
     }
-    
+
     return time; // 모든 트럭이 다리를 건너는 데 걸린 시간 반환
   }
 }

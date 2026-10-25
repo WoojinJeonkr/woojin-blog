@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Printing Tokens"
-tag : [Hackerrank, C]
-date : 2024-05-21
+external: false
+title: "Printing Tokens"
+tag: [Hackerrank, C]
+date: 2024-05-21
 ---
 
 ## 1. Problem

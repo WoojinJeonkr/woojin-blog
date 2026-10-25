@@ -1,8 +1,8 @@
 ---
-external : false
-title : "taboo number 3"
-tag : [Programmers, Python]
-date : 2025-05-11
+external: false
+title: "taboo number 3"
+tag: [Programmers, Python]
+date: 2025-05-11
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Reconstructing an orthogonal polygon"
-tag : [Baekjoon, Java]
-date : 2025-10-29
+external: false
+title: "Reconstructing an orthogonal polygon"
+tag: [Baekjoon, Java]
+date: 2025-10-29
 ---
 
 ## 1. Problem

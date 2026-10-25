@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Rank"
-tag : [Programmers, Java]
-date : 2024-11-17
+external: false
+title: "Rank"
+tag: [Programmers, Java]
+date: 2024-11-17
 ---
 
 ## 1. Problem
@@ -26,12 +26,12 @@ class Solution {
   public int solution(int n, int[][] results) {
     // 선수 간 승패 관계를 저장할 2D 배열
     int[][] graph = new int[n + 1][n + 1];
-    
+
     // 자기 자신과의 관계는 0으로 설정 (승패 관계가 없으므로)
     for (int i = 1; i <= n; i++) {
       graph[i][i] = 0;
     }
-    
+
     // 경기 결과에 따른 승패 관계 설정
     for (int[] result : results) {
       int winner = result[0];  // 승리한 선수
@@ -39,7 +39,7 @@ class Solution {
       graph[winner][loser] = 1;  // winner가 loser를 이김
       graph[loser][winner] = -1; // loser가 winner에게 짐
     }
-    
+
     // 플로이드-워셜 알고리즘으로 모든 선수 간의 승패 관계 전파
     for (int k = 1; k <= n; k++) {
       for (int i = 1; i <= n; i++) {

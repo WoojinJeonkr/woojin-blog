@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Fetch Data in React"
+title: "Fetch Data in React"
 tag: [React, Typescript]
 date: 2022-11-02
 ---
@@ -26,10 +26,10 @@ const getData = () => {
 - await 표현식은 약속을 반환하는 함수가 반환된 약속이 이행되거나 거부될 때까지 실행을 일시 중단하여 마치 동기적인 것처럼 동작하도록 한다.
 
 ### 2-1. example
-  
+
 ```ts
 async function getData() {
- try { 
+ try {
   const response = await fetch('https://random-data-api.com/api/food/random_food');
   if (!response.ok) {
    throw new Error(`HTTP error: ${response.status}`);
@@ -48,7 +48,7 @@ async function getData() {
 - Fetch API와 매우 유사하게 작동하지만 주요 이점은 이미 결과를 JSON 객체로 반환하므로 변환할 필요가 없다
 
 ### 3-1. Example
-  
+
 ```ts
 import axios from "axios"
 const getData = () => {

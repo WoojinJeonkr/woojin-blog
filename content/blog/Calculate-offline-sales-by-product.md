@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Calculate offline sales by product"
-tag : [Programmers, SQL]
-date : 2024-05-31
+external: false
+title: "Calculate offline sales by product"
+tag: [Programmers, SQL]
+date: 2024-05-31
 ---
 
 ## 1. Problem

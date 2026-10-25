@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Network"
-tag : [Programmers, Java]
-date : 2024-11-21
+external: false
+title: "Network"
+tag: [Programmers, Java]
+date: 2024-11-21
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Plant growth ranking"
-tag : [Python]
-date : 2026-07-17
+external: false
+title: "Plant growth ranking"
+tag: [Python]
+date: 2026-07-17
 ---
 
 ## 1. Problem
@@ -75,10 +75,10 @@ Rose 12
 각 식물의 총 성장량은 다음과 같다.
 
 ```text
-Rose    : 12
-Tulip   : 12
-Lily    : 11
-Cactus  : 10
+Rose: 12
+Tulip: 12
+Lily: 11
+Cactus: 10
 ```
 
 Rose와 Tulip의 성장량이 모두 12cm로 가장 크다.

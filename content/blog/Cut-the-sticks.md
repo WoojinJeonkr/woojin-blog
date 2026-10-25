@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Cut the sticks"
-tag : [Hackerrank, Java]
-date : 2024-04-19
+external: false
+title: "Cut the sticks"
+tag: [Hackerrank, Java]
+date: 2024-04-19
 ---
 
 ## 1. Problem
@@ -30,13 +30,13 @@ class Result {
   public static List<Integer> cutTheSticks(List<Integer> arr) {
     Collections.sort(arr); // 배열을 오름차순으로 정렬합니다.
     List<Integer> results = new ArrayList<>();
-    
+
     int sticksLeft = arr.size(); // 남은 스틱의 수
     results.add(sticksLeft); // 초기 스틱의 수를 결과 목록에 추가
-    
+
     int curr = arr.get(0); // 현재 스틱의 길이
     int currCount = 0; // 현재 스틱 길이의 수
-    
+
     for (int i = 0; i < arr.size(); i++) {
       if (curr == arr.get(i)) {
         currCount++; // 현재 스틱 길이와 같으면 카운트 증가
@@ -47,7 +47,7 @@ class Result {
         results.add(sticksLeft); // 업데이트된 남은 스틱 수를 결과 목록에 추가
       }
     }
-    
+
     return results; // 결과 목록 반환
   }
 }

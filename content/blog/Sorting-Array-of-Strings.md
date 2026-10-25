@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sorting Array of Strings"
-tag : [Hackerrank, C]
-date : 2024-05-19
+external: false
+title: "Sorting Array of Strings"
+tag: [Hackerrank, C]
+date: 2024-05-19
 ---
 
 ## 1. Problem

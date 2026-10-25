@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding endangered E coli"
-tag : [Programmers, SQL]
-date : 2025-01-19
+external: false
+title: "Finding endangered E coli"
+tag: [Programmers, SQL]
+date: 2025-01-19
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ WITH RECURSIVE GENERATION_TREE(ID, PARENT_ID, n) as (
   SELECT ID, PARENT_ID, 1 AS n
   FROM ECOLI_DATA
   WHERE PARENT_ID IS NULL
-  UNION ALL  
+  UNION ALL
   -- 2. 재귀적으로 자식 세대들을 찾아가며 세대 수(n) 증가
   SELECT child.ID,
          child.PARENT_ID,
@@ -42,14 +42,14 @@ WITH RECURSIVE GENERATION_TREE(ID, PARENT_ID, n) as (
     ON child.PARENT_ID = parent.ID
 )
 -- 3. 각 세대별로 자식이 없는 대장균의 수를 집계
-SELECT COUNT(current_gen.n) AS COUNT, 
-       current_gen.n AS GENERATION 
+SELECT COUNT(current_gen.n) AS COUNT,
+       current_gen.n AS GENERATION
 FROM GENERATION_TREE current_gen
 -- 4. 자식이 없는 대장균을 찾기 위해 LEFT JOIN 사용
 LEFT OUTER JOIN GENERATION_TREE child_check
   ON current_gen.ID = child_check.PARENT_ID
 -- 5. 자식이 없는 대장균만 필터링
-WHERE child_check.PARENT_ID IS NULL 
+WHERE child_check.PARENT_ID IS NULL
 -- 6. 세대별로 그룹화
 GROUP BY current_gen.n;
 ```

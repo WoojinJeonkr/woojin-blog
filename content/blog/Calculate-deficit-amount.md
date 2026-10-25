@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Calculate deficit amount"
-tag : [Programmers, Java]
-date : 2024-07-25
+external: false
+title: "Calculate deficit amount"
+tag: [Programmers, Java]
+date: 2024-07-25
 ---
 
 ## 1. Problem
@@ -36,10 +36,10 @@ class Solution {
   public long solution(int price, int money, int count) {
     // 총 비용 계산: 등차수열의 합 공식을 사용하여 필요한 총 비용을 계산합니다.
     long totalCost = (long) price * count * (count + 1) / 2;
-    
+
     // 부족한 금액 계산: 현재 가지고 있는 돈에서 총 비용을 뺀 금액을 계산합니다.
     long deficit = totalCost - money;
-    
+
     // 만약 부족한 금액이 음수라면 0을 반환하고, 그렇지 않으면 계산된 부족한 금액을 반환합니다.
     return Math.max(0, deficit);
   }

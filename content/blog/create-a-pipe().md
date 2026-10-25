@@ -1,8 +1,8 @@
 ---
-external : false
-title : "create a pipe()"
-tag : [BFE, Javascript]
-date : 2024-04-09
+external: false
+title: "create a pipe()"
+tag: [BFE, Javascript]
+date: 2024-04-09
 ---
 
 ## 1. Problem
@@ -13,7 +13,7 @@ date : 2024-04-09
 
 ```js
 /**
- * @param {Array<(arg: any) => any>} funcs 
+ * @param {Array<(arg: any) => any>} funcs
  * @return {(arg: any) => any}
  */
 function pipe(funcs) {

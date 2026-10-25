@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Lambda DSL"
-tag : [Java, Spring]
-date : 2024-05-12
+external: false
+title: "Lambda DSL"
+tag: [Java, Spring]
+date: 2024-05-12
 ---
 
 이번 글에서는 Lambda DSL은 무엇이고 적용하기 위해 기존 코드를 어떻게 수정해야 하는지에 대해 알아보겠습니다.
@@ -29,7 +29,7 @@ Multiple markers at this line
 @Bean
 public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
   http.cors().disable()     //cors 방지
-    .csrf().disable()	      //csrf 방지
+    .csrf().disable()       //csrf 방지
     .formLogin().disable()  //기본 로그인페이지 없애기
     .headers().frameOptions().disable();
 

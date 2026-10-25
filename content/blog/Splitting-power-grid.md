@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Splitting power grid"
-tag : [Programmers, Java]
-date : 2024-08-14
+external: false
+title: "Splitting power grid"
+tag: [Programmers, Java]
+date: 2024-08-14
 ---
 
 ## 1. Problem

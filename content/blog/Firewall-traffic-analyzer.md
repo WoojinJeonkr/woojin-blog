@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Firewall traffic analyzer"
-tag : [Python]
-date : 2026-06-16
+external: false
+title: "Firewall traffic analyzer"
+tag: [Python]
+date: 2026-06-16
 ---
 
 ## 1. Problem

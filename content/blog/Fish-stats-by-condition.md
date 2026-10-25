@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fish stats by condition"
-tag : [Programmers, SQL]
-date : 2025-02-03
+external: false
+title: "Fish stats by condition"
+tag: [Programmers, SQL]
+date: 2025-02-03
 ---
 
 ## 1. Problem
@@ -31,16 +31,16 @@ NULL 값을 10으로 대체하는 COALESCE 함수를 사용하여 정확한 평�
 -- 3. HAVING: 평균 길이가 33cm 이상인 그룹만 필터링
 -- 4. SELECT: 각 그룹별 통계 계산
 -- 5. ORDER BY: FISH_TYPE 기준으로 정렬
-SELECT 
+SELECT
   COUNT(*) as FISH_COUNT,    -- 각 물고기 종류별 총 마리수
   MAX(LENGTH) as MAX_LENGTH, -- 각 물고기 종류별 최대 길이
   FISH_TYPE                  -- 물고기 종류 번호
-FROM 
+FROM
   FISH_INFO
-GROUP BY 
+GROUP BY
   FISH_TYPE
-HAVING 
+HAVING
   AVG(COALESCE(LENGTH, 10)) >= 33  -- NULL값은 10cm로 처리하여 평균 계산
-ORDER BY 
+ORDER BY
   FISH_TYPE                         -- 물고기 종류 기준 오름차순 정렬
 ```

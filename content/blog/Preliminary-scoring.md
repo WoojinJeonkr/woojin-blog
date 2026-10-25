@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Preliminary scoring"
-tag : [Programmers, Java]
-date : 2024-07-19
+external: false
+title: "Preliminary scoring"
+tag: [Programmers, Java]
+date: 2024-07-19
 ---
 
 ## 1. Problem

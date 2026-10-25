@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Memory score"
-tag : [Programmers, Java]
-date : 2024-08-25
+external: false
+title: "Memory score"
+tag: [Programmers, Java]
+date: 2024-08-25
 ---
 
 ## 1. Problem
@@ -26,15 +26,15 @@ class Solution {
   public int[] solution(String[] name, int[] yearning, String[][] photo) {
     // 이름과 그리움 점수를 매핑하기 위한 HashMap을 생성합니다.
     HashMap<String, Integer> yearningMap = new HashMap<>();
-    
+
     // name과 yearning 배열을 이용해 HashMap을 채웁니다.
     for (int i = 0; i < name.length; i++) {
       yearningMap.put(name[i], yearning[i]);
     }
-    
+
     // 결과를 저장할 배열을 생성합니다.
     int[] answer = new int[photo.length];
-    
+
     // 각 사진별로 추억 점수를 계산합니다.
     for (int i = 0; i < photo.length; i++) {
       int sum = 0;  // 각 사진의 추억 점수를 저장할 변수
@@ -47,7 +47,7 @@ class Solution {
       // 계산한 추억 점수를 결과 배열에 저장합니다.
       answer[i] = sum;
     }
-    
+
     // 결과 배열을 반환합니다.
     return answer;
   }

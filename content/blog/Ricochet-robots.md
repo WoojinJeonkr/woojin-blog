@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ricochet robots"
-tag : [Programmers, Java]
-date : 2024-10-10
+external: false
+title: "Ricochet robots"
+tag: [Programmers, Java]
+date: 2024-10-10
 ---
 
 ## 1. Problem
@@ -26,19 +26,19 @@ class Solution {
   public int solution(String[] board) {
     int rows = board.length;
     int cols = board[0].length();
-    
+
     // 상, 하, 좌, 우 방향 벡터
     int[] dx = {-1, 1, 0, 0};
     int[] dy = {0, 0, -1, 1};
-    
+
     // 방문 여부를 체크하는 배열
     boolean[][] visited = new boolean[rows][cols];
-    
+
     // BFS를 위한 큐
     Queue<int[]> queue = new LinkedList<>();
-    
+
     int startX = 0, startY = 0, goalX = 0, goalY = 0;
-    
+
     // 로봇(R)과 목표(G)의 위치를 찾음
     for (int i = 0; i < rows; i++) {
       for (int j = 0; j < cols; j++) {
@@ -51,41 +51,41 @@ class Solution {
         }
       }
     }
-    
+
     // 시작 위치 큐에 삽입 (x좌표, y좌표, 이동 횟수)
     queue.add(new int[]{startX, startY, 0});
     visited[startX][startY] = true;
-    
+
     while (!queue.isEmpty()) {
       int[] current = queue.poll();
       int x = current[0];
       int y = current[1];
       int moves = current[2];
-      
+
       // 목표 위치에 도달했으면 이동 횟수를 반환
       if (x == goalX && y == goalY) {
         return moves;
       }
-      
+
       // 4방향으로 말이 이동할 수 있음
       for (int i = 0; i < 4; i++) {
         int nx = x;
         int ny = y;
-        
+
         // 벽 또는 장애물에 부딪힐 때까지 계속 이동
         while (true) {
           int nextX = nx + dx[i];
           int nextY = ny + dy[i];
-          
+
           // 범위를 벗어나거나 장애물을 만났을 때 멈춤
           if (nextX < 0 || nextX >= rows || nextY < 0 || nextY >= cols || board[nextX].charAt(nextY) == 'D') {
             break;
           }
-          
+
           nx = nextX;
           ny = nextY;
         }
-        
+
         // 이동한 위치가 방문한 적 없을 때만 큐에 넣음
         if (!visited[nx][ny]) {
           visited[nx][ny] = true;
@@ -93,7 +93,7 @@ class Solution {
         }
       }
     }
-    
+
     // 목표 지점에 도달할 수 없으면 -1 반환
     return -1;
   }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Brian dilemma"
-tag : [Programmers, Java]
-date : 2025-10-26
+external: false
+title: "Brian dilemma"
+tag: [Programmers, Java]
+date: 2025-10-26
 ---
 
 ## 1. Problem

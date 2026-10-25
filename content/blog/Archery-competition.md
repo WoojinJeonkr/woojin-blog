@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Archery competition"
-tag : [Programmers, Java]
-date : 2024-12-04
+external: false
+title: "Archery competition"
+tag: [Programmers, Java]
+date: 2024-12-04
 ---
 
 ## 1. Problem

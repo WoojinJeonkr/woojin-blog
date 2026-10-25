@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Next prime"
-tag : [Baekjoon, Python]
-date : 2025-11-17
+external: false
+title: "Next prime"
+tag: [Baekjoon, Python]
+date: 2025-11-17
 ---
 
 ## 1. Problem
@@ -23,7 +23,7 @@ def is_prime(n):
         return True
     if n % 2 == 0:  # 짝수는 소수 아님
         return False
-    
+
     # n-1 = d * 2^s 형태로 분해
     d = n - 1
     s = 0

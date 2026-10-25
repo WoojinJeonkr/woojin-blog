@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Drawing Organizational Chart"
+title: "Drawing Organizational Chart"
 tag: [Python, Graph]
 date: 2022-09-23
 ---
@@ -59,7 +59,7 @@ edgelist=edgelist[['from', 'to']]
 # networkx 그래프 객체 생성
 import networkx as nx
 
-orgchart=nx.from_pandas_edgelist(edgelist, 
+orgchart=nx.from_pandas_edgelist(edgelist,
 source='from', target='to')
 ```
 

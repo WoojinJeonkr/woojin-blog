@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Visit length"
-tag : [Programmers, Java]
-date : 2024-09-19
+external: false
+title: "Visit length"
+tag: [Programmers, Java]
+date: 2024-09-19
 ---
 
 ## 1. Problem
@@ -27,41 +27,41 @@ class Solution {
   public int solution(String dirs) {
     int x = 0, y = 0;
     Set<String> visited = new HashSet<>();
-    
+
     // 명령어에 따른 이동 좌표 변화량
     int[] dx = {0, 0, 1, -1}; // U, D, R, L에 대한 x 변화량
     int[] dy = {1, -1, 0, 0}; // U, D, R, L에 대한 y 변화량
     String dirsMap = "UDRL"; // 명령어에 해당하는 인덱스
-    
+
     int answer = 0;
-    
+
     // 명령어 처리
     for (char dir : dirs.toCharArray()) {
       int index = dirsMap.indexOf(dir); // 현재 명령어의 인덱스
       int nx = x + dx[index]; // 이동할 x 좌표
       int ny = y + dy[index]; // 이동할 y 좌표
-      
+
       // 경계를 벗어나는지 확인
       if (nx < -5 || nx > 5 || ny < -5 || ny > 5) {
         continue; // 경계를 넘으면 무시
       }
-      
+
       // 이동 경로를 문자열로 만들어서 저장
       String path1 = x + "" + y + "" + nx + "" + ny; // (x, y) -> (nx, ny)
       String path2 = nx + "" + ny + "" + x + "" + y; // (nx, ny) -> (x, y) (역방향 경로)
-      
+
       // 경로가 처음 지나가는 길이면 answer 증가
       if (!visited.contains(path1) && !visited.contains(path2)) {
         visited.add(path1);
         visited.add(path2);
         answer++;
       }
-      
+
       // 현재 위치 갱신
       x = nx;
       y = ny;
     }
-    
+
     return answer;
   }
 }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fibonacci number"
-tag : [Programmers, Java]
-date : 2024-08-31
+external: false
+title: "Fibonacci number"
+tag: [Programmers, Java]
+date: 2024-08-31
 ---
 
 ## 1. Problem

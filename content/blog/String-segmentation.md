@@ -1,8 +1,8 @@
 ---
-external : false
-title : "String segmentation"
-tag : [Programmers, Java]
-date : 2024-10-31
+external: false
+title: "String segmentation"
+tag: [Programmers, Java]
+date: 2024-10-31
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Travel route pass validation"
-tag : [Python]
-date : 2026-06-07
+external: false
+title: "Travel route pass validation"
+tag: [Python]
+date: 2026-06-07
 ---
 
 ## 1. Problem

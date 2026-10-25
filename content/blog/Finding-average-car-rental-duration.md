@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding average car rental duration"
-tag : [Programmers, SQL]
-date : 2025-01-25
+external: false
+title: "Finding average car rental duration"
+tag: [Programmers, SQL]
+date: 2025-01-25
 ---
 
 ## 1. Problem
@@ -28,25 +28,25 @@ date : 2025-01-25
 -- SQL 실행 순서: FROM(1) -> GROUP BY(2) -> HAVING(3) -> SELECT(4) -> ORDER BY(5)
 
 -- (1) 대여 기록 테이블에서 데이터를 가져옴
-FROM 
+FROM
   CAR_RENTAL_COMPANY_RENTAL_HISTORY
 
 -- (2) 자동차 ID별로 그룹화
-GROUP BY 
+GROUP BY
   CAR_ID
 
 -- (3) 평균 대여 기간이 7일 이상인 자동차만 필터링
-HAVING 
+HAVING
   AVG(DATEDIFF(END_DATE, START_DATE) + 1) >= 7
 
 -- (4) 자동차 ID와 평균 대여 기간을 선택
-SELECT 
+SELECT
   CAR_ID,
   -- 대여 기간의 평균을 계산하고 소수점 첫째 자리까지 반올림
   ROUND(AVG(DATEDIFF(END_DATE, START_DATE) + 1), 1) AS AVERAGE_DURATION
 
 -- (5) 평균 대여 기간 내림차순, 같은 경우 자동차 ID 내림차순 정렬
-ORDER BY 
-  AVERAGE_DURATION DESC, 
+ORDER BY
+  AVERAGE_DURATION DESC,
   CAR_ID DESC
 ```

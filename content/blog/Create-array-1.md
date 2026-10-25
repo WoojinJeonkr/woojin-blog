@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Create array 1"
-tag : [Programmers, Java]
-date : 2024-07-09
+external: false
+title: "Create array 1"
+tag: [Programmers, Java]
+date: 2024-07-09
 ---
 
 ## 1. Problem
@@ -19,12 +19,12 @@ class Solution {
     int size = n / k;
     // 결과를 담을 배열 생성
     int[] answer = new int[size];
-    
+
     // 1부터 size까지 순회하면서 각 부분의 마지막 값을 answer 배열에 채움
     for (int i = 1; i <= size; i++) {
       answer[i - 1] = i * k;
     }
-    
+
     // 계산된 결과 배열 반환
     return answer;
   }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Cut roll cake"
-tag : [Programmers, Java]
-date : 2024-09-25
+external: false
+title: "Cut roll cake"
+tag: [Programmers, Java]
+date: 2024-09-25
 ---
 
 ## 1. Problem
@@ -26,32 +26,32 @@ class Solution {
     Set<Integer> leftSet = new HashSet<>();
     // 동생이 가져갈 토핑 종류와 그 개수를 저장하는 맵
     Map<Integer, Integer> rightMap = new HashMap<>();
-    
+
     // 처음에는 모든 토핑이 동생 쪽에 있다고 가정
     for (int top : topping) {
       rightMap.put(top, rightMap.getOrDefault(top, 0) + 1);
     }
-    
+
     int answer = 0;
-    
+
     // 롤케이크의 각 잘리는 지점을 확인
     for (int i = 0; i < topping.length; i++) {
       // 철수가 가져갈 토핑을 leftSet에 추가
       leftSet.add(topping[i]);
-      
+
       // 동생이 가져갈 토핑에서 해당 토핑의 개수를 하나 줄임
       rightMap.put(topping[i], rightMap.get(topping[i]) - 1);
       if (rightMap.get(topping[i]) == 0) {
         // 만약 동생 쪽에 해당 토핑이 더 이상 없으면 맵에서 제거
         rightMap.remove(topping[i]);
       }
-      
+
       // 철수와 동생이 가져갈 토핑의 종류가 같다면 공평하게 나눌 수 있음
       if (leftSet.size() == rightMap.size()) {
         answer++;
       }
     }
-    
+
     return answer;
   }
 }

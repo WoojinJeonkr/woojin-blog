@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Classify and display order status"
-tag : [Programmers, SQL]
-date : 2025-01-26
+external: false
+title: "Classify and display order status"
+tag: [Programmers, SQL]
+date: 2025-01-26
 ---
 
 ## 1. Problem
@@ -28,7 +28,7 @@ date : 2025-01-26
 
 ```sql
 -- 1. FOOD_ORDER 테이블에서 데이터 조회
-SELECT 
+SELECT
   ORDER_ID,                                           -- 2. 주문 ID 선택
   PRODUCT_ID,                                         -- 3. 제품 ID 선택
   DATE_FORMAT(OUT_DATE, '%Y-%m-%d') AS OUT_DATE,     -- 4. 출고일자를 YYYY-MM-DD 형식으로 변환
@@ -37,7 +37,7 @@ SELECT
     WHEN OUT_DATE > '2022-05-01' THEN '출고대기'     -- 5-2. 2022-05-01 이후 출고건
     ELSE '출고미정'                                  -- 5-3. OUT_DATE가 NULL인 경우
   END AS '출고여부'
-FROM 
+FROM
   FOOD_ORDER
 ORDER BY                                             -- 6. 정렬 수행
   ORDER_ID;                                          -- 6-1. 주문 ID 기준 오름차순

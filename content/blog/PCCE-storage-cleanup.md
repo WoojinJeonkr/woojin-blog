@@ -1,8 +1,8 @@
 ---
-external : false
-title : "PCCE storage cleanup"
-tag : [Programmers, Python]
-date : 2025-06-16
+external: false
+title: "PCCE storage cleanup"
+tag: [Programmers, Python]
+date: 2025-06-16
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ def solution(storage, num):
       # 처음 등장하는 물건이면 이름과 개수를 각각 추가
       clean_storage.append(storage[i])
       clean_num.append(num[i])
-      
+
   # 가장 개수가 많은 물건의 개수를 찾음
   max_num = max(clean_num)
   # 가장 개수가 많은 물건의 이름을 찾아서 반환

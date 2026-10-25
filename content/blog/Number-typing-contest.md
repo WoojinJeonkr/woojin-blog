@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number typing contest"
-tag : [Programmers, Python]
-date :  2025-09-14
+external: false
+title: "Number typing contest"
+tag: [Programmers, Python]
+date:  2025-09-14
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Snail food consumption"
-tag : [Python]
-date : 2026-09-16
+external: false
+title: "Snail food consumption"
+tag: [Python]
+date: 2026-09-16
 ---
 
 ## 1. Problem

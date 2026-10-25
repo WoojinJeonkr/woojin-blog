@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Znak działania"
-tag : [Baekjoon, Python]
-date : 2026-04-02
+external: false
+title: "Znak działania"
+tag: [Baekjoon, Python]
+date: 2026-04-02
 ---
 
 ## 1. Problem

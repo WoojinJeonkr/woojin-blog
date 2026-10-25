@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Maze escape"
-tag : [Programmers, Java]
-date : 2024-10-23
+external: false
+title: "Maze escape"
+tag: [Programmers, Java]
+date: 2024-10-23
 ---
 
 ## 1. Problem
@@ -26,33 +26,33 @@ class Solution {
   // 상, 하, 좌, 우 방향 이동을 위한 배열
   private static final int[] dx = {-1, 1, 0, 0};
   private static final int[] dy = {0, 0, -1, 1};
-  
+
   // BFS 함수: 시작점에서 목표 지점까지의 최단 거리를 구하는 함수
   private int bfs(String[] maps, int startX, int startY, char target) {
     int n = maps.length;    // 미로의 세로 크기
     int m = maps[0].length();  // 미로의 가로 크기
     boolean[][] visited = new boolean[n][m];  // 방문한 칸을 체크하는 배열
     Queue<int[]> queue = new LinkedList<>();  // BFS를 위한 큐
-    
+
     // 시작 위치와 초기 거리를 큐에 삽입
     queue.offer(new int[]{startX, startY, 0});
     visited[startX][startY] = true;  // 시작 위치 방문 처리
-    
+
     // 큐가 빌 때까지 BFS 탐색
     while (!queue.isEmpty()) {
       int[] current = queue.poll();  // 현재 위치와 거리 정보 가져오기
       int x = current[0], y = current[1], dist = current[2];
-      
+
       // 목표 지점에 도달하면 현재까지의 거리 반환
       if (maps[x].charAt(y) == target) {
         return dist;
       }
-      
+
       // 4방향으로 이동 가능 여부 탐색
       for (int i = 0; i < 4; i++) {
         int nx = x + dx[i];
         int ny = y + dy[i];
-        
+
         // 미로 범위 내에서 벽이 아니고, 아직 방문하지 않은 칸이면 이동
         if (nx >= 0 && nx < n && ny >= 0 && ny < m && maps[nx].charAt(ny) != 'X' && !visited[nx][ny]) {
           visited[nx][ny] = true;  // 방문 처리
@@ -62,16 +62,16 @@ class Solution {
     }
     return -1;  // 목표 지점에 도달할 수 없는 경우
   }
-  
+
   public int solution(String[] maps) {
     int n = maps.length;    // 미로의 세로 크기
     int m = maps[0].length();  // 미로의 가로 크기
-    
+
     // 시작점(S), 레버(L), 출구(E)의 좌표 초기화
     int startX = -1, startY = -1;
     int leverX = -1, leverY = -1;
     int exitX = -1, exitY = -1;
-    
+
     // 미로에서 S(시작점), L(레버), E(출구)의 위치 찾기
     for (int i = 0; i < n; i++) {
       for (int j = 0; j < m; j++) {
@@ -88,19 +88,19 @@ class Solution {
         }
       }
     }
-    
+
     // 시작점에서 레버까지의 최단 거리 계산
     int toLever = bfs(maps, startX, startY, 'L');
     if (toLever == -1) {
       return -1;  // 레버까지 갈 수 없으면 탈출 불가
     }
-    
+
     // 레버에서 출구까지의 최단 거리 계산
     int toExit = bfs(maps, leverX, leverY, 'E');
     if (toExit == -1) {
       return -1;  // 출구까지 갈 수 없으면 탈출 불가
     }
-    
+
     // 총 이동 시간 반환
     return toLever + toExit;
   }

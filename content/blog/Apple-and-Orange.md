@@ -2,7 +2,7 @@
 external: false
 title: "Apple and Orange"
 tag: [Hackerrank, Python]
-date : 2024-01-12
+date: 2024-01-12
 ---
 
 ## 1. Problem
@@ -11,8 +11,8 @@ date : 2024-01-12
 
 ## 2. Approach
 
-해당 문제는 사과나무와 오렌지나무가 있는 위치, 그리고 각각의 사과와 오렌지가 나무에서 떨어진 위치를 나타내는 배열이 주어졌을 때, 주어진 영역 [s, t] 내에 떨어진 사과와 오렌지의 개수를 세는 countApplesAndOranges 함수를 구현하는 것입니다.  
-여기서 s와 t는 집을 나타내는 좌표이며, a와 b는 각각 사과나무와 오렌지나무의 위치를 나타냅니다. apples 배열은 각 사과가 나무에서 떨어진 위치를, oranges 배열은 각 오렌지가 나무에서 떨어진 위치를 나타냅니다.  
+해당 문제는 사과나무와 오렌지나무가 있는 위치, 그리고 각각의 사과와 오렌지가 나무에서 떨어진 위치를 나타내는 배열이 주어졌을 때, 주어진 영역 [s, t] 내에 떨어진 사과와 오렌지의 개수를 세는 countApplesAndOranges 함수를 구현하는 것입니다.
+여기서 s와 t는 집을 나타내는 좌표이며, a와 b는 각각 사과나무와 오렌지나무의 위치를 나타냅니다. apples 배열은 각 사과가 나무에서 떨어진 위치를, oranges 배열은 각 오렌지가 나무에서 떨어진 위치를 나타냅니다.
 함수의 주요 목표는 나무에서 떨어진 각 사과와 오렌지의 위치가 주어진 영역 [s, t] 내에 있는지를 확인하고, 그 개수를 세도록 작성해야 합니다.
 
 1. `사과와 오렌지의 위치 확인`: 각 사과와 오렌지의 위치를 나타내는 배열을 순회하면서, 해당 과일이 주어진 영역 내에 떨어졌는지를 확인합니다. 위치 확인에는 s와 t를 이용하며, 떨어진 위치가 [s, t]에 속한다면 해당 과일이 영역 내에 떨어진 것으로 간주합니다.
@@ -27,15 +27,15 @@ date : 2024-01-12
 def countApplesAndOranges(s, t, a, b, apples, oranges):
   apple_count = 0
   orange_count = 0
-  
+
   for i in range(len(apples)):
     if a + apples[i] >= s and a + apples[i] <= t:
       apple_count += 1
-  
+
   for j in range(len(oranges)):
     if b + oranges[j] >= s and b + oranges[j] <= t:
       orange_count += 1
-  
+
   print(apple_count)
   print(orange_count)
 ```
@@ -56,7 +56,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
 
 ### 3-1. List Comprehension
 
-리스트 컴프리헨션은 파이썬에서 리스트를 생성하는 간결하고 효율적인 방법 중 하나입니다. 일반적으로 반복문과 조건문을 결합하여 리스트를 만들 수 있습니다.  
+리스트 컴프리헨션은 파이썬에서 리스트를 생성하는 간결하고 효율적인 방법 중 하나입니다. 일반적으로 반복문과 조건문을 결합하여 리스트를 만들 수 있습니다.
 리스트 컴프리헨션의 기본 구조는 다음과 같습니다.
 
 ```python
@@ -79,7 +79,7 @@ for i in range(1, 6):
 print(even_numbers)
 ```
 
-이 코드는 `[2, 4]`를 출력합니다. 여기서 x가 각각 1부터 5까지의 숫자를 나타내며, `x % 2 == 0` 조건에 맞는 경우에만 리스트에 포함됩니다.  
+이 코드는 `[2, 4]`를 출력합니다. 여기서 x가 각각 1부터 5까지의 숫자를 나타내며, `x % 2 == 0` 조건에 맞는 경우에만 리스트에 포함됩니다.
 이제 리스트 컴프리헨션을 사용하여 코드를 다시 작성해보겠습니다.
 
 ```python
@@ -87,7 +87,7 @@ even_numbers = [x for x in range(1, 6) if x % 2 == 0]
 print(even_numbers)
 ```
 
-5줄이던 코드가 2줄로 축소된 것을 확인할 수 있습니다.  
+5줄이던 코드가 2줄로 축소된 것을 확인할 수 있습니다.
 이처럼 리스트 컴프리헨션을 사용하면 코드를 간결하게 작성할 수 있으며, 가독성을 높일 수 있습니다.
 
 ## 4. Total Code
@@ -95,9 +95,9 @@ print(even_numbers)
 ```python
 #!/bin/python3
 
-# 
+#
 # 아래 코드는 사과와 오렌지의 갯수를 계산하는 함수를 구현한 것입니다.
-# 
+#
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
   # 사과의 개수를 계산합니다.
@@ -108,7 +108,7 @@ def countApplesAndOranges(s, t, a, b, apples, oranges):
   # 결과를 출력합니다.
   print(apple_count)
   print(orange_count)
-      
+
 if __name__ == '__main__':
   # 집의 위치를 나타내는 변수들을 입력받습니다.
   s, t = map(int, input().rstrip().split())

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Baekjoon 1431"
-tag : [Baekjoon, Java]
-date : 2024-02-23
+external: false
+title: "Baekjoon 1431"
+tag: [Baekjoon, Java]
+date: 2024-02-23
 ---
 
 ## 1. Problem

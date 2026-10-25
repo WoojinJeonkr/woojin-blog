@@ -1,8 +1,8 @@
 ---
-external : false
-title : "DATETIME to DATE"
-tag : [Programmers, SQL]
-date : 2025-01-27
+external: false
+title: "DATETIME to DATE"
+tag: [Programmers, SQL]
+date: 2025-01-27
 ---
 
 ## 1. Problem

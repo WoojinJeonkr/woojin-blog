@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Longest decreasing subsequence"
-tag : [Baekjoon, Python]
-date : 2025-11-08
+external: false
+title: "Longest decreasing subsequence"
+tag: [Baekjoon, Python]
+date: 2025-11-08
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Repainting"
-tag : [Programmers, Java]
-date : 2024-11-01
+external: false
+title: "Repainting"
+tag: [Programmers, Java]
+date: 2024-11-01
 ---
 
 ## 1. Problem
@@ -26,7 +26,7 @@ class Solution {
   public int solution(int n, int m, int[] section) {
     int answer = 0; // 페인트 칠 횟수를 저장할 변수
     int paintEnd = 0; // 마지막으로 페인트칠된 구역의 끝 번호
-    
+
     for (int i = 0; i < section.length; i++) {
       // 현재 구역(section[i])이 이전에 칠한 구역의 끝(paintEnd)보다 클 경우
       if (section[i] > paintEnd) {
@@ -34,7 +34,7 @@ class Solution {
         answer++; // 페인트 칠 횟수 증가
       }
     }
-    
+
     return answer; // 최소 페인트 칠 횟수 반환
   }
 }

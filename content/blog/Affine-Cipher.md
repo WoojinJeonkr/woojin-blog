@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Affine Cipher"
-tag : [Baekjoon, Python]
-date : 2026-02-13
+external: false
+title: "Affine Cipher"
+tag: [Baekjoon, Python]
+date: 2026-02-13
 ---
 
 ## 1. Problem

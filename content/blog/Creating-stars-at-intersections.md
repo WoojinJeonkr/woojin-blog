@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Creating stars at intersections"
-tag : [Programmers, Java]
-date : 2024-10-25
+external: false
+title: "Creating stars at intersections"
+tag: [Programmers, Java]
+date: 2024-10-25
 ---
 
 ## 1. Problem
@@ -28,7 +28,7 @@ class Solution {
   public String[] solution(int[][] line) {
     // 교점 좌표를 저장할 Set 생성 (중복 방지)
     Set<Point> points = new HashSet<>();
-    
+
     int n = line.length;
 
     // 모든 직선 쌍에 대해 교점 계산

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "High price of products"
-tag : [Codechef, SQL]
-date : 2026-05-09
+external: false
+title: "High price of products"
+tag: [Codechef, SQL]
+date: 2026-05-09
 ---
 
 ## 1. Problem

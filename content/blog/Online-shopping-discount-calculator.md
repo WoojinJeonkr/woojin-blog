@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Online shopping discount calculator"
-tag : [Python]
-date : 2026-10-12
+external: false
+title: "Online shopping discount calculator"
+tag: [Python]
+date: 2026-10-12
 ---
 
 ## 1. Problem

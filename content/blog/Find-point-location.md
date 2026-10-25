@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find point location"
-tag : [Programmers, Python]
-date : 2025-01-15
+external: false
+title: "Find point location"
+tag: [Programmers, Python]
+date: 2025-01-15
 ---
 
 ## 1. Problem
@@ -28,11 +28,11 @@ date : 2025-01-15
 def solution(dot):
   # 입력받은 dot 배열에서 x, y 좌표를 분리
   x, y = dot
-  
+
   # x, y 모두 양수인 경우 제1사분면
   if x > 0 and y > 0:
     return 1
-  # x가 음수, y가 양수인 경우 제2사분면  
+  # x가 음수, y가 양수인 경우 제2사분면
   elif x < 0 and y > 0:
     return 2
   # x, y 모두 음수인 경우 제3사분면

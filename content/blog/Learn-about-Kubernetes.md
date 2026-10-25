@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Learn about Kubernetes"
+title: "Learn about Kubernetes"
 tag: [Kubernetes]
 date: 2022-10-17
 ---

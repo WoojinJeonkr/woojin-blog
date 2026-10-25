@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find Digits"
-tag : [Hackerrank, Java]
-date :  2024-04-06
+external: false
+title: "Find Digits"
+tag: [Hackerrank, Java]
+date:  2024-04-06
 ---
 
 ## 1. Problem

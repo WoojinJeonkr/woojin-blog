@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Parking fee calculation"
-tag : [Programmers, Java]
-date : 2024-12-02
+external: false
+title: "Parking fee calculation"
+tag: [Programmers, Java]
+date: 2024-12-02
 ---
 
 ## 1. Problem
@@ -29,14 +29,14 @@ class Solution {
     Map<String, Integer> parkingTime = new HashMap<>();
     // 입차 시간을 저장할 맵
     Map<String, String> inTime = new HashMap<>();
-    
+
     // 주어진 기록을 순회
     for (String record : records) {
       String[] parts = record.split(" "); // 기록을 시각, 차량 번호, 상태로 분리
       String time = parts[0];
       String carNumber = parts[1];
       String status = parts[2];
-      
+
       if (status.equals("IN")) {
         // 차량이 입차한 경우, 차량 번호와 시간을 기록
         inTime.put(carNumber, time);
@@ -47,18 +47,18 @@ class Solution {
         parkingTime.put(carNumber, parkingTime.getOrDefault(carNumber, 0) + parkedMinutes);
       }
     }
-    
+
     // 출차 기록이 없는 차량에 대해 23:59에 출차된 것으로 간주
     for (String carNumber : inTime.keySet()) {
       String in = inTime.get(carNumber);
       int parkedMinutes = calculateMinutes(in, "23:59");
       parkingTime.put(carNumber, parkingTime.getOrDefault(carNumber, 0) + parkedMinutes);
     }
-    
+
     // 차량 번호를 오름차순으로 정렬
     List<String> sortedCarNumbers = new ArrayList<>(parkingTime.keySet());
     Collections.sort(sortedCarNumbers);
-    
+
     // 차량별로 요금 계산
     int[] answer = new int[sortedCarNumbers.size()];
     for (int i = 0; i < sortedCarNumbers.size(); i++) {
@@ -66,10 +66,10 @@ class Solution {
       int totalTime = parkingTime.get(carNumber); // 총 주차 시간 가져오기
       answer[i] = calculateFee(totalTime, fees); // 주차 요금 계산
     }
-    
+
     return answer;
   }
-  
+
   // 두 시각 간의 분 차이를 계산하는 메서드
   private int calculateMinutes(String inTime, String outTime) {
     try {
@@ -82,19 +82,19 @@ class Solution {
       throw new RuntimeException("시간 형식 오류");
     }
   }
-  
+
   // 주차 요금을 계산하는 메서드
   private int calculateFee(int totalTime, int[] fees) {
     int basicTime = fees[0]; // 기본 시간
     int basicFee = fees[1]; // 기본 요금
     int unitTime = fees[2]; // 단위 시간
     int unitFee = fees[3]; // 단위 요금
-    
+
     if (totalTime <= basicTime) {
       // 기본 시간 이하인 경우 기본 요금만 부과
       return basicFee;
     }
-    
+
     // 초과 시간에 대해 단위 시간 기준으로 요금 계산
     int extraTime = totalTime - basicTime;
     int extraUnits = (int) Math.ceil((double) extraTime / unitTime); // 올림 처리

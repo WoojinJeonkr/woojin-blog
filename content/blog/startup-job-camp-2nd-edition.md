@@ -1,6 +1,6 @@
 ---
 external: false
-title : "StartUp Job Camp 2nd Edition"
+title: "StartUp Job Camp 2nd Edition"
 tag: [Study]
 date: 2022-09-18
 ---

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding adoption time (1)"
-tag : [Programmers, SQL]
-date : 2024-06-16
+external: false
+title: "Finding adoption time (1)"
+tag: [Programmers, SQL]
+date: 2024-06-16
 ---
 
 ## 1. Problem

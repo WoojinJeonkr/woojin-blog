@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Integer triangle"
-tag : [Programmers, Java]
-date : 2024-11-24
+external: false
+title: "Integer triangle"
+tag: [Programmers, Java]
+date: 2024-11-24
 ---
 
 ## 1. Problem
@@ -26,9 +26,9 @@ class Solution {
   public int solution(int[][] triangle) {
     int n = triangle.length;
     int[][] dp = new int[n][n]; // dp[i][j]: i번째 행의 j번째 칸까지의 최대 합
-    
+
     dp[0][0] = triangle[0][0]; // 삼각형 꼭대기 값 초기화
-    
+
     // DP 테이블 채우기
     for (int i = 1; i < n; i++) {
       for (int j = 0; j <= i; j++) {
@@ -44,13 +44,13 @@ class Solution {
         }
       }
     }
-    
+
     // 삼각형 바닥에서 최대값 찾기
     int answer = 0;
     for (int i = 0; i < n; i++) {
       answer = Math.max(answer, dp[n - 1][i]);
     }
-    
+
     return answer;
   }
 }

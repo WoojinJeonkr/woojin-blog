@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Distinct colors"
-tag : [Codechef, Python]
-date : 2026-04-25
+external: false
+title: "Distinct colors"
+tag: [Codechef, Python]
+date: 2026-04-25
 ---
 
 ## 1. Problem

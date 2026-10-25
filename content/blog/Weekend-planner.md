@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Weekend planner"
-tag : [Python]
-date : 2026-08-05
+external: false
+title: "Weekend planner"
+tag: [Python]
+date: 2026-08-05
 ---
 
 ## 1. Problem

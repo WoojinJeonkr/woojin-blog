@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Savings goal optimizer"
-tag : [Python]
-date : 2026-05-26
+external: false
+title: "Savings goal optimizer"
+tag: [Python]
+date: 2026-05-26
 ---
 
 ## 1. Problem

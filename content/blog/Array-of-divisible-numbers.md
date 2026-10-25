@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Array of divisible numbers"
-tag : [Programmers, Java]
-date : 2024-11-07
+external: false
+title: "Array of divisible numbers"
+tag: [Programmers, Java]
+date: 2024-11-07
 ---
 
 ## 1. Problem

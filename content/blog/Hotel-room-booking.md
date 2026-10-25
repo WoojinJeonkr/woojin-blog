@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Hotel room booking"
-tag : [Programmers, Java]
-date : 2024-08-07
+external: false
+title: "Hotel room booking"
+tag: [Programmers, Java]
+date: 2024-08-07
 ---
 
 ## 1. Problem

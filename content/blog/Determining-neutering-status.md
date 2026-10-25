@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Determining neutering status"
-tag : [Programmers, SQL]
-date : 2025-01-18
+external: false
+title: "Determining neutering status"
+tag: [Programmers, SQL]
+date: 2025-01-18
 ---
 
 ## 1. Problem
@@ -30,10 +30,10 @@ date : 2025-01-18
 -- 동물의 아이디, 이름, 중성화 여부를 조회하는 쿼리
 -- 실행 순서: FROM -> WHERE -> SELECT -> ORDER BY
 
-SELECT 
+SELECT
   ANIMAL_ID,                          -- 동물 아이디 선택 (3번째 실행)
   NAME,                              -- 동물 이름 선택
-  CASE 
+  CASE
     -- LIKE '%문자열%': 해당 문자열이 어느 위치에든 포함되어 있는지 확인
     -- %는 0개 이상의 임의의 문자를 의미함
     WHEN SEX_UPON_INTAKE LIKE '%Neutered%'  -- Neutered 문자열이 포함된 경우

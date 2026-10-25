@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Disk controller"
-tag : [Programmers, Java]
-date : 2024-11-22
+external: false
+title: "Disk controller"
+tag: [Programmers, Java]
+date: 2024-11-22
 ---
 
 ## 1. Problem
@@ -56,7 +56,7 @@ class Solution {
     return totalTurnaroundTime / n; // 반환 시간의 평균값 계산 후 반환
   }
 
-  private void sortByRequestTime(int[][] jobs) { 
+  private void sortByRequestTime(int[][] jobs) {
     // 작업들을 요청 시각 기준으로 오름차순 정렬
     for (int i = 0; i < jobs.length - 1; i++) {
       for (int j = i + 1; j < jobs.length; j++) {
@@ -75,7 +75,7 @@ class Solution {
     int minLength = jobs[queue[0]][1];
     for (int i = 1; i < queueSize; i++) {
       int jobIndex = queue[i];
-      if (jobs[jobIndex][1] < minLength || 
+      if (jobs[jobIndex][1] < minLength ||
           (jobs[jobIndex][1] == minLength && jobs[jobIndex][0] < jobs[queue[shortestIndex]][0])) {
         shortestIndex = i;
         minLength = jobs[jobIndex][1];

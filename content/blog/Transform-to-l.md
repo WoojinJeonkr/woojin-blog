@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Transform to l"
-tag : [Programmers, Python]
-date : 2025-07-22
+external: false
+title: "Transform to l"
+tag: [Programmers, Python]
+date: 2025-07-22
 ---
 
 ## 1. Problem

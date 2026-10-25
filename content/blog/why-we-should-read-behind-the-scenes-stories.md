@@ -1,7 +1,7 @@
 ---
 external: false
-title : "Why We should read behind the scenes stories"
-description : "What is a behind-the-scenes story and why should we be interested in it?"
+title: "Why We should read behind the scenes stories"
+description: "What is a behind-the-scenes story and why should we be interested in it?"
 tag: [Study]
 date: 2022-10-15
 ---
@@ -23,31 +23,31 @@ Behind Story, 직역하면 뒷 이야기이다. 어떤 일에 얽힌 알려지�
 
 ### 4-1. Toss팀 워크스토리
 
-{% youtube url="https://www.youtube.com/embed/B26O0mjIsUE" label="Toss Work Story" /%}
+{% youtube url="<https://www.youtube.com/embed/B26O0mjIsUE>" label="Toss Work Story" /%}
 
 ### 4-2. STAIR (Flutter 개발자 스토리)
 
-{% youtube url="https://www.youtube.com/embed/2S-KkvFuLWs" label="Flutter Developer Story 1" /%}
+{% youtube url="<https://www.youtube.com/embed/2S-KkvFuLWs>" label="Flutter Developer Story 1" /%}
 
 ### 4-3. Push(Flutter 개발자 스토리)
 
-{% youtube url="https://www.youtube.com/embed/0LqTlDXtzg4" label="Flutter Developer Story 2" /%}
+{% youtube url="<https://www.youtube.com/embed/0LqTlDXtzg4>" label="Flutter Developer Story 2" /%}
 
 ### 4-4. Apple - More - Developer Stories - The story behind the apps
 
-{% youtube url="https://www.youtube.com/embed/cGqtGGcnbtw" label="Apple Developer Story" /%}
+{% youtube url="<https://www.youtube.com/embed/cGqtGGcnbtw>" label="Apple Developer Story" /%}
 
 ### 4-5. WORK STORY : Ryan | video game developer
 
-{% youtube url="https://www.youtube.com/embed/nm_l_dsgIiQ" label="Ryan Work Story" /%}
+{% youtube url="<https://www.youtube.com/embed/nm_l_dsgIiQ>" label="Ryan Work Story" /%}
 
 ### 4-6. The Story Behind Gears of War's New Developer
 
-{% youtube url="https://www.youtube.com/embed/YDsulcUr2bA" label="The Story Behind Gears of War's New Developer" /%}
+{% youtube url="<https://www.youtube.com/embed/YDsulcUr2bA>" label="The Story Behind Gears of War's New Developer" /%}
 
 ### 4-7. IONIQ5 Developer Story
 
-{% youtube url="https://www.youtube.com/embed/c9dQAD8nge0?si=46WRmqiFNiAxWWid" label="IONIQ5 Developer Story" /%}
+{% youtube url="<https://www.youtube.com/embed/c9dQAD8nge0?si=46WRmqiFNiAxWWid>" label="IONIQ5 Developer Story" /%}
 
 ## 5. 참고 자료
 

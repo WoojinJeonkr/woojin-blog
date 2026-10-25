@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Identifying Third Generation E coli"
-tag : [Programmers, SQL]
-date : 2025-01-09
+external: false
+title: "Identifying Third Generation E coli"
+tag: [Programmers, SQL]
+date: 2025-01-09
 ---
 
 ## 1. Problem
@@ -34,9 +34,9 @@ WITH RECURSIVE GenerationCTE AS (
   SELECT ID, PARENT_ID, 1 AS Generation
   FROM ECOLI_DATA
   WHERE PARENT_ID IS NULL
-  
+
   UNION ALL
-  
+
   -- 재귀 케이스: 다음 세대 대장균 선택
   SELECT e.ID, e.PARENT_ID, g.Generation + 1
   FROM ECOLI_DATA e

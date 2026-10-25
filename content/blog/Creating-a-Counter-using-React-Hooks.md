@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Creating a Counter using React Hooks"
+title: "Creating a Counter using React Hooks"
 tag: [React, Typescript]
 date: 2022-10-30
 ---
@@ -17,7 +17,7 @@ Hook은 class 안에서는 동작하지 않는다. 대신 class 없이 React를 
 
 ## 2. React Hook을 이용한 Counter 만들기
 
-{% codepen url="https://codepen.io/calomys/full/MWXapLv" title="React hook Counter" /%}
+{% codepen url="<https://codepen.io/calomys/full/MWXapLv>" title="React hook Counter" /%}
 
 ## 3. Reference
 

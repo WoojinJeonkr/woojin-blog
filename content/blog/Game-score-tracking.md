@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Game score tracking"
-tag : [Python]
-date : 2026-10-01
+external: false
+title: "Game score tracking"
+tag: [Python]
+date: 2026-10-01
 ---
 
 ## 1. Problem

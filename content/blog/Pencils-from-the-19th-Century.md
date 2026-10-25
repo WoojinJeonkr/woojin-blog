@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pencils from the 19th Century"
-tag : [Baekjoon, Python]
-date : 2025-12-14
+external: false
+title: "Pencils from the 19th Century"
+tag: [Baekjoon, Python]
+date: 2025-12-14
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ case_num = 1  # 테스트 케이스 번호
 while True:
     # 연필 개수 N 입력
     N = int(input())
-    
+
     # N이 0이면 입력 종료
     if N == 0:
         break

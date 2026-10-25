@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Radar anomaly detection"
-tag : [Python]
-date : 2026-09-12
+external: false
+title: "Radar anomaly detection"
+tag: [Python]
+date: 2026-09-12
 ---
 
 ## 1. Problem

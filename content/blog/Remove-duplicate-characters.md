@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Remove duplicate characters"
-tag : [Programmers, Python]
-date : 2025-04-22
+external: false
+title: "Remove duplicate characters"
+tag: [Programmers, Python]
+date: 2025-04-22
 ---
 
 ## 1. Problem

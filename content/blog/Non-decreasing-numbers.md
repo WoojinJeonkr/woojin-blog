@@ -1,8 +1,8 @@
 ---
-external : False
-title : "Non decreasing numbers"
-tag : [Baekjoon, Python]
-date : 2025-11-23
+external: False
+title: "Non decreasing numbers"
+tag: [Baekjoon, Python]
+date: 2025-11-23
 ---
 
 ## 1. Problem

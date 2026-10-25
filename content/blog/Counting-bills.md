@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Counting bills"
-tag : [Baekjoon, Python]
-date : 2026-01-25
+external: false
+title: "Counting bills"
+tag: [Baekjoon, Python]
+date: 2026-01-25
 ---
 
 ## 1. Problem
@@ -33,7 +33,7 @@ total = 0
 # N장의 지폐 정보를 하나씩 입력받아 처리
 for _ in range(N):
     w, h = map(int, input().split())  # w: 가로 길이, h: 세로 길이 (세로는 항상 68mm)
-    
+
     # 가로 길이를 기준으로 지폐 종류를 판별하여 금액을 더함
     total += money[w]
 

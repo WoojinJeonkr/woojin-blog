@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Sementic UI"
+title: "Sementic UI"
 tag: [React, Sementic UI]
 date: 2022-10-31
 ---
@@ -40,7 +40,7 @@ CDN을 통해 패키지를 설치하지 않고 가져오는 방법도 있다.
 
 ## 2. Example
 
-{% codepen url="https://codepen.io/calomys/full/WNyQqNz" title="Sementic-UI-3max-dropdown" /%}
+{% codepen url="<https://codepen.io/calomys/full/WNyQqNz>" title="Sementic-UI-3max-dropdown" /%}
 
 ## 3. Reference
 

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Wind direction"
-tag : [Python]
-date : 2026-08-24
+external: false
+title: "Wind direction"
+tag: [Python]
+date: 2026-08-24
 ---
 
 ## 1. Problem

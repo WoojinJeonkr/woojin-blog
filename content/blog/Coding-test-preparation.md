@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Coding test preparation"
-tag : [Programmers, Python]
-date : 2025-10-13
+external: false
+title: "Coding test preparation"
+tag: [Programmers, Python]
+date: 2025-10-13
 ---
 
 ## 1. Problem

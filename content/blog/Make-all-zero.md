@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Make all zero"
-tag : [Programmers, Python]
-date : 2025-09-27
+external: false
+title: "Make all zero"
+tag: [Programmers, Python]
+date: 2025-09-27
 ---
 
 ## 1. Problem
@@ -19,9 +19,9 @@ sys.setrecursionlimit(10**6)
 
 def solution(a, edges):
     from collections import defaultdict
-    
+
     n = len(a)
-    
+
     # 모든 노드의 가중치 합이 0이 아니면 절대로 0으로 만들 수 없음
     if sum(a) != 0:
         return -1
@@ -31,7 +31,7 @@ def solution(a, edges):
     for u, v in edges:
         tree[u].append(v)
         tree[v].append(u)
-    
+
     # 노드 방문 여부 기록
     visited = [False] * n
 

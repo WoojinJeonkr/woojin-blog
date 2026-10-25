@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Paper cutting"
-tag : [Codechef, Python]
-date : 2026-04-28
+external: false
+title: "Paper cutting"
+tag: [Codechef, Python]
+date: 2026-04-28
 ---
 
 ## 1. Problem

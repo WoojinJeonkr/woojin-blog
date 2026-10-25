@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sum of consecutive subsequence"
-tag : [Programmers, Java]
-date : 2024-10-06
+external: false
+title: "Sum of consecutive subsequence"
+tag: [Programmers, Java]
+date: 2024-10-06
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ class Solution {
     int sum = sequence[0];
     int minLength = Integer.MAX_VALUE;
     int[] answer = new int[2];
-    
+
     while (right < n) {
       if (sum == k) {
         // 부분 수열의 길이가 더 짧으면 갱신
@@ -49,7 +49,7 @@ class Solution {
         left++;
       }
     }
-    
+
     return answer;
   }
 }

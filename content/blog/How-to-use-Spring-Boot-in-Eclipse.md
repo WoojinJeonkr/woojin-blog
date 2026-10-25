@@ -1,15 +1,15 @@
 ---
-external : false
-title : "How to use Spring Boot in Eclipse"
-tag : [Hackerrank, Eclipse, Java]
-date : 2024-05-11
+external: false
+title: "How to use Spring Boot in Eclipse"
+tag: [Hackerrank, Eclipse, Java]
+date: 2024-05-11
 ---
 
 이번 게시글에서는 이클립스를 설치하였다는 전제하에 이클립스에서 Spring Boot 프로젝트를 시작하기 위해 Spring Tool Suite 4를 설치하는 방법에 대해 알아보겠습니다.
 
 ## 1. Eclipse
 
-이클립스는 프로그래밍 언어 개발에 사용되는 통합 개발 환경(IDE)으로, 주로 자바 개발에 사용되지만 플러그인을 통해 다른 프로그래밍 언어도 지원합니다.  
+이클립스는 프로그래밍 언어 개발에 사용되는 통합 개발 환경(IDE)으로, 주로 자바 개발에 사용되지만 플러그인을 통해 다른 프로그래밍 언어도 지원합니다.
 문법 강조, 코드 완성 및 프로젝트 관리 도구와 같은 기능을 제공하며, 다양한 개발 요구에 대응하기 위해 많은 플러그인이 제공되어 확장 가능성이 높습니다.
 
 ## 2. Spring Tool Suite 4

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Rectangle area"
-tag : [Programmers, Python]
-date : 2025-08-25
+external: false
+title: "Rectangle area"
+tag: [Programmers, Python]
+date: 2025-08-25
 ---
 
 ## 1. Problem

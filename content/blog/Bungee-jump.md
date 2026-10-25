@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Bungee jump"
-tag : [Python]
-date : 2026-08-21
+external: false
+title: "Bungee jump"
+tag: [Python]
+date: 2026-08-21
 ---
 
 ## 1. Problem

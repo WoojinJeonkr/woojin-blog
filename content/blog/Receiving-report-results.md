@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Receiving report results"
-tag : [Programmers, Java]
-date : 2024-11-10
+external: false
+title: "Receiving report results"
+tag: [Programmers, Java]
+date: 2024-11-10
 ---
 
 ## 1. Problem
@@ -27,24 +27,24 @@ import java.util.*;
 class Solution {
   public int[] solution(String[] id_list, String[] report, int k) {
     int[] answer = new int[id_list.length];
-    
+
     // 유저 ID에 대한 인덱스를 저장하는 맵 생성
     Map<String, Integer> idIndexMap = new HashMap<>();
     for (int i = 0; i < id_list.length; i++) {
       idIndexMap.put(id_list[i], i);
     }
-    
+
     // 각 유저가 신고한 유저들의 집합을 저장하는 맵 생성
     Map<String, Set<String>> reportMap = new HashMap<>();
     for (String rep : report) {
       String[] ids = rep.split(" ");
       String reporter = ids[0];  // 신고한 유저
       String reported = ids[1];  // 신고당한 유저
-      
+
       // 중복 신고를 방지하기 위해 Set에 신고자를 추가
       reportMap.computeIfAbsent(reported, x -> new HashSet<>()).add(reporter);
     }
-    
+
     // 신고당한 유저들의 신고 횟수를 확인하고, k번 이상 신고된 경우 처리
     for (String reported : reportMap.keySet()) {
       Set<String> reporters = reportMap.get(reported);
@@ -55,7 +55,7 @@ class Solution {
         }
       }
     }
-    
+
     return answer;  // 각 유저가 받은 메일 수 반환
   }
 }

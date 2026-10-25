@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Divine balance"
-tag : [Python]
-date : 2026-08-16
+external: false
+title: "Divine balance"
+tag: [Python]
+date: 2026-08-16
 ---
 
 ## 1. Problem

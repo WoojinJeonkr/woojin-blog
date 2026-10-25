@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding Lucy and Ella"
-tag : [Programmers, SQL]
-date : 2025-01-17
+external: false
+title: "Finding Lucy and Ella"
+tag: [Programmers, SQL]
+date: 2025-01-17
 ---
 
 ## 1. Problem
@@ -25,14 +25,14 @@ WHERE 절에서는 IN 연산자를 활용하여 특정 이름을 가진 동물�
 
 ```sql
 -- 특정 이름을 가진 동물들의 정보를 조회하는 쿼리
-SELECT 
+SELECT
   ANIMAL_ID,           -- 동물 아이디
   NAME,               -- 동물 이름
   SEX_UPON_INTAKE     -- 성별 및 중성화 여부
-FROM 
+FROM
   ANIMAL_INS
-WHERE 
+WHERE
   NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
-ORDER BY 
+ORDER BY
   ANIMAL_ID;          -- 아이디 기준 오름차순 정렬
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dual priority queue"
-tag : [Programmers, Python]
-date : 2025-02-17
+external: false
+title: "Dual priority queue"
+tag: [Programmers, Python]
+date: 2025-02-17
 ---
 
 ## 1. Problem
@@ -33,20 +33,20 @@ import heapq
 def solution(operations):
   max_heap = []  # 최대값을 얻기 위한 힙
   min_heap = []  # 최소값을 얻기 위한 힙
-  
+
   for op in operations:
     command, num = op.split()
     num = int(num)
-    
+
     if command == "I":
       # 삽입 연산: 최대 힙과 최소 힙에 값을 추가
-      heapq.heappush(max_heap, -num)  
-      heapq.heappush(min_heap, num)   
+      heapq.heappush(max_heap, -num)
+      heapq.heappush(min_heap, num)
     elif command == "D":
       if not max_heap or not min_heap:
         # 큐가 비어있으면 연산 무시
         continue
-      
+
       if num == 1:
         # 최대값 삭제: 최대 힙에서 값을 꺼내고 최소 힙에서도 제거
         max_val = -heapq.heappop(max_heap)
@@ -57,7 +57,7 @@ def solution(operations):
         min_val = heapq.heappop(min_heap)
         max_heap.remove(-min_val)
         heapq.heapify(max_heap)
-  
+
   if not max_heap or not min_heap:
     # 큐가 비어있으면 [0, 0] 반환
     return [0, 0]

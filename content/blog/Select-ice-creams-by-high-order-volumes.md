@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Select ice creams by high order volumes"
-tag : [Programmers, SQL]
-date : 2025-01-23
+external: false
+title: "Select ice creams by high order volumes"
+tag: [Programmers, SQL]
+date: 2025-01-23
 ---
 
 ## 1. Problem
@@ -28,24 +28,24 @@ date : 2025-01-23
 
 ```sql
 -- 실행 순서: 4) 최종 결과에서 FLAVOR 컬럼만 선택
-SELECT 
+SELECT
   f.FLAVOR
-FROM 
+FROM
   -- 실행 순서: 1) FIRST_HALF 테이블을 기준으로
   FIRST_HALF f
   -- 실행 순서: 2) JULY 테이블의 맛별 총합과 LEFT JOIN
   LEFT JOIN (
-    SELECT 
-      FLAVOR, 
+    SELECT
+      FLAVOR,
       SUM(TOTAL_ORDER) as JULY_TOTAL
-    FROM 
+    FROM
       JULY
-    GROUP BY 
+    GROUP BY
       FLAVOR
   ) j ON f.FLAVOR = j.FLAVOR
 -- 실행 순서: 3) 상반기와 7월 주문 합계로 내림차순 정렬 후 상위 3개 선택
-ORDER BY 
+ORDER BY
   (f.TOTAL_ORDER + COALESCE(j.JULY_TOTAL, 0)) DESC
-LIMIT 
+LIMIT
   3
 ```

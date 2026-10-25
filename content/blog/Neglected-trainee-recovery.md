@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Neglected trainee recovery"
-tag : [Python]
-date : 2026-07-28
+external: false
+title: "Neglected trainee recovery"
+tag: [Python]
+date: 2026-07-28
 ---
 
 ## 1. Problem

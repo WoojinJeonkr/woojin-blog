@@ -1,8 +1,8 @@
 ---
-external : false
-title : "The next bigger number"
-tag : [Programmers, Java]
-date : 2024-09-04
+external: false
+title: "The next bigger number"
+tag: [Programmers, Java]
+date: 2024-09-04
 ---
 
 ## 1. Problem
@@ -26,11 +26,11 @@ class Solution {
   public int solution(int n) {
     int countOnes = Integer.bitCount(n);  // n의 2진수에서 1의 갯수를 셈
     int nextNumber = n + 1;  // n보다 큰 수부터 시작
-    
+
     while (Integer.bitCount(nextNumber) != countOnes) {  // 1의 갯수가 같을 때까지 반복
       nextNumber++;
     }
-    
+
     return nextNumber;  // 조건을 만족하는 첫 번째 숫자를 반환
   }
 }

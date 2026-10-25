@@ -1,8 +1,8 @@
 ---
-external : false
-title : "API quota window tracker"
-tag : [Python]
-date : 2026-06-11
+external: false
+title: "API quota window tracker"
+tag: [Python]
+date: 2026-06-11
 ---
 
 ## 1. Problem

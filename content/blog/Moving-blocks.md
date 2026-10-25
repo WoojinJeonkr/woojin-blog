@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Moving blocks"
-tag : [Programmers, Java]
-date : 2025-10-17
+external: false
+title: "Moving blocks"
+tag: [Programmers, Java]
+date: 2025-10-17
 ---
 
 ## 1. Problem

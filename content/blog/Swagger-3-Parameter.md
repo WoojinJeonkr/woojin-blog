@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Swagger 3 Parameter"
-tag : [Java, Swagger]
-date : 2024-08-04
+external: false
+title: "Swagger 3 Parameter"
+tag: [Java, Swagger]
+date: 2024-08-04
 ---
 
 ## 1. 개요

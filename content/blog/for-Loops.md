@@ -1,7 +1,7 @@
 ---
 external: false
-title : "for Loops"
-description : "Let's learn about for and for-in iteration"
+title: "for Loops"
+description: "Let's learn about for and for-in iteration"
 tag: [Typescript]
 date: 2022-10-05
 ---
@@ -76,7 +76,7 @@ e
 l
 l
 o
- 
+
 W
 o
 r
@@ -90,7 +90,7 @@ d
 array, list 또는 tuple과 함께 사용할 수 있다.
 
 ### 3-1-1. 예시 1
-  
+
 ```ts
 let arr = [10, 20, 30, 40];
 

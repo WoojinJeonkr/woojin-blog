@@ -2,7 +2,7 @@
 external: false
 title: "Append and Delete"
 tag: [Hackerrank, Java]
-date : 2024-03-02
+date: 2024-03-02
 ---
 
 ## 1. Problem
@@ -40,7 +40,7 @@ class Result {
 
     return ((total == k) || (total < k && (total - k) % 2 == 0) || (total + (2 * commonLength) <= k)) ? "Yes" : "No";
   }
-    
+
   public static int getCommonLength(String s, String t) {
     int commonLength = 0;
     for (int i = 0; i < Math.min(s.length(), t.length()); i++) {

@@ -1,13 +1,13 @@
 ---
 external: false
-title : "drawing graphs with matplotlib (2)"
+title: "drawing graphs with matplotlib (2)"
 tag: [Python, Graph]
 date: 2022-09-16
 ---
 
 ## 1. 선 그래프
 
-수량을 점으로 표시하고 그 점들을 선분으로 이어 그린 그래프를 말한다.  
+수량을 점으로 표시하고 그 점들을 선분으로 이어 그린 그래프를 말한다.
 
 ### 1-1. 장점
 

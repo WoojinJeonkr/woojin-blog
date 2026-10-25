@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Wallet transaction optimizer"
-tag : [Python]
-date : 2026-05-29
+external: false
+title: "Wallet transaction optimizer"
+tag: [Python]
+date: 2026-05-29
 ---
 
 ## 1. Problem

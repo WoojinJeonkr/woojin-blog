@@ -1,7 +1,7 @@
 ---
-external : false
-title : "Loo Rolls"
-tag : [Baekjoon, Python]
+external: false
+title: "Loo Rolls"
+tag: [Baekjoon, Python]
 date:  2026-04-07
 ---
 

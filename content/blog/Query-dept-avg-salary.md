@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Query dept avg salary"
-tag : [Programmers, SQL]
-date : 2025-01-21
+external: false
+title: "Query dept avg salary"
+tag: [Programmers, SQL]
+date: 2025-01-21
 ---
 
 ## 1. Problem
@@ -33,10 +33,10 @@ SELECT  -- 1. 최종적으로 출력할 컬럼들을 선택
     ROUND(AVG(e.SAL)) AS AVG_SAL
   FROM  -- 2. 부서 테이블과 직원 테이블을 조인
     HR_DEPARTMENT d
-    JOIN HR_EMPLOYEES e 
+    JOIN HR_EMPLOYEES e
       ON d.DEPT_ID = e.DEPT_ID
   GROUP BY  -- 3. 부서 ID와 부서명으로 그룹화
-    d.DEPT_ID, 
+    d.DEPT_ID,
     d.DEPT_NAME_EN
   ORDER BY  -- 4. 평균 연봉을 기준으로 내림차순 정렬
     AVG_SAL DESC

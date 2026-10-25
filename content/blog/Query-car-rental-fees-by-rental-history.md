@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Query car rental fees by rental history"
-tag : [Programmers, SQL]
-date : 2025-01-31
+external: false
+title: "Query car rental fees by rental history"
+tag: [Programmers, SQL]
+date: 2025-01-31
 ---
 
 ## 1. Problem
@@ -28,24 +28,24 @@ date : 2025-01-31
 
 ```sql
 -- 1. 트럭 차량의 대여 기록을 조회하고 각 기록별 대여 금액을 계산
-SELECT 
+SELECT
   RH.HISTORY_ID,
   -- 4. 대여 금액 계산 (소수점 아래 버림)
   FLOOR(
-    CASE 
+    CASE
       -- 5. 7일 미만 대여는 할인 없이 계산
-      WHEN DATEDIFF(RH.END_DATE, RH.START_DATE) + 1 < 7 
+      WHEN DATEDIFF(RH.END_DATE, RH.START_DATE) + 1 < 7
         THEN RC.DAILY_FEE * (DATEDIFF(RH.END_DATE, RH.START_DATE) + 1)
       -- 6. 7일 이상 대여는 할인율 적용하여 계산
-      ELSE 
-        RC.DAILY_FEE * (DATEDIFF(RH.END_DATE, RH.START_DATE) + 1) * 
+      ELSE
+        RC.DAILY_FEE * (DATEDIFF(RH.END_DATE, RH.START_DATE) + 1) *
         -- 7. 할인율 조회를 위한 서브쿼리
         (1 - (SELECT DISCOUNT_RATE/100
               FROM CAR_RENTAL_COMPANY_DISCOUNT_PLAN
               WHERE CAR_TYPE = '트럭'
               -- 8. 대여 기간에 따른 할인율 기준 설정
-              AND 
-              CASE 
+              AND
+              CASE
                 WHEN DATEDIFF(RH.END_DATE, RH.START_DATE) + 1 >= 90 THEN '90일 이상'
                 WHEN DATEDIFF(RH.END_DATE, RH.START_DATE) + 1 >= 30 THEN '30일 이상'
                 ELSE '7일 이상'
@@ -53,14 +53,14 @@ SELECT
     END
   ) AS FEE
 -- 2. 차량 정보와 대여 기록 테이블 조인
-FROM 
-  CAR_RENTAL_COMPANY_CAR RC 
+FROM
+  CAR_RENTAL_COMPANY_CAR RC
   JOIN CAR_RENTAL_COMPANY_RENTAL_HISTORY RH ON RC.CAR_ID = RH.CAR_ID
 -- 3. 트럭 차량만 필터링
-WHERE 
+WHERE
   RC.CAR_TYPE = '트럭'
 -- 9. 계산된 결과를 정렬
-ORDER BY 
+ORDER BY
   FEE DESC,  -- 대여 금액 기준 내림차순
   HISTORY_ID DESC  -- 같은 금액인 경우 대여 기록 ID 내림차순
 ```

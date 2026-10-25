@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Babbling (1)"
-tag : [Programmers, Python]
-date : 2025-07-15
+external: false
+title: "Babbling (1)"
+tag: [Programmers, Python]
+date: 2025-07-15
 ---
 
 ## 1. Problem
@@ -19,7 +19,7 @@ def solution(babbling):
 
     for word in babbling:
         temp_word = word
-        
+
         # 각 발음 가능한 단어를 특수 문자로 치환
         # 이렇게 하면 같은 발음이 연속으로 오는 경우를 방지할 수 있습니다.
         # 예: "woowo" -> "11wo" (잘못된 처리)
@@ -32,6 +32,6 @@ def solution(babbling):
         # 공백을 제거한 후 남은 문자가 없으면 발음 가능한 단어
         if temp_word.strip() == '':
             answer += 1
-            
+
     return answer
 ```

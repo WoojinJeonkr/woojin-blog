@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dark Adaptation"
-tag : [Python]
-date : 2026-08-30
+external: false
+title: "Dark Adaptation"
+tag: [Python]
+date: 2026-08-30
 ---
 
 ## 1. Problem

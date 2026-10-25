@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Veni vidi vici"
-tag : [Baekjoon, Python]
-date : 2025-12-20
+external: false
+title: "Veni vidi vici"
+tag: [Baekjoon, Python]
+date: 2025-12-20
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Matrix border rotation"
-tag : [Programmers, Python]
-date : 2025-01-04
+external: false
+title: "Matrix border rotation"
+tag: [Programmers, Python]
+date: 2025-01-04
 ---
 
 ## 1. Problem
@@ -28,38 +28,38 @@ def solution(rows, columns, queries):
   # 초기 행렬 생성 (1부터 순차적으로 채움)
   matrix = [[row * columns + col + 1 for col in range(columns)] for row in range(rows)]
   answer = []
-  
+
   for x1, y1, x2, y2 in queries:
     # 인덱스를 0부터 시작하도록 변환
     x1, y1, x2, y2 = x1-1, y1-1, x2-1, y2-1
     # 첫 번째 요소를 임시 저장
     temp = matrix[x1][y1]
     min_value = temp
-    
+
     # 왼쪽 세로 테두리 이동 (아래에서 위로)
     for i in range(x1, x2):
       matrix[i][y1] = matrix[i+1][y1]
       min_value = min(min_value, matrix[i+1][y1])
-    
+
     # 아래쪽 가로 테두리 이동 (오른쪽에서 왼쪽으로)
     for i in range(y1, y2):
       matrix[x2][i] = matrix[x2][i+1]
       min_value = min(min_value, matrix[x2][i+1])
-    
+
     # 오른쪽 세로 테두리 이동 (위에서 아래로)
     for i in range(x2, x1, -1):
       matrix[i][y2] = matrix[i-1][y2]
       min_value = min(min_value, matrix[i-1][y2])
-    
+
     # 위쪽 가로 테두리 이동 (왼쪽에서 오른쪽으로)
     for i in range(y2, y1, -1):
       matrix[x1][i] = matrix[x1][i-1]
       min_value = min(min_value, matrix[x1][i-1])
-    
+
     # 임시 저장한 값을 마지막 위치에 배치
     matrix[x1][y1+1] = temp
     # 회전된 숫자들 중 최솟값을 결과 배열에 추가
     answer.append(min_value)
-    
+
   return answer
 ```

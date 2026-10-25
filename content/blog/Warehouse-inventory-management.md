@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Warehouse inventory management"
-tag : [Python]
-date : 2026-10-15
+external: false
+title: "Warehouse inventory management"
+tag: [Python]
+date: 2026-10-15
 ---
 
 ## 1. Problem

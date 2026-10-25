@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Music playlist harmony"
-tag : [Python]
-date : 2026-06-15
+external: false
+title: "Music playlist harmony"
+tag: [Python]
+date: 2026-06-15
 ---
 
 ## 1. Problem

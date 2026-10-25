@@ -1,8 +1,8 @@
 ---
-external : false
-title : "ACM ICPC Team"
-tag : [Hackerrank, Java]
-date : 2024-05-02
+external: false
+title: "ACM ICPC Team"
+tag: [Hackerrank, Java]
+date: 2024-05-02
 ---
 
 ## 1. Problem

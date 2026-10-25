@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number of duplicate numbers"
-tag : [Programmers, Java]
-date : 2024-07-10
+external: false
+title: "Number of duplicate numbers"
+tag: [Programmers, Java]
+date: 2024-07-10
 ---
 
 ## 1. Problem
@@ -17,14 +17,14 @@ class Solution {
   public int solution(int[] array, int n) {
     // 등장 횟수를 누적할 변수
     int answer = 0;
-    
+
     // 배열을 순회하면서 원하는 값이 등장하면 카운트 증가
     for (int num : array) {
       if (num == n) {
         answer += 1;
       }
     }
-    
+
     // 세 결과 반환
     return answer;
   }

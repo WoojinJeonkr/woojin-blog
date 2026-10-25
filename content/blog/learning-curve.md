@@ -1,6 +1,6 @@
 ---
 external: false
-title : "learning curve"
+title: "learning curve"
 tag: [CS]
 date: 2022-11-01
 ---

@@ -3,14 +3,14 @@ external: false
 title: "Learn about SVG"
 description: "We will learn about the definition, structure, and usage of SVG."
 tag: [CS, Astro]
-date : 2024-01-10
+date: 2024-01-10
 ---
 
 이번 글에서는 SVG의 정의와 구조, 그리고 사용 방법에 대해 알아보겠습니다.
 
 ## 1. What is SVG(Scalable Vector Graphics)?
 
-SVG는 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 파일 형식으로, 1999년 W3C(World Wide Web Consortium)의 주도하에 개발된 오픈 표준의 벡터 그래픽 파일 형식입니다.  
+SVG는 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 파일 형식으로, 1999년 W3C(World Wide Web Consortium)의 주도하에 개발된 오픈 표준의 벡터 그래픽 파일 형식입니다.
 현재 마이크로소프트의 인터넷 익스플로러 8 및 이전 버전을 제외한 대부분의 주요 웹 브라우저들은 SVG를 지원합니다. 인터넷 익스플로러 8 및 이전 버전에서는 SVG 파일을 보기 위해 별도의 플러그인을 수동으로 설치하여야 하며, 그렇지 않은 경우에는 웹 페이지 제작자가 구글 코드에서 개발중인 자바스크립트 라이브러리, SVG Web을 웹 페이지 코드에 포함시켜야 합니다.
 
 ## 2. Feature
@@ -21,8 +21,8 @@ SVG는 2차원 벡터 그래픽을 표현하기 위한 XML 기반의 파일 형�
 
 ## 3. Difference between Bitmap and Vector image
 
-이미지 파일에는 벡터 이미지와 비트맵 이미지라는 두 가지 주요 유형이 있습니다. 벡터는 일반적으로 .SVG 및 .AI 파일 형식인 반면, 비트맵 이미지는 .JPG, .GIF, .PNG 등의 파일 형식을 가집니다.  
-비트맵 이미지는 픽셀로 구성되는 반면 벡터 파일은 방정식으로 설명되는 선으로 구성되어 비트맵 이미지를 확대하면 픽셀이 더 크게 나타나면서 이미지가 흐릿하고 선명하지 않게 보이게 되는 반면, 벡터 파일은 부드럽고 선명하게 유지됩니다.  
+이미지 파일에는 벡터 이미지와 비트맵 이미지라는 두 가지 주요 유형이 있습니다. 벡터는 일반적으로 .SVG 및 .AI 파일 형식인 반면, 비트맵 이미지는 .JPG, .GIF, .PNG 등의 파일 형식을 가집니다.
+비트맵 이미지는 픽셀로 구성되는 반면 벡터 파일은 방정식으로 설명되는 선으로 구성되어 비트맵 이미지를 확대하면 픽셀이 더 크게 나타나면서 이미지가 흐릿하고 선명하지 않게 보이게 되는 반면, 벡터 파일은 부드럽고 선명하게 유지됩니다.
 
 ![vector vs bitmapped](/images/vector_bitmap.jpg)
 

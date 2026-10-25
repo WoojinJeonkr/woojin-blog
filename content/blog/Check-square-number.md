@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Check square number"
-tag : [Programmers, Python]
-date : 2025-03-15
+external: false
+title: "Check square number"
+tag: [Programmers, Python]
+date: 2025-03-15
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ import math
 def solution(n):
   # n의 제곱근을 계산합니다.
   sqrt_n = math.sqrt(n)
-  
+
   # 제곱근이 정수라면, n은 제곱수입니다.
   if sqrt_n == int(sqrt_n):
     # n이 제곱수일 경우 1을 반환합니다.

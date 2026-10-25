@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Jump and teleport"
-tag : [Programmers, Java]
-date : 2024-09-06
+external: false
+title: "Jump and teleport"
+tag: [Programmers, Java]
+date: 2024-09-06
 ---
 
 ## 1. Problem
@@ -31,7 +31,7 @@ public class Solution {
       // n이 짝수일 경우 순간이동 (건전지 사용량 증가 X)
       if (n % 2 == 0) {
         n /= 2;
-      } 
+      }
       // n이 홀수일 경우 1칸 점프 (건전지 사용량 1 증가)
       else {
         n -= 1;

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Crane Game"
-tag : [Programmers, Python]
-date : 2025-04-30
+external: false
+title: "Crane Game"
+tag: [Programmers, Python]
+date: 2025-04-30
 ---
 
 ## 1. Problem

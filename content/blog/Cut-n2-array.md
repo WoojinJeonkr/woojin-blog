@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Cut n2 array"
+external: false
+title: "Cut n2 array"
 tag: [Programmers, Java]
-date : 2024-09-11
+date: 2024-09-11
 ---
 
 ## 1. Problem
@@ -26,13 +26,13 @@ class Solution {
   public int[] solution(int n, long left, long right) {
     int len = (int)(right - left + 1); // 결과 배열의 크기 계산
     int[] answer = new int[len]; // 결과를 저장할 배열
-    
+
     for (long i = left; i <= right; i++) {
       int row = (int)(i / n); // i번째 원소가 몇 번째 행에 있는지 계산
       int col = (int)(i % n); // i번째 원소가 몇 번째 열에 있는지 계산
       answer[(int)(i - left)] = Math.max(row, col) + 1; // 해당 위치의 값을 계산하여 배열에 저장
     }
-    
+
     return answer; // 최종 결과 배열 반환
   }
 }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Gas Station"
-tag : [Baekjoon, Python]
-date : 2026-01-10
+external: false
+title: "Gas Station"
+tag: [Baekjoon, Python]
+date: 2026-01-10
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ for i in range(N - 1):
     # 현재 도시의 주유소 가격이 더 싸다면 최소 가격 갱신
     if price[i] < min_price:
         min_price = price[i]
-    
+
     # 현재까지의 최소 가격으로 다음 도시까지 필요한 기름을 구매
     # 도로 길이(dist[i]) * 최소 가격(min_price)
     total_cost += min_price * dist[i]

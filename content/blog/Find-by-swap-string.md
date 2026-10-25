@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find by swap string"
-tag : [Programmers, Python]
-date : 2025-07-16
+external: false
+title: "Find by swap string"
+tag: [Programmers, Python]
+date: 2025-07-16
 ---
 
 ## 1. Problem
@@ -21,14 +21,14 @@ def solution(myString, pat):
             temp_string.append('B')
         else: # char == 'B'
             temp_string.append('A')
-    
+
     transformed_string = "".join(temp_string)
-    
+
     # 변환된 문자열에 pat이 포함되어 있는지 확인합니다.
     if pat in transformed_string:
         answer = 1
     else:
         answer = 0
-        
+
     return answer
 ```

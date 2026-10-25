@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Crawling Web with Jsoup"
-tag : [Java]
-date : 2024-04-07
+external: false
+title: "Crawling Web with Jsoup"
+tag: [Java]
+date: 2024-04-07
 ---
 
 ## 1. 웹 크롤링(Web Crawling)
@@ -41,7 +41,7 @@ public class JsoupCrawler {
       // 웹 페이지 가져오기
       Document doc = Jsoup.connect(url).get();
 
-      // 제목 확인하기 
+      // 제목 확인하기
       System.out.println("Title: " + doc.title());
 
       // 선택자를 사용하여 최근 뉴스 헤드라인 요소를 선택합니다.
@@ -54,7 +54,7 @@ public class JsoupCrawler {
       }
     } catch (Exception e) {
       System.err.println("An error occurred: " + e.getMessage());
-    } 
+    }
   }
 }
 ```
@@ -66,23 +66,23 @@ public class JsoupCrawler {
 ```textile
 Title: Wikipedia, the free encyclopedia
 2024 Hualien earthquake
-	https://en.wikipedia.org/wiki/2024_Hualien_earthquake
+ https://en.wikipedia.org/wiki/2024_Hualien_earthquake
 2024 Israeli bombing of the Iranian embassy in Damascus
-	https://en.wikipedia.org/wiki/2024_Israeli_bombing_of_the_Iranian_embassy_in_Damascus
+ https://en.wikipedia.org/wiki/2024_Israeli_bombing_of_the_Iranian_embassy_in_Damascus
 Mohammad Reza Zahedi
-	https://en.wikipedia.org/wiki/Mohammad_Reza_Zahedi
+ https://en.wikipedia.org/wiki/Mohammad_Reza_Zahedi
 2024 Mmamatlakala bus crash
-	https://en.wikipedia.org/wiki/2024_Mmamatlakala_bus_crash
+ https://en.wikipedia.org/wiki/2024_Mmamatlakala_bus_crash
 Francis Scott Key Bridge collapse
-	https://en.wikipedia.org/wiki/Francis_Scott_Key_Bridge_collapse
+ https://en.wikipedia.org/wiki/Francis_Scott_Key_Bridge_collapse
 2024 Senegalese presidential election
-	https://en.wikipedia.org/wiki/2024_Senegalese_presidential_election
+ https://en.wikipedia.org/wiki/2024_Senegalese_presidential_election
 Portal:Current events
-	https://en.wikipedia.org/wiki/Portal:Current_events
+ https://en.wikipedia.org/wiki/Portal:Current_events
 Deaths in 2024
-	https://en.wikipedia.org/wiki/Deaths_in_2024
+ https://en.wikipedia.org/wiki/Deaths_in_2024
 Wikipedia:In the news/Candidates
-	https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates
+ https://en.wikipedia.org/wiki/Wikipedia:In_the_news/Candidates
 ```
 
 ## 3. 결론

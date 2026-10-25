@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Choosing tangerines"
-tag : [Programmers, Java]
-date : 2024-09-01
+external: false
+title: "Choosing tangerines"
+tag: [Programmers, Java]
+date: 2024-09-01
 ---
 
 ## 1. Problem
@@ -26,19 +26,19 @@ class Solution {
   public int solution(int k, int[] tangerine) {
     // 귤 크기별 빈도수를 저장하기 위한 Map
     Map<Integer, Integer> frequencyMap = new HashMap<>();
-    
+
     // 귤 크기별 빈도 계산
     for (int size : tangerine) {
       frequencyMap.put(size, frequencyMap.getOrDefault(size, 0) + 1);
     }
-    
+
     // 빈도를 내림차순으로 정렬하기 위해 List에 저장
     List<Integer> frequencies = new ArrayList<>(frequencyMap.values());
     Collections.sort(frequencies, Collections.reverseOrder());
-    
+
     int total = 0;  // 현재까지 고른 귤의 개수
     int kindCount = 0;  // 선택한 종류의 수
-    
+
     // 빈도가 높은 것부터 차례대로 k개를 채울 때까지 종류를 선택
     for (int frequency : frequencies) {
       total += frequency;
@@ -47,7 +47,7 @@ class Solution {
         break;
       }
     }
-    
+
     return kindCount;  // 최소한의 종류 수 반환
   }
 }

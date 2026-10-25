@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Payment helper for moon rabbits"
-tag : [Baekjoon, Python]
-date : 2026-01-24
+external: false
+title: "Payment helper for moon rabbits"
+tag: [Baekjoon, Python]
+date: 2026-01-24
 ---
 
 ## 1. Problem

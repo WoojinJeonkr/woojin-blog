@@ -1,8 +1,8 @@
 ---
-external : false
-title : "PCCE Number splitting"
-tag : [Programmers, Python]
-date : 2025-06-23
+external: false
+title: "PCCE Number splitting"
+tag: [Programmers, Python]
+date: 2025-06-23
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Valid parentheses"
-tag : [Programmers, Java]
-date : 2024-08-15
+external: false
+title: "Valid parentheses"
+tag: [Programmers, Java]
+date: 2024-08-15
 ---
 
 ## 1. Problem

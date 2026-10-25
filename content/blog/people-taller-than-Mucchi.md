@@ -1,8 +1,8 @@
 ---
-external : false
-title : "people taller than Mucchi"
-tag : [Programmers, Python]
-date : 2025-03-09
+external: false
+title: "people taller than Mucchi"
+tag: [Programmers, Python]
+date: 2025-03-09
 ---
 
 ## 1. Problem
@@ -20,14 +20,14 @@ date : 2025-03-09
 def solution(array, height):
   # 키가 height보다 큰 사람의 수를 저장할 변수 초기화
   answer = 0
-  
+
   # array에 있는 각 사람의 키를 순회
   for person in array:
     # 현재 사람의 키가 height보다 큰 경우
     if person > height:
       # 키가 height보다 큰 사람의 수를 증가
       answer += 1
-  
+
   # 키가 height보다 큰 사람의 수를 반환
   return answer
 ```

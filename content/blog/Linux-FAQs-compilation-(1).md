@@ -1,8 +1,8 @@
 ---
-external : false
+external: false
 title: "Linux FAQs Compilation (1)"
-tag : [Linux]
-date : 2025-04-02
+tag: [Linux]
+date: 2025-04-02
 ---
 
 ## Q1. `ls -al | grep`과 `find`로 조회했을 때의 차이

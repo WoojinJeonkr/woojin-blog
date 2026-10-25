@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Developer language classification"
-tag : [Programmers, SQL]
-date : 2025-01-20
+external: false
+title: "Developer language classification"
+tag: [Programmers, SQL]
+date: 2025-01-20
 ---
 
 ## 1. Problem
@@ -27,42 +27,42 @@ date : 2025-01-20
 ```sql
 -- 1. 개발자별 스킬 매칭 및 등급 계산을 위한 CTE 시작
 WITH SKILL_COUNTS AS (
-  SELECT 
+  SELECT
     D.ID,
     D.EMAIL,
-    CASE 
+    CASE
       -- 2-1. Front End와 Python 스킬을 모두 가진 경우 A등급
-      WHEN COUNT(CASE WHEN S.CATEGORY = 'Front End' THEN 1 END) > 0 AND 
-           COUNT(CASE WHEN S.NAME = 'Python' THEN 1 END) > 0 
+      WHEN COUNT(CASE WHEN S.CATEGORY = 'Front End' THEN 1 END) > 0 AND
+           COUNT(CASE WHEN S.NAME = 'Python' THEN 1 END) > 0
            THEN 'A'
       -- 2-2. C# 스킬을 가진 경우 B등급
-      WHEN COUNT(CASE WHEN S.NAME = 'C#' THEN 1 END) > 0 
+      WHEN COUNT(CASE WHEN S.NAME = 'C#' THEN 1 END) > 0
            THEN 'B'
       -- 2-3. Front End 스킬만 가진 경우 C등급
-      WHEN COUNT(CASE WHEN S.CATEGORY = 'Front End' THEN 1 END) > 0 
+      WHEN COUNT(CASE WHEN S.CATEGORY = 'Front End' THEN 1 END) > 0
            THEN 'C'
     END AS GRADE
-  FROM 
+  FROM
     DEVELOPERS D
   -- 3. 비트 연산자(&)를 사용하여 개발자가 가진 스킬 매칭
   -- SKILL_CODE와 CODE를 비트 연산하여 스킬 보유 여부 확인
-  JOIN 
+  JOIN
     SKILLCODES S ON D.SKILL_CODE & S.CODE
   -- 4. 개발자별로 스킬을 그룹화하여 집계
-  GROUP BY 
+  GROUP BY
     D.ID, D.EMAIL
   -- 5. 등급이 할당된 개발자만 필터링
-  HAVING 
+  HAVING
     GRADE IS NOT NULL
 )
 -- 6. 최종 결과 조회
-SELECT 
+SELECT
   GRADE,
   ID,
   EMAIL
-FROM 
+FROM
   SKILL_COUNTS
 -- 7. GRADE 먼저, 같은 GRADE 내에서는 ID 순으로 정렬
-ORDER BY 
+ORDER BY
   GRADE, ID;
 ```

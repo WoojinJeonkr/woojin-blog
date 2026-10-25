@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Longest palindrome"
-tag : [Programmers, Python]
-date : 2025-08-20
+external: false
+title: "Longest palindrome"
+tag: [Programmers, Python]
+date: 2025-08-20
 ---
 
 ## 1. Problem

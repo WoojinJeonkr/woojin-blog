@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ball movement simulation"
-tag : [Programmers, Python]
-date : 2025-09-23
+external: false
+title: "Ball movement simulation"
+tag: [Programmers, Python]
+date: 2025-09-23
 ---
 
 ## 1. Problem

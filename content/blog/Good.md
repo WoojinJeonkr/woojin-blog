@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Good"
-tag : [Baekjoon, Python]
-date : 2025-12-07
+external: false
+title: "Good"
+tag: [Baekjoon, Python]
+date: 2025-12-07
 ---
 
 ## 1. Problem
@@ -28,7 +28,7 @@ count = 0  # 좋은 수의 개수
 for i in range(N):
     target = A[i]  # 현재 확인할 수
     left, right = 0, N - 1  # 투 포인터 초기화
-    
+
     # 두 포인터 탐색
     while left < right:
         # 자기 자신을 포인터로 사용하면 안 되므로 건너뛰기
@@ -38,9 +38,9 @@ for i in range(N):
         if right == i:
             right -= 1
             continue
-        
+
         s = A[left] + A[right]  # 두 수의 합
-        
+
         # 두 수의 합이 target과 같으면 좋은 수
         if s == target:
             count += 1

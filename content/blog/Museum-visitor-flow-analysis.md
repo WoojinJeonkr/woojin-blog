@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Museum visitor flow analysis"
-tag : [Python]
-date : 2026-10-17
+external: false
+title: "Museum visitor flow analysis"
+tag: [Python]
+date: 2026-10-17
 ---
 
 ## 1. Problem

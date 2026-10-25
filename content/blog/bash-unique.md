@@ -1,13 +1,13 @@
 ---
-external : false
-title : "bash unique"
-tag : [Hackerrank, Linux]
-date : 2024-02-26
+external: false
+title: "bash unique"
+tag: [Hackerrank, Linux]
+date: 2024-02-26
 ---
 
 ## 1. uniq 명령어
 
-uniq 명령어는 주로 텍스트 파일에서 중복된 라인을 제거하거나 인접한 중복 라인을 하나로 압축하는 데 사용됩니다.  
+uniq 명령어는 주로 텍스트 파일에서 중복된 라인을 제거하거나 인접한 중복 라인을 하나로 압축하는 데 사용됩니다.
 uniq 명령어의 기본적인 구문은 다음과 같습니다.
 
 ```bash
@@ -119,7 +119,7 @@ uniq
 
 ```bash
 # 'Uniq' Command #1
-uniq -c | cut -c7- 
+uniq -c | cut -c7-
 ```
 
 ```bash

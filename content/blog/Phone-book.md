@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Phone book"
-tag : [Programmers, Java]
-date : 2024-08-20
+external: false
+title: "Phone book"
+tag: [Programmers, Java]
+date: 2024-08-20
 ---
 
 ## 1. Problem
@@ -42,30 +42,30 @@ class Solution {
       TrieNode node = root;
       for (int i = 0; i < number.length(); i++) {
         char digit = number.charAt(i);
-        
+
         // 현재 노드에 해당 자식 노드가 없으면 새로 생성
         if (!node.children.containsKey(digit)) {
           node.children.put(digit, new TrieNode());
         }
-        
+
         // 자식 노드로 이동
         node = node.children.get(digit);
-        
+
         // 현재 노드가 이미 전화번호의 끝을 표시하면 접두사 조건 실패
         if (node.isEnd) {
           return false;
         }
       }
-      
+
       // 현재 노드에 자식 노드가 있으면 현재 번호가 다른 번호의 접두사인 경우
       if (!node.children.isEmpty()) {
         return false;
       }
-      
+
       // 현재 노드를 전화번호의 끝으로 표시
       node.isEnd = true;
     }
-    
+
     // 모든 전화번호가 접두사 조건을 만족하지 않으면 true 반환
     return true;
   }

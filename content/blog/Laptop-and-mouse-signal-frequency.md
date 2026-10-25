@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Laptop and mouse signal frequency"
-tag : [Python]
-date : 2026-09-06
+external: false
+title: "Laptop and mouse signal frequency"
+tag: [Python]
+date: 2026-09-06
 ---
 
 ## 1. Problem

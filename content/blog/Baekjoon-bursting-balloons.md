@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Baekjoon bursting balloons"
-tag : [Baekjoon, Python]
-date : 2025-11-05
+external: false
+title: "Baekjoon bursting balloons"
+tag: [Baekjoon, Python]
+date: 2025-11-05
 ---
 
 ## 1. Problem
@@ -23,7 +23,7 @@ result = []  # 터진 풍선 순서를 저장할 리스트
 while dq:
     num, move = dq.popleft()  # 풍선을 터뜨림
     result.append(num)  # 터진 풍선 번호 기록
-    
+
     if not dq:  # 모든 풍선이 터졌다면 종료
         break
 

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dopamine rush simulation"
-tag : [Python]
-date : 2026-07-19
+external: false
+title: "Dopamine rush simulation"
+tag: [Python]
+date: 2026-07-19
 ---
 
 ## 1. Problem

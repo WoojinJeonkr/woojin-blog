@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Lie consistency checker"
-tag : [Python]
-date : 2026-07-09
+external: false
+title: "Lie consistency checker"
+tag: [Python]
+date: 2026-07-09
 ---
 
 ## 1. Problem

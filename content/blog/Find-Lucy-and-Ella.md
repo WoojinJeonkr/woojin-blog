@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find Lucy and Ella"
-tag : [Programmers, SQL]
-date : 2025-03-29
+external: false
+title: "Find Lucy and Ella"
+tag: [Programmers, SQL]
+date: 2025-03-29
 ---
 
 ## 1. Problem

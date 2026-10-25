@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Return to base"
-tag : [Programmers, Java]
-date : 2024-11-27
+external: false
+title: "Return to base"
+tag: [Programmers, Java]
+date: 2024-11-27
 ---
 
 ## 1. Problem
@@ -33,16 +33,16 @@ class Solution {
       graph.get(road[0]).add(road[1]); // 양방향 연결
       graph.get(road[1]).add(road[0]);
     }
-    
+
     // 각 지역까지의 최단 거리를 저장하는 배열
     int[] distance = new int[n + 1];
     Arrays.fill(distance, -1); // 초기값을 -1로 설정 (도달 불가)
     distance[destination] = 0; // 목적지까지의 거리는 0으로 초기화
-    
+
     // BFS를 위한 큐 초기화
     Queue<Integer> queue = new LinkedList<>();
     queue.add(destination);
-    
+
     // BFS를 사용하여 최단 거리 계산
     while (!queue.isEmpty()) {
       int current = queue.poll(); // 현재 지역
@@ -53,13 +53,13 @@ class Solution {
         }
       }
     }
-    
+
     // 각 source에 대한 최단 거리 결과 생성
     int[] answer = new int[sources.length];
     for (int i = 0; i < sources.length; i++) {
       answer[i] = distance[sources[i]]; // 최단 거리 또는 -1 반환
     }
-    
+
     return answer;
   }
 }

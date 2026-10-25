@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Yellow traffic lights"
-tag : [Baekjoon, Python]
-date : 2026-04-15
+external: false
+title: "Yellow traffic lights"
+tag: [Baekjoon, Python]
+date: 2026-04-15
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Challenges"
-tag : [Hackerrank, Java]
-date : 2024-05-03
+external: false
+title: "Challenges"
+tag: [Hackerrank, Java]
+date: 2024-05-03
 ---
 
 ## 1. Problem

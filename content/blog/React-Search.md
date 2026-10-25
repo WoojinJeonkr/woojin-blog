@@ -1,14 +1,14 @@
 ---
 external: false
-title : "React Search"
-description : "Simple React Search"
+title: "React Search"
+description: "Simple React Search"
 tag: [React, Typescript]
 date: 2022-11-14
 ---
 
 ## 01. Search function in React
 
-{% codepen url="https://codepen.io/calomys/full/mdKwxRB" title="React Search Live" /%}
+{% codepen url="<https://codepen.io/calomys/full/mdKwxRB>" title="React Search Live" /%}
 
 ## 02. Reference
 

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "The greatest archaeological discovery"
-tag : [Programmers, Python]
-date : 2025-09-10
+external: false
+title: "The greatest archaeological discovery"
+tag: [Programmers, Python]
+date: 2025-09-10
 ---
 
 ## 1. Problem

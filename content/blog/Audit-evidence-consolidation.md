@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Audit evidence consolidation"
-tag : [Python]
-date : 2026-06-26
+external: false
+title: "Audit evidence consolidation"
+tag: [Python]
+date: 2026-06-26
 ---
 
 ## 1. Problem

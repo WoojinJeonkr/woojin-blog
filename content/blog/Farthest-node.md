@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Farthest node"
-tag : [Programmers, Java]
-date : 2024-11-29
+external: false
+title: "Farthest node"
+tag: [Programmers, Java]
+date: 2024-11-29
 ---
 
 ## 1. Problem
@@ -35,26 +35,26 @@ class Solution {
     for (int i = 0; i <= n; i++) {
       graph.add(new ArrayList<>());
     }
-    
+
     // 간선 정보를 그래프에 추가
     for (int[] e : edge) {
       graph.get(e[0]).add(e[1]);
       graph.get(e[1]).add(e[0]);
     }
-    
+
     // 각 노드의 최단 거리를 저장할 배열
     int[] distances = new int[n + 1];
     Arrays.fill(distances, -1); // -1로 초기화 (방문하지 않은 상태)
     distances[1] = 0; // 1번 노드의 거리는 0
-    
+
     // BFS를 위한 큐 생성
     Queue<Integer> queue = new LinkedList<>();
     queue.offer(1); // 1번 노드부터 탐색 시작
-    
+
     // BFS 탐색
     while (!queue.isEmpty()) {
       int current = queue.poll(); // 현재 노드
-      
+
       for (int neighbor : graph.get(current)) { // 인접 노드 탐색
         if (distances[neighbor] == -1) { // 방문하지 않은 노드일 경우
           distances[neighbor] = distances[current] + 1; // 거리 업데이트
@@ -62,11 +62,11 @@ class Solution {
         }
       }
     }
-    
+
     // 가장 멀리 있는 거리와 해당 거리의 노드 개수 계산
     int maxDistance = 0;
     int count = 0;
-    
+
     for (int distance : distances) {
       if (distance > maxDistance) { // 더 먼 거리가 발견되면
         maxDistance = distance; // 최대 거리 갱신
@@ -75,7 +75,7 @@ class Solution {
         count++; // 개수 증가
       }
     }
-    
+
     return count; // 최대 거리의 노드 개수 반환
   }
 }

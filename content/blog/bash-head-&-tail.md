@@ -1,8 +1,8 @@
 ---
-external : false
-title : "bash head & tail"
-tag : [Hackerrank, Linux]
-date : 2024-03-01
+external: false
+title: "bash head & tail"
+tag: [Hackerrank, Linux]
+date: 2024-03-01
 ---
 
 ## 1. head & tail 명령어

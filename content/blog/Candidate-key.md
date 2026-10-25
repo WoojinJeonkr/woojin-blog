@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Candidate key"
-tag : [Programmers, Java]
-date : 2024-10-19
+external: false
+title: "Candidate key"
+tag: [Programmers, Java]
+date: 2024-10-19
 ---
 
 ## 1. Problem
@@ -56,7 +56,7 @@ class Solution {
   public int solution(String[][] relation) {
     int numCols = relation[0].length;  // 릴레이션의 컬럼 수
     List<List<Integer>> candidateKeys = new ArrayList<>();
-    
+
     // 모든 속성 조합을 비트마스크로 탐색 (1부터 2^numCols-1까지)
     for (int subset = 1; subset < (1 << numCols); subset++) {
       List<Integer> cols = new ArrayList<>();
@@ -66,13 +66,13 @@ class Solution {
           cols.add(i);
         }
       }
-      
+
       // 유일성과 최소성을 모두 만족하면 후보 키로 추가
       if (isUnique(cols, relation) && isMinimal(cols, candidateKeys)) {
         candidateKeys.add(cols);
       }
     }
-    
+
     return candidateKeys.size();  // 최종 후보 키의 개수 반환
   }
 }

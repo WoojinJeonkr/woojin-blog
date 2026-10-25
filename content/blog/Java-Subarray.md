@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Subarray"
-tag : [Hackerrank, Java]
-date : 2024-02-20
+external: false
+title: "Java Subarray"
+tag: [Hackerrank, Java]
+date: 2024-02-20
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Online Auction Winner Determination"
-tag : [Python]
-date : 2026-06-03
+external: false
+title: "Online Auction Winner Determination"
+tag: [Python]
+date: 2026-06-03
 ---
 
 ## 1. Problem

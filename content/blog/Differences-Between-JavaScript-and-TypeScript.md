@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Differences Between JavaScript and TypeScript"
+title: "Differences Between JavaScript and TypeScript"
 tag: [Typescript, Javascript]
 date: 2022-10-13
 ---
@@ -25,7 +25,7 @@ JavaScript가 개발될 때 JavaScript 개발 팀은 JavaScript를 클라이언�
 - `JavaScript`로 작성된 모든 코드는 확장자를 `.js` 에서 `.ts`로 변경하여 TypeScript로 변환할 수 있다.
 - 단일 환경에만 국한되지 않고 모든 브라우저, 장치 또는 운영 체제에서 실행되도록 컴파일할 수 있다.
 - JS 라이브러리를 지원한다(개발자는 이미 존재하는 JavaScript 코드를 사용하거나, 인기 있는 JavaScript 라이브러리를 통합하거나, 기본 JavaScript 코드에서 TS 코드를 호출할 수 있다)
-  
+
 ## 4. TypeScript와 JavaScript의 차이점
 
 |                     |         TypeScript        |      JavaScript      |

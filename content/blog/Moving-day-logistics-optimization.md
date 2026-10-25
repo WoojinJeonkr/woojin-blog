@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Moving day logistics optimization"
-tag : [Python]
-date : 2026-07-20
+external: false
+title: "Moving day logistics optimization"
+tag: [Python]
+date: 2026-07-20
 ---
 
 ## 1. Problem

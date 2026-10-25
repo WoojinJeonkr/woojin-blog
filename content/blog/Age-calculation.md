@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Age-calculation"
-tag : [Programmers, Java]
-date : 2024-07-12
+external: false
+title: "Age-calculation"
+tag: [Programmers, Java]
+date: 2024-07-12
 ---
 
 ## 1. Problem

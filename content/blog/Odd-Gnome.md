@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Odd Gnome"
-tag : [Baekjoon, Python]
-date : 2026-03-07
+external: false
+title: "Odd Gnome"
+tag: [Baekjoon, Python]
+date: 2026-03-07
 ---
 
 ## 1. Problem

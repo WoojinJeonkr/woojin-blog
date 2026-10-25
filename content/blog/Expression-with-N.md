@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Expression with N"
-tag : [Programmers, Java]
-date : 2024-11-28
+external: false
+title: "Expression with N"
+tag: [Programmers, Java]
+date: 2024-11-28
 ---
 
 ## 1. Problem
@@ -26,19 +26,19 @@ class Solution {
   public int solution(int N, int number) {
     // N을 number로 바로 표현할 수 있는 경우
     if (N == number) return 1;
-    
+
     // DP 리스트 생성: N 사용 횟수별로 만들 수 있는 숫자 집합
     List<Set<Integer>> dp = new ArrayList<>();
     for (int i = 0; i <= 8; i++) {
       dp.add(new HashSet<>());
     }
-    
+
     // N을 1번, 2번, 3번... 연속으로 사용하여 만들 수 있는 숫자 추가
     for (int i = 1; i <= 8; i++) {
       int repeatedN = Integer.parseInt(String.valueOf(N).repeat(i)); // N, NN, NNN ...
       dp.get(i).add(repeatedN);
     }
-    
+
     // N 사용 횟수를 1번부터 8번까지 순회하며 가능한 숫자 계산
     for (int i = 1; i <= 8; i++) {
       for (int j = 1; j < i; j++) { // j와 i-j의 조합
@@ -51,13 +51,13 @@ class Solution {
           }
         }
       }
-      
+
       // N 사용 횟수 i에서 number를 만들 수 있으면 반환
       if (dp.get(i).contains(number)) {
         return i;
       }
     }
-    
+
     // N을 8번 사용해도 number를 만들 수 없는 경우
     return -1;
   }

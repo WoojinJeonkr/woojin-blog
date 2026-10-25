@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Performance and bonus by year"
-tag : [Programmers, SQL]
-date : 2025-02-13
+external: false
+title: "Performance and bonus by year"
+tag: [Programmers, SQL]
+date: 2025-02-13
 ---
 
 ## 1. Problem
@@ -27,30 +27,30 @@ date : 2025-02-13
 
 ```sql
 -- 직원별 연간 평균 성과 점수를 구하고, 이에 따른 등급과 성과금을 계산
-SELECT 
+SELECT
     E.EMP_NO,
     E.EMP_NAME,
     -- 평균 점수에 따른 등급 부여
-    CASE 
+    CASE
       WHEN AVG(G.SCORE) >= 96 THEN 'S'
       WHEN AVG(G.SCORE) >= 90 THEN 'A'
       WHEN AVG(G.SCORE) >= 80 THEN 'B'
       ELSE 'C'
     END AS GRADE,
     -- 등급별 성과금 계산 (연봉 기준 비율 적용)
-    CASE 
+    CASE
       WHEN AVG(G.SCORE) >= 96 THEN E.SAL * 0.2
       WHEN AVG(G.SCORE) >= 90 THEN E.SAL * 0.15
       WHEN AVG(G.SCORE) >= 80 THEN E.SAL * 0.1
       ELSE 0
     END AS BONUS
-FROM 
+FROM
   HR_EMPLOYEES E
   JOIN HR_GRADE G ON E.EMP_NO = G.EMP_NO
-WHERE 
+WHERE
   G.YEAR = 2022
-GROUP BY 
+GROUP BY
   E.EMP_NO, E.EMP_NAME, E.SAL
-ORDER BY 
+ORDER BY
   E.EMP_NO
 ```

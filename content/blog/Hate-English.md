@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Hate English"
-tag : [Programmers, Python]
-date : 2025-05-07
+external: false
+title: "Hate English"
+tag: [Programmers, Python]
+date: 2025-05-07
 ---
 
 ## 1. Problem
@@ -26,10 +26,10 @@ def solution(numbers):
     "eight": "8",
     "nine": "9"
   }
-  
+
   result = ""  # 결과 저장
   i = 0  # 문자열 인덱스
-  
+
   while i < len(numbers):
     # 현재 위치에서 단어 매칭 확인
     for word, num in word_to_num.items():
@@ -37,6 +37,6 @@ def solution(numbers):
         result += num
         i += len(word)
         break  # 매칭 시 즉시 break
-  
+
   return int(result)  # 정수 변환 반환
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pyramids"
-tag : [Baekjoon, Java]
-date : 2025-03-18
+external: false
+title: "Pyramids"
+tag: [Baekjoon, Java]
+date: 2025-03-18
 ---
 
 ## 1. Problem

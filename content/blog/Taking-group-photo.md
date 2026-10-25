@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Taking group photo"
-tag : [Programmers, Java]
-date : 2024-10-24
+external: false
+title: "Taking group photo"
+tag: [Programmers, Java]
+date: 2024-10-24
 ---
 
 ## 1. Problem
@@ -29,21 +29,21 @@ class Solution {
   private static final int NUM_FRIENDS = 8;
   // 카카오프렌즈 배열
   private static char[] friendsArray = FRIENDS.toCharArray();
-  
+
   // 각 친구가 사용되었는지 여부를 확인하는 배열
   private boolean[] visited = new boolean[NUM_FRIENDS];
   // 순열을 저장하는 배열
   private char[] arrangement = new char[NUM_FRIENDS];
   // 조건을 만족하는 배치의 수
   private int answer = 0;
-  
+
   // 문제의 해결을 위한 메인 함수
   public int solution(int n, String[] data) {
     // 8명의 프렌즈에 대한 모든 순열을 생성하고 조건을 만족하는지 확인
     generatePermutations(0, data);
     return answer;
   }
-  
+
   // 순열을 생성하는 함수
   private void generatePermutations(int depth, String[] data) {
     // 모든 프렌즈를 배치했을 때
@@ -54,7 +54,7 @@ class Solution {
       }
       return;
     }
-    
+
     // 각 프렌즈에 대해 순열을 생성
     for (int i = 0; i < NUM_FRIENDS; i++) {
       if (!visited[i]) {
@@ -65,7 +65,7 @@ class Solution {
       }
     }
   }
-  
+
   // 현재 배치가 주어진 조건들을 만족하는지 확인하는 함수
   private boolean isValidArrangement(String[] data) {
     for (String condition : data) {
@@ -76,14 +76,14 @@ class Solution {
       char operator = condition.charAt(3);
       // 다섯 번째 문자로 간격을 의미하는 숫자
       int distance = condition.charAt(4) - '0';
-      
+
       // 두 친구의 현재 위치를 구함
       int pos1 = getPosition(friend1);
       int pos2 = getPosition(friend2);
-      
+
       // 두 친구 사이의 실제 간격
       int actualDistance = Math.abs(pos1 - pos2) - 1;
-      
+
       // 조건에 따라 배치가 유효한지 확인
       if (operator == '=') {
         if (actualDistance != distance) return false;
@@ -95,7 +95,7 @@ class Solution {
     }
     return true;
   }
-  
+
   // 특정 친구가 현재 배치에서 어느 위치에 있는지 반환하는 함수
   private int getPosition(char friend) {
     for (int i = 0; i < NUM_FRIENDS; i++) {

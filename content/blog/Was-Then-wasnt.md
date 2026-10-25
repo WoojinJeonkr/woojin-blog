@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Was Then wasnt"
-tag : [Programmers, SQL]
-date : 2025-01-12
+external: false
+title: "Was Then wasnt"
+tag: [Programmers, SQL]
+date: 2025-01-12
 ---
 
 ## 1. Problem

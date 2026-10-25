@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Search front end developers"
-tag : [Programmers, SQL]
-date : 2025-01-24
+external: false
+title: "Search front end developers"
+tag: [Programmers, SQL]
+date: 2025-01-24
 ---
 
 ## 1. Problem
@@ -28,18 +28,18 @@ date : 2025-01-24
 
 ```sql
 -- 1. DEVELOPERS 테이블에서 기본 데이터를 조회
-SELECT 
+SELECT
   d.ID,                  -- 개발자 ID
   d.EMAIL,              -- 이메일
   d.FIRST_NAME,         -- 이름
   d.LAST_NAME           -- 성
-FROM 
+FROM
   DEVELOPERS d          -- DEVELOPERS 테이블을 d로 별칭
-WHERE 
+WHERE
   EXISTS (              -- 2. 존재 여부 확인 (서브쿼리가 결과를 반환하는지)
     SELECT 1
     FROM SKILLCODES s   -- 3. SKILLCODES 테이블을 s로 별칭
-    WHERE 
+    WHERE
       s.CATEGORY = 'Front End'         -- 4. Front End 카테고리 필터링
       AND (d.SKILL_CODE & s.CODE) = s.CODE  -- 5. 비트 연산으로 스킬 보유 확인
   )

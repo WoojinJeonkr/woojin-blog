@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Electricity bill calculation"
-tag : [Python]
-date : 2026-10-09
+external: false
+title: "Electricity bill calculation"
+tag: [Python]
+date: 2026-10-09
 ---
 
 ## 1. Problem

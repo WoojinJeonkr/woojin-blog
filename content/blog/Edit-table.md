@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Edit table"
-tag : [Programmers, Python]
-date : 2025-08-18
+external: false
+title: "Edit table"
+tag: [Programmers, Python]
+date: 2025-08-18
 ---
 
 ## 1. Problem
@@ -17,10 +17,10 @@ def solution(n, k, cmd):
     prev = [i-1 for i in range(n)]
     next = [i+1 for i in range(n)]
     next[-1] = -1  # 마지막 행은 다음 없음
-    
+
     cur = k               # 현재 선택된 행
     stack = []            # 삭제된 행 정보를 저장하는 스택
-    
+
     for c in cmd:
         if c[0] == "U":   # 위로 이동
             x = int(c.split()[1])
@@ -47,11 +47,11 @@ def solution(n, k, cmd):
                 next[p] = idx
             if n_ != -1:
                 prev[n_] = idx
-    
+
     # 삭제 여부를 표시할 결과 문자열 생성
     answer = ["O"] * n
     for idx, _, _ in stack:
         answer[idx] = "X"
-    
+
     return "".join(answer)
 ```

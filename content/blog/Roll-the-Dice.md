@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Roll the Dice"
-tag : [Baekjoon, Python]
-date : 2026-03-25
+external: false
+title: "Roll the Dice"
+tag: [Baekjoon, Python]
+date: 2026-03-25
 ---
 
 ## 1. Problem

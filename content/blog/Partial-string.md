@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Partial string"
-tag : [Baekjoon, Python]
-date : 2026-01-22
+external: false
+title: "Partial string"
+tag: [Baekjoon, Python]
+date: 2026-01-22
 ---
 
 ## 1. Problem

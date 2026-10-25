@@ -1,7 +1,7 @@
 ---
 external: false
-title : "open graph"
-description : "What is Open Graph and How to use it for website?"
+title: "open graph"
+description: "What is Open Graph and How to use it for website?"
 tag: [Study, Open Graph]
 date: 2022-10-02
 ---
@@ -34,7 +34,7 @@ Open Graph는 원래 Facebook에서 페이지 콘텐츠를 표현하는 것을 �
 
 ### 3-3. 구조 프로퍼티
 
-여기서 'object'는 image, video, audio와 같은 태그를 의미한다.  
+여기서 'object'는 image, video, audio와 같은 태그를 의미한다.
 
 1. **og:'object':url** : object의 경로
 2. **og:'object':secure_url** : SSL(HTTPS)의 경로

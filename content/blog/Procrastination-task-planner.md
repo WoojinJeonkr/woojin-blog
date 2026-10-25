@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Procrastination task planner"
-tag : [Python]
-date : 2026-06-18
+external: false
+title: "Procrastination task planner"
+tag: [Python]
+date: 2026-06-18
 ---
 
 ## 1. Problem

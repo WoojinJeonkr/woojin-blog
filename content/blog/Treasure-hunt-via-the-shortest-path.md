@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Treasure hunt via the shortest path"
-tag : [Python]
-date : 2026-05-15
+external: false
+title: "Treasure hunt via the shortest path"
+tag: [Python]
+date: 2026-05-15
 ---
 
 ## 1. Problem

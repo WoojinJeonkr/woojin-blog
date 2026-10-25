@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Tuple"
-tag : [Programmers, Python]
-date : 2025-01-06
+external: false
+title: "Tuple"
+tag: [Programmers, Python]
+date: 2025-01-06
 ---
 
 ## 1. Problem
@@ -25,21 +25,21 @@ date : 2025-01-06
 def solution(s):
   # 입력 문자열에서 맨 앞의 '{{' 와 맨 뒤의 '}}' 제거
   s = s[2:-2]
-  
+
   # 문자열을 집합으로 변환
   # '},{' 를 기준으로 분할하고, 각 그룹을 정수 집합으로 변환
   sets = [set(map(int, group.split(','))) for group in s.split('},{')]
-  
+
   # 집합들을 길이에 따라 정렬
   sets.sort(key=len)
-  
+
   result = []
   # 정렬된 집합들을 순회하며 튜플 재구성
   for s in sets:
     # 현재 집합에서 결과에 없는 새로운 요소를 찾아 추가
     new_element = (s - set(result)).pop()
     result.append(new_element)
-  
+
   # 재구성된 튜플 반환
   return result
 ```

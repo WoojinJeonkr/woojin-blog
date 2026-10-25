@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fitness step count analysis"
-tag : [Python]
-date : 2026-10-11
+external: false
+title: "Fitness step count analysis"
+tag: [Python]
+date: 2026-10-11
 ---
 
 ## 1. Problem

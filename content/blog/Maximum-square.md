@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Maximum square"
-tag : [Programmers, Python]
-date : 2025-01-07
+external: false
+title: "Maximum square"
+tag: [Programmers, Python]
+date: 2025-01-07
 ---
 
 ## 1. Problem
@@ -26,23 +26,23 @@ def solution(board):
   # 보드의 행과 열 수 계산
   rows = len(board)
   cols = len(board[0])
-  
+
   # 보드가 비어있거나 1x1인 경우 처리
   if rows == 0 or cols == 0:
     return 0
-  
+
   # DP 테이블 초기화
   dp = [[0] * cols for _ in range(rows)]
-  
+
   # 첫 번째 행과 열 초기화
   for i in range(rows):
     dp[i][0] = board[i][0]
   for j in range(cols):
     dp[0][j] = board[0][j]
-  
+
   # 최대 정사각형 크기 초기화
   max_size = max(max(dp[0]), dp[0][0])
-  
+
   # DP 테이블 채우기
   for i in range(1, rows):
     for j in range(1, cols):
@@ -51,7 +51,7 @@ def solution(board):
         dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
         # 최대 크기 업데이트
         max_size = max(max_size, dp[i][j])
-  
+
   # 최대 정사각형의 넓이 반환
   return max_size ** 2
 ```

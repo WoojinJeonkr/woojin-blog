@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ranklist pages"
-tag : [Codechef, Python]
-date : 2026-05-12
+external: false
+title: "Ranklist pages"
+tag: [Codechef, Python]
+date: 2026-05-12
 ---
 
 ## 1. Problem

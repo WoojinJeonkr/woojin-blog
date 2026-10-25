@@ -1,8 +1,8 @@
 ---
-external : False
-title : "Ponkemon"
-tag : [Programmers, Python]
-date : 2025-09-11
+external: False
+title: "Ponkemon"
+tag: [Programmers, Python]
+date: 2025-09-11
 ---
 
 ## 1. Problem

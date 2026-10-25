@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Inheritance II"
-tag : [Hackerrank, Java]
-date : 2024-03-13
+external: false
+title: "Java Inheritance II"
+tag: [Hackerrank, Java]
+date: 2024-03-13
 ---
 
 ## 1. Problem
@@ -36,10 +36,10 @@ public class Solution{
   public static void main(String []args){
     // Adder 객체 생성
     Adder a = new Adder();
-    
+
     // 상위 클래스의 이름을 새로운 줄에 출력
-    System.out.println("My superclass is: " + a.getClass().getSuperclass().getName()); 
-    
+    System.out.println("My superclass is: " + a.getClass().getSuperclass().getName());
+
     // Adder의 `add(int,int)` 메서드를 3번 호출한 결과를 공백으로 구분하여 출력
     System.out.print(a.add(10,32) + " " + a.add(10,3) + " " + a.add(10,10) + "\n");
   }

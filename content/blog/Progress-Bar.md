@@ -1,7 +1,7 @@
 ---
 external: false
-title : "Progress Bar"
-description : "Do you want to show the progress of the work?"
+title: "Progress Bar"
+description: "Do you want to show the progress of the work?"
 tag: [React, Typescript]
 date: 2022-11-13
 ---
@@ -13,7 +13,7 @@ date: 2022-11-13
 
 ## 2. How to make Progress bar?
 
-{% codepen url="https://codepen.io/calomys/full/eYKWqNg" title="React Progress Bar" /%}
+{% codepen url="<https://codepen.io/calomys/full/eYKWqNg>" title="React Progress Bar" /%}
 
 ## 3. Reference
 

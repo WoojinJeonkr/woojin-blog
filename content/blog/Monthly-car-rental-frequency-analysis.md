@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Monthly car rental frequency analysis"
-tag : [Programmers, SQL]
-date : 2025-01-11
+external: false
+title: "Monthly car rental frequency analysis"
+tag: [Programmers, SQL]
+date: 2025-01-11
 ---
 
 ## 1. Problem
@@ -37,7 +37,7 @@ WITH RentalCounts AS (
   HAVING COUNT(*) >= 5
 )
 -- 선별된 자동차들의 월별 대여 횟수 계산
-SELECT 
+SELECT
   EXTRACT(MONTH FROM START_DATE) AS MONTH,
   CAR_ID,
   COUNT(*) AS RECORDS

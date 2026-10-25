@@ -1,8 +1,8 @@
 ---
-external : false
-title : "MapReduce Advanced Relational Join"
-tag : [Hackerrank, C]
-date : 2024-05-25
+external: false
+title: "MapReduce Advanced Relational Join"
+tag: [Hackerrank, C]
+date: 2024-05-25
 ---
 
 ## 1. Problem
@@ -14,7 +14,7 @@ date : 2024-05-25
 ```cpp
 def mapper(record):
   fields = record.replace('\n', '').split(',')
-  
+
   if fields[0] == 'Employee':
     personName = fields[1]  # 직원 이름 추출
     ssn = fields[2]  # 주민등록번호 추출
@@ -32,7 +32,7 @@ def reducer(key, list_of_values):
       personNames.append(value)  # 직원 이름 추가
     else:
       departmentNames.append(value)  # 부서 이름 추가
-  
+
   for personName in personNames:
     for departmentName in departmentNames:
       mapReducer.emit((key, personName, departmentName))

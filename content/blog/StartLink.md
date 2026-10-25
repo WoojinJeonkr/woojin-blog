@@ -1,8 +1,8 @@
 ---
-external : false
-title : "StartLink"
-tag : [Baekjoon, Python]
-date : 2025-11-06
+external: false
+title: "StartLink"
+tag: [Baekjoon, Python]
+date: 2025-11-06
 ---
 
 ## 1. Problem
@@ -23,23 +23,23 @@ def bfs(F, S, G, U, D):
 
     while queue:
         floor, presses = queue.popleft()
-        
+
         # 목표 층에 도착한 경우 버튼 누른 횟수 반환
         if floor == G:
             return presses
-        
+
         # 위로 이동
         up = floor + U
         if up <= F and not visited[up]:
             visited[up] = True
             queue.append((up, presses + 1))
-        
+
         # 아래로 이동
         down = floor - D
         if down >= 1 and not visited[down]:
             visited[down] = True
             queue.append((down, presses + 1))
-    
+
     # 도달할 수 없는 경우
     return "use the stairs"
 

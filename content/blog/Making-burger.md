@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Making burger"
-tag : [Programmers, Java]
-date : 2024-11-02
+external: false
+title: "Making burger"
+tag: [Programmers, Java]
+date: 2024-11-02
 ---
 
 ## 1. Problem
@@ -30,20 +30,20 @@ class Solution {
     // 재료 배열을 순회합니다.
     for (int item : ingredient) {
       stack.push(item); // 현재 재료를 스택에 추가
-      
+
       // 스택의 마지막 4개 요소가 햄버거 패턴(1, 2, 3, 1)인지 확인
       if (stack.size() >= 4) {
         if (stack.get(stack.size() - 4) == 1 &&
             stack.get(stack.size() - 3) == 2 &&
             stack.get(stack.size() - 2) == 3 &&
             stack.get(stack.size() - 1) == 1) {
-          
+
           // 패턴이 일치하면 햄버거로 포장하고, 해당 재료를 스택에서 제거
           stack.pop();
           stack.pop();
           stack.pop();
           stack.pop();
-          
+
           // 포장한 햄버거 개수를 증가
           answer++;
         }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Wall inspection"
-tag : [Programmers, Python]
-date : 2025-09-24
+external: false
+title: "Wall inspection"
+tag: [Programmers, Python]
+date: 2025-09-24
 ---
 
 ## 1. Problem
@@ -16,10 +16,10 @@ from itertools import permutations
 
 def solution(n, weak, dist):
     length = len(weak)
-    
+
     # 원형을 선형으로 확장 (순환 처리하기 위해)
     extended_weak = weak + [w + n for w in weak]
-    
+
     # 최소 친구 수를 무한대로 초기화
     min_friends = float('inf')
 

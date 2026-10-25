@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Sadness echo in friendship network"
-tag : [Python]
-date : 2026-07-25
+external: false
+title: "Sadness echo in friendship network"
+tag: [Python]
+date: 2026-07-25
 ---
 
 ## 1. Problem

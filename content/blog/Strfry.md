@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Strfry"
-tag : [Baekjoon, Python]
-date : 2026-01-01
+external: false
+title: "Strfry"
+tag: [Baekjoon, Python]
+date: 2026-01-01
 ---
 
 ## 1. Problem
@@ -22,7 +22,7 @@ n = int(input().strip())
 for _ in range(n):
     # 공백으로 구분된 두 문자열 입력
     s1, s2 = input().split()
-    
+
     # 두 문자열의 문자 구성(각 문자의 등장 횟수)이 동일한지 확인
     if Counter(s1) == Counter(s2):
         # 첫 번째 문자열을 섞어서 두 번째 문자열을 만들 수 있는 경우

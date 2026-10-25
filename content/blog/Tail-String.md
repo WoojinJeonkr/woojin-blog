@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Tail String"
-tag : [Programmers, Python]
-date : 2025-04-04
+external: false
+title: "Tail String"
+tag: [Programmers, Python]
+date: 2025-04-04
 ---
 
 ## 1. Problem

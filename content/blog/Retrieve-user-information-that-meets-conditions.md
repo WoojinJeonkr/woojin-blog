@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Retrieve user information that meets conditions"
-tag : [Programmers, SQL]
-date : 2024-06-21
+external: false
+title: "Retrieve user information that meets conditions"
+tag: [Programmers, SQL]
+date: 2024-06-21
 ---
 
 ## 1. Problem

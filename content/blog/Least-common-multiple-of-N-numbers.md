@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Least common multiple of N numbers"
-tag : [Programmers, Java]
-date : 2024-09-07
+external: false
+title: "Least common multiple of N numbers"
+tag: [Programmers, Java]
+date: 2024-09-07
 ---
 
 ## 1. Problem

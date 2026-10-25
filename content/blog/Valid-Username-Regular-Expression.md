@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Valid Username Regular Expression"
-tag : [Hackerrank, Java]
-date : 2024-03-09
+external: false
+title: "Valid Username Regular Expression"
+tag: [Hackerrank, Java]
+date: 2024-03-09
 ---
 
 ## 1. Problem
@@ -36,7 +36,7 @@ public class Solution {
         System.out.println("Valid"); // 유효한 경우
       } else {
         System.out.println("Invalid"); // 유효하지 않은 경우
-      }           
+      }
     }
     scan.close(); // 스캐너 닫기
   }

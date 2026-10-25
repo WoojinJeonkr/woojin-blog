@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Digital clock synchronization checker"
-tag : [Python]
-date : 2026-05-24
+external: false
+title: "Digital clock synchronization checker"
+tag: [Python]
+date: 2026-05-24
 ---
 
 ## 1. Problem

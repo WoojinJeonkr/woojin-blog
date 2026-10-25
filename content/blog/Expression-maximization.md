@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Expression maximization"
-tag : [Programmers, Java]
-date : 2024-09-29
+external: false
+title: "Expression maximization"
+tag: [Programmers, Java]
+date: 2024-09-29
 ---
 
 ## 1. Problem
@@ -39,7 +39,7 @@ class Solution {
   private long calculate(List<Long> numbers, List<Character> operators, char[] precedence) {
     List<Long> nums = new ArrayList<>(numbers);
     List<Character> ops = new ArrayList<>(operators);
-    
+
     for (char op : precedence) {
       for (int i = 0; i < ops.size();) {
         if (ops.get(i) == op) {
@@ -58,7 +58,7 @@ class Solution {
   public long solution(String expression) {
     List<Long> numbers = new ArrayList<>(); // 피연산자 저장 리스트
     List<Character> operators = new ArrayList<>(); // 연산자 저장 리스트
-    
+
     // 숫자와 연산자를 분리
     StringBuilder num = new StringBuilder();
     for (char c : expression.toCharArray()) {
@@ -71,25 +71,25 @@ class Solution {
       }
     }
     numbers.add(Long.parseLong(num.toString())); // 마지막 숫자 추가
-    
+
     // 가능한 연산자 우선순위 조합
     char[][] precedences = {
-      {'+', '-', '*'}, 
-      {'+', '*', '-'}, 
-      {'-', '+', '*'}, 
-      {'-', '*', '+'}, 
-      {'*', '+', '-'}, 
+      {'+', '-', '*'},
+      {'+', '*', '-'},
+      {'-', '+', '*'},
+      {'-', '*', '+'},
+      {'*', '+', '-'},
       {'*', '-', '+'}
     };
-    
+
     long maxResult = 0;
-    
+
     // 각 우선순위에 대해 계산
     for (char[] precedence : precedences) {
       long result = Math.abs(calculate(numbers, operators, precedence)); // 절댓값 처리
       maxResult = Math.max(maxResult, result); // 최대값 갱신
     }
-    
+
     return maxResult;
   }
 }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "An easy peasy problem"
-tag : [Baekjoon, Python]
-date : 2026-02-22
+external: false
+title: "An easy peasy problem"
+tag: [Baekjoon, Python]
+date: 2026-02-22
 ---
 
 ## 1. Problem

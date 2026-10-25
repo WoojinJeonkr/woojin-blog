@@ -1,8 +1,8 @@
 ---
-external : false
-title : "ZOAC 4"
-tag : [Baekjoon, Python]
-date : 2025-12-06
+external: false
+title: "ZOAC 4"
+tag: [Baekjoon, Python]
+date: 2025-12-06
 ---
 
 ## 1. Problem

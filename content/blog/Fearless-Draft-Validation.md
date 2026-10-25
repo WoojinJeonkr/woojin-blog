@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fearless Draft Validation"
-tag : [Python]
-date : 2026-06-04
+external: false
+title: "Fearless Draft Validation"
+tag: [Python]
+date: 2026-06-04
 ---
 
 ## 1. Problem

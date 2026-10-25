@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Promotion candidate selection"
-tag : [Python]
-date : 2026-07-03
+external: false
+title: "Promotion candidate selection"
+tag: [Python]
+date: 2026-07-03
 ---
 
 ## 1. Problem

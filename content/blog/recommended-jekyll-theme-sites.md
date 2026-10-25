@@ -1,6 +1,6 @@
 ---
 external: false
-title : "Recommended Jekyll Theme Sites"
+title: "Recommended Jekyll Theme Sites"
 tag: [Jekyll, Site]
 date: 2022-09-20
 ---

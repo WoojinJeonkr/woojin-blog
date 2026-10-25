@@ -1,8 +1,8 @@
 ---
-external : false
-title : "SQL problem"
-tag : [SQL]
-date : 2025-04-03
+external: false
+title: "SQL problem"
+tag: [SQL]
+date: 2025-04-03
 ---
 
 ## 1. Problem
@@ -10,27 +10,27 @@ date : 2025-04-03
 다음 SQL의 결과는?
 
 ```sql
-SELECT 
-  a.flag AS aflag, 
+SELECT
+  a.flag AS aflag,
   b.flag AS bflag,
-  CASE 
-    WHEN a.flag = 'Y' OR b.flag = 'Y' THEN 'Y' 
-    ELSE 'N' 
+  CASE
+    WHEN a.flag = 'Y' OR b.flag = 'Y' THEN 'Y'
+    ELSE 'N'
   END AS coll
 FROM (
-  SELECT CASE 
-    WHEN MAX('Y') IS NULL THEN 'N' 
-    ELSE MAX('Y') 
-  END AS flag 
-  FROM dual 
+  SELECT CASE
+    WHEN MAX('Y') IS NULL THEN 'N'
+    ELSE MAX('Y')
+  END AS flag
+  FROM dual
   WHERE 1=0  -- 항상 거짓인 조건
 ) a,
 (
-  SELECT CASE 
-    WHEN MAX('Y') IS NULL THEN 'N' 
-    ELSE MAX('Y') 
-  END AS flag 
-  FROM dual 
+  SELECT CASE
+    WHEN MAX('Y') IS NULL THEN 'N'
+    ELSE MAX('Y')
+  END AS flag
+  FROM dual
   WHERE 1=1  -- 항상 참인 조건
 ) b;
 ```

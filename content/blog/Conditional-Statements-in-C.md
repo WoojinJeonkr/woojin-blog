@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Conditional Statements in C"
-tag : [Hackerrank, C]
-date : 2024-05-08
+external: false
+title: "Conditional Statements in C"
+tag: [Hackerrank, C]
+date: 2024-05-08
 ---
 
 ## 1. Problem

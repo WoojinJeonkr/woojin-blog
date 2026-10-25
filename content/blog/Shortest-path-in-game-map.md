@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Shortest path in game map"
-tag : [Programmers, Java]
-date : 2024-12-01
+external: false
+title: "Shortest path in game map"
+tag: [Programmers, Java]
+date: 2024-12-01
 ---
 
 ## 1. Problem
@@ -29,27 +29,27 @@ class Solution {
     int m = maps[0].length;    // 맵의 열 크기
     int[] dx = {-1, 1, 0, 0};  // 상, 하, 좌, 우 이동 방향
     int[] dy = {0, 0, -1, 1};
-    
+
     // BFS를 위한 큐 생성 및 시작 위치 추가
     Queue<int[]> queue = new LinkedList<>();
     queue.add(new int[]{0, 0});
-    
+
     while (!queue.isEmpty()) {
       // 큐에서 현재 위치를 꺼냄
       int[] current = queue.poll();
       int x = current[0];
       int y = current[1];
-      
+
       // 4방향으로 탐색
       for (int i = 0; i < 4; i++) {
         int nx = x + dx[i];
         int ny = y + dy[i];
-        
+
         // 맵의 범위를 벗어나거나 벽인 경우 건너뜀
         if (nx < 0 || ny < 0 || nx >= n || ny >= m || maps[nx][ny] == 0) {
           continue;
         }
-        
+
         // 방문하지 않은 칸이면 이동 가능
         if (maps[nx][ny] == 1) {
           maps[nx][ny] = maps[x][y] + 1; // 이동 거리 갱신
@@ -57,7 +57,7 @@ class Solution {
         }
       }
     }
-    
+
     // 상대 팀 진영에 도달하지 못한 경우 -1 반환
     return maps[n - 1][m - 1] == 1 ? -1 : maps[n - 1][m - 1];
   }

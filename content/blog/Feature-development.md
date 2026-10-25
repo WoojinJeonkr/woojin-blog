@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Feature development"
-tag : [Programmers, Java]
-date : 2024-08-19
+external: false
+title: "Feature development"
+tag: [Programmers, Java]
+date: 2024-08-19
 ---
 
 ## 1. Problem
@@ -43,18 +43,18 @@ class Solution {
   public int[] solution(int[] progresses, int[] speeds) {
     int n = progresses.length;
     List<Integer> deploymentDays = new ArrayList<>();
-    
+
     // 각 기능의 배포 완료까지 남은 일수 계산
     for (int i = 0; i < n; i++) {
       int daysRequired = (int) Math.ceil((100.0 - progresses[i]) / speeds[i]);
       deploymentDays.add(daysRequired);
     }
-    
+
     // 각 배포 날에 몇 개의 기능이 배포되는지 계산
     List<Integer> result = new ArrayList<>();
     int currentMaxDays = deploymentDays.get(0);
     int count = 1;
-    
+
     for (int i = 1; i < n; i++) {
       if (deploymentDays.get(i) <= currentMaxDays) {
         count++;
@@ -64,16 +64,16 @@ class Solution {
         count = 1;
       }
     }
-    
+
     // 마지막 그룹의 기능 수 추가
     result.add(count);
-    
+
     // 리스트를 배열로 변환
     int[] answer = new int[result.size()];
     for (int i = 0; i < result.size(); i++) {
       answer[i] = result.get(i);
     }
-    
+
     return answer;
   }
 }

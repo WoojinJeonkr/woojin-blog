@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Defense game"
-tag : [Programmers, Python]
-date : 2025-03-01
+external: false
+title: "Defense game"
+tag: [Programmers, Python]
+date: 2025-03-01
 ---
 
 ## 1. Problem
@@ -24,19 +24,19 @@ from heapq import heappush, heappop
 
 def solution(n, k, enemy):
   stage = len(enemy)
-  
+
   # 무적권이 모든 라운드를 커버할 수 있는 경우
   if k >= stage:
     return stage
-  
+
   # Priority Queue 초기화
   q = []
-  
+
   # 각 라운드별로 적의 수를 처리
   for i in range(stage):
     # Priority Queue에 현재 라운드의 적의 수 추가
     heappush(q, enemy[i])
-    
+
     # Priority Queue의 크기가 무적권의 수를 초과하면
     if len(q) > k:
       # 가장 작은 적의 수를 꺼내어 병사 수에서 차감
@@ -46,7 +46,7 @@ def solution(n, k, enemy):
         return i
       # 병사 수 차감
       n -= last
-  
+
   # 모든 라운드를 성공적으로 막은 경우
   return stage
 ```

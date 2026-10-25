@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Online or Offline"
-tag : [Codechef, Python]
-date : 2026-04-29
+external: false
+title: "Online or Offline"
+tag: [Codechef, Python]
+date: 2026-04-29
 ---
 
 ## 1. Problem

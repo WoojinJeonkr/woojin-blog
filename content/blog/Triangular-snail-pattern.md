@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Triangular snail pattern"
-tag : [Programmers, Python]
-date : 2025-01-16
+external: false
+title: "Triangular snail pattern"
+tag: [Programmers, Python]
+date: 2025-01-16
 ---
 
 ## 1. Problem
@@ -33,7 +33,7 @@ def solution(n):
   # 시작 위치와 숫자 초기화
   x, y = -1, 0
   number = 1
-  
+
   # 달팽이 모양으로 숫자 채우기
   for i in range(n):
     for j in range(i, n):
@@ -49,13 +49,13 @@ def solution(n):
         y -= 1
       triangle[x][y] = number
       number += 1
-  
+
   # 2차원 배열을 1차원 배열로 변환
   answer = []
   for i in range(n):
     for j in range(n):
       if triangle[i][j] != 0:
         answer.append(triangle[i][j])
-        
+
   return answer
 ```

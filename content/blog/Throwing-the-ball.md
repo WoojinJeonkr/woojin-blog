@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Throwing the ball"
-tag : [Programmers, Python]
-date : 2025-08-10
+external: false
+title: "Throwing the ball"
+tag: [Programmers, Python]
+date: 2025-08-10
 ---
 
 ## 1. Problem
@@ -23,10 +23,10 @@ def solution(numbers, k):
     for _ in range(k - 1):
         # 오른쪽으로 한 명을 건너뛰고 그다음 사람에게 던지므로, 인덱스를 2 증가
         current_index = current_index + 2
-        
+
         # 배열의 길이를 넘어갈 경우 고려
         current_index = current_index % len(numbers)
-    
+
     # k번째로 공을 던지는 사람의 번호 반환
     answer = numbers[current_index]
     return answer

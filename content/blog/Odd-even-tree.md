@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Odd even tree"
-tag : [Programmers, Python]
-date : 2025-07-20
+external: false
+title: "Odd even tree"
+tag: [Programmers, Python]
+date: 2025-07-20
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ from collections import defaultdict, deque
 def solution(nodes, edges):
     # 각 노드에 연결된 간선들을 저장하는 맵 (인접 리스트)
     node_to_edges = defaultdict(list)
-    
+
     # 모든 노드를 순회하며 초기 인접 리스트를 빈 리스트로 설정
     # 이는 간선이 없는 고립된 노드도 처리하기 위함
     for node_val in nodes:
@@ -70,18 +70,18 @@ def solution(nodes, edges):
                 if neighbor not in visited_nodes:
                     visited_nodes.add(neighbor) # 방문 처리
                     q.append(neighbor) # 큐에 추가하여 다음 탐색 대상으로 예약
-        
+
         # 현재 트리가 '홀짝 트리'가 될 수 있는지 확인
         # 홀짝 트리는 'same_parity_count'가 정확히 1인 경우에만 가능
         # (이 하나의 노드가 루트가 되고, 나머지 노드들은 조건에 맞게 됨)
         if same_parity_count == 1:
             answer[0] += 1
-        
+
         # 현재 트리가 '역홀짝 트리'가 될 수 있는지 확인
         # 역홀짝 트리는 'diff_parity_count'가 정확히 1인 경우에만 가능
         # (이 하나의 노드가 루트가 되고, 나머지 노드들은 조건에 맞게 됨)
         if diff_parity_count == 1:
             answer[1] += 1
-            
+
     return answer
 ```

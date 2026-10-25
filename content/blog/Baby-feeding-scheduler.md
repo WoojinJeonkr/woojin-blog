@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Baby feeding scheduler"
-tag : [Python]
-date : 2026-07-16
+external: false
+title: "Baby feeding scheduler"
+tag: [Python]
+date: 2026-07-16
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Hackerman"
-tag : [Codechef, Python]
-date : 2026-05-01
+external: false
+title: "Hackerman"
+tag: [Codechef, Python]
+date: 2026-05-01
 ---
 
 ## 1. Problem

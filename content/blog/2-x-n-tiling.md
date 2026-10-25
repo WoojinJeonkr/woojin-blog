@@ -1,8 +1,8 @@
 ---
-external : false
-title : "2 x n tiling"
-tag : [Programmers, Python]
-date : 2025-01-03
+external: false
+title: "2 x n tiling"
+tag: [Programmers, Python]
+date: 2025-01-03
 ---
 
 ## 1. Problem
@@ -25,18 +25,18 @@ date : 2025-01-03
 def solution(n):
   MOD = 1000000007
   answer = [0] * (n + 1)
-  
+
   # 초기 조건: n이 1일 때 경우의 수는 1
   answer[1] = 1
-  
+
   # 초기 조건: n이 2일 때 경우의 수는 2
   if n > 1:
     answer[2] = 2
-  
+
   # 점화식을 이용하여 경우의 수 계산
   for i in range(3, n + 1):
     answer[i] = (answer[i - 1] + answer[i - 2]) % MOD
-  
+
   # n번째 경우의 수 반환
   return answer[n]
 ```

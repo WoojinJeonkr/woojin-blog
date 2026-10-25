@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Picking Numbers"
-tag : [Hackerrank, Java]
-date :  2024-04-10
+external: false
+title: "Picking Numbers"
+tag: [Hackerrank, Java]
+date:  2024-04-10
 ---
 
 ## 1. Problem

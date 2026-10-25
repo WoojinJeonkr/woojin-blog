@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Bitwise Operators"
-tag : [Hackerrank, C]
-date : 2024-05-16
+external: false
+title: "Bitwise Operators"
+tag: [Hackerrank, C]
+date: 2024-05-16
 ---
 
 ## 1. Problem

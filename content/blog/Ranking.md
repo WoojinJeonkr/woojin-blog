@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ranking"
-tag : [Programmers, Python]
-date : 2025-08-08
+external: false
+title: "Ranking"
+tag: [Programmers, Python]
+date: 2025-08-08
 ---
 
 ## 1. Problem
@@ -46,6 +46,6 @@ def solution(score):
             # i는 0부터 시작하므로, i+1이 현재까지 처리된 학생 수에 해당
             rank = i + 1
             answer[avg_scores_with_index[i][1]] = rank
-            
+
     return answer
 ```

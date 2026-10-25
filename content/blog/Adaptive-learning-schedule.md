@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Adaptive learning schedule"
-tag : [Python]
-date : 2026-07-04
+external: false
+title: "Adaptive learning schedule"
+tag: [Python]
+date: 2026-07-04
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Kakao path finding game"
-tag : [Programmers, Python]
-date : 2025-05-21
+external: false
+title: "Kakao path finding game"
+tag: [Programmers, Python]
+date: 2025-05-21
 ---
 
 ## 1. Problem
@@ -149,7 +149,7 @@ def solution(nodeinfo):
 
     pre = iterative_preorder(root)
     post = iterative_postorder(root)
-    
+
     answer.append(pre)
     answer.append(post)
     answer = answer[1:]  # 첫 번째 빈 리스트 제거

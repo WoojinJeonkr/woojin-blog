@@ -1,7 +1,7 @@
 ---
 external: false
-title : "codepen"
-description : "What is codepen?"
+title: "codepen"
+description: "What is codepen?"
 tag: [Site]
 date: 2022-10-16
 ---
@@ -18,4 +18,4 @@ date: 2022-10-16
 
 ## 3. 사용 예시
 
-{% codepen url="https://codepen.io/calomys/full/zYjbbRG" title="Hello World!" /%}
+{% codepen url="<https://codepen.io/calomys/full/zYjbbRG>" title="Hello World!" /%}

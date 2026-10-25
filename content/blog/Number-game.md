@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number game"
-tag : [Programmers, Java]
-date : 2024-11-23
+external: false
+title: "Number game"
+tag: [Programmers, Java]
+date: 2024-11-23
 ---
 
 ## 1. Problem

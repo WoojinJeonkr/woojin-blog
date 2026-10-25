@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Single player Tic Tac Toe"
-tag : [Programmers, Java]
-date : 2024-07-16
+external: false
+title: "Single player Tic Tac Toe"
+tag: [Programmers, Java]
+date: 2024-07-16
 ---
 
 ## 1. Problem
@@ -55,7 +55,7 @@ class Solution {
         return true;
       }
     }
-    
+
     // 대각선 검사
     if ((board[0].charAt(0) == ch && board[1].charAt(1) == ch && board[2].charAt(2) == ch) ||
       (board[0].charAt(2) == ch && board[1].charAt(1) == ch && board[2].charAt(0) == ch)) {

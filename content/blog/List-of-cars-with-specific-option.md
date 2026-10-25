@@ -1,8 +1,8 @@
 ---
-external : false
-title : "List-of-cars-with-specific-option"
-tag : [Programmers, SQL]
-date : 2024-06-19
+external: false
+title: "List-of-cars-with-specific-option"
+tag: [Programmers, SQL]
+date: 2024-06-19
 ---
 
 ## 1. Problem

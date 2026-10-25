@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Shrine pilgrimage planner"
-tag : [Python]
-date : 2026-07-06
+external: false
+title: "Shrine pilgrimage planner"
+tag: [Python]
+date: 2026-07-06
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Apples and oranges"
-tag : [Codechef, Python]
-date : 2026-05-03
+external: false
+title: "Apples and oranges"
+tag: [Codechef, Python]
+date: 2026-05-03
 ---
 
 ## 1. Problem

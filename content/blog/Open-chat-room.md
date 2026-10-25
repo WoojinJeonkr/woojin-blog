@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Open chat room"
-tag : [Programmers, Java]
-date : 2024-09-26
+external: false
+title: "Open chat room"
+tag: [Programmers, Java]
+date: 2024-09-26
 ---
 
 ## 1. Problem
@@ -32,32 +32,32 @@ class Solution {
     Map<String, String> userMap = new HashMap<>();
     // 결과 메시지 리스트
     List<String> result = new ArrayList<>();
-    
+
     // 첫 번째 루프: 유저 아이디와 닉네임 매핑 업데이트
     for (String rec : record) {
       String[] parts = rec.split(" ");
       String action = parts[0];
       String userId = parts[1];
-      
+
       if (action.equals("Enter") || action.equals("Change")) {
         String nickname = parts[2];
         userMap.put(userId, nickname);
       }
     }
-    
+
     // 두 번째 루프: 최종 메시지 생성
     for (String rec : record) {
       String[] parts = rec.split(" ");
       String action = parts[0];
       String userId = parts[1];
-      
+
       if (action.equals("Enter")) {
         result.add(userMap.get(userId) + "님이 들어왔습니다.");
       } else if (action.equals("Leave")) {
         result.add(userMap.get(userId) + "님이 나갔습니다.");
       }
     }
-    
+
     // 결과 리스트를 배열로 변환하여 반환
     return result.toArray(new String[result.size()]);
   }

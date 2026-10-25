@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Special two dimensional array 1"
-tag : [Programmers, Python]
-date : 2025-04-17
+external: false
+title: "Special two dimensional array 1"
+tag: [Programmers, Python]
+date: 2025-04-17
 ---
 
 ## 1. Problem

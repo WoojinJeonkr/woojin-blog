@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Calculate the Nth term"
-tag : [Hackerrank, C]
-date : 2024-05-14
+external: false
+title: "Calculate the Nth term"
+tag: [Hackerrank, C]
+date: 2024-05-14
 ---
 
 ## 1. Problem

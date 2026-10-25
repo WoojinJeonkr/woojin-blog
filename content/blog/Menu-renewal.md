@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Menu renewal"
-tag : [Programmers, Java]
-date : 2024-08-30
+external: false
+title: "Menu renewal"
+tag: [Programmers, Java]
+date: 2024-08-30
 ---
 
 ## 1. Problem
@@ -63,7 +63,7 @@ class Solution {
       countMap.put(combination, countMap.getOrDefault(combination, 0) + 1);
       return;
     }
-    
+
     for (int i = start; i < items.length; i++) {
       current.append(items[i]);
       findCombinations(items, current, countMap, i + 1, length);

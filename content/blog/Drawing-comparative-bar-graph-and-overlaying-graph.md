@@ -1,13 +1,13 @@
 ---
 external: false
-title : "Drawing comparative bar graph and overlaying graph"
+title: "Drawing comparative bar graph and overlaying graph"
 tag: [Python, Graph]
 date: 2022-09-19
 ---
 
 ## 1. 비교막대그래프
 
-다음과 같이 데이터가 주어졌을 때 비교막대그래프를 그려보자.  
+다음과 같이 데이터가 주어졌을 때 비교막대그래프를 그려보자.
 
 ### 1-1. 데이터
 
@@ -25,7 +25,7 @@ date: 2022-09-19
 
 ### 1-3. 그래프 겹쳐 그리기
 
-위의 데이터를 토대로 막대그래프와 꺾은선그래프를 한 화면에 그려보자.  
+위의 데이터를 토대로 막대그래프와 꺾은선그래프를 한 화면에 그려보자.
 
 #### 1-3-1. 코드
 

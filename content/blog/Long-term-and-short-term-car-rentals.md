@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Long term and short term car rentals"
-tag : [Programmers, SQL]
-date : 2024-06-29
+external: false
+title: "Long term and short term car rentals"
+tag: [Programmers, SQL]
+date: 2024-06-29
 ---
 
 ## 1. Problem
@@ -14,7 +14,7 @@ date : 2024-06-29
 ```sql
 -- 이 쿼리는 자동차 렌탈 회사 대여 내역 테이블에서 정보를 가져옵니다.
 
-SELECT 
+SELECT
   HISTORY_ID, -- 대여 내역 아이디
   CAR_ID,     -- 차량 아이디
   DATE_FORMAT(START_DATE, "%Y-%m-%d") AS START_DATE, -- 대여 시작일 (yyyy-mm-dd 형식)

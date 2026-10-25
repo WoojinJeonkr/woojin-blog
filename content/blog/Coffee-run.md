@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Coffee run"
-tag : [Programmers, Python]
-date : 2025-07-03
+external: false
+title: "Coffee run"
+tag: [Programmers, Python]
+date: 2025-07-03
 ---
 
 ## 1. Problem

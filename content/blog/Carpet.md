@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Carpet"
-tag : [Programmers, Java]
-date : 2024-09-03
+external: false
+title: "Carpet"
+tag: [Programmers, Java]
+date: 2024-09-03
 ---
 
 ## 1. Problem
@@ -29,17 +29,17 @@ class Solution {
       // totalTiles가 height로 나누어 떨어지면 가로 길이(width)를 계산합니다.
       if (totalTiles % height == 0) {
         int width = totalTiles / height;
-        
+
         // 테두리를 감싸는 갈색 격자의 수를 계산합니다
         int brownTiles = (width * 2) + (height * 2) - 4;
-        
+
         // 계산된 갈색 격자의 수가 주어진 brown과 일치하면 가로와 세로 길이를 반환합니다
         if (brownTiles == brown) {
           return new int[]{width, height};
         }
       }
     }
-    
+
     // 이 부분은 실행될 가능성이 거의 없지만, Java 컴파일러에서 함수의 반환형을 만족시키기 위해 필요합니다
     return new int[]{};
   }

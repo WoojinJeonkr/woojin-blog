@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Print total reservation count by medical department"
-tag : [Programmers, SQL]
-date : 2024-06-09
+external: false
+title: "Print total reservation count by medical department"
+tag: [Programmers, SQL]
+date: 2024-06-09
 ---
 
 ## 1. Problem

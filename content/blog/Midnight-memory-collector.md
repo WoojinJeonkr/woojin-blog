@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Midnight memory collector"
-tag : [Python]
-date : 2026-06-20
+external: false
+title: "Midnight memory collector"
+tag: [Python]
+date: 2026-06-20
 ---
 
 ## 1. Problem

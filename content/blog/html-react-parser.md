@@ -1,7 +1,7 @@
 ---
 external: false
-title : "html react parser"
-description : What is html-react-parser library?
+title: "html react parser"
+description: What is html-react-parser library?
 tag: [React]
 date: 2022-11-05
 ---
@@ -44,7 +44,7 @@ parse('<p>Hello, World!</p>'); // React.createElement('p', {}, 'Hello, World!')
 
 ## 2. html-react-parser를 이용한 카드 뒤집기 게임
 
-{% codepen url="https://codepen.io/calomys/full/WNyGvaQ" title="html-react-parser card game" /%}
+{% codepen url="<https://codepen.io/calomys/full/WNyGvaQ>" title="html-react-parser card game" /%}
 
 ## 3. Reference
 

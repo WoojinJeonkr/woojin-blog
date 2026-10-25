@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Autonomous driving safety corridor"
-tag : [Python]
-date : 2026-07-10
+external: false
+title: "Autonomous driving safety corridor"
+tag: [Python]
+date: 2026-07-10
 ---
 
 ## 1. Problem

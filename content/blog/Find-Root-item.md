@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find Root item"
-tag : [Programmers, SQL]
-date : 2025-03-25
+external: false
+title: "Find Root item"
+tag: [Programmers, SQL]
+date: 2025-03-25
 ---
 
 ## 1. Problem
@@ -18,11 +18,11 @@ SELECT
   I.ITEM_ID AS ITEM_ID,
   -- 아이템 이름
   I.ITEM_NAME AS ITEM_NAME
-FROM 
+FROM
   -- 아이템 정보 테이블
   ITEM_INFO I
 -- 조건: 아이템 ID가 ITEM_TREE 테이블에서 상위 아이템 ID가 없는 아이템 ID에 포함될 때
-WHERE 
+WHERE
   I.ITEM_ID IN (
     -- 상위 아이템 ID가 없는 아이템 ID를 조회하는 서브쿼리
     SELECT T.ITEM_ID

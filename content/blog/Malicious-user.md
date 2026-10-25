@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Malicious user"
-tag : [Programmers, Python]
-date : 2025-07-31
+external: false
+title: "Malicious user"
+tag: [Programmers, Python]
+date: 2025-07-31
 ---
 
 ## 1. Problem
@@ -49,7 +49,7 @@ def solution(user_id, banned_id):
             # 같은 사용자 조합이라면 순서가 달라도 한 번만 세기 위해 frozenset을 사용
             # frozenset을 사용하여 아이디 순서와 관계없이 같은 조합은 중복 제거
             possible_sets.add(frozenset(perm))
-    
+
      # 가능한 고유 제재 아이디 조합의 개수 반환
     return len(possible_sets)
 ```

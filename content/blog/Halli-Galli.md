@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Halli Galli"
-tag : [Baekjoon, Python]
-date : 2026-01-14
+external: false
+title: "Halli Galli"
+tag: [Baekjoon, Python]
+date: 2026-01-14
 ---
 
 ## 1. Problem

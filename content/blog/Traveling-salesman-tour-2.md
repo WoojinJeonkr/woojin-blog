@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Traveling salesman tour 2"
-tag : [Baekjoon, Python]
-date : 2025-12-27
+external: false
+title: "Traveling salesman tour 2"
+tag: [Baekjoon, Python]
+date: 2025-12-27
 ---
 
 ## 1. Problem

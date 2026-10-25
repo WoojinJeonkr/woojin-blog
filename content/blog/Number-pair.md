@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Number pair"
-tag : [Programmers, Java]
-date : 2024-12-17
+external: false
+title: "Number pair"
+tag: [Programmers, Java]
+date: 2024-12-17
 ---
 
 ## 1. Problem
@@ -35,7 +35,7 @@ class Solution {
     // - 배열 크기는 고정된 10으로 설정
     int[] xCount = new int[10];
     int[] yCount = new int[10];
-    
+
     // 2단계: X 문자열 순회 및 숫자 카운트
     // - toCharArray()로 문자 배열로 변환
     // - 각 문자를 정수로 변환하여 해당 인덱스 카운트 증가
@@ -43,13 +43,13 @@ class Solution {
     for (char x : X.toCharArray()) {
       xCount[x - '0']++;
     }
-    
+
     // 3단계: Y 문자열 순회 및 숫자 카운트
     // - X와 동일한 방식으로 카운트 수행
     for (char y : Y.toCharArray()) {
       yCount[y - '0']++;
     }
-    
+
     // 4단계: 공통 숫자 찾기 및 최대 수 생성
     // - 9부터 0까지 역순으로 순회 (가장 큰 수 만들기 위함)
     // - 각 숫자의 X, Y에서의 최소 등장 횟수 계산
@@ -58,24 +58,24 @@ class Solution {
       // 공통으로 등장하는 숫자의 최소 횟수 결정
       // 예: X에 5가 3개, Y에 5가 2개 → 2개만 사용 가능
       int commonCount = Math.min(xCount[i], yCount[i]);
-      
+
       // 공통 숫자를 결정된 횟수만큼 결과 문자열에 추가
       for (int j = 0; j < commonCount; j++) {
         answer.append(i);
       }
     }
-    
+
     // 5단계: 특수 케이스 처리
     // 5-1: 공통된 숫자가 없는 경우 "-1" 반환
     if (answer.length() == 0) {
       return "-1";
     }
-    
+
     // 5-2: 결과가 0으로만 구성된 경우 "0" 반환
     if (answer.charAt(0) == '0') {
       return "0";
     }
-    
+
     // 6단계: 최종 결과 반환
     // 생성된 가장 큰 짝꿍 숫자를 문자열로 변환
     return answer.toString();

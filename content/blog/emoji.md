@@ -1,6 +1,6 @@
 ---
 external: false
-title : "emoji"
+title: "emoji"
 tag: [Typescript, Study]
 date: 2022-10-26
 ---
@@ -16,11 +16,11 @@ date: 2022-10-26
 
 ## 2. TypeScript에서 emoji 사용하기
 
-{% codepen url="https://codepen.io/calomys/full/poKvyJO" title="Emoji" /%}
+{% codepen url="<https://codepen.io/calomys/full/poKvyJO>" title="Emoji" /%}
 
 ## 3. code를 사용하지 않고 이모지 추가하기
 
-{% codepen url="https://codepen.io/calomys/full/zYaxqaG" title="Emoji2" /%}
+{% codepen url="<https://codepen.io/calomys/full/zYaxqaG>" title="Emoji2" /%}
 
 ## 4. Reference
 

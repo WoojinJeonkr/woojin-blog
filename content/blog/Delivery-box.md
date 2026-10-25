@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Delivery box"
-tag : [Programmers, Java]
-date : 2024-10-02
+external: false
+title: "Delivery box"
+tag: [Programmers, Java]
+date: 2024-10-02
 ---
 
 ## 1. Problem
@@ -25,14 +25,14 @@ class Solution {
     Stack<Integer> stack = new Stack<>();  // 보조 컨테이너 벨트를 위한 스택
     int answer = 0;  // 실을 수 있는 상자의 개수
     int current = 1;  // 현재 컨테이너 벨트에서 내려올 상자 번호 (1번부터 시작)
-    
+
     for (int target : order) {  // target은 트럭에 실어야 하는 상자의 번호
       // 컨테이너 벨트에서 상자를 내려와야 할 때
       while (current <= target) {
         stack.push(current);  // 현재 상자를 스택에 보관
         current++;  // 다음 상자로 이동
       }
-      
+
       // 스택의 맨 위에 있는 상자가 우리가 실어야 하는 상자와 일치하는지 확인
       if (!stack.isEmpty() && stack.peek() == target) {
         stack.pop();  // 맞다면 스택에서 꺼내서 트럭에 싣기
@@ -42,7 +42,7 @@ class Solution {
         break;
       }
     }
-    
+
     return answer;  // 실을 수 있는 상자의 개수를 반환
   }
 }

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Death Knight Hero"
-tag : [Baekjoon, Python]
-date : 2026-03-08
+external: false
+title: "Death Knight Hero"
+tag: [Baekjoon, Python]
+date: 2026-03-08
 ---
 
 ## 1. Problem

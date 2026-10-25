@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Deque 2"
-tag : [Baekjoon, Python]
-date : 2025-12-03
+external: false
+title: "Deque 2"
+tag: [Baekjoon, Python]
+date: 2025-12-03
 ---
 
 ## 1. Problem

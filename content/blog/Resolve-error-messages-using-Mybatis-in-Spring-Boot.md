@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Resolve error messages using Mybatis in Spring Boot"
-tag : [Spring, Java]
-date : 2024-05-24
+external: false
+title: "Resolve error messages using Mybatis in Spring Boot"
+tag: [Spring, Java]
+date: 2024-05-24
 ---
 
 ## 1. Error List

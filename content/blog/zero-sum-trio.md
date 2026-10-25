@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Zero sum trio"
-tag : [Programmers, Java]
-date : 2024-12-07
+external: false
+title: "Zero sum trio"
+tag: [Programmers, Java]
+date: 2024-12-07
 ---
 
 ## 1. Problem

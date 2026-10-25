@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Speed camera"
-tag : [Programmers, Java]
-date : 2024-11-16
+external: false
+title: "Speed camera"
+tag: [Programmers, Java]
+date: 2024-11-16
 ---
 
 ## 1. Problem

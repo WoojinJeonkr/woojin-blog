@@ -1,8 +1,8 @@
 ---
 external: false
-title : "Star sequence"
-tag : [Programmers, Java]
-date : 2024-08-24
+title: "Star sequence"
+tag: [Programmers, Java]
+date: 2024-08-24
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ class Solution {
 
     int maxLength = 0;
     int[] frequency = new int[n];
-    
+
     // 각 숫자의 빈도 계산
     for (int num : a) {
       frequency[num]++;

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Connecting islands"
-tag : [Programmers, Java]
-date : 2024-11-25
+external: false
+title: "Connecting islands"
+tag: [Programmers, Java]
+date: 2024-11-25
 ---
 
 ## 1. Problem

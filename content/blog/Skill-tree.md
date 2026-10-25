@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Skill tree"
-tag : [Programmers, Java]
-date : 2024-09-02
+external: false
+title: "Skill tree"
+tag: [Programmers, Java]
+date: 2024-09-02
 ---
 
 ## 1. Problem
@@ -25,11 +25,11 @@ date : 2024-09-02
 class Solution {
   public int solution(String skill, String[] skill_trees) {
     int answer = 0; // 가능한 스킬트리의 개수를 저장할 변수
-    
+
     // 각 스킬트리에 대해 검사
     for (String skill_tree : skill_trees) {
       StringBuilder skillOrder = new StringBuilder(); // 선행 스킬 순서만을 담을 StringBuilder
-      
+
       // 스킬트리에서 선행 스킬 순서에 해당하는 스킬만 추출
       for (int i = 0; i < skill_tree.length(); i++) {
         char c = skill_tree.charAt(i);
@@ -37,13 +37,13 @@ class Solution {
           skillOrder.append(c); // 포함되어 있다면 skillOrder에 추가
         }
       }
-      
+
       // 추출된 스킬이 선행 스킬 순서를 따르는지 확인
       if (skill.indexOf(skillOrder.toString()) == 0) {
         answer++; // 올바른 순서를 따를 경우 가능한 스킬트리로 간주하고 개수 증가
       }
     }
-    
+
     return answer; // 가능한 스킬트리의 총 개수를 반환
   }
 }

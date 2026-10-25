@@ -1,13 +1,13 @@
 ---
 external: false
-title : "Material-UI"
+title: "Material-UI"
 tag: [React, Material UI]
 date: 2022-10-14
 ---
 
 ## 1. Material-UI란?
 
-- Google의 Material Design 시스템 구현을 특징으로 하는 포괄적인 오픈 소스 React 구성 요소 라이브러리   
+- Google의 Material Design 시스템 구현을 특징으로 하는 포괄적인 오픈 소스 React 구성 요소 라이브러리
 - 디자인이 아름답고 구성 요소 위에 사용자 정의 디자인 시스템을 쉽게 구현할 수 있는 사용자 정의 옵션 모음을 제공
 
 ## 2. 장점
@@ -23,8 +23,8 @@ date: 2022-10-14
 ### 3-1. 요구사항
 
 ```textile
-React : v16.8.0 ~
-TypeScript : v3.2 ~
+React: v16.8.0 ~
+TypeScript: v3.2 ~
 ```
 
 ### 3-2. 설치

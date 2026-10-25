@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Javascript try catch finally 1"
-tag : [BFE, Javascript]
-date : 2024-03-23
+external: false
+title: "Javascript try catch finally 1"
+tag: [BFE, Javascript]
+date: 2024-03-23
 ---
 
 ## 1. 문제
@@ -13,7 +13,7 @@ date : 2024-03-23
 function func() {
   try {
     console.log(1)
-    return 
+    return
   } catch (e) {
     console.log(2)
   } finally {

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Picking two and plus"
-tag : [Programmers, Java]
-date : 2024-12-12
+external: false
+title: "Picking two and plus"
+tag: [Programmers, Java]
+date: 2024-12-12
 ---
 
 ## 1. Problem

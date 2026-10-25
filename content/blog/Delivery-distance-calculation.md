@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Delivery distance calculation"
-tag : [Python]
-date : 2026-10-04
+external: false
+title: "Delivery distance calculation"
+tag: [Python]
+date: 2026-10-04
 ---
 
 ## 1. Problem

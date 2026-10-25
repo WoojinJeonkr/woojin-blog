@@ -1,6 +1,6 @@
 ---
 external: false
-title : "modal, popup, alert"
+title: "modal, popup, alert"
 tag: [React, Typescript]
 date: 2022-10-11
 ---
@@ -12,7 +12,7 @@ date: 2022-10-11
 - 반투명 어두운 배경을 사용하면 기본 창의 정보가 흐려질 수 있으므로 해당 정보가 주의를 산만하게 할 때만 사용하는 것이 가장 좋음
 
 [TypeScript Modal Window](https://stackoverflow.com/questions/40366407/typescript-modal-window)
-  
+
 ## 2. popup
 
 - 특정 웹사이트가 어떠한 내용을 표시하기 위해 갑자기 생성되는 새 창

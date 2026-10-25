@@ -1,8 +1,8 @@
 ---
-external : false
-title : "In groups of five"
-tag : [Programmers, Python]
-date : 2025-04-20
+external: false
+title: "In groups of five"
+tag: [Programmers, Python]
+date: 2025-04-20
 ---
 
 ## 1. Problem

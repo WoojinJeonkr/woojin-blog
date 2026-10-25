@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Steel rods"
-tag : [Beakjoon, Java]
-date : 2025-10-27
+external: false
+title: "Steel rods"
+tag: [Beakjoon, Java]
+date: 2025-10-27
 ---
 
 ## 1. Problem

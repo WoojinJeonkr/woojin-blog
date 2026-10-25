@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Range of 2"
-tag : [Programmers, Python]
-date : 2025-06-02
+external: false
+title: "Range of 2"
+tag: [Programmers, Python]
+date: 2025-06-02
 ---
 
 ## 1. Problem

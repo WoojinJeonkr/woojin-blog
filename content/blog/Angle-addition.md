@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Angle addition"
-tag : [Programmers, Python]
-date : 2025-06-11
+external: false
+title: "Angle addition"
+tag: [Programmers, Python]
+date: 2025-06-11
 ---
 
 ## 1. Problem

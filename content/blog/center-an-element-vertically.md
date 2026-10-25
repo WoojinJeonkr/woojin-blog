@@ -1,8 +1,8 @@
 ---
-external : false
-title : "center an element vertically"
-tag : [BFE, CSS]
-date : 2024-03-18
+external: false
+title: "center an element vertically"
+tag: [BFE, CSS]
+date: 2024-03-18
 ---
 
 ## 1. Problem

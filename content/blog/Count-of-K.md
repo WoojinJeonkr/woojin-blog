@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Count of K"
-tag : [Programmers, Python]
-date : 2025-07-24
+external: false
+title: "Count of K"
+tag: [Programmers, Python]
+date: 2025-07-24
 ---
 
 ## 1. Problem
@@ -14,7 +14,7 @@ date : 2025-07-24
 ```py
 def solution(i, j, k):
     answer = 0
-    
+
     # i부터 j까지의 숫자를 순회합니다.
     for num in range(i, j + 1):
         # 각 숫자를 문자열로 변환합니다.

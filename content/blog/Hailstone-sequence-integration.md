@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Hailstone Sequence Integration"
-tag : [Programmers, Java]
-date : 2024-10-08
+external: false
+title: "Hailstone Sequence Integration"
+tag: [Programmers, Java]
+date: 2024-10-08
 ---
 
 ## 1. Problem

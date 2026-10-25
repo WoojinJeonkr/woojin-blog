@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Lidar point detection"
-tag : [Python]
-date : 2026-09-19
+external: false
+title: "Lidar point detection"
+tag: [Python]
+date: 2026-09-19
 ---
 
 ## 1. Problem

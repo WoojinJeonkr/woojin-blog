@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find an integer"
-tag : [Programmers, Python]
-date : 2025-07-07
+external: false
+title: "Find an integer"
+tag: [Programmers, Python]
+date: 2025-07-07
 ---
 
 ## 1. Problem

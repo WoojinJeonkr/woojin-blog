@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Map"
-tag : [Hackerrank, Java]
-date : 2024-03-11
+external: false
+title: "Java Map"
+tag: [Hackerrank, Java]
+date: 2024-03-11
 ---
 
 ## 1. Problem

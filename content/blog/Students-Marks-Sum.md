@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Students Marks Sum"
-tag : [Hackerrank, C]
-date : 2024-05-13
+external: false
+title: "Students Marks Sum"
+tag: [Hackerrank, C]
+date: 2024-05-13
 ---
 
 ## 1. Problem

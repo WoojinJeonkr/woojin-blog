@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find the median"
-tag : [Hackerrank, PHP]
-date : 2025-10-16
+external: false
+title: "Find the median"
+tag: [Hackerrank, PHP]
+date: 2025-10-16
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ date : 2025-10-16
 function findMedian(array $arr): int {
     // 1. 배열의 크기를 구합니다.
     $n = count($arr);
-    
+
     // 2. 중앙값의 인덱스를 계산합니다.
     // n이 홀수일 때, 중앙값은 (n - 1) / 2 인덱스에 위치합니다.
     $median_index = floor(($n - 1) / 2);

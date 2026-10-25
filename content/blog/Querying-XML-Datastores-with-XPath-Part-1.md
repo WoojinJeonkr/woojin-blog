@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Querying XML Datastores with XPath Part 1"
-tag : [Hackerrank, Ruby]
-date : 2024-02-17
+external: false
+title: "Querying XML Datastores with XPath Part 1"
+tag: [Hackerrank, Ruby]
+date: 2024-02-17
 ---
 
 ## 1. Problem
@@ -110,7 +110,7 @@ require 'rexml/document'
 include REXML
 
 # 여기에 코드를 입력하세요. 표준 입력에서 입력을 읽고, 표준 출력에 출력합니다.
-xmlText = "" 
+xmlText = ""
 
 # 입력 XML 단편을 읽습니다.
 while line = gets()
@@ -143,7 +143,7 @@ require 'rexml/document'
 include REXML
 
 # 여기에 코드를 입력하세요. 표준 입력에서 입력을 읽고 표준 출력에 출력합니다.
-xmlText = "" 
+xmlText = ""
 
 # 입력 XML 단편을 읽습니다.
 while line = gets()
@@ -186,7 +186,7 @@ require 'rexml/document'
 include REXML
 
 # 여기에 코드를 입력하세요. 입력은 표준 입력에서 읽으며 출력은 표준 출력에 인쇄합니다.
-xmlText = "" 
+xmlText = ""
 
 # 입력 XML 조각을 읽습니다.
 while line = gets()
@@ -211,7 +211,7 @@ require 'rexml/document'
 include REXML
 
 # 입력을 STDIN에서 읽고 출력을 STDOUT로 출력합니다.
-xmlText = "" 
+xmlText = ""
 
 # 입력 XML 단편을 읽습니다.
 while line = gets()
@@ -236,11 +236,11 @@ include REXML
 
 # 입력, 출력 및 문서 생성을 다루기 위한 루비 코드가 이미 제공되었습니다.
 # 여기에 코드를 입력하세요. STDIN에서 입력을 읽고, STDOUT로 출력합니다.
-xmlText = "" 
+xmlText = ""
 
 # 입력 XML 단편을 읽습니다.
 while line = gets()
-	xmlText += line
+ xmlText += line
 end
 
 doc = Document.new xmlText

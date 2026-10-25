@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Greenhouse irrigation scheduler"
-tag : [Python]
-date : 2026-06-10
+external: false
+title: "Greenhouse irrigation scheduler"
+tag: [Python]
+date: 2026-06-10
 ---
 
 ## 1. Problem

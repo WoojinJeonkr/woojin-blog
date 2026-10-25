@@ -1,6 +1,6 @@
 ---
 external: false
-title : jekyll mathjax
+title: jekyll mathjax
 tag: [Jekyll, Feature]
 date: 2022-10-20
 ---

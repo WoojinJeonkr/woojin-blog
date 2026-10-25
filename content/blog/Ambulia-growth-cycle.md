@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ambulia growth cycle"
-tag : [Python]
-date : 2026-08-26
+external: false
+title: "Ambulia growth cycle"
+tag: [Python]
+date: 2026-08-26
 ---
 
 ## 1. Problem

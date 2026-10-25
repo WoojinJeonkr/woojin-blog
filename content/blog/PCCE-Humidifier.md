@@ -1,8 +1,8 @@
 ---
-external : false
-title : "PCCE Humidifier"
-tag : [Programmers, Python]
-date : 2025-06-15
+external: false
+title: "PCCE Humidifier"
+tag: [Programmers, Python]
+date: 2025-06-15
 ---
 
 ## 1. Problem

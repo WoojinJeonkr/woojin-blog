@@ -1,8 +1,8 @@
 ---
-external : false
-title : "UOS String"
-tag : [Baekjoon, Python]
-date : 2026-01-19
+external: false
+title: "UOS String"
+tag: [Baekjoon, Python]
+date: 2026-01-19
 ---
 
 ## 1. Problem

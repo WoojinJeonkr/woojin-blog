@@ -1,8 +1,8 @@
 ---
-external : false
-title : "OX Quiz"
-tag : [Programmers, Python]
-date : 2025-05-04
+external: false
+title: "OX Quiz"
+tag: [Programmers, Python]
+date: 2025-05-04
 ---
 
 ## 1. Problem

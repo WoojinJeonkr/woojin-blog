@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Event stream rate limiter"
-tag : [Python]
-date : 2026-06-09
+external: false
+title: "Event stream rate limiter"
+tag: [Python]
+date: 2026-06-09
 ---
 
 ## 1. Problem

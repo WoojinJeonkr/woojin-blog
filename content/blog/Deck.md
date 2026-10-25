@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Deck"
-tag : [Programmers, Python]
-date : 2024-12-22
+external: false
+title: "Deck"
+tag: [Programmers, Python]
+date: 2024-12-22
 ---
 
 ## 1. Problem
@@ -23,7 +23,7 @@ date : 2024-12-22
 def solution(cards1, cards2, goal):
   idx1, idx2 = 0, 0  # cards1과 cards2에서 사용할 인덱스 변수 초기화
   answer = ''  # 결과를 저장할 변수 초기화
-  
+
   for word in goal:  # goal 배열을 순차적으로 처리
     # goal 단어가 cards1에서 나온다면
     if idx1 < len(cards1) and cards1[idx1] == word:
@@ -34,7 +34,7 @@ def solution(cards1, cards2, goal):
     else:
       answer = "No"  # 목표 단어를 두 카드 뭉치에서 찾을 수 없으면 "No"로 설정
       return answer  # 바로 "No"를 반환하고 종료
-  
+
   answer = "Yes"  # 모든 goal 단어를 성공적으로 처리했다면 "Yes"
   return answer  # 결과 반환
 ```

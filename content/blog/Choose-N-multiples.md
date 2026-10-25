@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Choose n multiples"
-tag : [Programmers, Python]
-date : 2025-03-14
+external: false
+title: "Choose n multiples"
+tag: [Programmers, Python]
+date: 2025-03-14
 ---
 
 ## 1. Problem
@@ -20,12 +20,12 @@ date : 2025-03-14
 def solution(n, numlist):
   # Step 1: 결과를 저장할 빈 리스트를 생성합니다.
   answer = []
-  
+
   # Step 2: numlist의 각 요소를 반복적으로 확인하여 n의 배수인 경우 answer 리스트에 추가합니다.
   for i in numlist:
     if i % n == 0:  # n의 배수인 경우
       answer.append(i)
-  
+
   # Step 3: 결과를 반환합니다.
   return answer
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Multi level toothbrush sales"
-tag : [Programmers, Python]
-date : 2025-08-09
+external: false
+title: "Multi level toothbrush sales"
+tag: [Programmers, Python]
+date: 2025-08-09
 ---
 
 ## 1. Problem
@@ -16,7 +16,7 @@ def solution(enroll, referral, seller, amount):
     # 1. 데이터 구조 초기화
     # 각 판매원의 최종 이익금을 저장할 딕셔너리
     profit = {name: 0 for name in enroll}
-    
+
     # 각 판매원의 추천인을 저장할 딕셔너리
     # key: 판매원 이름, value: 추천인 이름 ("-"는 center로 간주)
     referral_map = {}
@@ -31,10 +31,10 @@ def solution(enroll, referral, seller, amount):
         while True:
             # 10%를 계산하여 상위 추천인에게 줄 금액
             share_to_referrer = int(current_profit * 0.1)
-            
+
             # 현재 판매원이 가질 금액
             profit_for_self = current_profit - share_to_referrer
-            
+
             # 현재 판매원의 이익에 합산
             profit[current_seller] += profit_for_self
 
@@ -44,16 +44,16 @@ def solution(enroll, referral, seller, amount):
             # 상위 추천인이 없거나 (센터) 또는 분배할 금액이 1원 미만이면 종료
             if referrer == "-" or share_to_referrer < 1:
                 break
-            
+
             # 다음 판매원으로 이동 (상위 추천인)
             current_seller = referrer
             # 다음 이익금 (상위 추천인에게 넘어간 금액)
             current_profit = share_to_referrer
-    
+
     # 4. 결과 반환
     answer = []
     for name in enroll:
         answer.append(profit[name])
-        
+
     return answer
 ```

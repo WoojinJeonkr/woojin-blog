@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Counting E coli by quarter"
-tag : [Programmers, SQL]
-date : 2025-02-15
+external: false
+title: "Counting E coli by quarter"
+tag: [Programmers, SQL]
+date: 2025-02-15
 ---
 
 ## 1. Problem
@@ -27,18 +27,18 @@ date : 2025-02-15
 
 ```sql
 -- 분기별로 분화된 대장균 개체의 수를 집계하는 쿼리
-SELECT 
+SELECT
   -- 분기 번호에 'Q'를 붙여 표시
   CONCAT(QUARTER(DIFFERENTIATION_DATE), 'Q') AS QUARTER,
   -- 각 분기별 대장균 개체 수
   COUNT(ID) AS ECOLI_COUNT
-FROM 
+FROM
   -- 대장균 데이터 테이블
   ECOLI_DATA
 -- 분기별로 그룹화
-GROUP BY 
+GROUP BY
   QUARTER
 -- 분기 순으로 정렬
-ORDER BY 
+ORDER BY
   QUARTER
 ```

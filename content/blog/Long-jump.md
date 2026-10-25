@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Long jump"
-tag : [Programmers, Java]
-date : 2024-09-05
+external: false
+title: "Long jump"
+tag: [Programmers, Java]
+date: 2024-09-05
 ---
 
 ## 1. Problem
@@ -24,16 +24,16 @@ class Solution {
   public long solution(int n) {
     // n이 1일 경우 방법은 1가지
     if (n == 1) return 1;
-    
+
     // n이 2일 경우 방법은 2가지
     if (n == 2) return 2;
 
     // 각 칸에 도달하는 방법의 수를 저장하는 배열
     long[] dp = new long[n + 1];
-    
+
     // dp[1]은 1칸을 이동하는 방법의 수
     dp[1] = 1;
-    
+
     // dp[2]는 2칸을 이동하는 방법의 수
     dp[2] = 2;
 

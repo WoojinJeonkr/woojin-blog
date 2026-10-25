@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Taum and B'day"
-tag : [Hackerrank, Java]
-date : 2024-04-24
+external: false
+title: "Taum and B'day"
+tag: [Hackerrank, Java]
+date: 2024-04-24
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date : 2024-04-24
 public static long taumBday(int b, int w, int bc, int wc, int z) {
   long minBlackPrice = Math.min(bc, wc + z);
   long minWhitePrice = Math.min(wc, bc + z);
-  
+
   return (minBlackPrice * b) + (minWhitePrice * w);
 }
 ```

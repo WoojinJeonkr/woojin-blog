@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Printing Pattern Using Loops"
-tag : [Hackerrank, C]
-date : 2024-05-22
+external: false
+title: "Printing Pattern Using Loops"
+tag: [Hackerrank, C]
+date: 2024-05-22
 ---
 
 ## 1. Problem
@@ -15,13 +15,13 @@ date : 2024-05-22
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() 
+int main()
 {
   // 정수 n을 입력받습니다.
   int n;
   scanf("%d", &n);
 
-  // 출력할 패턴의 한 변의 길이를 계산합니다. 
+  // 출력할 패턴의 한 변의 길이를 계산합니다.
   int len = 2 * n - 1;
 
   // 패턴을 출력하기 위한 이중 루프

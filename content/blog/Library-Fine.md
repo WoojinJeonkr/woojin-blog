@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Library Fine"
-tag : [Hackerrank, Java]
-date : 2024-04-08
+external: false
+title: "Library Fine"
+tag: [Hackerrank, Java]
+date: 2024-04-08
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "The 5 lowest ranks"
-tag : [Programmers, Python]
-date : 2025-02-24
+external: false
+title: "The 5 lowest ranks"
+tag: [Programmers, Python]
+date: 2025-02-24
 ---
 
 ## 1. Problem

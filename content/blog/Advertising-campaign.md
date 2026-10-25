@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Advertising campaign"
-tag : [Python]
-date : 2026-08-08
+external: false
+title: "Advertising campaign"
+tag: [Python]
+date: 2026-08-08
 ---
 
 ## 1. Problem

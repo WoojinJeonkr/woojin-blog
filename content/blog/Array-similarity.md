@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Array similarity"
-tag : [Programmers, Python]
-date : 2025-03-05
+external: false
+title: "Array similarity"
+tag: [Programmers, Python]
+date: 2025-03-05
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ def solution(s1, s2):
   # set() 함수를 사용하여 리스트를 집합으로 변환하고, '&' 연산자를 통해 두 집합의 교집합을 구합니다.
   # 그 결과의 길이를 구하면 공통 원소의 개수가 됩니다.
   answer = len(set(s1) & set(s2))
-  
+
   # 결과를 반환합니다.
   return answer
 ```

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Monthly user count by gender"
-tag : [Programmers, SQL]
-date : 2025-02-16
+external: false
+title: "Monthly user count by gender"
+tag: [Programmers, SQL]
+date: 2025-02-16
 ---
 
 ## 1. Problem
@@ -29,7 +29,7 @@ date : 2025-02-16
 
 ```sql
 -- 년, 월, 성별 별로 상품을 구매한 회원수를 집계하고, 년, 월, 성별을 기준으로 오름차순 정렬하는 쿼리
-SELECT 
+SELECT
   -- 판매일의 년도를 추출
   YEAR(os.SALES_DATE) AS YEAR,
   -- 판매일의 월을 추출
@@ -38,22 +38,22 @@ SELECT
   ui.GENDER,
   -- 각 그룹 내에서 고유한 회원 ID 수를 집계
   COUNT(DISTINCT ui.USER_ID) AS USERS
-FROM 
+FROM
   -- 온라인 상품 판매 정보 테이블
   ONLINE_SALE os
 -- 회원 정보 테이블과 조인
-JOIN 
+JOIN
   USER_INFO ui ON os.USER_ID = ui.USER_ID
 -- 성별 정보가 없는 행은 제외
-WHERE 
+WHERE
   ui.GENDER IS NOT NULL
 -- 년, 월, 성별을 기준으로 그룹화
-GROUP BY 
+GROUP BY
   YEAR(os.SALES_DATE),
   MONTH(os.SALES_DATE),
   ui.GENDER
 -- 결과를 년, 월, 성별 순으로 오름차순 정렬
-ORDER BY 
+ORDER BY
   YEAR(os.SALES_DATE),
   MONTH(os.SALES_DATE),
   ui.GENDER;

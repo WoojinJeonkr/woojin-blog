@@ -1,8 +1,8 @@
 ---
-external : false
-title : "The largest number"
-tag : [Programmers, Java]
-date : 2024-08-23
+external: false
+title: "The largest number"
+tag: [Programmers, Java]
+date: 2024-08-23
 ---
 
 ## 1. Problem

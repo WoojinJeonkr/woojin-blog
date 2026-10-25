@@ -1,8 +1,8 @@
 ---
-external : false
-title : "To do list"
-tag : [Programmers, Java]
-date : 2024-08-27
+external: false
+title: "To do list"
+tag: [Programmers, Java]
+date: 2024-08-27
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ class Solution {
         count++;
       }
     }
-    
+
     // 완료되지 않은 일의 개수만큼 배열을 생성합니다.
     String[] answer = new String[count];
     int index = 0;
@@ -37,7 +37,7 @@ class Solution {
         answer[index++] = todo_list[i];
       }
     }
-    
+
     return answer;
   }
 }

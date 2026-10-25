@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Print restaurant list by group conditions"
-tag : [Programmers, SQL]
-date : 2025-01-14
+external: false
+title: "Print restaurant list by group conditions"
+tag: [Programmers, SQL]
+date: 2025-01-14
 ---
 
 ## 1. Problem
@@ -30,41 +30,41 @@ date : 2025-01-14
 
 ```sql
 -- 1. 가장 바깥쪽 메인 쿼리: 회원 이름, 리뷰 텍스트, 리뷰 날짜를 조회
-SELECT 
-  MP.MEMBER_NAME, 
-  RR.REVIEW_TEXT, 
+SELECT
+  MP.MEMBER_NAME,
+  RR.REVIEW_TEXT,
   DATE_FORMAT(RR.REVIEW_DATE, '%Y-%m-%d') as REVIEW_DATE
-FROM 
+FROM
   MEMBER_PROFILE MP
   -- 2. MEMBER_PROFILE과 REST_REVIEW 테이블을 회원 ID로 조인
   JOIN REST_REVIEW RR ON MP.MEMBER_ID = RR.MEMBER_ID
-WHERE 
+WHERE
   -- 3. 리뷰를 가장 많이 작성한 회원의 ID와 일치하는지 확인
   RR.MEMBER_ID IN (
     -- 4. 중첩 서브쿼리 1: 최다 리뷰 작성자의 MEMBER_ID 찾기
-    SELECT 
-      MEMBER_ID 
-    FROM 
-      REST_REVIEW 
-    GROUP BY 
-      MEMBER_ID 
+    SELECT
+      MEMBER_ID
+    FROM
+      REST_REVIEW
+    GROUP BY
+      MEMBER_ID
     -- 6. 회원별 리뷰 수가 최대 리뷰 수와 같은지 비교
-    HAVING 
+    HAVING
       COUNT(*) = (
         -- 5. 중첩 서브쿼리 2: 최대 리뷰 작성 횟수 찾기
-        SELECT 
+        SELECT
           COUNT(*) cnt
-        FROM 
+        FROM
           REST_REVIEW
-        GROUP BY 
+        GROUP BY
           MEMBER_ID
-        ORDER BY 
+        ORDER BY
           cnt DESC
         LIMIT 1
       )
   )
 -- 7. 최종 결과를 리뷰 작성일 오름차순, 같은 날짜는 리뷰 텍스트 오름차순으로 정렬
-ORDER BY 
-  RR.REVIEW_DATE ASC, 
+ORDER BY
+  RR.REVIEW_DATE ASC,
   RR.REVIEW_TEXT ASC;
 ```

@@ -1,7 +1,7 @@
 ---
 external: false
-title : "Breadcrumb"
-description : One of the features of Semantic UI!
+title: "Breadcrumb"
+description: One of the features of Semantic UI!
 tag: [React, Sementic UI, Typescript]
 date: 2022-11-04
 ---
@@ -22,7 +22,7 @@ Breadcrumb는 수직형 구조 혹은 계층 구조로 이루어진 많은 양�
 
 ## 2. Example
 
-{% codepen url="https://codepen.io/calomys/full/NWzrMKY" title="Breadcrumb" /%}
+{% codepen url="<https://codepen.io/calomys/full/NWzrMKY>" title="Breadcrumb" /%}
 
 ## 3. Reference
 

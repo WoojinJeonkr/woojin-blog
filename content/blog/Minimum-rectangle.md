@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Minimum rectangle"
-tag : [Programmers, Java]
-date : 2024-11-05
+external: false
+title: "Minimum rectangle"
+tag: [Programmers, Java]
+date: 2024-11-05
 ---
 
 ## 1. Problem

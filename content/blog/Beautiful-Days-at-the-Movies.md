@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Beautiful Days at the Movies"
-tag : [Hackerrank, Java]
-date : 2024-04-13
+external: false
+title: "Beautiful Days at the Movies"
+tag: [Hackerrank, Java]
+date: 2024-04-13
 ---
 
 ## 1. Problem
@@ -37,13 +37,13 @@ class Result {
   public static int beautifulDays(int i, int j, int k) {
     // 결과 값을 저장할 변수 초기화
     int beautifulDays = 0;
-    
+
     // 주어진 범위 내에서 각 날짜에 대하여 반복
     for(int x = i; x <= j; x++) {
       // 숫자를 문자열로 변환한 후, StringBuilder를 사용하여 뒤집기
       StringBuilder day = new StringBuilder(String.valueOf(x));
       int xReverse = Integer.parseInt(day.reverse().toString());
-          
+
       // 원래 숫자와 뒤집힌 숫자의 차이가 k로 나누어 떨어지는 경우 카운트 증가
       if(Math.abs(x-xReverse) % k == 0) {
         beautifulDays++;

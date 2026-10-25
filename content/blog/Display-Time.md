@@ -1,14 +1,14 @@
 ---
 external: false
-title : "Display Time"
-description : How to display time in TypeScript?
+title: "Display Time"
+description: How to display time in TypeScript?
 tag: [Typescript]
 date: 2022-10-27
 ---
 
 ## 1. TypeScript에서 시간 표시하기
 
-{% codepen url="https://codepen.io/calomys/full/OJEPGbP" title="TimeZone_TypeScript" /%}
+{% codepen url="<https://codepen.io/calomys/full/OJEPGbP>" title="TimeZone_TypeScript" /%}
 
 ## 2. Reference
 

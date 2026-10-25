@@ -1,6 +1,6 @@
 ---
 external: false
-title : "TCP"
+title: "TCP"
 tag: [CS]
 date: 2022-10-22
 ---

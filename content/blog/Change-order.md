@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Change order"
-tag : [Programmers, Python]
-date : 2025-06-09
+external: false
+title: "Change order"
+tag: [Programmers, Python]
+date: 2025-06-09
 ---
 
 ## 1. Problem

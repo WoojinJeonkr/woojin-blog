@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Counselor allocation"
-tag : [Programmers, Python]
-date : 2025-09-12
+external: false
+title: "Counselor allocation"
+tag: [Programmers, Python]
+date: 2025-09-12
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Next greater price"
-tag :[Python]
-date : 2026-05-16
+external: false
+title: "Next greater price"
+tag:[Python]
+date: 2026-05-16
 ---
 
 ## 1. Problem

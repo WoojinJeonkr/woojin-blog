@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find top 10 largest fish"
-tag : [Programmers, SQL]
-date : 2024-06-17
+external: false
+title: "Find top 10 largest fish"
+tag: [Programmers, SQL]
+date: 2024-06-17
 ---
 
 ## 1. Problem

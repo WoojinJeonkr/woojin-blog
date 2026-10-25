@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Master of playing alone"
-tag : [Programmers, Java]
-date : 2024-10-18
+external: false
+title: "Master of playing alone"
+tag: [Programmers, Java]
+date: 2024-10-18
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ class Solution {
   public int solution(int[] cards) {
     boolean[] visited = new boolean[cards.length];
     ArrayList<Integer> groupSizes = new ArrayList<>();
-    
+
     // 각 상자 그룹을 탐색하여 크기를 구함
     for (int i = 0; i < cards.length; i++) {
       if (!visited[i]) {
@@ -35,31 +35,31 @@ class Solution {
         groupSizes.add(groupSize);
       }
     }
-    
+
     // 그룹 크기를 내림차순 정렬
     Collections.sort(groupSizes, Collections.reverseOrder());
-    
+
     // 그룹이 2개 이상 있어야 하므로, 그렇지 않으면 점수는 0
     if (groupSizes.size() < 2) {
       return 0;
     }
-    
+
     // 가장 큰 두 그룹의 크기를 곱한 값이 최대 점수
     return groupSizes.get(0) * groupSizes.get(1);
   }
-  
+
   // 재귀 함수: 연결된 상자 그룹의 크기를 계산
   private int getGroupSize(int[] cards, boolean[] visited, int start) {
     int count = 0;
     int current = start;
-    
+
     // 상자를 따라가며 그룹의 크기 계산
     while (!visited[current]) {
       visited[current] = true;
       current = cards[current] - 1; // 상자 번호는 1부터 시작하므로 -1 해줌
       count++;
     }
-    
+
     return count;
   }
 }

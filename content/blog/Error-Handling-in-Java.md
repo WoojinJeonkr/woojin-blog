@@ -1,13 +1,13 @@
 ---
-external : false
-title : "Error Handling in Java"
-tag : [Java, Hackerrank]
-date : 2024-03-15
+external: false
+title: "Error Handling in Java"
+tag: [Java, Hackerrank]
+date: 2024-03-15
 ---
 
 ## 1. 서론
 
-에러 처리는 애플리케이션의 견고성과 신뢰성을 보장하기 위한 Java 프로그래밍의 중요한 측면입니다.  
+에러 처리는 애플리케이션의 견고성과 신뢰성을 보장하기 위한 Java 프로그래밍의 중요한 측면입니다.
 Java는 에러와 예외를 처리하기 위한 여러 메커니즘을 제공하는데, 그 중에는 if-else 문과 try-catch 블록이 있습니다. 이 글에서는 이 두 가지 방법을 탐구하고 다양한 상황에서의 효과를 비교해 보겠습니다.
 
 ## 2. if-else 문을 통한 에러 처리
@@ -60,12 +60,12 @@ class MyCalculator {
 public class Solution {
   public static final MyCalculator my_calculator = new MyCalculator();
   public static final Scanner in = new Scanner(System.in);
-  
+
   public static void main(String[] args) {
     while (in .hasNextInt()) {
       int n = in .nextInt();
       int p = in .nextInt();
-      
+
       try {
         System.out.println(my_calculator.power(n, p));
       } catch (Exception e) {
@@ -119,7 +119,7 @@ public class Solution {
   public static void main(String[] args) {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     Scanner scan = new Scanner(System.in);
-    
+
     try {
       int x = scan.nextInt();
       int y = scan.nextInt();
@@ -129,7 +129,7 @@ public class Solution {
     } catch (ArithmeticException e) {
       System.out.println(e.getClass().getName() + ": / by zero");
     }
-    
+
     scan.close();
   }
 }

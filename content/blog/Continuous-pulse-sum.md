@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Continuous pulse sum"
-tag : [Programmers, Python]
-date : 2025-02-06
+external: false
+title: "Continuous pulse sum"
+tag: [Programmers, Python]
+date: 2025-02-06
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ def solution(sequence):
   pulse1 = [1 if i % 2 == 0 else -1 for i in range(len(sequence))]
   # 두 번째 펄스: [-1, 1, -1, 1, ...]
   pulse2 = [1 if i % 2 == 1 else -1 for i in range(len(sequence))]
-  
+
   # 2. 카데인 알고리즘: 연속 부분 수열의 최대 합을 O(n) 시간에 찾는 알고리즘
   def kadane(arr):
     # max_ending_here: 현재 위치까지의 최대 부분합
@@ -44,11 +44,11 @@ def solution(sequence):
       # 전체 최대값 갱신
       max_so_far = max(max_so_far, max_ending_here)
     return max_so_far
-  
+
   # 3. 원본 수열과 각각의 펄스 수열을 곱하여 새로운 수열 생성
   pulse1_sequence = [a * b for a, b in zip(sequence, pulse1)]
   pulse2_sequence = [a * b for a, b in zip(sequence, pulse2)]
-  
+
   # 4. 두 펄스 수열을 적용한 결과 중 더 큰 최대 부분합을 반환
   return max(kadane(pulse1_sequence), kadane(pulse2_sequence))
 ```

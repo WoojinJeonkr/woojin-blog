@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Check social distance"
-tag : [Programmers, Python]
-date : 2025-06-05
+external: false
+title: "Check social distance"
+tag: [Programmers, Python]
+date: 2025-06-05
 ---
 
 ## 1. Problem
@@ -21,7 +21,7 @@ def solution(places):
       for j in range(5):
         if place[i][j] == 'P':
           ps.append((i, j))
-    
+
     valid = True  # 거리두기 준수 여부
     # 모든 응시자 쌍에 대해 거리 검사
     for i in range(len(ps)):
@@ -30,7 +30,7 @@ def solution(places):
       for j in range(i + 1, len(ps)):
         p1, p2 = ps[i], ps[j]
         distance = abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
-        
+
         if distance > 2:
           continue  # 거리 2 초과면 검사할 필요 없음
         if distance <= 1:

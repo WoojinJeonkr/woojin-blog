@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Reversing binary number"
-tag : [Baekjoon, Python]
-date : 2025-03-07
+external: false
+title: "Reversing binary number"
+tag: [Baekjoon, Python]
+date: 2025-03-07
 ---
 
 ## 1. Problem
@@ -19,14 +19,14 @@ date : 2025-03-07
 def reverse_binary(n):
   # 정수를 이진 문자열로 변환하고 '0b' 접두어 제거
   binary_str = bin(n)[2:]
-  
-  # 이진 문자열을 뒤집기. 
+
+  # 이진 문자열을 뒤집기.
   # 슬라이싱 문법[::-1]은 문자열의 끝에서 시작하여 역순으로 요소를 반환합니다.
   reversed_binary_str = binary_str[::-1]
-  
+
   # 뒤집힌 이진 문자열을 다시 정수로 변환
   result = int(reversed_binary_str, 2)
-  
+
   # result 변수 반환
   return result
 

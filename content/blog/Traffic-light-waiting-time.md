@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Traffic light waiting time"
-tag : [Python]
-date : 2026-09-20
+external: false
+title: "Traffic light waiting time"
+tag: [Python]
+date: 2026-09-20
 ---
 
 ## 1. Problem

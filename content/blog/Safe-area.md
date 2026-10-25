@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Safe area"
-tag : [Baekjoon, Java]
-date : 2025-10-30
+external: false
+title: "Safe area"
+tag: [Baekjoon, Java]
+date: 2025-10-30
 ---
 
 ## 1. Problem

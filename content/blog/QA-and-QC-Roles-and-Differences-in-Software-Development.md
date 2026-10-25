@@ -1,8 +1,8 @@
 ---
-external : false
-title : "QA and QC Roles and Differences in Software Development"
-tag : [Study]
-date : 2024-10-03
+external: false
+title: "QA and QC Roles and Differences in Software Development"
+tag: [Study]
+date: 2024-10-03
 ---
 
 소프트웨어 개발에서 품질 관리의 중요성은 아무리 강조해도 지나치지 않습니다. 특히 **QA**(Quality Assurance)와 **QC**(Quality Control)는 제품의 품질을 보장하고 유지하는 핵심적인 활동입니다. 하지만 둘의 차이를 명확하게 이해하는 것은 쉽지 않습니다. 이 글에서는 QA와 QC의 개념, 업무 내용, 그리고 사용하는 도구의 차이에 대해 알아보겠습니다.

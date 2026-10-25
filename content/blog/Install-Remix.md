@@ -2,7 +2,7 @@
 external: false
 title: "Install Remix"
 tag: [Remix, Typescript]
-date : 2024-01-17
+date: 2024-01-17
 ---
 
 해당 글에서는 Remix란 무엇인지, 그리고 Remix 설치 방법에 대해 소개하겠습니다.
@@ -13,7 +13,7 @@ React와 TypeScript를 이용한 문서 뷰어를 만들고 싶어 보일러 플
 
 ## 2. What is Remix?
 
-Remix는 사용자 인터페이스에 집중하고 웹 표준을 통해 작업하여 빠르고 원활하며 탄력적인 사용자 경험을 제공할 수 있는 리액트 기반의 풀스택 웹 프레임워크입니다.  
+Remix는 사용자 인터페이스에 집중하고 웹 표준을 통해 작업하여 빠르고 원활하며 탄력적인 사용자 경험을 제공할 수 있는 리액트 기반의 풀스택 웹 프레임워크입니다.
 React Router 위에 구축된 Remix는 컴파일러, 서버측 HTTP 핸들러, 서버 프레임워크, 브라우저 프레임워크 이렇게 4가지 기능들을 제공합니다.
 
 ## 3. How to Start?
@@ -50,7 +50,7 @@ npm i @remix-run/node @remix-run/react @remix-run/serve isbot@4 react react-dom
 npm i -D @remix-run/dev
 ```
 
-이제 전체 앱의 루트 레이아웃을 만들어보겠습니다.  
+이제 전체 앱의 루트 레이아웃을 만들어보겠습니다.
 터미널에 다음과 같이 입력하고 app/root.jsx에 다음 코드를 작성해줍니다.
 
 ```bash
@@ -88,14 +88,14 @@ export default function App() {
 }
 ```
 
-이제 프로젝트를 빌드하기 위한 준비 과정을 진행하겠습니다.  
-먼저 현재까지 작성된 프로젝트에서 터미널에 다음과 같이 명령어를 작성해줍니다.  
+이제 프로젝트를 빌드하기 위한 준비 과정을 진행하겠습니다.
+먼저 현재까지 작성된 프로젝트에서 터미널에 다음과 같이 명령어를 작성해줍니다.
 
 ```bash
 npx remix build # package.json 파일에서 정의해 놓은 build 명령어를 사용하면 됩니다.
 ```
 
-작성 후 실행하시면 앱의 서버 버전에 해당하는 build 폴더와 브라우저 버전에 해당하는 public/build 폴더가 생성되는 것을 확인하실 수 있습니다.  
+작성 후 실행하시면 앱의 서버 버전에 해당하는 build 폴더와 브라우저 버전에 해당하는 public/build 폴더가 생성되는 것을 확인하실 수 있습니다.
 이제 앱을 실행하기 위해 package.json에서 다음과 같이 추가해줍니다.
 
 ```json

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Call number 444"
-tag : [Python]
-date : 2026-09-07
+external: false
+title: "Call number 444"
+tag: [Python]
+date: 2026-09-07
 ---
 
 ## 1. Problem

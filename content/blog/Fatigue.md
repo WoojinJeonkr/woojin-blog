@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fatigue"
-tag : [Programmers, Java]
-date : 2024-08-21
+external: false
+title: "Fatigue"
+tag: [Programmers, Java]
+date: 2024-08-21
 ---
 
 ## 1. Problem
@@ -31,27 +31,27 @@ class Solution {
     int answer = 0;  // 최대 던전 수를 저장할 변수
     int n = dungeons.length;  // 던전의 개수
     List<Integer> list = new ArrayList<>();
-    
+
     // 던전 인덱스를 리스트에 추가
     for (int i = 0; i < n; i++) {
       list.add(i);
     }
-    
+
     List<List<Integer>> permutations = new ArrayList<>();
-    
+
     // 모든 던전 순열을 생성
     permute(list, 0, permutations);
-    
+
     // 생성된 모든 순열에 대해 탐험 가능한 던전 수 계산
     for (List<Integer> perm : permutations) {
       int currentFatigue = k;  // 현재 피로도
       int count = 0;  // 탐험한 던전 수
-      
+
       // 순열에 따라 던전 탐험 시뮬레이션
       for (int index : perm) {
         int minFatigue = dungeons[index][0];  // 던전을 탐험하기 위한 최소 필요 피로도
         int usedFatigue = dungeons[index][1];  // 던전 탐험 후 소모되는 피로도
-        
+
         if (currentFatigue >= minFatigue) {
           currentFatigue -= usedFatigue;  // 피로도 업데이트
           count++;  // 탐험한 던전 수 증가
@@ -62,10 +62,10 @@ class Solution {
       // 최대 탐험 던전 수 업데이트
       answer = Math.max(answer, count);
     }
-    
+
     return answer;  // 최대 탐험 던전 수 반환
   }
-  
+
   private void permute(List<Integer> list, int start, List<List<Integer>> result) {
     if (start == list.size() - 1) {
       result.add(new ArrayList<>(list));  // 현재 순열을 결과 리스트에 추가

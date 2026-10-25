@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Laser relay shortest distance"
-tag : [Python]
-date : 2026-05-22
+external: false
+title: "Laser relay shortest distance"
+tag: [Python]
+date: 2026-05-22
 ---
 
 ## 1. Problem

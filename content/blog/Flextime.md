@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Flextime"
-tag : [Programmers, Python]
-date : 2025-03-03
+external: false
+title: "Flextime"
+tag: [Programmers, Python]
+date: 2025-03-03
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ date : 2025-03-03
 def solution(schedules, timelogs, startday):
   answer = 0
   n = len(schedules)
-  
+
   for i in range(n):
     # 현재 직원의 출근 희망 시각 계산 (분 단위)
     schedule = schedules[i]
@@ -32,32 +32,32 @@ def solution(schedules, timelogs, startday):
     m = schedule % 100   # 분 추출
     schedule_time = h * 60 + m  # 분 단위로 변환
     deadline = schedule_time + 10  # 지각 여부 기준 시간
-    
+
     valid = True  # 현재 직원의 유효성 플래그
-    
+
     # 7일간의 출근 기록 검사
     for j in range(7):
       # 현재 요일 계산 (0:월, 1:화, ..., 4:금, 5:토, 6:일)
       weekday = (startday - 1 + j) % 7
-      
+
       # 주말(토/일)은 검사 제외
       if weekday >= 5:
         continue
-      
+
       # 현재 날짜의 출근 기록 확인
       log = timelogs[i][j]
       h_log = log // 100  # 출근 시간 추출
       m_log = log % 100   # 출근 분 추출
       log_time = h_log * 60 + m_log  # 분 단위로 변환
-      
+
       # 지각 여부 판정 (기준 시간 초과 시 실패)
       if log_time > deadline:
         valid = False
         break  # 더 이상 검사 필요 없음
-    
+
     # 모든 평일 출근 조건 충족 시 카운트 증가
     if valid:
       answer += 1
-  
+
   return answer
 ```

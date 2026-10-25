@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Javascript implement range()"
-tag : [BFE, Javascript]
-date : 2024-04-01
+external: false
+title: "Javascript implement range()"
+tag: [BFE, Javascript]
+date: 2024-04-01
 ---
 
 ## 1. Problem
@@ -13,7 +13,7 @@ date : 2024-04-01
 
 ```js
 for (let num of range(1, 4)) {
-  console.log(num)  
+  console.log(num)
 }
 // 1
 // 2

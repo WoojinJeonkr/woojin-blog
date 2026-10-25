@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Target number"
-tag : [Programmers, Java]
-date : 2024-09-12
+external: false
+title: "Target number"
+tag: [Programmers, Java]
+date: 2024-09-12
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ class Solution {
     // DFS 탐색을 시작하는 함수 호출
     return dfs(numbers, target, 0, 0);
   }
-  
+
   private int dfs(int[] numbers, int target, int depth, int sum) {
     // 모든 숫자를 다 사용한 경우
     if (depth == numbers.length) {
@@ -38,11 +38,11 @@ class Solution {
         return 0;
       }
     }
-    
+
     // 현재 숫자를 더하거나 빼는 두 가지 선택지
     int add = dfs(numbers, target, depth + 1, sum + numbers[depth]);
     int subtract = dfs(numbers, target, depth + 1, sum - numbers[depth]);
-    
+
     // 두 경우의 수를 더한 값을 반환
     return add + subtract;
   }

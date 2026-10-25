@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding areas"
-tag : [Baekjoon, Python]
-date : 2026-01-17
+external: false
+title: "Finding areas"
+tag: [Baekjoon, Python]
+date: 2026-01-17
 ---
 
 ## 1. Problem
@@ -36,7 +36,7 @@ dy = [0, 0, 1, -1]
 def bfs(start_y, start_x):
     queue = deque()
     queue.append((start_y, start_x))
-    
+
     # 시작 지점을 방문 처리
     grid[start_y][start_x] = 2
     area = 1
@@ -47,7 +47,7 @@ def bfs(start_y, start_x):
         for i in range(4):
             ny = y + dy[i]
             nx = x + dx[i]
-            
+
             # 격자 범위 안이고, 아직 방문하지 않은 빈 공간일 때
             if 0 <= ny < M and 0 <= nx < N and grid[ny][nx] == 0:
                 grid[ny][nx] = 2      # 방문 처리

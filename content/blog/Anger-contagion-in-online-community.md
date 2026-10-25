@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Anger contagion in online community"
-tag : [Python]
-date : 2026-07-24
+external: false
+title: "Anger contagion in online community"
+tag: [Python]
+date: 2026-07-24
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding ecoli strains with all parental traits"
-tag : [Programmers, SQL]
-date : 2024-06-11
+external: false
+title: "Finding ecoli strains with all parental traits"
+tag: [Programmers, SQL]
+date: 2024-06-11
 ---
 
 ## 1. Problem

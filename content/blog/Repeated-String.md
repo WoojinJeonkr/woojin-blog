@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Repeated String"
-tag : [Hackerrank, Java]
-date : 2024-03-07
+external: false
+title: "Repeated String"
+tag: [Hackerrank, Java]
+date: 2024-03-07
 ---
 
 ## 1. Problem
@@ -38,16 +38,16 @@ class Result {
     // 코드를 작성합니다.
     // 'a'가 없는 경우 0을 반환합니다.
     if (!s.contains("a")) return 0;
-    
+
     // 'a'의 출현 횟수를 저장할 변수를 초기화합니다.
     long count = 0;
-    
+
     // 문자열 s의 길이를 저장합니다.
     long len = s.length();
-    
+
     // 문자열이 반복되는 횟수를 계산합니다.
     long repetition = n / len;
-    
+
     // 반복이 완료된 후 남는 문자열의 길이를 계산합니다.
     long remainder = n % len;
 

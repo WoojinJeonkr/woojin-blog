@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Most received gift"
-tag : [Programmers, Python]
-date : 2024-12-24
+external: false
+title: "Most received gift"
+tag: [Programmers, Python]
+date: 2024-12-24
 ---
 
 ## 1. Problem
@@ -28,12 +28,12 @@ def solution(friends, gifts):
   n = len(friends)  # 친구의 수
   # 친구 이름을 인덱스로 매핑하는 딕셔너리 생성
   friend_index_map = {friend: i for i, friend in enumerate(friends)}
-  
+
   # 선물 주고받은 내역을 저장할 테이블 생성
   gift_table = [[0] * n for _ in range(n)]
   # 각 친구의 선물 받은/준 수를 기록할 리스트
   gift_balance = [0] * n
-  
+
   # 선물 내역 처리
   for gift in gifts:
     giver, receiver = gift.split()  # 선물 준 사람과 받은 사람 분리
@@ -41,13 +41,13 @@ def solution(friends, gifts):
     gift_balance[giver_idx] += 1  # 선물 준 사람의 지수 증가
     gift_balance[receiver_idx] -= 1  # 선물 받은 사람의 지수 감소
     gift_table[giver_idx][receiver_idx] += 1  # 주고받은 선물 내역에 기록
-  
+
   # 각 친구가 받은 선물 개수 계산 후 최대값 구하기
   answer = max(
-    sum(1 for j in range(n) if i != j and (gift_table[i][j] > gift_table[j][i] or 
+    sum(1 for j in range(n) if i != j and (gift_table[i][j] > gift_table[j][i] or
     (gift_table[i][j] == gift_table[j][i] and gift_balance[i] > gift_balance[j])))
     for i in range(n)
   )
-  
+
   return answer
 ```

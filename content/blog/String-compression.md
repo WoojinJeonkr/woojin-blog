@@ -1,8 +1,8 @@
 ---
-external : false
-title : "String compression"
-tag : [Programmers, Java]
-date : 2024-10-26
+external: false
+title: "String compression"
+tag: [Programmers, Java]
+date: 2024-10-26
 ---
 
 ## 1. Problem
@@ -31,7 +31,7 @@ class Solution {
       // len 단위로 문자열을 순차적으로 비교하여 압축
       for (int i = len; i < s.length(); i += len) {
         String current;
-        
+
         // i + len이 s의 길이 이내라면 다음 블록 추출
         if (i + len <= s.length()) {
           current = s.substring(i, i + len);
@@ -46,7 +46,7 @@ class Solution {
           // 동일하지 않으면 반복 횟수를 포함하여 압축 문자열에 추가
           if (count > 1) compressed.append(count);
           compressed.append(prev);
-          
+
           // 새로운 블록으로 prev와 count 초기화
           prev = current;
           count = 1;
@@ -56,7 +56,7 @@ class Solution {
       // 마지막 남은 블록 처리
       if (count > 1) compressed.append(count);
       compressed.append(prev);
-      
+
       // 압축된 문자열의 길이를 갱신하여 최소 길이 계산
       minCompressedLength = Math.min(minCompressedLength, compressed.length());
     }

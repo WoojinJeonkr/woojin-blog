@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Instanceof keyword"
-tag : [Hackerrank, Java]
-date : 2024-04-02
+external: false
+title: "Java Instanceof keyword"
+tag: [Hackerrank, Java]
+date: 2024-04-02
 ---
 
 ## 1. Problem
@@ -19,7 +19,7 @@ class Rockstar{}  // 록스타 클래스 정의
 class Hacker{}   // 해커 클래스 정의
 
 public class InstanceOFTutorial{
-   
+
   static String count(ArrayList mylist){
     int a = 0, b = 0, c = 0;
     for(int i = 0; i < mylist.size(); i++){

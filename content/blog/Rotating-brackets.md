@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Rotating brackets"
-tag : [Programmers, Java]
-date : 2024-09-09
+external: false
+title: "Rotating brackets"
+tag: [Programmers, Java]
+date: 2024-09-09
 ---
 
 ## 1. Problem

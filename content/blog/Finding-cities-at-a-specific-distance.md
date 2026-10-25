@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding cities at a specific distance"
-tag : [Baekjoon, Python]
-date : 2025-11-26
+external: false
+title: "Finding cities at a specific distance"
+tag: [Baekjoon, Python]
+date: 2025-11-26
 ---
 
 ## 1. Problem

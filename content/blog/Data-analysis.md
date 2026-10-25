@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Data analysis"
-tag : [Programmers, Python]
-date : 2024-12-30
+external: false
+title: "Data analysis"
+tag: [Programmers, Python]
+date: 2024-12-30
 ---
 
 ## 1. Problem

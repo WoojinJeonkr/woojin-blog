@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find animals with same name"
-tag : [Programmers, SQL]
-date : 2025-04-01
+external: false
+title: "Find animals with same name"
+tag: [Programmers, SQL]
+date: 2025-04-01
 ---
 
 ## 1. Problem

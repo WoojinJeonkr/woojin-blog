@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Read in an Array"
-tag : [Hackerrank, Linux]
-date : 2024-03-31
+external: false
+title: "Read in an Array"
+tag: [Hackerrank, Linux]
+date: 2024-03-31
 ---
 
 ## 1. Problem

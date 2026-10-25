@@ -1,8 +1,8 @@
 ---
 external: false
 title: 'Baekjoon 1359'
-tag : [Baekjoon, Python]
-date : 2024-02-10
+tag: [Baekjoon, Python]
+date: 2024-02-10
 ---
 
 ## 1. Problem
@@ -35,7 +35,7 @@ def main():
     if n - m < m - k:  # 분자가 작은 경우 k를 증가시키고 다음 반복문으로 이동
       k += 1
       continue
-      
+
     # 현재 조합 계산하여 결과에 더하기
     c = combination(m, k) * combination(n - m, m - k)
     res += c / p

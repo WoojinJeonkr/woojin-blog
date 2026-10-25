@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Finding items that cannot be upgraded"
-tag : [Programmers, SQL]
-date : 2024-06-14
+external: false
+title: "Finding items that cannot be upgraded"
+tag: [Programmers, SQL]
+date: 2024-06-14
 ---
 
 ## 1. Problem

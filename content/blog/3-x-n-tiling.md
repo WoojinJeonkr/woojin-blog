@@ -1,8 +1,8 @@
 ---
-external : false
-title : "3 x n tiling"
-tag : [Programmers, Java]
-date : 2024-10-22
+external: false
+title: "3 x n tiling"
+tag: [Programmers, Java]
+date: 2024-10-22
 ---
 
 ## 1. Problem
@@ -24,19 +24,19 @@ date : 2024-10-22
 ```java
 class Solution {
   long[] tile = new long[5001];  // 타일을 채우는 경우의 수를 저장할 배열
-  
+
   public long solution(int n) {
     int mod = 1000000007;  // 큰 수 처리를 위한 모듈러 값
-    
+
     tile[0] = 1;  // 길이 0인 경우, 채울 수 있는 방법은 1가지
     tile[2] = 3;  // 길이 2인 경우, 채울 수 있는 방법은 3가지
-    
+
     // 짝수 길이만 채울 수 있으므로 2씩 증가
     for (int i = 4; i <= n; i += 2) {
       // 점화식 적용: tile[i] = (tile[i-2] * 4 - tile[i-4]) % mod
       tile[i] = (tile[i-2] * 4 % mod - tile[i-4] % mod + mod) % mod;
     }
-    
+
     return tile[n];  // 최종적으로 n 길이를 채우는 방법의 수 반환
   }
 }

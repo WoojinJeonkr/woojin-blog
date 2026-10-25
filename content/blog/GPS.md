@@ -1,8 +1,8 @@
 ---
-external : false
-title : "GPS"
-tag : [Programmers, Java]
-date : 2025-10-23
+external: false
+title: "GPS"
+tag: [Programmers, Java]
+date: 2025-10-23
 ---
 
 ## 1. Problem

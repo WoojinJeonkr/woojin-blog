@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Base N game"
-tag : [Programmers, Java]
-date : 2024-09-24
+external: false
+title: "Base N game"
+tag: [Programmers, Java]
+date: 2024-09-24
 ---
 
 ## 1. Problem
@@ -22,19 +22,19 @@ class Solution {
   public String solution(int n, int t, int m, int p) {
     StringBuilder answer = new StringBuilder();
     StringBuilder sequence = new StringBuilder();
-    
+
     int number = 0;
-    
+
     // 필요한 t * m 자리수 이상이 될 때까지 숫자를 n진법으로 변환하여 sequence에 추가
     while (sequence.length() < t * m) {
       sequence.append(Integer.toString(number++, n).toUpperCase());
     }
-    
+
     // 튜브가 말해야 하는 숫자를 추출하여 answer에 추가 (1-based index)
     for (int i = 0; i < t; i++) {
       answer.append(sequence.charAt(i * m + (p - 1)));
     }
-    
+
     return answer.toString();
   }
 }

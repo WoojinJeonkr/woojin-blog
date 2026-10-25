@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fruit vendor"
-tag : [Programmers, Java]
-date : 2024-12-16
+external: false
+title: "Fruit vendor"
+tag: [Programmers, Java]
+date: 2024-12-16
 ---
 
 ## 1. Problem
@@ -24,14 +24,14 @@ class Solution {
   public int solution(int k, int m, int[] score) {
     // 사과 점수를 내림차순으로 정렬
     Arrays.sort(score);
-    
+
     int totalProfit = 0;
     // 오름차순 정렬 후 뒤에서부터 m개씩 묶음
     for (int i = score.length - m; i >= 0; i -= m) {
       // 현재 상자의 최저 점수 × 상자당 사과 개수
       totalProfit += score[i] * m;
     }
-    
+
     return totalProfit;
   }
 }

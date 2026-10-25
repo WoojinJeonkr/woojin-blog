@@ -1,8 +1,8 @@
 ---
-external : false
-title : "For Loop in C"
-tag : [Hackerrank, C]
-date : 2024-05-06
+external: false
+title: "For Loop in C"
+tag: [Hackerrank, C]
+date: 2024-05-06
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date : 2024-05-06
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() 
+int main()
 {
   int a, b;
   scanf("%d\n%d", &a, &b);

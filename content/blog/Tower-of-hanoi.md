@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Tower of hanoi"
-tag : [Programmers, Python]
-date : 2025-03-02
+external: false
+title: "Tower of hanoi"
+tag: [Programmers, Python]
+date: 2025-03-02
 ---
 
 ## 1. Problem
@@ -20,20 +20,20 @@ date : 2025-03-02
 ```python
 def solution(n):
   answer = [[]]  # 초기 리스트 설정
-  
+
   def hanoi(n, from_pole, to_pole, aux_pole):
     if n == 1:  # 원판이 하나일 때
       answer.append([from_pole, to_pole])  # 이동 경로 추가
       return
-    
+
     hanoi(n - 1, from_pole, aux_pole, to_pole)  # 보조 기둥으로 이동
     answer.append([from_pole, to_pole])  # 이동 경로 추가
     hanoi(n - 1, aux_pole, to_pole, from_pole)  # 목표 기둥으로 이동
-    
+
   hanoi(n, 1, 3, 2)  # 하노이 탑 문제 시작
-  
+
   # 첫 번째 빈 리스트 제거
   answer = answer[1:]
-  
+
   return answer
 ```

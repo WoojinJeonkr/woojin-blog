@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Nearest number"
-tag : [Programmers, Python]
-date : 2025-08-05
+external: false
+title: "Nearest number"
+tag: [Programmers, Python]
+date: 2025-08-05
 ---
 
 ## 1. Problem
@@ -28,6 +28,6 @@ def solution(array, n):
             # 더 작은 수를 선택
             if num < answer:
                 answer = num
-                
+
     return answer
 ```

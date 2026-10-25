@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Forklift and crane"
-tag : [Programmers, Python]
-date : 2025-09-06
+external: false
+title: "Forklift and crane"
+tag: [Programmers, Python]
+date: 2025-09-06
 ---
 
 ## 1. Problem
@@ -29,7 +29,7 @@ def solution(storage, requests):
             # 상하좌우 4방향 탐색
             for i in range(4):
                 ny, nx = y + dy[i], x + dx[i]
-                
+
                 # 창고 범위 내에 있고 아직 방문하지 않은 경우
                 if 0 <= ny < num_rows and 0 <= nx < num_cols and not is_accessible[ny][nx]:
                     # 빈 공간('0')이면 접근 가능으로 표시하고 큐에 추가
@@ -52,10 +52,10 @@ def solution(storage, requests):
     n_storage_cols = len(storage[0])
     num_rows = n_storage_rows + 2
     num_cols = n_storage_cols + 2
-    
+
     # '0'으로 둘러싸인 패딩된 창고 그리드 생성
     warehouse = [['0'] * num_cols for _ in range(num_rows)]
-    
+
     # 실제 컨테이너 정보를 패딩된 창고 그리드에 복사
     for i in range(n_storage_rows):
         for j in range(n_storage_cols):
@@ -64,7 +64,7 @@ def solution(storage, requests):
     # 요청 목록을 순서대로 처리
     for request in requests:
         container_type = request[0]
-        
+
         # 지게차 출고 요청 (요청 문자열 길이가 1)
         if len(request) == 1:
             containers_to_remove = []
@@ -85,7 +85,7 @@ def solution(storage, requests):
                 warehouse[r][c] = '0'
             # 제거 후 빈 공간과 인접한 컨테이너 상태를 업데이트
             clear_and_update()
-        
+
         # 크레인 출고 요청 (요청 문자열 길이가 2)
         else:
             # 요청된 모든 컨테이너를 '1'(크레인으로 제거된 상태)로 변경
@@ -95,7 +95,7 @@ def solution(storage, requests):
                         warehouse[r][c] = '1'
             # '1' 컨테이너 제거 후 빈 공간과 인접한 컨테이너 상태를 업데이트
             clear_and_update()
-            
+
     # 모든 요청 처리 후 남은 컨테이너 수 계산
     remaining_containers = 0
     for r in range(1, num_rows - 1):
@@ -103,6 +103,6 @@ def solution(storage, requests):
             # '0'과 '1'이 아닌 모든 셀은 남은 컨테이너
             if warehouse[r][c] != '0' and warehouse[r][c] != '1':
                 remaining_containers += 1
-                                
+
     return remaining_containers
 ```

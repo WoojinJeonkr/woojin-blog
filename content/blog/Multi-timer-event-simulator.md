@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Multi timer event simulator"
-tag : [Python]
-date : 2026-05-27
+external: false
+title: "Multi timer event simulator"
+tag: [Python]
+date: 2026-05-27
 ---
 
 ## 1. Problem

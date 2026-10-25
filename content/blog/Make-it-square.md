@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Make it square"
-tag : [Programmers, Python]
-date : 2025-07-05
+external: false
+title: "Make it square"
+tag: [Programmers, Python]
+date: 2025-07-05
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ def solution(arr):
     # 열의 수가 행의 수보다 많을 경우, 0으로 채워진 새 행을 추가하여 행의 수를 맞춤
     for _ in range(cols - rows):
       arr.append([0] * cols)
-  
+
   # 행의 수와 열의 수가 같을 경우, 아무런 변경 없이 원래 배열을 반환
   return arr
 ```

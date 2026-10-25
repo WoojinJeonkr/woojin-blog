@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Kakao friends coloring book"
-tag : [Programmers, Java]
-date : 2025-06-07
+external: false
+title: "Kakao friends coloring book"
+tag: [Programmers, Java]
+date: 2025-06-07
 ---
 
 ## 1. Problem
@@ -58,7 +58,7 @@ class Solution {
         int ny = current[1] + dir[1];
 
         // 범위 내에 있고, 같은 색상이며, 방문하지 않았다면
-        if (nx >= 0 && nx < m && ny >= 0 && ny < n 
+        if (nx >= 0 && nx < m && ny >= 0 && ny < n
             && !visited[nx][ny] && picture[nx][ny] == color) {
           visited[nx][ny] = true;
           queue.offer(new int[]{nx, ny});

@@ -1,6 +1,6 @@
 ---
 external: false
-title : "drawing Graphs with matplotlib (4)"
+title: "drawing Graphs with matplotlib (4)"
 tag: [Python, Graph]
 date: 2022-09-26
 ---
@@ -68,10 +68,10 @@ df.reset_index(inplace=True)
 plt.figure(figsize=(14,14), dpi= 80)
 plt.hlines(y=df.index, xmin=0, xmax=df.mpg_z)
 for x, y, tex in zip(df.mpg_z, df.index, df.mpg_z):
-    t = plt.text(x, y, round(tex, 2), horizontalalignment='right' if x < 0 else 'left', 
+    t = plt.text(x, y, round(tex, 2), horizontalalignment='right' if x < 0 else 'left',
                 verticalalignment='center', fontdict={'color':'red' if x < 0 else 'green', 'size':14})
 
-# 그래프 꾸미기    
+# 그래프 꾸미기
 plt.yticks(df.index, df.cars, fontsize=12)
 plt.title('Diverging Text Bars of Car Mileage', fontdict={'size':20})
 plt.grid(linestyle='--', alpha=0.5)
@@ -115,7 +115,7 @@ plt.yticks(df.index, df.cars)
 plt.xticks(fontsize=12)
 
 # 주석 달기
-plt.annotate('Mercedes Models', xy=(0.0, 11.0), xytext=(1.0, 11), xycoords='data', 
+plt.annotate('Mercedes Models', xy=(0.0, 11.0), xytext=(1.0, 11), xycoords='data',
             fontsize=15, ha='center', va='center',
             bbox=dict(boxstyle='square', fc='firebrick'),
             arrowprops=dict(arrowstyle='-[, widthB=2.0, lengthB=1.5', lw=2.0, color='steelblue'), color='white')

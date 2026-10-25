@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Parenthesis conversion"
-tag : [Programmers, Java]
-date : 2024-09-30
+external: false
+title: "Parenthesis conversion"
+tag: [Programmers, Java]
+date: 2024-09-30
 ---
 
 ## 1. Problem

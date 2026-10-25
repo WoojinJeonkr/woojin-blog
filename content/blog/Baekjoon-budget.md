@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Baekjoon budget"
-tag : [Baekjoon, Python]
-date : 2025-10-31
+external: false
+title: "Baekjoon budget"
+tag: [Baekjoon, Python]
+date: 2025-10-31
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ max_cap = 0
 # 이분 탐색 시작
 while low <= high:
     cap = (low + high) // 2  # 상한액 후보 (중간값)
-    
+
     # 상한액(cap)을 기준으로 배정된 총 예산 계산
     allocated = sum(min(req, cap) for req in requests)
 

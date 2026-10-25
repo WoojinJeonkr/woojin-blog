@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Character placeholder regular expression"
-tag : [Programmers, Python]
-date : 2025-05-15
+external: false
+title: "Character placeholder regular expression"
+tag: [Programmers, Python]
+date: 2025-05-15
 ---
 
 ## 1. Problem

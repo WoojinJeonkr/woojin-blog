@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Grok pattern based log parser"
-tag : [Python]
-date : 2026-05-27
+external: false
+title: "Grok pattern based log parser"
+tag: [Python]
+date: 2026-05-27
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Encrypted log pattern validator"
-tag : [Python]
-date : 2026-05-21
+external: false
+title: "Encrypted log pattern validator"
+tag: [Python]
+date: 2026-05-21
 ---
 
 ## 1. Problem

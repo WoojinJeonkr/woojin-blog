@@ -1,8 +1,8 @@
 ---
 external: false
-title : "Pattern Syntax Checker"
-tag : [Hackerrank, Java]
-date : 2024-03-05
+title: "Pattern Syntax Checker"
+tag: [Hackerrank, Java]
+date: 2024-03-05
 ---
 
 ## 1. Problem
@@ -42,7 +42,7 @@ public class Solution {
         // 이를 잡아서 "Invalid"를 출력합니다.
         System.out.println("Invalid");
       }
-      
+
       testCases--;
     }
 

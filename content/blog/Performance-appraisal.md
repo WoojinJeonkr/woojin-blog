@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Performance appraisal"
-tag : [Programmers, Java]
-date : 2024-11-14
+external: false
+title: "Performance appraisal"
+tag: [Programmers, Java]
+date: 2024-11-14
 ---
 
 ## 1. Problem
@@ -27,10 +27,10 @@ class Solution {
     // 완호의 점수와 총합 계산
     int[] wanhoScore = scores[0];
     int wanhoTotal = wanhoScore[0] + wanhoScore[1];
-    
+
     // scores 배열을 ArrayList로 변환
     List<int[]> scoresList = new ArrayList<>(Arrays.asList(scores));
-    
+
     // 근무 태도 점수를 기준으로 내림차순 정렬, 동료 평가 점수가 같으면 동료 평가 점수를 기준으로 오름차순 정렬
     scoresList.sort((a, b) -> {
       if (a[0] == b[0]) {
@@ -38,10 +38,10 @@ class Solution {
       }
       return b[0] - a[0];
     });
-    
+
     // 첫 번째 사람의 동료 평가 점수
     int maxPeerScore = scoresList.get(0)[1];
-    
+
     // 점수가 낮은 사원은 인센티브를 받을 수 없으므로 제거
     Iterator<int[]> iterator = scoresList.iterator();
     while (iterator.hasNext()) {
@@ -58,13 +58,13 @@ class Solution {
         maxPeerScore = Math.max(maxPeerScore, score[1]);
       }
     }
-    
+
     // 점수 합을 기준으로 내림차순 정렬
     scoresList.sort((a, b) -> (b[0] + b[1]) - (a[0] + a[1]));
-    
+
     // 완호의 순위를 계산
     int rank = 1;
-    
+
     // 각 사원의 점수 합을 비교하여 완호의 순위 계산
     for (int[] score : scoresList) {
       int total = score[0] + score[1];
@@ -75,7 +75,7 @@ class Solution {
         break;
       }
     }
-    
+
     // 최종 순위 반환
     return rank;
   }

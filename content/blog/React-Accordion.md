@@ -1,6 +1,6 @@
 ---
 external: false
-title : "React Accordion"
+title: "React Accordion"
 tag: [React, Typescript]
 date: 2022-11-07
 ---
@@ -12,7 +12,7 @@ date: 2022-11-07
 
 ## 2. Example
 
-{% codepen url="https://codepen.io/calomys/full/zYaoxaO" title="React Accordion Form" /%}
+{% codepen url="<https://codepen.io/calomys/full/zYaoxaO>" title="React Accordion Form" /%}
 
 ## 3. Reference
 

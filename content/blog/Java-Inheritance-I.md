@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Inheritance I"
-tag : [Hackerrank, Java]
-date : 2024-03-12
+external: false
+title: "Java Inheritance I"
+tag: [Hackerrank, Java]
+date: 2024-03-12
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ class Bird extends Animal {
   void fly() {
     System.out.println("I am flying"); // 날아다니는 동작을 출력
   }
-  
+
   // sing 메서드 정의
   void sing() {
     System.out.println("I am singing"); // 노래하는 동작을 출력

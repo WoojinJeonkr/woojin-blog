@@ -1,8 +1,8 @@
 ---
-external : false
-title : "News clustering"
-tag : [Programmers, Java]
-date : 2024-09-22
+external: false
+title: "News clustering"
+tag: [Programmers, Java]
+date: 2024-09-22
 ---
 
 ## 1. Problem
@@ -28,17 +28,17 @@ class Solution {
   private List<String> makeMultiSet(String str) {
     List<String> multiSet = new ArrayList<>();
     str = str.toLowerCase(); // 대소문자 구분을 없애기 위해 소문자로 변환
-    
+
     for (int i = 0; i < str.length() - 1; i++) {
       char first = str.charAt(i);
       char second = str.charAt(i + 1);
-      
+
       // 두 문자가 모두 알파벳이면 다중집합에 추가
       if (Character.isLetter(first) && Character.isLetter(second)) {
         multiSet.add(first + "" + second);
       }
     }
-    
+
     return multiSet;
   }
 
@@ -46,40 +46,40 @@ class Solution {
     // 두 문자열을 다중집합으로 변환
     List<String> multiSet1 = makeMultiSet(str1);
     List<String> multiSet2 = makeMultiSet(str2);
-    
+
     // 각 다중집합에서 원소의 등장 횟수를 세기 위한 Map
     Map<String, Integer> map1 = new HashMap<>();
     Map<String, Integer> map2 = new HashMap<>();
-    
+
     // 첫 번째 다중집합의 각 원소의 등장 횟수를 기록
     for (String s : multiSet1) {
       map1.put(s, map1.getOrDefault(s, 0) + 1);
     }
-    
+
     // 두 번째 다중집합의 각 원소의 등장 횟수를 기록
     for (String s : multiSet2) {
       map2.put(s, map2.getOrDefault(s, 0) + 1);
     }
-    
+
     int intersectionSize = 0; // 교집합 크기
     int unionSize = 0;        // 합집합 크기
-    
+
     // 두 다중집합의 모든 원소를 합친 Set 생성
     Set<String> allKeys = new HashSet<>(map1.keySet());
     allKeys.addAll(map2.keySet());
-    
+
     // 각 원소에 대해 교집합과 합집합의 크기를 계산
     for (String key : allKeys) {
       int count1 = map1.getOrDefault(key, 0);
       int count2 = map2.getOrDefault(key, 0);
-      
+
       // 교집합: 두 집합에서 최소 등장 횟수
       intersectionSize += Math.min(count1, count2);
-      
+
       // 합집합: 두 집합에서 최대 등장 횟수
       unionSize += Math.max(count1, count2);
     }
-    
+
     double jaccardSimilarity;
     // 합집합이 0일 경우 (두 집합이 모두 공집합일 경우) 자카드 유사도는 1로 정의
     if (unionSize == 0) {
@@ -88,7 +88,7 @@ class Solution {
       // 교집합 크기를 합집합 크기로 나누어 자카드 유사도 계산
       jaccardSimilarity = (double) intersectionSize / unionSize;
     }
-    
+
     // 자카드 유사도에 65536을 곱하고 정수로 변환하여 반환
     return (int) (jaccardSimilarity * 65536);
   }

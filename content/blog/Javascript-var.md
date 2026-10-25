@@ -1,16 +1,16 @@
 ---
-external : false
-title : "Javascript var"
-tag : [BFE, Javascript]
-date : 2024-03-19
+external: false
+title: "Javascript var"
+tag: [BFE, Javascript]
+date: 2024-03-19
 ---
 
 이번 글에서는 javascript에서 변수를 정의할 때 사용하는 var에 대해 알아보고 해당 학습 내용과 관련된 문제를 풀어봅니다.
 
 ## 1. var
 
-JavaScript에서 변수를 정의할 때 사용하는 var는 변수를 선언하는 키워드입니다.  
-var 키워드로 변수를 선언하면 해당 변수는 함수 범위(function scope) 또는 전역 범위(global scope)에 속하게 됩니다. 함수 범위에서 선언된 변수는 선언된 함수 내에서만 유효하며, 전역 범위에서 선언된 변수는 스크립트 전체에서 유효합니다.  
+JavaScript에서 변수를 정의할 때 사용하는 var는 변수를 선언하는 키워드입니다.
+var 키워드로 변수를 선언하면 해당 변수는 함수 범위(function scope) 또는 전역 범위(global scope)에 속하게 됩니다. 함수 범위에서 선언된 변수는 선언된 함수 내에서만 유효하며, 전역 범위에서 선언된 변수는 스크립트 전체에서 유효합니다.
 
 ```js
 function example() {
@@ -21,8 +21,8 @@ function example() {
 console.log(x); // 에러: x is not defined
 ```
 
-위의 예제에서 x 변수는 example 함수 내에서 선언되었으므로 함수 내부에서만 사용할 수 있습니다. 함수 외부에서는 x가 정의되지 않았다는 에러가 발생합니다.  
-var 키워드의 한 가지 단점은 변수가 선언되기 전에 접근할 수 있다는 것입니다. 이를 "호이스팅(hoisting)"이라고 합니다.  
+위의 예제에서 x 변수는 example 함수 내에서 선언되었으므로 함수 내부에서만 사용할 수 있습니다. 함수 외부에서는 x가 정의되지 않았다는 에러가 발생합니다.
+var 키워드의 한 가지 단점은 변수가 선언되기 전에 접근할 수 있다는 것입니다. 이를 "호이스팅(hoisting)"이라고 합니다.
 
 ```js
 console.log(x); // 출력: undefined

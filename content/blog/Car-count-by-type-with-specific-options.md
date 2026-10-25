@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Car count by type with specific options"
-tag : [Programmers, SQL]
-date : 2024-12-26
+external: false
+title: "Car count by type with specific options"
+tag: [Programmers, SQL]
+date: 2024-12-26
 ---
 
 ## 1. Problem
@@ -23,17 +23,17 @@ date : 2024-12-26
 
 ```sql
 -- 자동차 종류별 특정 옵션이 포함된 자동차 수를 계산하는 SQL 쿼리
-SELECT 
+SELECT
   CAR_TYPE, -- 자동차 종류
   COUNT(*) AS CARS -- 조건을 만족하는 자동차 수
-FROM 
+FROM
   CAR_RENTAL_COMPANY_CAR -- 자동차 대여 회사의 자동차 정보 테이블
-WHERE 
+WHERE
   OPTIONS LIKE '%통풍시트%' -- OPTIONS 컬럼에 '통풍시트'가 포함된 경우
   OR OPTIONS LIKE '%열선시트%' -- OPTIONS 컬럼에 '열선시트'가 포함된 경우
   OR OPTIONS LIKE '%가죽시트%' -- OPTIONS 컬럼에 '가죽시트'가 포함된 경우
-GROUP BY 
+GROUP BY
   CAR_TYPE -- 자동차 종류별로 그룹화
-ORDER BY 
+ORDER BY
   CAR_TYPE ASC; -- 자동차 종류를 기준으로 오름차순 정렬
 ```

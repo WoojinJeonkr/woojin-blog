@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Archery accuracy streak"
-tag : [Python]
-date : 2026-07-08
+external: false
+title: "Archery accuracy streak"
+tag: [Python]
+date: 2026-07-08
 ---
 
 ## 1. Problem

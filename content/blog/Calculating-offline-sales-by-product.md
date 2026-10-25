@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Calculating offline sales by product"
-tag : [Programmers, SQL]
-date : 2025-04-10
+external: false
+title: "Calculating offline sales by product"
+tag: [Programmers, SQL]
+date: 2025-04-10
 ---
 
 ## 1. Problem
@@ -13,7 +13,7 @@ date : 2025-04-10
 
 ```sql
 
-SELECT P.PRODUCT_CODE AS PRODUCT_CODE, 
+SELECT P.PRODUCT_CODE AS PRODUCT_CODE,
     SUM(P.PRICE * O.SALES_AMOUNT) AS SALES -- 매출 계산 (가격 * 판매량 합계)
 FROM PRODUCT P
 JOIN OFFLINE_SALE O

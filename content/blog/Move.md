@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Move"
-tag : [Baekjoon, Python]
-date : 2025-11-11
+external: false
+title: "Move"
+tag: [Baekjoon, Python]
+date: 2025-11-11
 ---
 
 ## 1. Problem
@@ -30,7 +30,7 @@ for i in range(N):
         from_top = dp[i-1][j] if i > 0 else 0
         from_left = dp[i][j-1] if j > 0 else 0
         from_diag = dp[i-1][j-1] if i > 0 and j > 0 else 0
-        
+
         # 현재 위치의 사탕 개수와 합산
         dp[i][j] = candy[i][j] + max(from_top, from_left, from_diag)
 

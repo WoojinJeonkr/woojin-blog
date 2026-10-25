@@ -1,13 +1,13 @@
 ---
 external: false
-title : "How to create Bar Chart in React"
+title: "How to create Bar Chart in React"
 tag: [React, Typescript, Graph]
 date: 2022-11-12
 ---
 
 ## 1. Bar Chart using Chart.js
 
-{% codepen url="https://codepen.io/calomys/full/ZERKxKY" title="React Bar Chart" /%}
+{% codepen url="<https://codepen.io/calomys/full/ZERKxKY>" title="React Bar Chart" /%}
 
 ## 2. Reference
 

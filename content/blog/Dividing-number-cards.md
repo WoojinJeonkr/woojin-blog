@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Dividing number cards"
-tag : [Programmers, Java]
-date : 2024-10-09
+external: false
+title: "Dividing number cards"
+tag: [Programmers, Java]
+date: 2024-10-09
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Aquarium Algae Management"
-tag : [Python]
-date : 2026-09-05
+external: false
+title: "Aquarium Algae Management"
+tag: [Python]
+date: 2026-09-05
 ---
 
 ## 1. Problem

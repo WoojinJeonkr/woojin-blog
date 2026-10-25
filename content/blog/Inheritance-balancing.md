@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Inheritance balancing"
-tag : [Python]
-date : 2026-06-28
+external: false
+title: "Inheritance balancing"
+tag: [Python]
+date: 2026-06-28
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Long term animals (2)"
-tag : [Programmers, SQL]
-date : 2025-02-10
+external: false
+title: "Long term animals (2)"
+tag: [Programmers, SQL]
+date: 2025-02-10
 ---
 
 ## 1. Problem
@@ -30,15 +30,15 @@ date : 2025-02-10
 -- 2. 각 동물의 보호기간을 계산 (입양일 - 보호시작일)
 -- 3. 보호기간이 긴 순서대로 정렬
 -- 4. 상위 2개의 결과만 선택
-SELECT 
+SELECT
   ANIMAL_INS.ANIMAL_ID,   -- 동물 ID 선택
   ANIMAL_INS.NAME         -- 동물 이름 선택
-FROM 
+FROM
   ANIMAL_INS             -- 보호소 들어온 동물 테이블
-JOIN 
+JOIN
   ANIMAL_OUTS           -- 입양 보낸 동물 테이블
   ON ANIMAL_INS.ANIMAL_ID = ANIMAL_OUTS.ANIMAL_ID    -- 동물 ID로 테이블 연결
-ORDER BY 
+ORDER BY
   DATEDIFF(ANIMAL_OUTS.DATETIME, ANIMAL_INS.DATETIME) DESC    -- 보호기간 내림차순 정렬
 LIMIT 2;                  -- 상위 2개 결과만 출력
 ```

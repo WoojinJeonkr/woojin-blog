@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Food fight competition"
-tag : [Programmers, Python]
-date : 2024-12-25
+external: false
+title: "Food fight competition"
+tag: [Programmers, Python]
+date: 2024-12-25
 ---
 
 ## 1. Problem

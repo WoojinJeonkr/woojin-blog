@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Fish count by year"
-tag : [Programmers, SQL]
-date : 2025-02-11
+external: false
+title: "Fish count by year"
+tag: [Programmers, SQL]
+date: 2025-02-11
 ---
 
 ## 1. Problem

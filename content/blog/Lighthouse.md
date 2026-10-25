@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Lighthouse"
-tag : [Programmers, Python]
-date : 2025-09-15
+external: false
+title: "Lighthouse"
+tag: [Programmers, Python]
+date: 2025-09-15
 ---
 
 ## 1. Problem

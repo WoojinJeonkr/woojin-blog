@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Shuttle bus"
-tag : [Programmers, Python]
-date : 2025-08-26
+external: false
+title: "Shuttle bus"
+tag: [Programmers, Python]
+date: 2025-08-26
 ---
 
 ## 1. Problem
@@ -28,7 +28,7 @@ def solution(n, t, m, timetable):
     crew = sorted([to_minutes(time) for time in timetable])
     # 셔틀 도착 시간 계산 (09:00 = 540분부터 시작)
     shuttles = [540 + t * i for i in range(n)]
-    
+
     idx = 0  # 현재 탑승 대기 중인 크루 인덱스
     for i in range(n):
         shuttle_time = shuttles[i]  # 현재 셔틀 도착 시간

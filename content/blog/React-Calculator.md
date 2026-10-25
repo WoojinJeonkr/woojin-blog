@@ -1,13 +1,13 @@
 ---
 external: false
-title : "React Calculator"
+title: "React Calculator"
 tag: [React, Typescript]
 date: 2022-11-20
 ---
 
 ## 1. Make Calculator in React
 
-{% codepen url="https://codepen.io/calomys/full/NWzXvdM" title="React Calculator Example" /%}
+{% codepen url="<https://codepen.io/calomys/full/NWzXvdM>" title="React Calculator Example" /%}
 
 ## 2. Reference
 

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Digit Frequency"
-tag : [Hackerrank, C]
-date : 2024-05-23
+external: false
+title: "Digit Frequency"
+tag: [Hackerrank, C]
+date: 2024-05-23
 ---
 
 ## 1. Problem
@@ -20,7 +20,7 @@ int main() {
   int freq[10] = {0}; // 0부터 9까지 숫자의 빈도를 저장할 배열 초기화
 
   // 문자열 입력 받기 (개행 문자가 나올 때까지)
-  scanf("%[^\n]", s); 
+  scanf("%[^\n]", s);
   // 입력받은 문자열을 순회하면서 숫자의 빈도를 계산
   for (int i = 0; i < strlen(s); i++) {
     // 현재 문자가 숫자('0'에서 '9')인지 확인

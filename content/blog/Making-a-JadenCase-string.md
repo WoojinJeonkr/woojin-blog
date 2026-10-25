@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Making a JadenCase string"
-tag : [Programmers, Java]
-date : 2024-11-30
+external: false
+title: "Making a JadenCase string"
+tag: [Programmers, Java]
+date: 2024-11-30
 ---
 
 ## 1. Problem
@@ -62,7 +62,7 @@ class Solution {
   public String solution(String s) {
     // 결과를 저장할 StringBuilder 초기화
     StringBuilder result = new StringBuilder();
-    
+
     // 새로운 단어의 시작을 추적하는 변수
     boolean isNewWord = true;
 

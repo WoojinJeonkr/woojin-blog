@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Friday overtime streak"
-tag : [Python]
-date : 2026-07-30
+external: false
+title: "Friday overtime streak"
+tag: [Python]
+date: 2026-07-30
 ---
 
 ## 1. Problem

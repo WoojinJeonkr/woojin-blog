@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Countdown"
-tag : [Programmers, Python]
-date : 2025-01-05
+external: false
+title: "Countdown"
+tag: [Programmers, Python]
+date: 2025-01-05
 ---
 
 ## 1. Problem

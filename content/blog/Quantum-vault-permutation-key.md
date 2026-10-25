@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Quantum vault permutation key"
-tag : [Python]
-date : 2026-05-19
+external: false
+title: "Quantum vault permutation key"
+tag: [Python]
+date: 2026-05-19
 ---
 
 ## 1. Problem

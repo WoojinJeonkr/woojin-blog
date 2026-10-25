@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Park"
-tag : [Programmers, Python]
-date : 2025-05-09
+external: false
+title: "Park"
+tag: [Programmers, Python]
+date: 2025-05-09
 ---
 
 ## 1. Problem

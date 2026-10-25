@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Perfect Number"
-tag : [Baekjoon, Python]
-date : 2025-11-30
+external: false
+title: "Perfect Number"
+tag: [Baekjoon, Python]
+date: 2025-11-30
 ---
 
 ## 1. Problem

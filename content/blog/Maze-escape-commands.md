@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Maze escape commands"
-tag : [Programmers, Python]
-date : 2025-09-20
+external: false
+title: "Maze escape commands"
+tag: [Programmers, Python]
+date: 2025-09-20
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Aquarium population balance"
-tag : [Python]
-date : 2026-08-01
+external: false
+title: "Aquarium population balance"
+tag: [Python]
+date: 2026-08-01
 ---
 
 ## 1. Problem

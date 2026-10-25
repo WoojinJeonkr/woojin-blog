@@ -1,8 +1,8 @@
 ---
-external : false
-title : "count between x"
-tag : [Programmers, Python]
-date : 2025-07-02
+external: false
+title: "count between x"
+tag: [Programmers, Python]
+date: 2025-07-02
 ---
 
 ## 1. Problem

@@ -1,12 +1,12 @@
 ---
-external : false
-title : "COALESCE and CASE WHEN"
-tag : [SQL]
-date : 2025-03-31
+external: false
+title: "COALESCE and CASE WHEN"
+tag: [SQL]
+date: 2025-03-31
 ---
 
-SQL을 사용하다 보면 NULL 값 처리는 피할 수 없는 과제입니다. 데이터가 누락되었거나 비어 있는 경우를 처리하지 않으면, 잘못된 결과를 초래하거나 쿼리가 실패할 수 있습니다.  
-이때 가장 유용한 함수 중 두 가지가 바로 COALESCE와 CASE WHEN입니다.  
+SQL을 사용하다 보면 NULL 값 처리는 피할 수 없는 과제입니다. 데이터가 누락되었거나 비어 있는 경우를 처리하지 않으면, 잘못된 결과를 초래하거나 쿼리가 실패할 수 있습니다.
+이때 가장 유용한 함수 중 두 가지가 바로 COALESCE와 CASE WHEN입니다.
 이번 글에서는 COALESCE와 CASE WHEN의 차이점, 사용 시 주의사항, 그리고 데이터 정합성을 유지하는 방법에 대해 알아보겠습니다.
 
 ## 1. COALESCE와 CASE WHEN의 차이점

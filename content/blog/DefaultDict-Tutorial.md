@@ -1,8 +1,8 @@
 ---
-external : false
-title : "DefaultDict Tutorial"
-tag : [Hackerrank, Python]
-date : 2024-03-04
+external: false
+title: "DefaultDict Tutorial"
+tag: [Hackerrank, Python]
+date: 2024-03-04
 ---
 
 ## 1. Problem

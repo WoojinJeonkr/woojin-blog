@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Adjacent cell"
-tag : [Programmers, Python]
-date : 2025-01-01
+external: false
+title: "Adjacent cell"
+tag: [Programmers, Python]
+date: 2025-01-01
 ---
 
 ## 1. Problem
@@ -23,27 +23,27 @@ date : 2025-01-01
 def solution(board, h, w):
   # 보드의 크기를 계산
   board_len = len(board)
-  
+
   # 이동 방향을 정의 (위, 아래, 왼쪽, 오른쪽)
   dh = [0, 1, -1, 0]
   dw = [1, 0, 0, -1]
-  
+
   # 현재 칸의 색상을 저장
   current_color = board[h][w]
-  
+
   # 같은 색상인 칸의 개수를 저장할 변수
   answer = 0
-  
+
   # 네 방향으로 인접 칸 탐색
   for i in range(4):
     h_check = h + dh[i]
     w_check = w + dw[i]
-    
+
     # 인접 칸이 보드의 범위 내에 있는지 확인
     if 0 <= h_check < board_len and 0 <= w_check < board_len:
       # 인접 칸의 색상이 현재 칸과 동일한 경우
       if board[h_check][w_check] == current_color:
         answer += 1
-  
+
   return answer
 ```

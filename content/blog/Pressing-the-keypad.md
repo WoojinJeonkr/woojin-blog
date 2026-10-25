@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pressing the keypad"
-tag : [Programmers, Java]
-date : 2024-12-10
+external: false
+title: "Pressing the keypad"
+tag: [Programmers, Java]
+date: 2024-12-10
 ---
 
 ## 1. Problem

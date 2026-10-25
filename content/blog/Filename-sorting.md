@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Filename sorting"
-tag : [Programmers, Java]
-date : 2024-09-23
+external: false
+title: "Filename sorting"
+tag: [Programmers, Java]
+date: 2024-09-23
 ---
 
 ## 1. Problem

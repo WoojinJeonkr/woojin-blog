@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Equalizing two queue sums"
-tag : [Programmers, Java]
-date : 2024-10-05
+external: false
+title: "Equalizing two queue sums"
+tag: [Programmers, Java]
+date: 2024-10-05
 ---
 
 ## 1. Problem
@@ -66,7 +66,7 @@ class Solution {
         sum1 -= num; // queue1의 합에서 해당 원소 값 빼기
         sum2 += num; // queue2의 합에 해당 원소 값 더하기
         q2.offer(num); // queue2에 해당 원소 추가
-      } 
+      }
       // queue2의 합이 더 크면 queue2에서 원소를 꺼내 queue1으로 이동
       else {
         int num = q2.poll(); // queue2에서 원소 꺼냄

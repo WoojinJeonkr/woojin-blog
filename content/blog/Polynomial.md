@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Polynomial"
-tag : [Baekjoon, Python]
-date : 2026-01-28
+external: false
+title: "Polynomial"
+tag: [Baekjoon, Python]
+date: 2026-01-28
 ---
 
 ## 1. Problem

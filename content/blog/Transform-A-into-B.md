@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Transform A into B"
-tag : [Programmers, Python]
-date : 2025-04-18
+external: false
+title: "Transform A into B"
+tag: [Programmers, Python]
+date: 2025-04-18
 ---
 
 ## 1. Problem

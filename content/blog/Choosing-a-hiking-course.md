@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Choosing a hiking course"
-tag : [Programmers, Python]
-date : 2025-10-12
+external: false
+title: "Choosing a hiking course"
+tag: [Programmers, Python]
+date: 2025-10-12
 ---
 
 ## 1. Problem
@@ -30,7 +30,7 @@ def solution(n, paths, gates, summits):
     # 각 지점까지의 최대 이동 시간 초기화 (무한대 값으로 초기화)
     distance = [inf] * (n + 1)
     pq = []  # 우선순위 큐 (최소 힙)
-    
+
     # 출입구에서 출발하여 다익스트라 시작
     for gate in gates:
         distance[gate] = 0  # 출입구의 초기 시간은 0

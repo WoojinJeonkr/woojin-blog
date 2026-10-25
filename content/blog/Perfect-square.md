@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Perfect square"
-tag : [Programmers, Java]
-date : 2024-10-17
+external: false
+title: "Perfect square"
+tag: [Programmers, Java]
+date: 2024-10-17
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ class Solution {
     // w와 h를 long 타입으로 변환하여 사용 (큰 숫자 대비)
     long W = (long) w;
     long H = (long) h;
-    
+
     // 전체 정사각형 개수에서 대각선을 따라 지나가는 정사각형 개수를 뺀 값을 반환
     return W * H - (W + H - gcd(W, H));
   }

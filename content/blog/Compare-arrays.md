@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Compare arrays"
-tag : [Programmers, Java]
-date : 2024-07-24
+external: false
+title: "Compare arrays"
+tag: [Programmers, Java]
+date: 2024-07-24
 ---
 
 ## 1. Problem

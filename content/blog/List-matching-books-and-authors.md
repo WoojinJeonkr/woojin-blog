@@ -1,8 +1,8 @@
 ---
-external : false
-title : "List matching books and authors"
-tag : [Programmers, SQL]
-date : 2024-07-05
+external: false
+title: "List matching books and authors"
+tag: [Programmers, SQL]
+date: 2024-07-05
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ date : 2024-07-05
 -- 도서 테이블(BOOK)과 저자 테이블(AUTHOR) JOIN
 SELECT B.BOOK_ID AS BOOK_ID,  -- B 테이블의 BOOK_ID를 'BOOK_ID' 별칭으로 사용
        A.AUTHOR_NAME AS AUTHOR_NAME,  -- A 테이블의 AUTHOR_NAME을 'AUTHOR_NAME' 별칭으로 사용
-       DATE_FORMAT(B.PUBLISHED_DATE, '%Y-%m-%d') AS PUBLISHED_DATE  -- B 테이블의 PUBLISHED_DATE를 '%Y-%m-%d' 형식으로 변환하여 'PUBLISHED_DATE' 별칭으로 사용 
+       DATE_FORMAT(B.PUBLISHED_DATE, '%Y-%m-%d') AS PUBLISHED_DATE  -- B 테이블의 PUBLISHED_DATE를 '%Y-%m-%d' 형식으로 변환하여 'PUBLISHED_DATE' 별칭으로 사용
 FROM BOOK B
 JOIN AUTHOR A
   ON B.AUTHOR_ID = A.AUTHOR_ID  -- 두 테이블의 AUTHOR_ID 기준으로 JOIN

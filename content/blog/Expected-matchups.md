@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Expected matchups"
-tag : [Programmers, Java]
-date : 2024-08-16
+external: false
+title: "Expected matchups"
+tag: [Programmers, Java]
+date: 2024-08-16
 ---
 
 ## 1. Problem
@@ -23,7 +23,7 @@ class Solution
       if ((a - 1) / 2 == (b - 1) / 2) {
         return round;  // 만나는 라운드를 반환
       }
-      
+
       // 다음 라운드로 참가자 번호 업데이트
       a = (a + 1) / 2;
       b = (b + 1) / 2;

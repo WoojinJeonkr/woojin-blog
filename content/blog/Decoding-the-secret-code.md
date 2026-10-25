@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Decoding the secret code"
-tag : [Programmers, Python]
-date : 2025-02-27
+external: false
+title: "Decoding the secret code"
+tag: [Programmers, Python]
+date: 2025-02-27
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ from itertools import combinations
 def solution(n, q, ans):
   # 초기 가능한 모든 조합 생성
   all_combinations = list(combinations(range(1, n+1), 5))
-  
+
   # 각 시도에 대해 가능한 조합 필터링
   for query, answer in zip(q, ans):
     # 필터링된 조합을 저장할 리스트
@@ -36,7 +36,7 @@ def solution(n, q, ans):
         filtered_combinations.append(combination)
     # 필터링된 조합으로 업데이트함
     all_combinations = filtered_combinations
-  
+
   # 남은 조합의 개수 반환
   return len(all_combinations)
 ```

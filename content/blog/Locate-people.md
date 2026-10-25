@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Locate people"
-tag : [Codechef, SQL]
-date : 2026-05-11
+external: false
+title: "Locate people"
+tag: [Codechef, SQL]
+date: 2026-05-11
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "String rotation"
-tag : [Programmers, Python]
-date : 2025-05-05
+external: false
+title: "String rotation"
+tag: [Programmers, Python]
+date: 2025-05-05
 ---
 
 ## 1. Problem

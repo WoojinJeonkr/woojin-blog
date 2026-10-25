@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Swap elements at indices"
-tag : [Programmers, Python]
-date : 2025-03-10
+external: false
+title: "Swap elements at indices"
+tag: [Programmers, Python]
+date: 2025-03-10
 ---
 
 ## 1. Problem
@@ -23,12 +23,12 @@ date : 2025-03-10
 def solution(my_string, num1, num2):
   # 문자열을 리스트로 변환하여 수정 가능하게 만듭니다.
   my_list = list(my_string)
-  
+
   # 인덱스 num1과 num2에 해당하는 문자를 교환합니다.
   my_list[num1], my_list[num2] = my_list[num2], my_list[num1]
-  
+
   # 리스트를 다시 문자열로 변환하여 결과를 반환합니다.
   answer = ''.join(my_list)
-  
+
   return answer
 ```

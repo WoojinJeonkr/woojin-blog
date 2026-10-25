@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Select conditional list of books and authors"
-tag : [Programmers, SQL]
-date : 2025-04-07
+external: false
+title: "Select conditional list of books and authors"
+tag: [Programmers, SQL]
+date: 2025-04-07
 ---
 
 ## 1. Problem
@@ -12,7 +12,7 @@ date : 2025-04-07
 ## 2. Answer
 
 ```sql
--- BOOK 테이블에서 BOOK_ID, AUTHOR 테이블에서 AUTHOR_NAME, 
+-- BOOK 테이블에서 BOOK_ID, AUTHOR 테이블에서 AUTHOR_NAME,
 -- 그리고 BOOK 테이블에서 PUBLISHED_DATE를 'YYYY-MM-DD' 형식으로 가져옵니다.
 SELECT  B.BOOK_ID AS BOOK_ID, -- 도서 ID
   A.AUTHOR_NAME AS AUTHOR_NAME, -- 저자 이름

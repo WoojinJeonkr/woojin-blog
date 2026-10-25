@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Traversing a 2D array diagonally"
-tag : [Programmers, Python]
-date : 2025-07-14
+external: false
+title: "Traversing a 2D array diagonally"
+tag: [Programmers, Python]
+date: 2025-07-14
 ---
 
 ## 1. Problem
@@ -27,7 +27,7 @@ def solution(board, k):
             if i + j <= k:
                 # 조건을 만족하면 해당 board[i][j] 값을 answer에 더합니다.
                 answer += board[i][j]
-    
+
     # 계산된 최종 합계를 반환합니다.
     return answer
 ```

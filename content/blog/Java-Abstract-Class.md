@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Java Abstract Class"
-tag : [Hackerrank, Java]
-date : 2024-03-30
+external: false
+title: "Java Abstract Class"
+tag: [Hackerrank, Java]
+date: 2024-03-30
 ---
 
 ## 1. Problem
@@ -46,7 +46,7 @@ class MyBook extends Book {
   }
 }
 public class Main{
-    
+
   public static void main(String []args){
     // Book new_novel=new Book(); 이 줄은 오류를 발생시킵니다. Book은 추상 클래스이므로 인스턴스화할 수 없습니다.
     Scanner sc=new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Main{
     new_novel.setTitle(title); // 입력받은 제목을 설정합니다.
     System.out.println("The title is: "+new_novel.getTitle()); // 제목을 출력합니다.
     sc.close();
-    
+
   }
 }
 

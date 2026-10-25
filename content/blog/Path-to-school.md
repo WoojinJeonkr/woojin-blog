@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Path to school"
-tag : [Programmers, Python]
-date : 2025-01-10
+external: false
+title: "Path to school"
+tag: [Programmers, Python]
+date: 2025-01-10
 ---
 
 ## 1. Problem
@@ -31,10 +31,10 @@ def solution(m, n, puddles):
   # dp 배열 초기화 (m+1 x n+1 크기)
   dp = [[0] * (m + 1) for _ in range(n + 1)]
   dp[1][1] = 1  # 시작점 설정
-  
+
   # 웅덩이 위치를 set으로 변환하여 검색 최적화
   puddles = set(map(tuple, [(y, x) for x, y in puddles]))
-  
+
   # 모든 격자점을 순회하며 경로 수 계산
   for i in range(1, n + 1):
     for j in range(1, m + 1):
@@ -45,6 +45,6 @@ def solution(m, n, puddles):
       else:
         # 위쪽과 왼쪽에서 오는 경로의 합을 계산하고 모듈러 연산
         dp[i][j] = (dp[i-1][j] + dp[i][j-1]) % 1000000007
-  
+
   return dp[n][m]  # 도착점의 경로 수 반환
 ```

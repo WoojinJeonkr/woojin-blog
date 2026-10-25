@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Autonomous driving route cost"
-tag : [Python]
-date : 2026-09-19
+external: false
+title: "Autonomous driving route cost"
+tag: [Python]
+date: 2026-09-19
 ---
 
 ## 1. Problem

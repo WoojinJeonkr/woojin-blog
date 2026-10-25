@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Create maximum value (1)"
-tag : [Programmers, Python]
-date : 2025-02-20
+external: false
+title: "Create maximum value (1)"
+tag: [Programmers, Python]
+date: 2025-02-20
 ---
 
 ## 1. Problem
@@ -29,9 +29,9 @@ date : 2025-02-20
 def solution(numbers):
   # 배열을 정렬하여 가장 큰 두 수를 찾음
   sorted_numbers = sorted(numbers)
-  
+
   # 가장 큰 두 수를 곱하여 최댓값을 구함
   answer = sorted_numbers[-1] * sorted_numbers[-2]
-  
+
   return answer
 ```

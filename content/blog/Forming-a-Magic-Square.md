@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Forming a Magic Square"
-tag : [Hackerrank, Java]
-date : 2024-04-11
+external: false
+title: "Forming a Magic Square"
+tag: [Hackerrank, Java]
+date: 2024-04-11
 ---
 
 ## 1. Problem

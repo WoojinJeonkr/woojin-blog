@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Querying uncancelled medical appointments"
-tag : [Programmers, SQL]
-date : 2025-02-01
+external: false
+title: "Querying uncancelled medical appointments"
+tag: [Programmers, SQL]
+date: 2025-02-01
 ---
 
 ## 1. Problem
@@ -29,22 +29,22 @@ date : 2025-02-01
 -- 1. APPOINTMENT, PATIENT, DOCTOR 테이블 조인 후 조건에 맞는 데이터 조회
 -- 2. WHERE 절로 흉부외과, 날짜, 취소되지 않은 예약 필터링
 -- 3. 진료예약일시 기준 오름차순 정렬
-SELECT 
+SELECT
   A.APNT_NO,                   -- 진료예약번호
   P.PT_NAME,                   -- 환자이름
   A.PT_NO,                     -- 환자번호
   A.MCDP_CD,                   -- 진료과코드
   D.DR_NAME,                   -- 의사이름
   A.APNT_YMD AS "APNT_YMD"    -- 진료예약일시
-FROM 
+FROM
   APPOINTMENT A
   JOIN PATIENT P ON A.PT_NO = P.PT_NO            -- 환자 정보 조인
   JOIN DOCTOR D ON A.MDDR_ID = D.DR_ID           -- 의사 정보 조인
-WHERE 
+WHERE
   A.MCDP_CD = 'CS'                               -- 흉부외과 진료만 선택
   AND DATE(A.APNT_YMD) = '2022-04-13'           -- 2022년 4월 13일 예약만 선택
-  AND (A.APNT_CNCL_YN = 'N' 
+  AND (A.APNT_CNCL_YN = 'N'
     OR A.APNT_CNCL_YN IS NULL)                   -- 취소되지 않은 예약만 선택
-ORDER BY 
+ORDER BY
   A.APNT_YMD ASC                                 -- 진료예약일시 오름차순 정렬
 ```

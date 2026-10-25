@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Remove pairs"
-tag : [Programmers, Java]
-date : 2024-08-12
+external: false
+title: "Remove pairs"
+tag: [Programmers, Java]
+date: 2024-08-12
 ---
 
 ## 1. Problem

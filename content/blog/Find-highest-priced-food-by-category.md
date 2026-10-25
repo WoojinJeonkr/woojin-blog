@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Find highest priced food by category"
-tag : [Programmers, SQL]
-date : 2025-02-02
+external: false
+title: "Find highest priced food by category"
+tag: [Programmers, SQL]
+date: 2025-02-02
 ---
 
 ## 1. Problem
@@ -29,15 +29,15 @@ date : 2025-02-02
 -- 코드 실행 순서: FROM → GROUP BY → HAVING → SELECT → ORDER BY
 
 -- 1. FROM: FOOD_PRODUCT 테이블에서 데이터를 가져옴
-SELECT 
+SELECT
   CATEGORY,                   -- 3-1. 카테고리 선택
   MAX(PRICE) AS MAX_PRICE,   -- 3-2. 각 그룹의 최대 가격을 구함
   -- 3-3. 각 그룹 내에서 가격이 높은 순으로 정렬된 제품명 중 첫 번째 값만 선택
   SUBSTRING_INDEX(
     GROUP_CONCAT(
       PRODUCT_NAME ORDER BY PRICE DESC
-    ), 
-    ',', 
+    ),
+    ',',
     1
   ) AS PRODUCT_NAME
 FROM FOOD_PRODUCT

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Viral Advertising"
-tag : [Hackerrank, Java]
-date : 2024-02-16
+external: false
+title: "Viral Advertising"
+tag: [Hackerrank, Java]
+date: 2024-02-16
 ---
 
 ## 1. Problem
@@ -32,7 +32,7 @@ public static int viralAdvertising(int n) {
   int people = 5;
   // 누적 좋아요 수 초기화
   int cumulativeLikes = 0;
-  
+
   // 광고를 n일 동안 진행
   for (int i = 0; i < n; i++) {
     // 현재 날짜에 좋아요를 클릭한 사람 수 계산 (현재 사람 수의 절반)
@@ -75,7 +75,7 @@ class Result {
     int people = 5;
     // 누적 좋아요 수 초기화
     int cumulativeLikes = 0;
-    
+
     // 광고를 n일 동안 진행
     for (int i = 0; i < n; i++) {
       // 현재 날짜에 좋아요를 클릭한 사람 수 계산 (현재 사람 수의 절반)

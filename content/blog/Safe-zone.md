@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Safe zone"
-tag : [Programmers, Python]
-date : 2025-05-10
+external: false
+title: "Safe zone"
+tag: [Programmers, Python]
+date: 2025-05-10
 ---
 
 ## 1. Problem

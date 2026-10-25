@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Race track construction"
-tag : [Programmers, Python]
-date : 2025-08-07
+external: false
+title: "Race track construction"
+tag: [Programmers, Python]
+date: 2025-08-07
 ---
 
 ## 1. Problem
@@ -16,10 +16,10 @@ from collections import deque
 
 def solution(board):
     N = len(board)
-    
+
     # 상, 하, 좌, 우 네 방향으로 이동하기 위한 x, y 좌표 변화량
     # 0: 위, 1: 아래, 2: 왼쪽, 3: 오른쪽
-    dx = [-1, 1, 0, 0] 
+    dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
 
     # min_cost[방향][x][y]: (x, y) 위치에 특정 방향으로 도달했을 때의 최소 비용
@@ -40,7 +40,7 @@ def solution(board):
     if board[0][1] == 0: # 다음 칸이 벽이 아닌지 확인
         q.append((0, 1, 3, 100))
         min_cost[3][0][1] = 100
-    
+
     # (0,0)에서 아래 (1,0)으로 출발하는 경우 (방향: 1 - 아래)
     if board[1][0] == 0: # 다음 칸이 벽이 아닌지 확인
         q.append((1, 0, 1, 100))
@@ -66,7 +66,7 @@ def solution(board):
                 # 현재 이동 방향(ndirection)이 이전 이동 방향(direction)과 다르면 코너가 발생한 것입니다.
                 if direction != ndirection:
                     new_cost += 500 # 코너 비용 500원 추가
-                
+
                 new_cost += 100 # 직선 도로 비용 100원 추가
 
                 # 만약 계산된 새로운 비용(new_cost)이 min_cost에 저장된 값보다 작으면 갱신합니다.

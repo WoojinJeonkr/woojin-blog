@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Farewell arrangement"
-tag : [Python]
-date : 2026-08-19
+external: false
+title: "Farewell arrangement"
+tag: [Python]
+date: 2026-08-19
 ---
 
 ## 1. Problem

@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Frustration recovery"
-tag : [Python]
-date : 2026-06-21
+external: false
+title: "Frustration recovery"
+tag: [Python]
+date: 2026-06-21
 ---
 
 ## 1. Problem

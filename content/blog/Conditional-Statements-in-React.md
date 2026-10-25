@@ -1,7 +1,7 @@
 ---
 external: false
-title : "Conditional Statement in React"
-description : How to use Conditional Statement in React?
+title: "Conditional Statement in React"
+description: How to use Conditional Statement in React?
 tag: [React, Typescript]
 date: 2022-11-08
 ---
@@ -15,7 +15,7 @@ function Component() {
   } else {
     return null;
   }
-} 
+}
 ```
 
 위의 코드 축약 버전
@@ -24,9 +24,9 @@ function Component() {
 function Component() {
   if ( true ) {
     return <p>참인 경우 출력</p>;
-  } 
+  }
   return null;
-} 
+}
 ```
 
 ## 2. Ternary Operator in JSX
@@ -42,7 +42,7 @@ function Component() {
       }
     </div>
   )
-} 
+}
 ```
 
 삼항 연산자(Tenary Operator)를 중첩해서 사용하는 경우 다음과 같이 작성해서 사용한다.
@@ -54,14 +54,14 @@ function Component() {
       {
         1 === 1
         ? <p>참인 경우 출력</p>
-        : ( 2 === 2 
-            ? <p>안녕하세요</p> 
-            : <p>안녕히가세요</p> 
+        : ( 2 === 2
+            ? <p>안녕하세요</p>
+            : <p>안녕히가세요</p>
           )
       }
     </div>
   )
-} 
+}
 ```
 
 ## 3. && 연산자 사용
@@ -101,7 +101,7 @@ function Component2(){
       return <h4>판매자 로그인</h4>
     case 'customer' :
       return <h4>구매자 로그인</h4>
-    default : 
+    default :
       return <h4>그냥 로그인</h4>
   }
 }
@@ -115,7 +115,7 @@ function Component() {
   return (
     <div>
       {
-        { 
+        {
            info : <p>상품정보</p>,
            shipping : <p>배송관련</p>,
            refund : <p>환불약관</p>
@@ -123,13 +123,13 @@ function Component() {
       }
     </div>
   )
-} 
+}
 ```
 
 위와 같이 작성해서 사용할 수도 있지만 다음과 같이 변수로 선언해서 사용할 수도 있다.
 
 ```ts
-var TabUI = { 
+var TabUI = {
   info : <p>상품정보</p>,
   shipping : <p>배송관련</p>,
   refund : <p>환불약관</p>
@@ -142,7 +142,7 @@ function Component() {
       { TabUI[now] }
     </div>
   )
-} 
+}
 ```
 
 ## 6. Reference

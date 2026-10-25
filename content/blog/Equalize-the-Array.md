@@ -2,7 +2,7 @@
 external: false
 title: "Equalize the Array"
 tag: [Hackerrank, Java]
-date : 2024-01-20
+date: 2024-01-20
 ---
 
 ## 1. Problem
@@ -26,7 +26,7 @@ class Result {
    * @return 가장 많이 나타나는 원소를 제외한 나머지 원소들의 개수
    */
   public static int equalizeArray(List<Integer> arr) {
-    // 1. 정수 리스트(arr)를 스트림으로 변환하고, 각 정수를 그룹화합니다. 
+    // 1. 정수 리스트(arr)를 스트림으로 변환하고, 각 정수를 그룹화합니다.
     //    이때, 그룹화 기준은 정수의 값(i -> i)입니다.
     // 2. 그룹화된 맵에서 값들만을 가져와서 스트림으로 변환합니다.
     // 3. 그렇게 얻은 값들의 리스트를 스트림으로 변환합니다.

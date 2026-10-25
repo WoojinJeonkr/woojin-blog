@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Aquarium feeding amount"
-tag : [Python]
-date : 2026-09-24
+external: false
+title: "Aquarium feeding amount"
+tag: [Python]
+date: 2026-09-24
 ---
 
 ## 1. Problem

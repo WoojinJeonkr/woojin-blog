@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ice cream total order quantity by ingredient"
-tag : [Programmers, SQL]
-date : 2024-06-28
+external: false
+title: "Ice cream total order quantity by ingredient"
+tag: [Programmers, SQL]
+date: 2024-06-28
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date : 2024-06-28
 -- 상반기 아이스크림 주문 데이터 분석
 
 -- 주문 데이터 테이블(FIRST_HALF)에서 FLAVOR 정보 추출
-SELECT B.INGREDIENT_TYPE AS INGREDIENT_TYPE,  -- B 테이블의 INGREDIENT_TYPE을 'INGREDIENT_TYPE' 별칭으로 사용 
+SELECT B.INGREDIENT_TYPE AS INGREDIENT_TYPE,  -- B 테이블의 INGREDIENT_TYPE을 'INGREDIENT_TYPE' 별칭으로 사용
        SUM(A.TOTAL_ORDER) AS TOTAL_ORDER  -- A 테이블의 TOTAL_ORDER 합계를 'TOTAL_ORDER' 별칭으로 사용
 FROM FIRST_HALF A  -- A는 FIRST_HALF 테이블의 별칭
 JOIN ICECREAM_INFO B  -- B는 ICECREAM_INFO 테이블의 별칭

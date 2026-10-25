@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Count products by price range"
-tag : [Programmers, SQL]
-date : 2024-06-18
+external: false
+title: "Count products by price range"
+tag: [Programmers, SQL]
+date: 2024-06-18
 ---
 
 ## 1. Problem

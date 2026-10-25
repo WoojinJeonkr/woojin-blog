@@ -2,7 +2,7 @@
 external: false
 title: "Java Sort"
 tag: [Hackerrank, Java]
-date : 2024-02-19
+date: 2024-02-19
 ---
 
 ## 1. Problem
@@ -47,16 +47,16 @@ class Solution{ // 해결 방법 클래스
   public static void main(String[] args){ // 메인 메서드
     Scanner in = new Scanner(System.in); // Scanner 객체 생성
     int testCases = Integer.parseInt(in.nextLine()); // 테스트 케이스 수 입력
-    
+
     List<Student> studentList = new ArrayList<Student>(); // 학생 객체를 저장할 리스트 생성
     while(testCases>0){ // 테스트 케이스 수만큼 반복
       int id = in.nextInt(); // 학생 ID 입력
       String fname = in.next(); // 학생 이름 입력
       double cgpa = in.nextDouble(); // 학점 입력
-      
+
       Student st = new Student(id, fname, cgpa); // 입력된 정보로 학생 객체 생성
       studentList.add(st); // 리스트에 학생 객체 추가
-      
+
       testCases--; // 테스트 케이스 감소
     }
     Collections.sort(studentList); // 학생 객체를 정렬

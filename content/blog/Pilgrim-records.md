@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Pilgrim records"
-tag : [Python]
-date : 2026-08-12
+external: false
+title: "Pilgrim records"
+tag: [Python]
+date: 2026-08-12
 ---
 
 ## 1. Problem

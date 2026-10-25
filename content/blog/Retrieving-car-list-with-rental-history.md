@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Retrieving car list with rental history"
-tag : [Programmers, SQL]
-date : 2025-01-30
+external: false
+title: "Retrieving car list with rental history"
+tag: [Programmers, SQL]
+date: 2025-01-30
 ---
 
 ## 1. Problem

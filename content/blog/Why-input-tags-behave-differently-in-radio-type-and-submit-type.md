@@ -1,11 +1,11 @@
 ---
-external : false
-title : "Why input tags behave differently in radio type and submit type"
-tag : [HTML]
-date : 2025-03-22
+external: false
+title: "Why input tags behave differently in radio type and submit type"
+tag: [HTML]
+date: 2025-03-22
 ---
 
-커뮤니티를 돌아다니다가 아래의 질문을 발견하게 되었다.  
+커뮤니티를 돌아다니다가 아래의 질문을 발견하게 되었다.
 
 ![input 태그 value 질문](https://github.com/WoojinJeonkr/woojin-blog/blob/main/public/images/html_question.jpg?raw=true)
 
@@ -13,8 +13,8 @@ date : 2025-03-22
 
 ## 1. radio 타입의 value 속성
 
-`<input type="radio">`에서 value 속성은 폼 제출 시 서버로 전송되는 값을 정의한다.  
-이 값은 화면에 표시되지 않으며, 사용자가 선택한 옵션을 서버가 식별할 수 있도록 도와주는 역할을 한다.  
+`<input type="radio">`에서 value 속성은 폼 제출 시 서버로 전송되는 값을 정의한다.
+이 값은 화면에 표시되지 않으며, 사용자가 선택한 옵션을 서버가 식별할 수 있도록 도와주는 역할을 한다.
 
 ```html
 <form>
@@ -24,12 +24,12 @@ date : 2025-03-22
 </form>
 ```
 
-위의 코드와 같이 사용했을 때 사용자가 "Option A"를 선택하고 폼을 제출하면 서버에는 option=A라는 데이터가 전송된다.  
+위의 코드와 같이 사용했을 때 사용자가 "Option A"를 선택하고 폼을 제출하면 서버에는 option=A라는 데이터가 전송된다.
 여기서 value="A"는 서버로 전달되는 값이며, 사용자는 이를 직접 확인하지는 못한다.
 
 ## 2. submit 타입에서 value 속성
 
-`<input type="submit">`에서 value 속성은 버튼에 표시되는 텍스트를 정의하게 된다.  
+`<input type="submit">`에서 value 속성은 버튼에 표시되는 텍스트를 정의하게 된다.
 사용자 인터페이스(UI)의 일부로 작동하며, 폼 제출 시 서버로 별도의 데이터로 전송되지 않는다.
 
 ```html
@@ -38,7 +38,7 @@ date : 2025-03-22
 </form>
 ```
 
-위 코드와 같이 작성한다면 사용자는 "Send Request"라는 텍스트가 적힌 버튼을 화면 상에서 확인할 수 있다.  
+위 코드와 같이 작성한다면 사용자는 "Send Request"라는 텍스트가 적힌 버튼을 화면 상에서 확인할 수 있다.
 이 경우 value는 시각적으로 표시될 텍스트로만 사용된다.
 
 ## 3. HTML 명세와 DOM 속성의 차이에 따른 동작
@@ -46,7 +46,7 @@ date : 2025-03-22
 HTML 명세에 따르면, `<input>` 요소의 value 속성은 두 가지 방식으로 동작한다.
 
 1. `HTML 속성`(attribute): **HTML 마크업에 작성된 초기값**을 나타낸다.
-2. `DOM 속성`(property): DOM 객체에서 **현재 입력 필드의 상태**를 나타내며, 사용자 입력이나 스크립트를 통해 변경될 수 있다.  
+2. `DOM 속성`(property): DOM 객체에서 **현재 입력 필드의 상태**를 나타내며, 사용자 입력이나 스크립트를 통해 변경될 수 있다.
 
 | **구분**              | **라디오 버튼 (type="radio")**                                   | **제출 버튼 (type="submit")**                              |
 |-----------------------|-----------------------------------------------------------------|----------------------------------------------------------|
@@ -55,7 +55,7 @@ HTML 명세에 따르면, `<input>` 요소의 value 속성은 두 가지 방식�
 
 ## 4. radio 타입과 submit 타입의 value 동작
 
-`<input>` 태그의 `type="radio"`와 `type="submit"`의 value 동작에 관해 `console.log()`를 활용한 코드로 다시 한 번 알아보자.  
+`<input>` 태그의 `type="radio"`와 `type="submit"`의 value 동작에 관해 `console.log()`를 활용한 코드로 다시 한 번 알아보자.
 
 ```html
 <form>
@@ -87,7 +87,7 @@ HTML 명세에 따르면, `<input>` 요소의 value 속성은 두 가지 방식�
 </script>
 ```
 
-처음 태그에서 `.getAttribute`를 통해 HTML 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오고, `.value`를 통해 DOM 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오는 것을 확인할 수 있다.  
+처음 태그에서 `.getAttribute`를 통해 HTML 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오고, `.value`를 통해 DOM 속성값을 가져오면 "RadioValue", "SubmitValue"로 나오는 것을 확인할 수 있다.
 
 그 다음, 각각의 DOM 속성값을 "NewRadioValue", "NewSubmitValue"로 변경하면 HTML 속성값은 여전히 "RadioValue", "SubmitValue"이지만 DOM 속성값은 "NewRadioValue", "NewSubmitValue"로 바뀌는 것을 확인할 수 있다.
 

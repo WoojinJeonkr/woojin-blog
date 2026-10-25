@@ -1,8 +1,8 @@
 ---
-external : false
-title : "2D coin flipping"
-tag : [Programmers, Python]
-date : 2025-09-16
+external: false
+title: "2D coin flipping"
+tag: [Programmers, Python]
+date: 2025-09-16
 ---
 
 ## 1. Problem

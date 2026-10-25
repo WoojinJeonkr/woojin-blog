@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Database deletion query efficiency analysis"
-tag : [Database]
-date : 2024-08-08
+external: false
+title: "Database deletion query efficiency analysis"
+tag: [Database]
+date: 2024-08-08
 ---
 
 ## 1. 주제를 다루는 이유

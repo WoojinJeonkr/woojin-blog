@@ -2,7 +2,7 @@
 external: false
 title: "Day of the Programmer"
 tag: [Hackerrank, Java]
-date : 2024-02-08
+date: 2024-02-08
 ---
 
 ## 1. Problem
@@ -51,7 +51,7 @@ public class Solution {
 
   /*
    * 아래의 'main' 메소드는 프로그램의 진입점입니다.
-   * 
+   *
    * 'main' 메소드는 입력을 받아들이고 'dayOfProgrammer' 함수를 호출하여 결과를 출력합니다.
    * 'main' 메소드는 예외를 처리합니다.
    */

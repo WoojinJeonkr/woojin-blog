@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Getting number of products by category"
-tag : [Programmers, SQL]
-date : 2024-07-13
+external: false
+title: "Getting number of products by category"
+tag: [Programmers, SQL]
+date: 2024-07-13
 ---
 
 ## 1. Problem

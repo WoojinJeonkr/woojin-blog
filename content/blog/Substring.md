@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Substring"
-tag : [Programmers, Python]
-date : 2025-07-23
+external: false
+title: "Substring"
+tag: [Programmers, Python]
+date: 2025-07-23
 ---
 
 ## 1. Problem
@@ -18,6 +18,6 @@ def solution(str1, str2):
         answer = 1
     else:
         answer = 0
-    
+
     return answer
 ```

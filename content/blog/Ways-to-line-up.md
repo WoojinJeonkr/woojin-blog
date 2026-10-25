@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Ways to  line up"
-tag : [Programmers, Python]
-date : 2025-02-28
+external: false
+title: "Ways to  line up"
+tag: [Programmers, Python]
+date: 2025-02-28
 ---
 
 ## 1. Problem
@@ -25,24 +25,24 @@ import math
 def solution(n, k):
   # 1부터 n까지의 숫자를 리스트로 저장
   nums = list(range(1, n + 1))
-  
+
   # k를 1 감소시켜 0-indexed로 변환
   k -= 1
-  
+
   # 결과를 저장할 리스트
   answer = []
-  
+
   # n!을 계산하여 k번째 순열을 찾기 위한 반복문
   for i in range(n, 0, -1):
     # 현재 순열에서 선택할 숫자의 인덱스를 계산
     idx = k // math.factorial(i - 1)
-    
+
     # k를 업데이트하여 다음 순열에서 선택할 숫자의 인덱스를 계산
     k %= math.factorial(i - 1)
-    
+
     # 선택한 숫자를 결과에 추가하고, 숫자 리스트에서 제거
     answer.append(nums[idx])
     nums.pop(idx)
-  
+
   return answer
 ```

@@ -1,8 +1,8 @@
 ---
 external: false
-title : "Memorize billion billion multiplication table"
-tag : [Programmers, Python]
-date : 2025-06-08
+title: "Memorize billion billion multiplication table"
+tag: [Programmers, Python]
+date: 2025-06-08
 ---
 
 ## 1. Problem
