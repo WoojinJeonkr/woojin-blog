@@ -2,7 +2,7 @@
 external: false
 title: "Utilization and Differences of the ceil and floor functions"
 tag: [SQL]
-date: "2023-11-18"
+date: 2023-11-18
 ---
 
 ## 1. CEIL 함수

@@ -2,7 +2,7 @@
 external: false
 title: "Character coordinates"
 tag: [Programmers, Python]
-date: "2025-05-01"
+date: 2025-05-01
 ---
 
 ## 1. Problem

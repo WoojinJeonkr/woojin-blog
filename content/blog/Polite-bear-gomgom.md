@@ -2,7 +2,7 @@
 external: false
 title: "Polite bear gomgom"
 tag: [Baekjoon, Python]
-date: "2025-11-27"
+date: 2025-11-27
 ---
 
 ## 1. Problem

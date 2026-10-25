@@ -2,7 +2,7 @@
 external: false
 title: "String Formatting"
 tag: [Hackerrank, Python]
-date: "2023-12-21"
+date: 2023-12-21
 ---
 
 ## 1. 문제

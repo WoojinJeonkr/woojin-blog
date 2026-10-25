@@ -2,7 +2,7 @@
 external: false
 title: "Drawing calendar heatmap"
 tag: [Python, Graph]
-date: "2022-09-24"
+date: 2022-09-24
 ---
 
 ## 1. calmap

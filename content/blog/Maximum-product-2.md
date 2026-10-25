@@ -2,7 +2,7 @@
 external: false
 title: "Maximum product 2"
 tag: [Programmers, Python]
-date: "2025-09-03"
+date: 2025-09-03
 ---
 
 ## 1. Problem

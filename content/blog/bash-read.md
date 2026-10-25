@@ -2,7 +2,7 @@
 external: false
 title: "bash read"
 tag: [Hackerrank, Linux]
-date: "2024-02-22"
+date: 2024-02-22
 ---
 
 ## 1. read

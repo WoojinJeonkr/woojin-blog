@@ -2,7 +2,7 @@
 external: false
 title: "Remove vowels"
 tag: [Programmers, Python]
-date: "2025-02-21"
+date: 2025-02-21
 ---
 
 ## 1. Problem

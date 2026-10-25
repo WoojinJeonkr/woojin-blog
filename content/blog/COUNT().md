@@ -2,7 +2,7 @@
 external: false
 title: "COUNT()"
 tag: [Hackerrank, SQL]
-date: "2023-11-15"
+date: 2023-11-15
 ---
 
 ## 1. COUNT()

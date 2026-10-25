@@ -2,7 +2,7 @@
 external: false
 title: "Numbers of country 124"
 tag: [Programmers, Java]
-date: "2024-09-27"
+date: 2024-09-27
 ---
 
 ## 1. Problem

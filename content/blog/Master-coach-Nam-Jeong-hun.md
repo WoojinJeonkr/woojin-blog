@@ -2,7 +2,7 @@
 external: false
 title: "Master coach Nam Jeong hun"
 tag: [Baekjoon, Python]
-date: "2026-03-10"
+date: 2026-03-10
 ---
 
 ## 1. Problem

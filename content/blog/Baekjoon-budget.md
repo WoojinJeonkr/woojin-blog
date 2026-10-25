@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon budget"
 tag: [Baekjoon, Python]
-date: "2025-10-31"
+date: 2025-10-31
 ---
 
 ## 1. Problem

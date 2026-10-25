@@ -2,7 +2,7 @@
 external: false
 title: "Snail food consumption"
 tag: [Python]
-date: "2026-09-16"
+date: 2026-09-16
 ---
 
 ## 1. Problem

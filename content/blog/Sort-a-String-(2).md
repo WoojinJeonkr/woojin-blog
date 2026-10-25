@@ -2,7 +2,7 @@
 external: false
 title: "Sort a String (2)"
 tag: [Programmers, Python]
-date: "2025-04-08"
+date: 2025-04-08
 ---
 
 ## 1. Problem

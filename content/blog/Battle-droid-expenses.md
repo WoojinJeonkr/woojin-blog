@@ -2,7 +2,7 @@
 external: false
 title: "Battle droid expenses"
 tag: [Baekjoon, Python]
-date: "2025-12-31"
+date: 2025-12-31
 ---
 
 ## 1. Problem

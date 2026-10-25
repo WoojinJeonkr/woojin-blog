@@ -2,7 +2,7 @@
 external: false
 title: "Annotation"
 tag: [Java]
-date: "2023-01-26"
+date: 2023-01-26
 ---
 
 ## 1. JPA annotation

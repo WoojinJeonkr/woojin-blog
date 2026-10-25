@@ -2,7 +2,7 @@
 external: false
 title: "Forklift and crane"
 tag: [Programmers, Python]
-date: "2025-09-06"
+date: 2025-09-06
 ---
 
 ## 1. Problem

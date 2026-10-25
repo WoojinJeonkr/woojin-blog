@@ -2,7 +2,7 @@
 external: false
 title: "Cache"
 tag: [Programmers, Java]
-date: "2024-09-21"
+date: 2024-09-21
 ---
 
 ## 1. Problem

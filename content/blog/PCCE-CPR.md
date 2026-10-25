@@ -2,7 +2,7 @@
 external: false
 title: "PCCE CPR"
 tag: [Programmers, Python]
-date: "2025-06-14"
+date: 2025-06-14
 ---
 
 ## 1. Problem

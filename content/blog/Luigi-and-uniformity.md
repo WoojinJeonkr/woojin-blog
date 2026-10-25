@@ -2,7 +2,7 @@
 external: false
 title: "Luigi and uniformity"
 tag: [Codechef, Python]
-date: "2026-05-04"
+date: 2026-05-04
 ---
 
 ## 1. Problem

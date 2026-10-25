@@ -2,7 +2,7 @@
 external: false
 title: "Choose n multiples"
 tag: [Programmers, Python]
-date: "2025-03-14"
+date: 2025-03-14
 ---
 
 ## 1. Problem

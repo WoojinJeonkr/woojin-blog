@@ -2,7 +2,7 @@
 external: false
 title: "30 slim aquarium soil calculator"
 tag: [Python]
-date: "2026-09-04"
+date: 2026-09-04
 ---
 
 ## 1. Problem

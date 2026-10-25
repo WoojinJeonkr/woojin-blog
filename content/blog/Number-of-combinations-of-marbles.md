@@ -2,7 +2,7 @@
 external: false
 title: "Number of combinations of marbles"
 tag: [Programmers, Python]
-date: "2025-08-03"
+date: 2025-08-03
 ---
 
 ## 1. Problem

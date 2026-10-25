@@ -2,7 +2,7 @@
 external: false
 title: "Left or Right"
 tag: [Programmers, Python]
-date: "2025-05-29"
+date: 2025-05-29
 ---
 
 ## 1. Problem

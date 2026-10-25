@@ -2,7 +2,7 @@
 external: false
 title: "Gas Station"
 tag: [Baekjoon, Python]
-date: "2026-01-10"
+date: 2026-01-10
 ---
 
 ## 1. Problem

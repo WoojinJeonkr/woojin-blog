@@ -2,7 +2,7 @@
 external: false
 title: "Brian dilemma"
 tag: [Programmers, Java]
-date: "2025-10-26"
+date: 2025-10-26
 ---
 
 ## 1. Problem

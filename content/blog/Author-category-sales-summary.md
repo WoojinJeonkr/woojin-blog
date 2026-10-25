@@ -2,7 +2,7 @@
 external: false
 title: "Author category sales summary"
 tag: [Programmers, SQL]
-date: "2025-01-22"
+date: 2025-01-22
 ---
 
 ## 1. Problem

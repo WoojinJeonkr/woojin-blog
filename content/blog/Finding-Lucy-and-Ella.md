@@ -2,7 +2,7 @@
 external: false
 title: "Finding Lucy and Ella"
 tag: [Programmers, SQL]
-date: "2025-01-17"
+date: 2025-01-17
 ---
 
 ## 1. Problem

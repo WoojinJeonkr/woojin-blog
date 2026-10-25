@@ -2,7 +2,7 @@
 external: false
 title: "Finding the remainder 1"
 tag: [Programmers, Java]
-date: "2024-11-06"
+date: 2024-11-06
 ---
 
 ## 1. Problem

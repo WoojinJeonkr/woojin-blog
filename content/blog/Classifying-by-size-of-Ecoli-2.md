@@ -2,7 +2,7 @@
 external: false
 title: "Classifying by size of Ecoli 2"
 tag: [Programmers, SQL]
-date: "2024-07-04"
+date: 2024-07-04
 ---
 
 ## 1. Problem

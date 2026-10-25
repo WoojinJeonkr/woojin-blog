@@ -2,7 +2,7 @@
 external: false
 title: "Word transformation"
 tag: [Programmers, Java]
-date: "2024-11-12"
+date: 2024-11-12
 ---
 
 ## 1. Problem

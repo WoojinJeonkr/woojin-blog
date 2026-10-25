@@ -2,7 +2,7 @@
 external: false
 title: "One or more"
 tag: [Programmers, Python]
-date: "2025-05-16"
+date: 2025-05-16
 ---
 
 ## 1. Problem

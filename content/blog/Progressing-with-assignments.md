@@ -2,7 +2,7 @@
 external: false
 title: "Progressing with assignments"
 tag: [Programmers, Java]
-date: "2024-10-20"
+date: 2024-10-20
 ---
 
 ## 1. Problem

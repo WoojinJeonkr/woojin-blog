@@ -2,7 +2,7 @@
 external: false
 title: "1D Arrays in C"
 tag: [Hackerrank, C]
-date: "2024-05-20"
+date: 2024-05-20
 ---
 
 ## 1. Problem

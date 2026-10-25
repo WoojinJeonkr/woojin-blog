@@ -2,7 +2,7 @@
 external: false
 title: "SOS distress signal"
 tag: [Arduino, C++]
-date: "2022-09-04"
+date: 2022-09-04
 ---
 
 ## ⛳️ 구현 목표

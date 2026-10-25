@@ -2,7 +2,7 @@
 external: false
 title: "Close Window"
 tag: [Baekjoon, Python]
-date: "2026-04-04"
+date: 2026-04-04
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Employee shift schedule sorter"
 tag: [Python]
-date: "2026-05-25"
+date: 2026-05-25
 ---
 
 ## 1. Problem

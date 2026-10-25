@@ -2,7 +2,7 @@
 external: false
 title: "Phone book"
 tag: [Programmers, Java]
-date: "2024-08-20"
+date: 2024-08-20
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Lock and key"
 tag: [Programmers, Python]
-date: "2025-08-27"
+date: 2025-08-27
 ---
 
 ## 1. Problem

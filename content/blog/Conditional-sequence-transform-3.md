@@ -2,7 +2,7 @@
 external: false
 title: "Conditional sequence transform 3"
 tag: [Programmers, Python]
-date: "2025-10-20"
+date: 2025-10-20
 ---
 
 ## 1. Problem

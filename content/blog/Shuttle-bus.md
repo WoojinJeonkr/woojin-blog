@@ -2,7 +2,7 @@
 external: false
 title: "Shuttle bus"
 tag: [Programmers, Python]
-date: "2025-08-26"
+date: 2025-08-26
 ---
 
 ## 1. Problem

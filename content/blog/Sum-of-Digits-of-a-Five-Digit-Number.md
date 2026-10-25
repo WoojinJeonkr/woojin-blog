@@ -2,7 +2,7 @@
 external: false
 title: "Sum of Digits of a Five Digit Number"
 tag: [Hackerrank, C]
-date: "2024-05-15"
+date: 2024-05-15
 ---
 
 ## 1. Problem

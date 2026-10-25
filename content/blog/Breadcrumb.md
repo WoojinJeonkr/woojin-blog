@@ -3,7 +3,7 @@ external: false
 title: "Breadcrumb"
 description: One of the features of Semantic UI!
 tag: [React, Sementic UI, Typescript]
-date: "2022-11-04"
+date: 2022-11-04
 ---
 
 ## 1. Breadcrumb

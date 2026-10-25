@@ -2,7 +2,7 @@
 external: false
 title: "Where clause and Having clause"
 tag: [SQL]
-date: "2023-11-13"
+date: 2023-11-13
 ---
 
 ## 1. Where절과 Having절의 차이

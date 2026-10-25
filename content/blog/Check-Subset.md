@@ -2,7 +2,7 @@
 external: false
 title: "Check Subset"
 tag: [Hackerrank, Python]
-date: "2023-08-13"
+date: 2023-08-13
 ---
 
 ## 1. 문제

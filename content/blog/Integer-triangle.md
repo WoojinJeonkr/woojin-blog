@@ -2,7 +2,7 @@
 external: false
 title: "Integer triangle"
 tag: [Programmers, Java]
-date: "2024-11-24"
+date: 2024-11-24
 ---
 
 ## 1. Problem

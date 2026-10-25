@@ -2,7 +2,7 @@
 external: false
 title: "Number block"
 tag: [Programmers, Java]
-date: "2024-10-16"
+date: 2024-10-16
 ---
 
 ## 1. Problem

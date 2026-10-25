@@ -2,7 +2,7 @@
 external: false
 title: "Frequency sort"
 tag: [Baekjoon, Python]
-date: "2025-12-30"
+date: 2025-12-30
 ---
 
 ## 1. Problem

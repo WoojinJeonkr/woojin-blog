@@ -2,7 +2,7 @@
 external: false
 title: "Algorithm running time 4"
 tag: [Baekjoon, Python]
-date: "2025-12-04"
+date: 2025-12-04
 ---
 
 ## 1. Problem

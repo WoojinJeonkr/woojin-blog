@@ -2,7 +2,7 @@
 external: false
 title: "Pointers in C"
 tag: [Hackerrank, C]
-date: "2024-05-05"
+date: 2024-05-05
 ---
 
 ## 1. Problem

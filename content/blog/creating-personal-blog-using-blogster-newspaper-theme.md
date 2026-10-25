@@ -3,7 +3,7 @@ external: false
 title: "Creating Personal Blog Using Blogster Newspaper Theme"
 description: "Let's create blog using Blogster Newspaper theme, one of the Astro themes."
 tag: [Astro, Feature]
-date: "2023-12-28"
+date: 2023-12-28
 ---
 
 기존의 Jekyll theme에서 벗어나 새로운 theme를 사용해보고 싶던 와중에 Astro라는 웹 프레임워크를 통해서 github blog를 만들 수 있다는 글을 읽고 theme를 바꿔보기로 하였습니다.

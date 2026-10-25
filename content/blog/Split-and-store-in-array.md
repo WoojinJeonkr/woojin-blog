@@ -2,7 +2,7 @@
 external: false
 title: "Split and store in array"
 tag: [Programmers, Python]
-date: "2025-08-28"
+date: 2025-08-28
 ---
 
 ## 1. Problem

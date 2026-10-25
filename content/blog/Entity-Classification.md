@@ -2,7 +2,7 @@
 external: false
 title: "Entity Classification"
 tag: [CS]
-date: "2023-11-17"
+date: 2023-11-17
 ---
 
 ## 1. 기본 엔터티(Base Entity)

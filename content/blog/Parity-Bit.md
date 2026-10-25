@@ -2,7 +2,7 @@
 external: false
 title: "Parity Bit"
 tag: [Baekjoon, Python]
-date: "2025-12-13"
+date: 2025-12-13
 ---
 
 ## 1. Problem

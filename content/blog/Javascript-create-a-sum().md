@@ -2,7 +2,7 @@
 external: false
 title: "Javascript create a sum()"
 tag: [BFE, Javascript]
-date: "2024-03-22"
+date: 2024-03-22
 ---
 
 ## 1. Problem

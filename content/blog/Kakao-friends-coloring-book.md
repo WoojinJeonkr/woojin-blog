@@ -2,7 +2,7 @@
 external: false
 title: "Kakao friends coloring book"
 tag: [Programmers, Java]
-date: "2025-06-07"
+date: 2025-06-07
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "NVL & COALESCE"
 tag: [Database, SQL]
-date: "2023-11-17"
+date: 2023-11-17
 ---
 
 ## 1. NVL

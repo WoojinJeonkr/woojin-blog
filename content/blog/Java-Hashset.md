@@ -2,7 +2,7 @@
 external: false
 title: "Java Hashset"
 tag: [Hackerrank, Java]
-date: "2024-04-03"
+date: 2024-04-03
 ---
 
 ## 1. Problem

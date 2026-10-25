@@ -2,7 +2,7 @@
 external: false
 title: "Library book return management"
 tag: [Python]
-date: "2026-09-30"
+date: 2026-09-30
 ---
 
 ## 1. Problem

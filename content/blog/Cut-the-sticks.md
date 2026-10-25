@@ -2,7 +2,7 @@
 external: false
 title: "Cut the sticks"
 tag: [Hackerrank, Java]
-date: "2024-04-19"
+date: 2024-04-19
 ---
 
 ## 1. Problem

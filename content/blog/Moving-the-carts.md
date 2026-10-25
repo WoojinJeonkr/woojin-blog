@@ -2,7 +2,7 @@
 external: false
 title: "Moving the carts"
 tag: [Programmers, Python]
-date: "2025-10-22"
+date: 2025-10-22
 ---
 
 ## 1. Problem

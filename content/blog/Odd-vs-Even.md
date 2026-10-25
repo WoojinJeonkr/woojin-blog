@@ -2,7 +2,7 @@
 external: false
 title: "Odd vs Even"
 tag: [Programmers, Python]
-date: "2025-07-09"
+date: 2025-07-09
 ---
 
 ## 1. Problem

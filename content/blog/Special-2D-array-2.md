@@ -2,7 +2,7 @@
 external: false
 title: "Special 2D array 2"
 tag: [Programmers, Python]
-date: "2025-04-05"
+date: 2025-04-05
 ---
 
 ## 1. Problem

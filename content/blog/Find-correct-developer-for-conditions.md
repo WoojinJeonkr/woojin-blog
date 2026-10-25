@@ -2,7 +2,7 @@
 external: false
 title: "Find correct developer for conditions"
 tag: [Programmers, SQL]
-date: "2024-05-27"
+date: 2024-05-27
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Sticker collection (2)"
 tag: [Programmers, Python]
-date: "2025-09-28"
+date: 2025-09-28
 ---
 
 ## 1. Problem

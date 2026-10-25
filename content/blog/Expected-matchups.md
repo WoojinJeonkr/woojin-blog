@@ -2,7 +2,7 @@
 external: false
 title: "Expected matchups"
 tag: [Programmers, Java]
-date: "2024-08-16"
+date: 2024-08-16
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Comparing Equality"
 tag: [Hackerrank, Java]
-date: "2022-10-08"
+date: 2022-10-08
 ---
 
 ## 1. Equality Operator

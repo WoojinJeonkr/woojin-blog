@@ -2,7 +2,7 @@
 external: false
 title: "Choosing dice"
 tag: [Programmers, Python]
-date: "2025-10-11"
+date: 2025-10-11
 ---
 
 ## 1. Problem

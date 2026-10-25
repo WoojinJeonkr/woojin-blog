@@ -2,7 +2,7 @@
 external: false
 title: "Check social distance"
 tag: [Programmers, Python]
-date: "2025-06-05"
+date: 2025-06-05
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Halloween Sale"
 tag: [Hackerrank, Java]
-date: "2024-03-27"
+date: 2024-03-27
 ---
 
 ## 1. Problem

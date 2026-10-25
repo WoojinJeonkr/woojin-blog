@@ -3,7 +3,7 @@ external: false
 title: "Progress Bar"
 description: "Do you want to show the progress of the work?"
 tag: [React, Typescript]
-date: "2022-11-13"
+date: 2022-11-13
 ---
 
 ## 1. What is Progress bar?

@@ -2,7 +2,7 @@
 external: false
 title: "Matching Anything But a Newline"
 tag: [Hackerrank, Java]
-date: "2024-03-06"
+date: 2024-03-06
 ---
 
 ## 1. Problem

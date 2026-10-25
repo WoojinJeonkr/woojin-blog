@@ -2,7 +2,7 @@
 external: false
 title: "Return to base"
 tag: [Programmers, Java]
-date: "2024-11-27"
+date: 2024-11-27
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Javascript var"
 tag: [BFE, Javascript]
-date: "2024-03-19"
+date: 2024-03-19
 ---
 
 이번 글에서는 javascript에서 변수를 정의할 때 사용하는 var에 대해 알아보고 해당 학습 내용과 관련된 문제를 풀어봅니다.

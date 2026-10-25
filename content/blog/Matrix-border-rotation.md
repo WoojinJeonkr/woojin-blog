@@ -2,7 +2,7 @@
 external: false
 title: "Matrix border rotation"
 tag: [Programmers, Python]
-date: "2025-01-04"
+date: 2025-01-04
 ---
 
 ## 1. Problem

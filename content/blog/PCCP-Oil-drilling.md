@@ -2,7 +2,7 @@
 external: false
 title: "PCCP Oil drilling"
 tag: [Programmers, Python]
-date: "2025-06-20"
+date: 2025-06-20
 ---
 
 ## 1. Problem

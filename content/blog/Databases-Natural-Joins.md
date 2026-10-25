@@ -2,7 +2,7 @@
 external: false
 title: "Databases Natural Joins"
 tag: [Hackerrank, Database]
-date: "2023-10-22"
+date: 2023-10-22
 ---
 
 ## 1. 문제

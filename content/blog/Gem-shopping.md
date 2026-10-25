@@ -2,7 +2,7 @@
 external: false
 title: "Gem shopping"
 tag: [Programmers, Python]
-date: "2025-08-15"
+date: 2025-08-15
 ---
 
 ## 1. Problem

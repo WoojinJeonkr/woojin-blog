@@ -2,7 +2,7 @@
 external: false
 title: "Computer's internal language structure"
 tag: [CS]
-date: "2022-09-07"
+date: 2022-09-07
 ---
 
 ## 1. 언어란 무엇인가?

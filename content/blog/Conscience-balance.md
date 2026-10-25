@@ -2,7 +2,7 @@
 external: false
 title: "Conscience balance"
 tag: [Python]
-date: "2026-07-15"
+date: 2026-07-15
 ---
 
 ## 1. Problem

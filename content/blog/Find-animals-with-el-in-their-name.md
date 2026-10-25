@@ -2,7 +2,7 @@
 external: false
 title: "Find animals with el in their name"
 tag: [Programmers, SQL]
-date: "2024-06-06"
+date: 2024-06-06
 ---
 
 ## 1. Problem

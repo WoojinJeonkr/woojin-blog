@@ -2,7 +2,7 @@
 external: false
 title: "Parrot growth color"
 tag: [Python]
-date: "2026-08-23"
+date: 2026-08-23
 ---
 
 ## 1. Problem

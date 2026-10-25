@@ -2,7 +2,7 @@
 external: false
 title: "Monthly car rental frequency analysis"
 tag: [Programmers, SQL]
-date: "2025-01-11"
+date: 2025-01-11
 ---
 
 ## 1. Problem

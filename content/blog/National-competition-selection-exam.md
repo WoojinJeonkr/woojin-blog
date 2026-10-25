@@ -2,7 +2,7 @@
 external: false
 title: "National competition selection exam"
 tag: [Programmers, Python]
-date: "2025-05-03"
+date: 2025-05-03
 ---
 
 ## 1. Problem

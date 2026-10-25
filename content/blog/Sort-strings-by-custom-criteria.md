@@ -2,7 +2,7 @@
 external: false
 title: "Sort strings by custom criteria"
 tag: [Programmers, Java]
-date: "2024-12-13"
+date: 2024-12-13
 ---
 
 ## 1. Problem

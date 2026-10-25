@@ -2,7 +2,7 @@
 external: false
 title: "Master of playing alone"
 tag: [Programmers, Java]
-date: "2024-10-18"
+date: 2024-10-18
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Overlapping line length"
 tag: [Programmers, Python]
-date: "2025-08-13"
+date: 2025-08-13
 ---
 
 ## 1. Problem

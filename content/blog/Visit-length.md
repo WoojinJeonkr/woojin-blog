@@ -2,7 +2,7 @@
 external: false
 title: "Visit length"
 tag: [Programmers, Java]
-date: "2024-09-19"
+date: 2024-09-19
 ---
 
 ## 1. Problem

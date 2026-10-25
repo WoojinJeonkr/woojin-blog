@@ -2,7 +2,7 @@
 external: false
 title: "Warehouse keeper"
 tag: [Baekjoon, Python]
-date: "2025-12-28"
+date: 2025-12-28
 ---
 
 ## 1. Problem

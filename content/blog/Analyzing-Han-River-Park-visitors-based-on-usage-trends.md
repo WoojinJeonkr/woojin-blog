@@ -2,7 +2,7 @@
 external: false
 title: "Analyzing Han River Park visitors based on usage trends"
 tag: [EDA, Python]
-date: "2022-09-13"
+date: 2022-09-13
 ---
 
 ## 1. 사용 데이터

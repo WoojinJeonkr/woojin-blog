@@ -2,7 +2,7 @@
 external: false
 title: "Quad compression count"
 tag: [Programmers, Java]
-date: "2024-09-28"
+date: 2024-09-28
 ---
 
 ## 1. Problem

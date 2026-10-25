@@ -2,7 +2,7 @@
 external: false
 title: "Weather Observation Station 20"
 tag: [Hackerrank, SQL]
-date: "2023-09-03"
+date: 2023-09-03
 ---
 
 ## 1. 문제

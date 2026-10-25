@@ -2,7 +2,7 @@
 external: false
 title: "Divine balance"
 tag: [Python]
-date: "2026-08-16"
+date: 2026-08-16
 ---
 
 ## 1. Problem

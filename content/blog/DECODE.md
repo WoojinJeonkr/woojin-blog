@@ -2,7 +2,7 @@
 external: false
 title: "DECODE"
 tag: [Database, SQL]
-date: "2023-11-17"
+date: 2023-11-17
 ---
 
 ## 1. DECODE

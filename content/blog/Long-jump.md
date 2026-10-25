@@ -2,7 +2,7 @@
 external: false
 title: "Long jump"
 tag: [Programmers, Java]
-date: "2024-09-05"
+date: 2024-09-05
 ---
 
 ## 1. Problem

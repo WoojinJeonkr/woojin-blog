@@ -2,7 +2,7 @@
 external: false
 title: "Learn about PHP"
 tag: [PHP]
-date: "2023-06-12"
+date: 2023-06-12
 ---
 
 ## 1. PHP란?

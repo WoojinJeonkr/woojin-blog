@@ -2,7 +2,7 @@
 external: false
 title: "EXISTS clause"
 tag: [Database, SQL]
-date: "2023-11-13"
+date: 2023-11-13
 ---
 
 ## 1. EXISTS절

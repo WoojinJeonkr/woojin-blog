@@ -2,7 +2,7 @@
 external: false
 title: "create a pipe()"
 tag: [BFE, Javascript]
-date: "2024-04-09"
+date: 2024-04-09
 ---
 
 ## 1. Problem

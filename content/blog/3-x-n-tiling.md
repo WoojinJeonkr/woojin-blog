@@ -2,7 +2,7 @@
 external: false
 title: "3 x n tiling"
 tag: [Programmers, Java]
-date: "2024-10-22"
+date: 2024-10-22
 ---
 
 ## 1. Problem

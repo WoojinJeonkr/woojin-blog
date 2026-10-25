@@ -2,7 +2,7 @@
 external: false
 title: "Disk controller"
 tag: [Programmers, Java]
-date: "2024-11-22"
+date: 2024-11-22
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Java Date and Time"
 tag: [Hackerrank, Java]
-date: "2023-09-30"
+date: 2023-09-30
 ---
 
 ## 1. 문제

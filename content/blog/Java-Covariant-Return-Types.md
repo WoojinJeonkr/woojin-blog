@@ -2,7 +2,7 @@
 external: false
 title: "Covariant Return Types"
 tag: [Hackerrank, Java]
-date: "2024-03-24"
+date: 2024-03-24
 ---
 
 ## 1. Covariant Return Types

@@ -2,7 +2,7 @@
 external: false
 title: "Alarm"
 tag: [Arduino, C++]
-date: "2022-09-08"
+date: 2022-09-08
 ---
 
 ## ⛳️ 구현 목표

@@ -2,7 +2,7 @@
 external: false
 title: "Javascript implement range()"
 tag: [BFE, Javascript]
-date: "2024-04-01"
+date: 2024-04-01
 ---
 
 ## 1. Problem

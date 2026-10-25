@@ -2,7 +2,7 @@
 external: false
 title: "Find top 10 largest fish"
 tag: [Programmers, SQL]
-date: "2024-06-17"
+date: 2024-06-17
 ---
 
 ## 1. Problem

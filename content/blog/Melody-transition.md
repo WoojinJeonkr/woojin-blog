@@ -2,7 +2,7 @@
 external: false
 title: "Melody transition"
 tag: [Python]
-date: "2026-08-10"
+date: 2026-08-10
 ---
 
 ## 1. Problem

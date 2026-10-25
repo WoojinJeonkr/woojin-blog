@@ -2,7 +2,7 @@
 external: false
 title: "Multi level toothbrush sales"
 tag: [Programmers, Python]
-date: "2025-08-09"
+date: 2025-08-09
 ---
 
 ## 1. Problem

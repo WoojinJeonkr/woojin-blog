@@ -2,7 +2,7 @@
 external: false
 title: "Reversing binary number"
 tag: [Baekjoon, Python]
-date: "2025-03-07"
+date: 2025-03-07
 ---
 
 ## 1. Problem

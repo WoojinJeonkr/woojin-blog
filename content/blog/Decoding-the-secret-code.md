@@ -2,7 +2,7 @@
 external: false
 title: "Decoding the secret code"
 tag: [Programmers, Python]
-date: "2025-02-27"
+date: 2025-02-27
 ---
 
 ## 1. Problem

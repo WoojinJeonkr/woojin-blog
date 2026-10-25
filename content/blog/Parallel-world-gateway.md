@@ -2,7 +2,7 @@
 external: false
 title: "Parallel world gateway"
 tag: [Python]
-date: "2026-08-09"
+date: 2026-08-09
 ---
 
 ## 1. Problem

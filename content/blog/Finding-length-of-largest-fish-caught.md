@@ -2,7 +2,7 @@
 external: false
 title: "Finding length of largest fish caught"
 tag: [Programmers, SQL]
-date: "2024-06-13"
+date: 2024-06-13
 ---
 
 ## 1. Problem

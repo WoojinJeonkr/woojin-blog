@@ -2,7 +2,7 @@
 external: false
 title: "Ways to  line up"
 tag: [Programmers, Python]
-date: "2025-02-28"
+date: 2025-02-28
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Responsive Web Design"
 tag: [React]
-date: "2023-01-27"
+date: 2023-01-27
 ---
 
 ## 1. 반응형 웹 디자인이란?

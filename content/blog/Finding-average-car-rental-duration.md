@@ -2,7 +2,7 @@
 external: false
 title: "Finding average car rental duration"
 tag: [Programmers, SQL]
-date: "2025-01-25"
+date: 2025-01-25
 ---
 
 ## 1. Problem

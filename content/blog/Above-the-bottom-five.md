@@ -2,7 +2,7 @@
 external: false
 title: "Above the bottom five"
 tag: [Programmers, Java]
-date: "2024-08-28"
+date: 2024-08-28
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Feature development"
 tag: [Programmers, Java]
-date: "2024-08-19"
+date: 2024-08-19
 ---
 
 ## 1. Problem

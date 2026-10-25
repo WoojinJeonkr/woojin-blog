@@ -2,7 +2,7 @@
 external: false
 title: "Receiving report results"
 tag: [Programmers, Java]
-date: "2024-11-10"
+date: 2024-11-10
 ---
 
 ## 1. Problem

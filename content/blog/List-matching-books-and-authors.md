@@ -2,7 +2,7 @@
 external: false
 title: "List matching books and authors"
 tag: [Programmers, SQL]
-date: "2024-07-05"
+date: 2024-07-05
 ---
 
 ## 1. Problem

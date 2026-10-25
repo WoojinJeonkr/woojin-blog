@@ -2,7 +2,7 @@
 external: false
 title: "Requirements Document"
 tag: [Study]
-date: "2022-10-18"
+date: 2022-10-18
 ---
 
 ## 1. 요구사항 정의서란?

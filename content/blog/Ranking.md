@@ -2,7 +2,7 @@
 external: false
 title: "Ranking"
 tag: [Programmers, Python]
-date: "2025-08-08"
+date: 2025-08-08
 ---
 
 ## 1. Problem

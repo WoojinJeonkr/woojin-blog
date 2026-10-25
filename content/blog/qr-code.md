@@ -2,7 +2,7 @@
 external: false
 title: "qr code"
 tag: [Programmers, Python]
-date: "2025-06-24"
+date: 2025-06-24
 ---
 
 ## 1. Problem

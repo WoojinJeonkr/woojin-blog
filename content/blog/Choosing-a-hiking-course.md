@@ -2,7 +2,7 @@
 external: false
 title: "Choosing a hiking course"
 tag: [Programmers, Python]
-date: "2025-10-12"
+date: 2025-10-12
 ---
 
 ## 1. Problem

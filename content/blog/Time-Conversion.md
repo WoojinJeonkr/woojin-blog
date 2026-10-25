@@ -2,7 +2,7 @@
 external: false
 title: "Time Conversion"
 tag: [Hackerrank, Python]
-date: "2023-12-22"
+date: 2023-12-22
 ---
 
 ## 1. 문제

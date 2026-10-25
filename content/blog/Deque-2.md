@@ -2,7 +2,7 @@
 external: false
 title: "Deque 2"
 tag: [Baekjoon, Python]
-date: "2025-12-03"
+date: 2025-12-03
 ---
 
 ## 1. Problem

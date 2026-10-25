@@ -2,7 +2,7 @@
 external: false
 title: "Knights weapons"
 tag: [Programmers, Java]
-date: "2024-10-29"
+date: 2024-10-29
 ---
 
 ## 1. Problem

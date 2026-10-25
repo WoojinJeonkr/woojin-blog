@@ -2,7 +2,7 @@
 external: false
 title: "Finding Mr Kim in Seoul"
 tag: [Programmers, Java]
-date: "2024-10-30"
+date: 2024-10-30
 ---
 
 ## 1. Problem

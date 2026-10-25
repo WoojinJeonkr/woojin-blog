@@ -2,7 +2,7 @@
 external: false
 title: "Traversing a 2D array diagonally"
 tag: [Programmers, Python]
-date: "2025-07-14"
+date: 2025-07-14
 ---
 
 ## 1. Problem

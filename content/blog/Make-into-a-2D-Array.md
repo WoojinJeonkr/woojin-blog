@@ -2,7 +2,7 @@
 external: false
 title: "Make into a 2D Array"
 tag: [Programmers, Python]
-date: "2025-08-04"
+date: 2025-08-04
 ---
 
 ## 1. Problem

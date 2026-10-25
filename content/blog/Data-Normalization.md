@@ -3,7 +3,7 @@ external: false
 title: "Data Normalization"
 description: Let's learn about data normalization process.
 tag: [Database]
-date: "2022-10-01"
+date: 2022-10-01
 ---
 
 ## 1. 데이터 정규화

@@ -2,7 +2,7 @@
 external: false
 title: "Aquarium lighting schedule"
 tag: [Python]
-date: "2026-09-27"
+date: 2026-09-27
 ---
 
 ## 1. Problem

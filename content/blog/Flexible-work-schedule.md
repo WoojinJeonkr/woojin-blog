@@ -2,7 +2,7 @@
 external: false
 title: "Flexible work schedule"
 tag: [Programmers, Python]
-date: "2025-06-22"
+date: 2025-06-22
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "API quota window tracker"
 tag: [Python]
-date: "2026-06-11"
+date: 2026-06-11
 ---
 
 ## 1. Problem

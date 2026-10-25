@@ -2,7 +2,7 @@
 external: false
 title: "Base station installation"
 tag: [Programmers, Python]
-date: "2025-07-28"
+date: 2025-07-28
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Banquet accounts"
 tag: [Python]
-date: "2026-08-13"
+date: 2026-08-13
 ---
 
 ## 1. Problem

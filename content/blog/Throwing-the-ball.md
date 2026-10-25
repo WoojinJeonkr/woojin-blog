@@ -2,7 +2,7 @@
 external: false
 title: "Throwing the ball"
 tag: [Programmers, Python]
-date: "2025-08-10"
+date: 2025-08-10
 ---
 
 ## 1. Problem

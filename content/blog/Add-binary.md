@@ -2,7 +2,7 @@
 external: false
 title: "Add binary"
 tag: [Programmers, Python]
-date: "2025-07-30"
+date: 2025-07-30
 ---
 
 ## 1. Problem

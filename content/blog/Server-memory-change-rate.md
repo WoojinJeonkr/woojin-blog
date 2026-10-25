@@ -2,7 +2,7 @@
 external: false
 title: "Server memory change rate"
 tag: [PromLens, PromQL]
-date: "2025-10-03"
+date: 2025-10-03
 ---
 
 ## 1. 문제 설명

@@ -2,7 +2,7 @@
 external: false
 title: "Querying uncancelled medical appointments"
 tag: [Programmers, SQL]
-date: "2025-02-01"
+date: 2025-02-01
 ---
 
 ## 1. Problem

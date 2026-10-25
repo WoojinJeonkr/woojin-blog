@@ -2,7 +2,7 @@
 external: false
 title: "Strange sorting"
 tag: [Programmers, Python]
-date: "2025-07-11"
+date: 2025-07-11
 ---
 
 ## 1. Problem

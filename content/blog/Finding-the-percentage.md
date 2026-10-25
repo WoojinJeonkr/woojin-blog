@@ -2,7 +2,7 @@
 external: false
 title: "Finding the percentage"
 tag: [Hackerrank, Python]
-date: "2023-08-31"
+date: 2023-08-31
 ---
 
 ## 1. 문제

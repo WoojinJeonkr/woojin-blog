@@ -2,7 +2,7 @@
 external: false
 title: "Jealous Jinseo"
 tag: [Baekjoon, Python]
-date: "2026-03-27"
+date: 2026-03-27
 ---
 
 ## 1. Problem

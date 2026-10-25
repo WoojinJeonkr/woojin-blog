@@ -2,7 +2,7 @@
 external: false
 title: "Meme propagation in social network"
 tag: [Python]
-date: "2026-07-23"
+date: 2026-07-23
 ---
 
 ## 1. Problem

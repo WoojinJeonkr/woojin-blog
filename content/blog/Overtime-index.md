@@ -2,7 +2,7 @@
 external: false
 title: "Overtime index"
 tag: [Programmers, Java]
-date: "2024-11-15"
+date: 2024-11-15
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Alien dictionary"
 tag: [Programmers, Python]
-date: "2025-04-29"
+date: 2025-04-29
 ---
 
 ## 1. Problem

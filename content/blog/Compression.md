@@ -2,7 +2,7 @@
 external: false
 title: "Compression"
 tag: [Programmers, Java]
-date: "2024-09-20"
+date: 2024-09-20
 ---
 
 ## 1. Problem

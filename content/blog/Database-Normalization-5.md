@@ -2,7 +2,7 @@
 external: false
 title: "Database Normalization 5"
 tag: [Hackerrank, Database]
-date: "2023-10-19"
+date: 2023-10-19
 ---
 
 ## 1. 문제

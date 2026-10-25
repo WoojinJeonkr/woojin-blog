@@ -2,7 +2,7 @@
 external: false
 title: "Remove duplicate characters"
 tag: [Programmers, Python]
-date: "2025-04-22"
+date: 2025-04-22
 ---
 
 ## 1. Problem

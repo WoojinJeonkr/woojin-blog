@@ -2,7 +2,7 @@
 external: false
 title: "flush"
 tag: [Java]
-date: "2023-05-12"
+date: 2023-05-12
 ---
 
 ## 1. 플러시(flush())

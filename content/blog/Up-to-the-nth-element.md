@@ -2,7 +2,7 @@
 external: false
 title: "Up to the nth element"
 tag: [Programmers, Python]
-date: "2025-09-05"
+date: 2025-09-05
 ---
 
 ## 1. Problem

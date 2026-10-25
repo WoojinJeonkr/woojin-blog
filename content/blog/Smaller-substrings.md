@@ -2,7 +2,7 @@
 external: false
 title: "Smaller substrings"
 tag: [Programmers, Java]
-date: "2024-12-11"
+date: 2024-12-11
 ---
 
 ## 1. Problem

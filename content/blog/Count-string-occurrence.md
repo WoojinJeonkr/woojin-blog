@@ -2,7 +2,7 @@
 external: false
 title: "Count string occurrence"
 tag: [Programmers, Java]
-date: "2024-07-11"
+date: 2024-07-11
 ---
 
 ## 1. Problem

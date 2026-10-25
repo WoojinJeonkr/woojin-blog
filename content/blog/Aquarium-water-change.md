@@ -2,7 +2,7 @@
 external: false
 title: "Aquarium water change"
 tag: [Python]
-date: "2026-09-22"
+date: 2026-09-22
 ---
 
 ## 1. Problem

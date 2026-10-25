@@ -2,7 +2,7 @@
 external: false
 title: "Staircase"
 tag: [Hackerrank, Java]
-date: "2023-12-19"
+date: 2023-12-19
 ---
 
 ## 1. 문제

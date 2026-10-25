@@ -2,7 +2,7 @@
 external: false
 title: "Knight Movement"
 tag: [Python]
-date: "2026-08-29"
+date: 2026-08-29
 ---
 
 ## 1. Problem

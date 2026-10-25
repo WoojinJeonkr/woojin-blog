@@ -2,7 +2,7 @@
 external: false
 title: "Chef and Dolls"
 tag: [Codechef, Python]
-date: "2026-04-21"
+date: 2026-04-21
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Morse code (1)"
 tag: [Programmers, Python]
-date: "2025-08-19"
+date: 2025-08-19
 ---
 
 ## 1. Problem

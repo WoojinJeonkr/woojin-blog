@@ -2,7 +2,7 @@
 external: false
 title: "Select conditional list of books and authors"
 tag: [Programmers, SQL]
-date: "2025-04-07"
+date: 2025-04-07
 ---
 
 ## 1. Problem

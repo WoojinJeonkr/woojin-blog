@@ -2,7 +2,7 @@
 external: false
 title: "Sum of digits"
 tag: [Programmers, Python]
-date: "2025-02-25"
+date: 2025-02-25
 ---
 
 ## 1. Problem

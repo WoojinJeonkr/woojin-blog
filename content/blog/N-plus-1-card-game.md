@@ -2,7 +2,7 @@
 external: false
 title: "N plus 1 card game"
 tag: [Programmers, Python]
-date: "2025-09-08"
+date: 2025-09-08
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Cross country"
 tag: [Baekjoon, Python]
-date: "2026-02-05"
+date: 2026-02-05
 ---
 
 ## 1. Problem

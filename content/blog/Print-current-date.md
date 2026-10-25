@@ -2,7 +2,7 @@
 external: false
 title: "Print current date"
 tag: [C++]
-date: "2023-06-11"
+date: 2023-06-11
 ---
 
 ## 1. time 헤더 파일 포함하기

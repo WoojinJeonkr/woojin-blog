@@ -2,7 +2,7 @@
 external: false
 title: "Sementic UI"
 tag: [React, Sementic UI]
-date: "2022-10-31"
+date: 2022-10-31
 ---
 
 ## 1. Install

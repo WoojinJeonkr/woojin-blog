@@ -2,7 +2,7 @@
 external: false
 title: "Conditions for forming a triangle (2)"
 tag: [Programmers, Python]
-date: "2025-10-14"
+date: 2025-10-14
 ---
 
 ## 1. Problem

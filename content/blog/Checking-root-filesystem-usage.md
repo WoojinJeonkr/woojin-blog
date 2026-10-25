@@ -2,7 +2,7 @@
 external: false
 title: "Checking root filesystem usage"
 tag: [PromLens, PromQL]
-date: "2025-10-05"
+date: 2025-10-05
 ---
 
 ## 1. 문제 설명

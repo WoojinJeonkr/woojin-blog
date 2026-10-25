@@ -2,7 +2,7 @@
 external: false
 title: "Java Abstract Class"
 tag: [Hackerrank, Java]
-date: "2024-03-30"
+date: 2024-03-30
 ---
 
 ## 1. Problem

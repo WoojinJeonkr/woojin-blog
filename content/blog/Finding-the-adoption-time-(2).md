@@ -2,7 +2,7 @@
 external: false
 title: "Finding the adoption time (2)"
 tag: [Programmers, SQL]
-date: "2025-01-13"
+date: 2025-01-13
 ---
 
 ## 1. Problem

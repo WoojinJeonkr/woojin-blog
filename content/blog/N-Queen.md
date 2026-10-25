@@ -2,7 +2,7 @@
 external: false
 title: "N Queen"
 tag: [Programmers, Python]
-date: "2025-06-10"
+date: 2025-06-10
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Skill tree"
 tag: [Programmers, Java]
-date: "2024-09-02"
+date: 2024-09-02
 ---
 
 ## 1. Problem

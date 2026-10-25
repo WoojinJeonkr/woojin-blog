@@ -2,7 +2,7 @@
 external: false
 title: "Sum and Difference of Two Numbers"
 tag: [Hackerrank, C]
-date: "2024-05-07"
+date: 2024-05-07
 ---
 
 ## 1. Problem

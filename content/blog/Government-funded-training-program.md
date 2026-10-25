@@ -2,7 +2,7 @@
 external: false
 title: "Government funded training program"
 tag: [Study]
-date: "2022-09-04"
+date: 2022-09-04
 ---
 
 ## 1. 교육 소개

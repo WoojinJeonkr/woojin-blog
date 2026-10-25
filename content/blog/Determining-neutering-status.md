@@ -2,7 +2,7 @@
 external: false
 title: "Determining neutering status"
 tag: [Programmers, SQL]
-date: "2025-01-18"
+date: 2025-01-18
 ---
 
 ## 1. Problem

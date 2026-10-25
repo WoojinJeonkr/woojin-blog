@@ -2,7 +2,7 @@
 external: false
 title: "bash echo"
 tag: [Linux, Hackerrank]
-date: "2024-02-21"
+date: 2024-02-21
 ---
 
 ## 1. echo

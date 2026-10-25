@@ -2,7 +2,7 @@
 external: false
 title: "Retrospective insight propagation"
 tag: [Python]
-date: "2026-07-21"
+date: 2026-07-21
 ---
 
 ## 1. Problem

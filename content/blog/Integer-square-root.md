@@ -2,7 +2,7 @@
 external: false
 title: "Integer square root"
 tag: [Baekjoon, Python]
-date: "2026-01-13"
+date: 2026-01-13
 ---
 
 ## 1. Problem

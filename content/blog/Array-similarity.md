@@ -2,7 +2,7 @@
 external: false
 title: "Array similarity"
 tag: [Programmers, Python]
-date: "2025-03-05"
+date: 2025-03-05
 ---
 
 ## 1. Problem

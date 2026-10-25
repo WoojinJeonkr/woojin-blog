@@ -2,7 +2,7 @@
 external: false
 title: "All products"
 tag: [Codechef, SQL]
-date: "2026-05-08"
+date: 2026-05-08
 ---
 
 ## 1. Problem

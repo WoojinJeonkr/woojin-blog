@@ -2,7 +2,7 @@
 external: false
 title: "Install React"
 tag: [React]
-date: "2023-01-28"
+date: 2023-01-28
 ---
 
 ## 1. Nodejs 설치하기

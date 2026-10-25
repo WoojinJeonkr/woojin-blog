@@ -2,7 +2,7 @@
 external: false
 title: "Finding big fish by species"
 tag: [Hackerrank, SQL]
-date: "2024-06-27"
+date: 2024-06-27
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Tournament ranking system"
 tag: [Python]
-date: "2026-10-13"
+date: 2026-10-13
 ---
 
 ## 1. Problem

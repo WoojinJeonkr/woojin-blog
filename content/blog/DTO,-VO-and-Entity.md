@@ -2,7 +2,7 @@
 external: false
 title: "DTO, VO and Entity"
 tag: [Java]
-date: "2022-10-10"
+date: 2022-10-10
 ---
 
 ## 1. DTO (Data Transfer Object)

@@ -2,7 +2,7 @@
 external: false
 title: "Minimize the value"
 tag: [Programmers, Java]
-date: "2024-08-11"
+date: 2024-08-11
 ---
 
 ## 1. Problem

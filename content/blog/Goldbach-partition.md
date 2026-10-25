@@ -2,7 +2,7 @@
 external: false
 title: "Goldbach partition"
 tag: [Baekjoon, Python]
-date: "2025-11-15"
+date: 2025-11-15
 ---
 
 ## 1. Problem

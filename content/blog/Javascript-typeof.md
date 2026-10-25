@@ -2,7 +2,7 @@
 external: false
 title: "Javascript typeof"
 tag: [BFE, Javascript]
-date: "2024-03-26"
+date: 2024-03-26
 ---
 
 ## 1. typeof

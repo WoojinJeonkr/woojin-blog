@@ -2,7 +2,7 @@
 external: false
 title: "Material-UI"
 tag: [React, Material UI]
-date: "2022-10-14"
+date: 2022-10-14
 ---
 
 ## 1. Material-UI란?

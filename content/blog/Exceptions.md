@@ -2,7 +2,7 @@
 external: false
 title: "Exceptions"
 tag: [Hackerrank, Python]
-date: "2023-09-10"
+date: 2023-09-10
 ---
 
 ## 1. 문제

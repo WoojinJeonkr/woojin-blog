@@ -2,7 +2,7 @@
 external: false
 title: "Crawling Web with Jsoup"
 tag: [Java]
-date: "2024-04-07"
+date: 2024-04-07
 ---
 
 ## 1. 웹 크롤링(Web Crawling)

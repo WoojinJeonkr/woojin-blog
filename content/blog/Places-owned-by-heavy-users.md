@@ -2,7 +2,7 @@
 external: false
 title: "Places owned by heavy users"
 tag: [Programmers, SQL]
-date: "2025-03-04"
+date: 2025-03-04
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "PCCE the walk"
 tag: [Programmers, Python]
-date: "2025-06-12"
+date: 2025-06-12
 ---
 
 ## 1. Problem

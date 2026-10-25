@@ -2,7 +2,7 @@
 external: false
 title: "Compare arrays"
 tag: [Programmers, Java]
-date: "2024-07-24"
+date: 2024-07-24
 ---
 
 ## 1. Problem

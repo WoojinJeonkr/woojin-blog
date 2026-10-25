@@ -2,7 +2,7 @@
 external: false
 title: "Performance appraisal"
 tag: [Programmers, Java]
-date: "2024-11-14"
+date: 2024-11-14
 ---
 
 ## 1. Problem

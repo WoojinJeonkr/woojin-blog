@@ -2,7 +2,7 @@
 external: false
 title: "Menu renewal"
 tag: [Programmers, Java]
-date: "2024-08-30"
+date: 2024-08-30
 ---
 
 ## 1. Problem

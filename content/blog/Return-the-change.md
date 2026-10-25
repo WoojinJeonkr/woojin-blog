@@ -2,7 +2,7 @@
 external: false
 title: "Return the change"
 tag: [Codechef, Python]
-date: "2026-04-26"
+date: 2026-04-26
 ---
 
 ## 1. Problem

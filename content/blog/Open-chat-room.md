@@ -2,7 +2,7 @@
 external: false
 title: "Open chat room"
 tag: [Programmers, Java]
-date: "2024-09-26"
+date: 2024-09-26
 ---
 
 ## 1. Problem

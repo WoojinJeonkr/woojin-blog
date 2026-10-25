@@ -3,7 +3,7 @@ external: false
 title: "Subarray Division"
 description: "Hackerrank > Problem Solving"
 tag: [Hackerrank, Java]
-date: "2023-12-29"
+date: 2023-12-29
 ---
 
 ## 1. Problem

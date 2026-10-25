@@ -2,7 +2,7 @@
 external: false
 title: "How to use Spring Boot in Eclipse"
 tag: [Hackerrank, Eclipse, Java]
-date: "2024-05-11"
+date: 2024-05-11
 ---
 
 이번 게시글에서는 이클립스를 설치하였다는 전제하에 이클립스에서 Spring Boot 프로젝트를 시작하기 위해 Spring Tool Suite 4를 설치하는 방법에 대해 알아보겠습니다.

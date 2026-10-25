@@ -2,7 +2,7 @@
 external: false
 title: "Print restaurant list by group conditions"
 tag: [Programmers, SQL]
-date: "2025-01-14"
+date: 2025-01-14
 ---
 
 ## 1. Problem

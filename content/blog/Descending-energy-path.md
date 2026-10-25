@@ -2,7 +2,7 @@
 external: false
 title: "Descending energy path"
 tag: [Python]
-date: "2026-06-23"
+date: 2026-06-23
 ---
 
 ## 1. Problem

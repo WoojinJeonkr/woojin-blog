@@ -2,7 +2,7 @@
 external: false
 title: "Long term and short term car rentals"
 tag: [Programmers, SQL]
-date: "2024-06-29"
+date: 2024-06-29
 ---
 
 ## 1. Problem

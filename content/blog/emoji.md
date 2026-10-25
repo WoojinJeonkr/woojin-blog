@@ -2,7 +2,7 @@
 external: false
 title: "emoji"
 tag: [Typescript, Study]
-date: "2022-10-26"
+date: 2022-10-26
 ---
 
 ## 1. emoji

@@ -2,7 +2,7 @@
 external: false
 title: "Strong Password"
 tag: [Hackerrank, Java]
-date: "2024-04-23"
+date: 2024-04-23
 ---
 
 ## 1. Problem

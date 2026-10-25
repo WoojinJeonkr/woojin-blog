@@ -2,7 +2,7 @@
 external: false
 title: "Restore the formula"
 tag: [Programmers, Python]
-date: "2025-10-06"
+date: 2025-10-06
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "How to make sticky header"
 tag: [React, Typescript]
-date: "2022-10-29"
+date: 2022-10-29
 ---
 
 ## 01. 기본 웹사이트

@@ -2,7 +2,7 @@
 external: false
 title: "Perfect square"
 tag: [Programmers, Java]
-date: "2024-10-17"
+date: 2024-10-17
 ---
 
 ## 1. Problem

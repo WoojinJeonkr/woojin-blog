@@ -2,7 +2,7 @@
 external: false
 title: "Hiring pipeline dependency validator"
 tag: [Python]
-date: "2026-06-08"
+date: 2026-06-08
 ---
 
 ## 1. Problem

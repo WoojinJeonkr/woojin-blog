@@ -2,7 +2,7 @@
 external: false
 title: "Binary conversion"
 tag: [Baekjoon, Python]
-date: "2026-01-18"
+date: 2026-01-18
 ---
 
 ## 1. Problem

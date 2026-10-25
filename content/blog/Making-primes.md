@@ -2,7 +2,7 @@
 external: false
 title: "Making primes"
 tag: [Programmers, Python]
-date: "2024-12-29"
+date: 2024-12-29
 ---
 
 ## 1. Problem

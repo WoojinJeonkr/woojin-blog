@@ -2,7 +2,7 @@
 external: false
 title: "Playing With Characters"
 tag: [Hackerrank, C]
-date: "2024-05-17"
+date: 2024-05-17
 ---
 
 ## 1. Problem

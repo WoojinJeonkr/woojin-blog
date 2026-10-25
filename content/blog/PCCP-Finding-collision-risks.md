@@ -2,7 +2,7 @@
 external: false
 title: "PCCP Finding collision risks"
 tag: [Programmers, Python]
-date: "2025-06-21"
+date: 2025-06-21
 ---
 
 ## 1. Problem

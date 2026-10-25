@@ -2,7 +2,7 @@
 external: false
 title: "Count 7"
 tag: [Programmers, Python]
-date: "2025-08-21"
+date: 2025-08-21
 ---
 
 ## 1. Problem

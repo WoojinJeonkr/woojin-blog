@@ -2,7 +2,7 @@
 external: false
 title: "Checking system load average"
 tag: [PromLens, PromQL]
-date: "2025-10-04"
+date: 2025-10-04
 ---
 
 ## 1. 문제 설명

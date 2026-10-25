@@ -2,7 +2,7 @@
 external: false
 title: "Query dept avg salary"
 tag: [Programmers, SQL]
-date: "2025-01-21"
+date: 2025-01-21
 ---
 
 ## 1. Problem

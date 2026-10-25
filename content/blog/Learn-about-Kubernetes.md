@@ -2,7 +2,7 @@
 external: false
 title: "Learn about Kubernetes"
 tag: [Kubernetes]
-date: "2022-10-17"
+date: 2022-10-17
 ---
 
 ## 1. What is Kubernetes?

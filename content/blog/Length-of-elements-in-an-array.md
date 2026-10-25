@@ -2,7 +2,7 @@
 external: false
 title: "Length of elements in an array"
 tag: [Programmers, Python]
-date: "2025-03-11"
+date: 2025-03-11
 ---
 
 ## 1. Problem

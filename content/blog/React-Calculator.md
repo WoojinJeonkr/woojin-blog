@@ -2,7 +2,7 @@
 external: false
 title: "React Calculator"
 tag: [React, Typescript]
-date: "2022-11-20"
+date: 2022-11-20
 ---
 
 ## 1. Make Calculator in React

@@ -2,7 +2,7 @@
 external: false
 title: "Desktop cleanup"
 tag: [Programmers, Python]
-date: "2024-12-19"
+date: 2024-12-19
 ---
 
 ## 1. Problem

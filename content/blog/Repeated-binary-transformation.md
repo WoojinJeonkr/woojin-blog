@@ -2,7 +2,7 @@
 external: false
 title: "Repeated binary transformation"
 tag: [Programmers, Java]
-date: "2024-08-06"
+date: 2024-08-06
 ---
 
 ## 1. Problem

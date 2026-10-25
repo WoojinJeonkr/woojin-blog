@@ -2,7 +2,7 @@
 external: false
 title: "bash tr"
 tag: [Hackerrank, Linux]
-date: "2024-02-24"
+date: 2024-02-24
 ---
 
 ## 1. tr

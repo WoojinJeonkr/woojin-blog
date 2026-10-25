@@ -2,7 +2,7 @@
 external: false
 title: "Cantor set"
 tag: [Baekjoon, Python]
-date: "2026-04-12"
+date: 2026-04-12
 ---
 
 ## 1. Problem

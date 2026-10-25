@@ -2,7 +2,7 @@
 external: false
 title: "Breathing stability analyzer"
 tag: [Python]
-date: "2026-07-08"
+date: 2026-07-08
 ---
 
 ## 1. Problem

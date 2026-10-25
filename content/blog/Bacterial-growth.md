@@ -2,7 +2,7 @@
 external: false
 title: "Bacterial growth"
 tag: [Programmers, Python]
-date: "2025-02-22"
+date: 2025-02-22
 ---
 
 ## 1. Problem

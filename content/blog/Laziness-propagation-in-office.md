@@ -2,7 +2,7 @@
 external: false
 title: "Laziness propagation in office"
 tag: [Python]
-date: "2026-07-22"
+date: 2026-07-22
 ---
 
 ## 1. Problem

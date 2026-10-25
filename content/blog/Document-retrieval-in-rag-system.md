@@ -2,7 +2,7 @@
 external: false
 title: "Document retrieval in rag system"
 tag: [Python]
-date: "2026-07-26"
+date: 2026-07-26
 ---
 
 ## 1. Problem

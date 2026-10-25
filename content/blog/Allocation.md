@@ -2,7 +2,7 @@
 external: false
 title: "Allocation"
 tag: [Baekjoon, Python]
-date: "2026-03-22"
+date: 2026-03-22
 ---
 
 ## 1. Problem

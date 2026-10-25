@@ -2,7 +2,7 @@
 external: false
 title: "Color paper"
 tag: [Baekjoon, Python]
-date: "2025-12-01"
+date: 2025-12-01
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Bank robbery escape route analysis"
 tag: [Python]
-date: "2026-05-30"
+date: 2026-05-30
 ---
 
 ## 1. Problem

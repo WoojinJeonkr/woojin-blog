@@ -2,7 +2,7 @@
 external: false
 title: "Add array elements based on values"
 tag: [Programmers, Python]
-date: "2025-04-06"
+date: 2025-04-06
 ---
 
 ## 1. Problem

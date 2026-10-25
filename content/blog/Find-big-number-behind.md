@@ -2,7 +2,7 @@
 external: false
 title: "Find big number behind"
 tag: [Programmers, Java]
-date: "2024-07-26"
+date: 2024-07-26
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Chuseok traffic"
 tag: [Programmers, Python]
-date: "2025-09-29"
+date: 2025-09-29
 ---
 
 ## 1. Problem

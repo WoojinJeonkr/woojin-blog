@@ -2,7 +2,7 @@
 external: false
 title: "Plumber Hangseung"
 tag: [Baekjoon, Python]
-date: "2026-01-11"
+date: 2026-01-11
 ---
 
 ## 1. Problem

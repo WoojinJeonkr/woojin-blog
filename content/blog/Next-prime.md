@@ -2,7 +2,7 @@
 external: false
 title: "Next prime"
 tag: [Baekjoon, Python]
-date: "2025-11-17"
+date: 2025-11-17
 ---
 
 ## 1. Problem

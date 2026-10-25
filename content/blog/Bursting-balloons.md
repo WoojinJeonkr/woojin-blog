@@ -2,7 +2,7 @@
 external: false
 title: "Bursting balloons"
 tag: [Programmers, Python]
-date: "2025-08-24"
+date: 2025-08-24
 ---
 
 ## 1. Problem

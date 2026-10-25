@@ -2,7 +2,7 @@
 external: false
 title: "Their secret code"
 tag: [Programmers, Java]
-date: "2024-10-27"
+date: 2024-10-27
 ---
 
 ## 1. Problem

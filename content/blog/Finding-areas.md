@@ -2,7 +2,7 @@
 external: false
 title: "Finding areas"
 tag: [Baekjoon, Python]
-date: "2026-01-17"
+date: 2026-01-17
 ---
 
 ## 1. Problem

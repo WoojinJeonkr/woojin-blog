@@ -2,7 +2,7 @@
 external: false
 title: "Find number"
 tag: [Programmers, Python]
-date: "2025-07-10"
+date: 2025-07-10
 ---
 
 ## 1. Problem

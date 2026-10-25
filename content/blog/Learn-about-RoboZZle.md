@@ -2,7 +2,7 @@
 external: false
 title: "Learn about RoboZZle"
 tag: [RoboZZle]
-date: "2023-12-01"
+date: 2023-12-01
 ---
 
 ## 1. RoboZZle이란?

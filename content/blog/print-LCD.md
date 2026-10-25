@@ -2,7 +2,7 @@
 external: false
 title: "print LCD"
 tag: [Arduino, C++]
-date: "2022-09-10"
+date: 2022-09-10
 ---
 
 ## ⛳️ 구현 목표

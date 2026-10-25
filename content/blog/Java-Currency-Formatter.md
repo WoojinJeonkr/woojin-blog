@@ -2,7 +2,7 @@
 external: false
 title: "Java Currency Formatter"
 tag: [Hackerrank, Java]
-date: "2023-11-01"
+date: 2023-11-01
 ---
 
 ## 1. 문제

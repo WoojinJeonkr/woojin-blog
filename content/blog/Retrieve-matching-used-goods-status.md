@@ -2,7 +2,7 @@
 external: false
 title: "Retrieve matching used goods status"
 tag: [Programmers, SQL]
-date: "2024-06-30"
+date: 2024-06-30
 ---
 
 ## 1. Problem

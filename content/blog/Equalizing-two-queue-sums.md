@@ -2,7 +2,7 @@
 external: false
 title: "Equalizing two queue sums"
 tag: [Programmers, Java]
-date: "2024-10-05"
+date: 2024-10-05
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Expression maximization"
 tag: [Programmers, Java]
-date: "2024-09-29"
+date: 2024-09-29
 ---
 
 ## 1. Problem

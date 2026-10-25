@@ -2,7 +2,7 @@
 external: false
 title: "Plotting points"
 tag: [Programmers, Python]
-date: "2025-06-01"
+date: 2025-06-01
 ---
 
 ## 1. Problem

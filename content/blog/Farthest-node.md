@@ -2,7 +2,7 @@
 external: false
 title: "Farthest node"
 tag: [Programmers, Java]
-date: "2024-11-29"
+date: 2024-11-29
 ---
 
 ## 1. Problem

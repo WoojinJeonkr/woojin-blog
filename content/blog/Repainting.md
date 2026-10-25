@@ -2,7 +2,7 @@
 external: false
 title: "Repainting"
 tag: [Programmers, Java]
-date: "2024-11-01"
+date: 2024-11-01
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Farewell arrangement"
 tag: [Python]
-date: "2026-08-19"
+date: 2026-08-19
 ---
 
 ## 1. Problem

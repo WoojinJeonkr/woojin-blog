@@ -2,7 +2,7 @@
 external: false
 title: "drawing graphs with matplotlib (1)"
 tag: [Python, Graph]
-date: "2022-09-15"
+date: 2022-09-15
 ---
 
 ## 1. matplotlib이란?

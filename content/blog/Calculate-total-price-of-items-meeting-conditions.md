@@ -2,7 +2,7 @@
 external: false
 title: "Calculate total price of items meeting conditions"
 tag: [Programmers, SQL]
-date: "2024-06-07"
+date: 2024-06-07
 ---
 
 ## 1. Problem

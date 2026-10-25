@@ -2,7 +2,7 @@
 external: false
 title: "Nearest matching character"
 tag: [Programmers, Java]
-date: "2024-10-28"
+date: 2024-10-28
 ---
 
 ## 1. Problem

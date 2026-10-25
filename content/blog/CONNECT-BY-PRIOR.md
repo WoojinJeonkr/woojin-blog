@@ -2,7 +2,7 @@
 external: false
 title: "CONNECT BY PRIOR"
 tag: [Hackerrank, SQL]
-date: "2023-11-14"
+date: 2023-11-14
 ---
 
 ## 1. CONNECT BY PRIOR

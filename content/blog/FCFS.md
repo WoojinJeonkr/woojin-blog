@@ -2,7 +2,7 @@
 external: false
 title: "FCFS"
 tag: [Programmers, Java]
-date: "2024-11-18"
+date: 2024-11-18
 ---
 
 ## 1. Problem

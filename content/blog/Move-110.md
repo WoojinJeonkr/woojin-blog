@@ -2,7 +2,7 @@
 external: false
 title: "Move 110"
 tag: [Programmers, Python]
-date: "2025-08-01"
+date: 2025-08-01
 ---
 
 ## 1. Problem

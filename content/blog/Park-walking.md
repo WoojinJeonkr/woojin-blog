@@ -2,7 +2,7 @@
 external: false
 title: "Park walking"
 tag: [Programmers, Python]
-date: "2024-12-18"
+date: 2024-12-18
 ---
 
 ## 1. Problem

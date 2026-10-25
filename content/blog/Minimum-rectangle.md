@@ -2,7 +2,7 @@
 external: false
 title: "Minimum rectangle"
 tag: [Programmers, Java]
-date: "2024-11-05"
+date: 2024-11-05
 ---
 
 ## 1. Problem

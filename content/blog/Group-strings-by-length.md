@@ -2,7 +2,7 @@
 external: false
 title: "Group strings by length"
 tag: [Programmers, Python]
-date: "2025-07-04"
+date: 2025-07-04
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Dart countdown"
 tag: [Programmers, Python]
-date: "2025-09-26"
+date: 2025-09-26
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Find the desired String"
 tag: [Programmers, Python]
-date: "2025-04-15"
+date: 2025-04-15
 ---
 
 ## 1. Problem

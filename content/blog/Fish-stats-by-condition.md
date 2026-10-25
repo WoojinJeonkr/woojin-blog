@@ -2,7 +2,7 @@
 external: false
 title: "Fish stats by condition"
 tag: [Programmers, SQL]
-date: "2025-02-03"
+date: 2025-02-03
 ---
 
 ## 1. Problem

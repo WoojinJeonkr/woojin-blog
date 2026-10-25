@@ -2,7 +2,7 @@
 external: false
 title: "Bandage wrapping"
 tag: [Programmers, Python]
-date: "2024-12-28"
+date: 2024-12-28
 ---
 
 ## 1. Problem

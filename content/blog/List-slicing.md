@@ -2,7 +2,7 @@
 external: false
 title: "List slicing"
 tag: [Programmers, Python]
-date: "2025-06-29"
+date: 2025-06-29
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Ambulia growth cycle"
 tag: [Python]
-date: "2026-08-26"
+date: 2026-08-26
 ---
 
 ## 1. Problem

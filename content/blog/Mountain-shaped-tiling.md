@@ -2,7 +2,7 @@
 external: false
 title: "Mountain shaped tiling"
 tag: [Programmers, Python]
-date: "2025-09-07"
+date: 2025-09-07
 ---
 
 ## 1. Problem

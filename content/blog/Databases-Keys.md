@@ -2,7 +2,7 @@
 external: false
 title: "Databases Keys"
 tag: [Hackerrank, Database]
-date: "2023-10-21"
+date: 2023-10-21
 ---
 
 ## 1. 문제

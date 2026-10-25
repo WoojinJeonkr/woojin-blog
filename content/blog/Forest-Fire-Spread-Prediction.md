@@ -2,7 +2,7 @@
 external: false
 title: "Forest Fire Spread Prediction"
 tag: [Python]
-date: "2026-06-02"
+date: 2026-06-02
 ---
 
 ## 1. Problem

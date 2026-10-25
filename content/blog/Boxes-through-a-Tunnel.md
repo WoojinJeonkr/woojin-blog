@@ -2,7 +2,7 @@
 external: false
 title: "Boxes through a Tunnel"
 tag: [Hackerrank, C]
-date: "2024-05-10"
+date: 2024-05-10
 ---
 
 ## 1. Problem

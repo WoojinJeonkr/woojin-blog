@@ -2,7 +2,7 @@
 external: false
 title: "SQL Practice 10"
 tag: [SQL Practice, SQL]
-date: "2023-08-04"
+date: 2023-08-04
 ---
 
 ## 1. 문제 [[SQL Practice (Difficult: Easy) 15번](https://www.sql-practice.com/)]

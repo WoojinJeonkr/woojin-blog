@@ -2,7 +2,7 @@
 external: false
 title: "Collections Counter()"
 tag: [Hackerrank, Python]
-date: "2023-09-06"
+date: 2023-09-06
 ---
 
 ## 1. 문제

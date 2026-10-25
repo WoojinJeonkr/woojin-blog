@@ -2,7 +2,7 @@
 external: false
 title: "Data structures are the best"
 tag: [Baekjoon, Python]
-date: "2026-04-09"
+date: 2026-04-09
 ---
 
 ## 1. Problem

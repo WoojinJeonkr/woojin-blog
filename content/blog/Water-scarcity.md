@@ -2,7 +2,7 @@
 external: false
 title: "Water scarcity"
 tag: [Programmers, Python]
-date: "2025-05-27"
+date: 2025-05-27
 ---
 
 ## 1. Problem

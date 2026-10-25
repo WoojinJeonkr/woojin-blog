@@ -2,7 +2,7 @@
 external: false
 title: "Pad array to power of 2"
 tag: [Programmers, Python]
-date: "2025-04-27"
+date: 2025-04-27
 ---
 
 ## 1. Problem

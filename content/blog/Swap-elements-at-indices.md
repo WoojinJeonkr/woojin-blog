@@ -2,7 +2,7 @@
 external: false
 title: "Swap elements at indices"
 tag: [Programmers, Python]
-date: "2025-03-10"
+date: 2025-03-10
 ---
 
 ## 1. Problem

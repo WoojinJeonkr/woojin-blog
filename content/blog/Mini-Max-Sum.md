@@ -2,7 +2,7 @@
 external: false
 title: "Mini Max Sum"
 tag: [Hackerrank, Java]
-date: "2023-12-20"
+date: 2023-12-20
 ---
 
 ## 1. 문제

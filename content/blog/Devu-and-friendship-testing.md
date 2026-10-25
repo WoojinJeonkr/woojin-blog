@@ -2,7 +2,7 @@
 external: false
 title: "Devu and friendship testing"
 tag: [Codechef, Python]
-date: "2026-04-22"
+date: 2026-04-22
 ---
 
 ## 1. Problem

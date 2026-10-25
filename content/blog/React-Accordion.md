@@ -2,7 +2,7 @@
 external: false
 title: "React Accordion"
 tag: [React, Typescript]
-date: "2022-11-07"
+date: 2022-11-07
 ---
 
 ## 1. 아코디언 (Accordion)

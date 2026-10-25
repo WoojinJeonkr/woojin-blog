@@ -2,7 +2,7 @@
 external: false
 title: "Strip leading zeros"
 tag: [Programmers, Python]
-date: "2025-07-19"
+date: 2025-07-19
 ---
 
 ## 1. Problem

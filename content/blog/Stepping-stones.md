@@ -2,7 +2,7 @@
 external: false
 title: "Stepping stones"
 tag: [Programmers, Python]
-date: "2025-08-16"
+date: 2025-08-16
 ---
 
 ## 1. Problem

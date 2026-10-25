@@ -2,7 +2,7 @@
 external: false
 title: "Cola exchange problem"
 tag: [Programmers, Java]
-date: "2024-12-08"
+date: 2024-12-08
 ---
 
 ## 1. Problem

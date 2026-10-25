@@ -2,7 +2,7 @@
 external: false
 title: "Aggregate book sales by category"
 tag: [Programmers, SQL]
-date: "2024-06-03"
+date: 2024-06-03
 ---
 
 ## 1. Problem

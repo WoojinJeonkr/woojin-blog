@@ -2,7 +2,7 @@
 external: false
 title: "Serializable"
 tag: [Java]
-date: "2023-03-10"
+date: 2023-03-10
 ---
 
 ## 1. 직렬화란?

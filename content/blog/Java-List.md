@@ -2,7 +2,7 @@
 external: false
 title: "Java List"
 tag: [Hackerrank, Java]
-date: "2023-09-27"
+date: 2023-09-27
 ---
 
 ## 1. 문제

@@ -2,7 +2,7 @@
 external: false
 title: "Kakao path finding game"
 tag: [Programmers, Python]
-date: "2025-05-21"
+date: 2025-05-21
 ---
 
 ## 1. Problem

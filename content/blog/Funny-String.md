@@ -2,7 +2,7 @@
 external: false
 title: "Funny String"
 tag: [Hackerrank, Java]
-date: "2024-04-30"
+date: 2024-04-30
 ---
 
 ## 1. Problem

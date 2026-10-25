@@ -2,7 +2,7 @@
 external: false
 title: "Filling puzzle pieces"
 tag: [Programmers, Python]
-date: "2025-10-21"
+date: 2025-10-21
 ---
 
 ## 1. Problem

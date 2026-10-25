@@ -2,7 +2,7 @@
 external: false
 title: "Babbling (1)"
 tag: [Programmers, Python]
-date: "2025-07-15"
+date: 2025-07-15
 ---
 
 ## 1. Problem

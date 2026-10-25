@@ -2,7 +2,7 @@
 external: false
 title: "Questioning Developer"
 tag: [Think]
-date: "2023-05-14"
+date: 2023-05-14
 ---
 
 ## 1. Questioning Developer

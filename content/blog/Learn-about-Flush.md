@@ -2,7 +2,7 @@
 external: false
 title: "Learn about Flush"
 tag: [CS]
-date: "2023-02-23"
+date: 2023-02-23
 ---
 
 ## 1. flush란?

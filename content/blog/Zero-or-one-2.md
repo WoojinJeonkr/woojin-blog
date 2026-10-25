@@ -2,7 +2,7 @@
 external: false
 title: "Zero or one 2"
 tag: [Programmers, Python]
-date: "2025-05-20"
+date: 2025-05-20
 ---
 
 ## 1. Problem

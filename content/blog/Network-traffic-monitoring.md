@@ -2,7 +2,7 @@
 external: false
 title: "Network traffic monitoring"
 tag: [PromLens, PromQL]
-date: "2025-10-02"
+date: 2025-10-02
 ---
 
 ## 1. 문제 설명

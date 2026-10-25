@@ -2,7 +2,7 @@
 external: false
 title: "style or sx"
 tag: [CSS]
-date: "2023-02-14"
+date: 2023-02-14
 ---
 
 ## 1. inline style

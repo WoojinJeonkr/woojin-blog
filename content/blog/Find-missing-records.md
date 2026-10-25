@@ -2,7 +2,7 @@
 external: false
 title: "Finding missing records"
 tag: [Programmers, SQL]
-date: "2025-04-09"
+date: 2025-04-09
 ---
 
 ## 1. Problem

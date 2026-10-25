@@ -2,7 +2,7 @@
 external: false
 title: "Designer PDF Viewer"
 tag: [Hackerrank, Java]
-date: "2024-03-29"
+date: 2024-03-29
 ---
 
 ## 1. Problem

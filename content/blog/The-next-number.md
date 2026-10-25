@@ -2,7 +2,7 @@
 external: false
 title: "The next number"
 tag: [Programmers, Python]
-date: "2025-08-22"
+date: 2025-08-22
 ---
 
 ## 1. Problem

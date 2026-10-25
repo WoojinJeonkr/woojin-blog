@@ -2,7 +2,7 @@
 external: false
 title: "Review Notes"
 tag: [Study]
-date: "2023-07-05"
+date: 2023-07-05
 ---
 
 ### 1과목. 소프트웨어 설계 (Total: 20, Wrong: 7)

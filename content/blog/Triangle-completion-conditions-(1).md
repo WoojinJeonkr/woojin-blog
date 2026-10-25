@@ -2,7 +2,7 @@
 external: false
 title: "Triangle completion conditions (1)"
 tag: [Programmers, Python]
-date: "2025-03-19"
+date: 2025-03-19
 ---
 
 ## 1. Problem

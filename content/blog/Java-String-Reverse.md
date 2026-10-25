@@ -2,7 +2,7 @@
 external: false
 title: "Java String Reverse"
 tag: [Hackerrank, Java]
-date: "2023-09-26"
+date: 2023-09-26
 ---
 
 ## 1. 문제

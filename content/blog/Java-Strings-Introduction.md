@@ -2,7 +2,7 @@
 external: false
 title: "Java Strings Introduction"
 tag: [Hackerrank, Java]
-date: "2023-11-02"
+date: 2023-11-02
 ---
 
 ## 1. 문제

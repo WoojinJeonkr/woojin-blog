@@ -2,7 +2,7 @@
 external: false
 title: "Race track construction"
 tag: [Programmers, Python]
-date: "2025-08-07"
+date: 2025-08-07
 ---
 
 ## 1. Problem

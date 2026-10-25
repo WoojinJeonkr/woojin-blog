@@ -2,7 +2,7 @@
 external: false
 title: "Immigration check"
 tag: [Programmers, Java]
-date: "2024-11-13"
+date: 2024-11-13
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Four methods to manage arrays"
 tag: [Typescript]
-date: "2022-11-22"
+date: 2022-11-22
 ---
 
 ## 1. immutable

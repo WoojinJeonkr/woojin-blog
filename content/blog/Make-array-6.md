@@ -2,7 +2,7 @@
 external: false
 title: "Make array 6"
 tag: [Programmers, Python]
-date: "2025-09-01"
+date: 2025-09-01
 ---
 
 ## 1. Problem

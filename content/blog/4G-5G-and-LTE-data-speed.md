@@ -2,7 +2,7 @@
 external: false
 title: "4G 5G and LTE data speed"
 tag: [Python]
-date: "2026-08-17"
+date: 2026-08-17
 ---
 
 ## 1. Problem

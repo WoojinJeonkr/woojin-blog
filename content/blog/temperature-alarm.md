@@ -2,7 +2,7 @@
 external: false
 title: "Temperature Alarm"
 tag: [Arduino, C++]
-date: "2022-09-09"
+date: 2022-09-09
 ---
 
 ## ⛳️ 구현 목표

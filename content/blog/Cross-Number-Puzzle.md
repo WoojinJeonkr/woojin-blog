@@ -2,7 +2,7 @@
 external: false
 title: "Cross Number Puzzle"
 tag: [Baekjoon, Python]
-date: "2025-12-15"
+date: 2025-12-15
 ---
 
 ## 1. Problem

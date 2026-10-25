@@ -2,7 +2,7 @@
 external: false
 title: "bash unique"
 tag: [Hackerrank, Linux]
-date: "2024-02-26"
+date: 2024-02-26
 ---
 
 ## 1. uniq 명령어

@@ -2,7 +2,7 @@
 external: false
 title: "Display information about most expensive food item"
 tag: [Programmers, SQL]
-date: "2024-06-23"
+date: 2024-06-23
 ---
 
 ## 1. Problem

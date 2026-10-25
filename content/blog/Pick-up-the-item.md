@@ -2,7 +2,7 @@
 external: false
 title: "Pick up the item"
 tag: [Programmers, Python]
-date: "2025-09-21"
+date: 2025-09-21
 ---
 
 ## 1. Problem

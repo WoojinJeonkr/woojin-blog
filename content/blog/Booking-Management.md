@@ -2,7 +2,7 @@
 external: false
 title: "Booking Management"
 tag: [Python]
-date: "2026-08-31"
+date: 2026-08-31
 ---
 
 ## 1. Problem

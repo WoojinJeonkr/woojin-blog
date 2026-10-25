@@ -2,7 +2,7 @@
 external: false
 title: "Classify and display order status"
 tag: [Programmers, SQL]
-date: "2025-01-26"
+date: 2025-01-26
 ---
 
 ## 1. Problem

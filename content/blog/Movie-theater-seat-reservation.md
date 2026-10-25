@@ -2,7 +2,7 @@
 external: false
 title: "Movie theater seat reservation"
 tag: [Python]
-date: "2026-10-03"
+date: 2026-10-03
 ---
 
 ## 1. Problem

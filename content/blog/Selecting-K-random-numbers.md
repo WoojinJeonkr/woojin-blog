@@ -2,7 +2,7 @@
 external: false
 title: "Selecting K random numbers"
 tag: [Programmers, Python]
-date: "2025-05-08"
+date: 2025-05-08
 ---
 
 ## 1. Problem

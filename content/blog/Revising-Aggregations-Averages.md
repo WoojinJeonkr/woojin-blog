@@ -2,7 +2,7 @@
 external: false
 title: "Revising Aggregations Averages"
 tag: [Hackerrank, SQL]
-date: "2023-08-20"
+date: 2023-08-20
 ---
 
 ## 1. 문제

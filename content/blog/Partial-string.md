@@ -2,7 +2,7 @@
 external: false
 title: "Partial string"
 tag: [Baekjoon, Python]
-date: "2026-01-22"
+date: 2026-01-22
 ---
 
 ## 1. Problem

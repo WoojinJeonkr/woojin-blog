@@ -2,7 +2,7 @@
 external: false
 title: "Sum of consecutive numbers"
 tag: [Programmers, Python]
-date: "2025-08-17"
+date: 2025-08-17
 ---
 
 ## 1. Problem

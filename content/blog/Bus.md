@@ -2,7 +2,7 @@
 external: false
 title: "Bus"
 tag: [Programmers, Python]
-date: "2025-05-28"
+date: 2025-05-28
 ---
 
 ## 1. Problem

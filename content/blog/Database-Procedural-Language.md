@@ -2,7 +2,7 @@
 external: false
 title: "Database Procedural Language"
 tag: [Hackerrank, Database]
-date: "2023-10-14"
+date: 2023-10-14
 ---
 
 ## 1. 문제

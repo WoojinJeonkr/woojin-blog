@@ -2,7 +2,7 @@
 external: false
 title: "Delivery"
 tag: [Programmers, Java]
-date: "2024-10-07"
+date: 2024-10-07
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Rank"
 tag: [Programmers, Java]
-date: "2024-11-17"
+date: 2024-11-17
 ---
 
 ## 1. Problem

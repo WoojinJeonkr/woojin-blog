@@ -2,7 +2,7 @@
 external: false
 title: "Output format"
 tag: [Codechef, Python]
-date: "2026-05-13"
+date: 2026-05-13
 ---
 
 ## 1. Problem

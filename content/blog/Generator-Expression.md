@@ -2,7 +2,7 @@
 external: false
 title: "Generator Expression"
 tag: [Python]
-date: "2023-05-21"
+date: 2023-05-21
 ---
 
 ## 1. 제너레이터 표현식

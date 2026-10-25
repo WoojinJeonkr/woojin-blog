@@ -2,7 +2,7 @@
 external: false
 title: "Way to school"
 tag: [Programmers, Python]
-date: "2025-08-06"
+date: 2025-08-06
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "addition of fractions"
 tag: [Programmers, Java]
-date: "2024-05-26"
+date: 2024-05-26
 ---
 
 ## 1. Problem

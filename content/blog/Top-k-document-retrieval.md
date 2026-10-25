@@ -2,7 +2,7 @@
 external: false
 title: "Top k document retrieval"
 tag: [Python]
-date: "2026-07-27"
+date: 2026-07-27
 ---
 
 ## 1. Problem

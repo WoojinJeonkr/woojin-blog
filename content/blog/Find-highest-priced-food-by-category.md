@@ -2,7 +2,7 @@
 external: false
 title: "Find highest priced food by category"
 tag: [Programmers, SQL]
-date: "2025-02-02"
+date: 2025-02-02
 ---
 
 ## 1. Problem

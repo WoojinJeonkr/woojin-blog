@@ -2,7 +2,7 @@
 external: false
 title: "Ice cream total order quantity by ingredient"
 tag: [Programmers, SQL]
-date: "2024-06-28"
+date: 2024-06-28
 ---
 
 ## 1. Problem

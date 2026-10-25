@@ -2,7 +2,7 @@
 external: false
 title: "SQL Fiddle 1"
 tag: [SQL]
-date: "2023-07-24"
+date: 2023-07-24
 ---
 
 ## 1. 문제 [정보처리기사 실기 2022년 2회 3번]

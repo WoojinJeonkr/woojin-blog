@@ -2,7 +2,7 @@
 external: false
 title: "Elevator movement"
 tag: [Python]
-date: "2026-10-06"
+date: 2026-10-06
 ---
 
 ## 1. Problem

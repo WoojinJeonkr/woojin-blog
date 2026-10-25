@@ -2,7 +2,7 @@
 external: false
 title: "In groups of five"
 tag: [Programmers, Python]
-date: "2025-04-20"
+date: 2025-04-20
 ---
 
 ## 1. Problem

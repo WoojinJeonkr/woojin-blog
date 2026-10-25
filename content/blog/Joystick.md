@@ -2,7 +2,7 @@
 external: false
 title: "Joystick"
 tag: [Programmers, Java]
-date: "2024-10-14"
+date: 2024-10-14
 ---
 
 ## 1. Problem

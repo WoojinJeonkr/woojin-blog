@@ -2,7 +2,7 @@
 external: false
 title: "Calculate name score"
 tag: [Baekjoon, Python]
-date: "2025-12-26"
+date: 2025-12-26
 ---
 
 ## 1. Problem

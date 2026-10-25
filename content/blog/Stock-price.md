@@ -2,7 +2,7 @@
 external: false
 title: "Stock price"
 tag: [Programmers, Java]
-date: "2024-08-22"
+date: 2024-08-22
 ---
 
 ## 1. Problem

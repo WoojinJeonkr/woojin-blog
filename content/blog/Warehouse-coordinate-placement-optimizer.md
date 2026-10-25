@@ -2,7 +2,7 @@
 external: false
 title: "Warehouse coordinate placement optimizer"
 tag: [Python]
-date: "2026-05-23"
+date: 2026-05-23
 ---
 
 ## 1. Problem

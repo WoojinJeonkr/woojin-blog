@@ -2,7 +2,7 @@
 external: false
 title: "Number of sums of consecutive subsequences"
 tag: [Programmers, Java]
-date: "2024-07-14"
+date: 2024-07-14
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Check square number"
 tag: [Programmers, Python]
-date: "2025-03-15"
+date: 2025-03-15
 ---
 
 ## 1. Problem

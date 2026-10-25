@@ -2,7 +2,7 @@
 external: false
 title: "Developer language classification"
 tag: [Programmers, SQL]
-date: "2025-01-20"
+date: 2025-01-20
 ---
 
 ## 1. Problem

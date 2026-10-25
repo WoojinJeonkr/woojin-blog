@@ -2,7 +2,7 @@
 external: false
 title: "Javascript try catch finally 2"
 tag: [BFE, Javascript]
-date: "2024-03-23"
+date: 2024-03-23
 ---
 
 ## 1. 문제

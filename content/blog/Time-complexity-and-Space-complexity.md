@@ -2,7 +2,7 @@
 external: false
 title: "Time complexity and Space complexity"
 tag: [CS]
-date: "2022-10-19"
+date: 2022-10-19
 ---
 
 ## 1. 시간 복잡도(Time Complexity)란?

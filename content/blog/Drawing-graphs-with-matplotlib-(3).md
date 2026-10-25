@@ -2,7 +2,7 @@
 external: false
 title: drawing graphs with matplotlib (3)
 tag: [Python, Graph]
-date: "2022-09-25"
+date: 2022-09-25
 ---
 
 ## 1. Pie Chart

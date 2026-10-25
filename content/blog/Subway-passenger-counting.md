@@ -2,7 +2,7 @@
 external: false
 title: "Subway passenger counting"
 tag: [Python]
-date: "2026-09-28"
+date: 2026-09-28
 ---
 
 ## 1. Problem

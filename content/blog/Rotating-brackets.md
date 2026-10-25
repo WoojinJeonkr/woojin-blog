@@ -2,7 +2,7 @@
 external: false
 title: "Rotating brackets"
 tag: [Programmers, Java]
-date: "2024-09-09"
+date: 2024-09-09
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "UNION & UNION ALL"
 tag: [SQL]
-date: "2023-11-17"
+date: 2023-11-17
 ---
 
 ## 1. UNION과 UNION ALL

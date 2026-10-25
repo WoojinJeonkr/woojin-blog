@@ -2,7 +2,7 @@
 external: false
 title: "Urban Problem Solving Competition Utilizing Seoul Citizen Life Data"
 tag: [Study]
-date: "2022-09-19"
+date: 2022-09-19
 ---
 
 ## 1. 개요

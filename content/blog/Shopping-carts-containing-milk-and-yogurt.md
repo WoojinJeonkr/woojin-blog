@@ -2,7 +2,7 @@
 external: false
 title: "Shopping carts containing milk and yogurt"
 tag: [Programmers, SQL]
-date: "2025-07-21"
+date: 2025-07-21
 ---
 
 ## 1. Problem

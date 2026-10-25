@@ -2,7 +2,7 @@
 external: false
 title: "Cipher decryption"
 tag: [Programmers, Python]
-date: "2025-04-19"
+date: 2025-04-19
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Find composite numbers"
 tag: [Programmers, Java]
-date: "2024-08-26"
+date: 2024-08-26
 ---
 
 ## 1. Problem

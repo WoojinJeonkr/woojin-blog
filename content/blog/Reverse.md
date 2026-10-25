@@ -2,7 +2,7 @@
 external: false
 title: "Reverse"
 tag: [Baekjoon, Python]
-date: "2026-02-03"
+date: 2026-02-03
 ---
 
 ## 1. Problem

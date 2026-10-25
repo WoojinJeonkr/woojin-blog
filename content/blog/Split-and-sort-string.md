@@ -2,7 +2,7 @@
 external: false
 title: "Split and sort string"
 tag: [Programmers, Python]
-date: "2025-08-30"
+date: 2025-08-30
 ---
 
 ## 1. Problem

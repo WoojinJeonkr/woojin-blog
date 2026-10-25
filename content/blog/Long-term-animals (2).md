@@ -2,7 +2,7 @@
 external: false
 title: "Long term animals (2)"
 tag: [Programmers, SQL]
-date: "2025-02-10"
+date: 2025-02-10
 ---
 
 ## 1. Problem
