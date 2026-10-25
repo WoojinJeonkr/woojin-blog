@@ -2,7 +2,7 @@
 external: false
 title: "Virus"
 tag: [Baekjoon, Python]
-date: 2026-03-21
+date: "2026-03-21"
 ---
 
 ## 1. Problem

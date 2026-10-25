@@ -2,7 +2,7 @@
 external: false
 title: "Query car rental fees by rental history"
 tag: [Programmers, SQL]
-date: 2025-01-31
+date: "2025-01-31"
 ---
 
 ## 1. Problem

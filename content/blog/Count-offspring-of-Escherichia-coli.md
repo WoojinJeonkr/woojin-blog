@@ -2,7 +2,7 @@
 external: false
 title: "Count offspring of Escherichia coli"
 tag: [Programmers, SQL]
-date: 2024-06-15
+date: "2024-06-15"
 ---
 
 ## 1. Problem

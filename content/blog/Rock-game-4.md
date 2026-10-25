@@ -2,7 +2,7 @@
 external: false
 title: "Rock game 4"
 tag: [Baekjoon, Python]
-date: 2026-04-13
+date: "2026-04-13"
 ---
 
 ## 1. Problem

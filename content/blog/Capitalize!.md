@@ -2,7 +2,7 @@
 external: false
 title: "Capitalize!"
 tag: [Hackerrank, Python]
-date: 2023-09-05
+date: "2023-09-05"
 ---
 
 ## 1. 문제

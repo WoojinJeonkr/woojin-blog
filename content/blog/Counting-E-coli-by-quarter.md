@@ -2,7 +2,7 @@
 external: false
 title: "Counting E coli by quarter"
 tag: [Programmers, SQL]
-date: 2025-02-15
+date: "2025-02-15"
 ---
 
 ## 1. Problem

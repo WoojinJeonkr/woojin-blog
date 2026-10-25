@@ -2,7 +2,7 @@
 external: false
 title: "Lifeboat"
 tag: [Programmers, Java]
-date: 2024-08-13
+date: "2024-08-13"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Network traffic monitoring"
 tag: [PromLens, PromQL]
-date: 2025-10-02
+date: "2025-10-02"
 ---
 
 ## 1. 문제 설명
@@ -34,7 +34,7 @@ Prometheus 노드 익스포터(Node Exporter)에서 제공하는
 
 3. 5분 구간 지정하기
 
-    rate(node_network_receive_bytes_total[5m])  
+    rate(node_network_receive_bytes_total[5m])
     → 최근 5분 동안의 초당 수신 속도를 계산합니다.
 
 ## 4. 정답
@@ -63,19 +63,19 @@ rate(node_network_receive_bytes_total[5m])
 
 이 노드는 입력된 값들에 대해 rate() 함수를 호출합니다.
 
-`rate(v range-vector)`는 range vector 내 시계열이 증가하는 평균 속도를 초당 단위로 계산합니다.  
-단조 증가가 깨지는 경우(예: 대상이 재시작되면서 `counter`가 리셋되는 경우)도 자동으로 조정됩니다.  
-또한 계산 과정에서 누락된 스크랩이나 스크랩 주기와 범위 시간이 완벽하게 일치하지 않는 경우를 보완하기 위해,  
+`rate(v range-vector)`는 range vector 내 시계열이 증가하는 평균 속도를 초당 단위로 계산합니다.
+단조 증가가 깨지는 경우(예: 대상이 재시작되면서 `counter`가 리셋되는 경우)도 자동으로 조정됩니다.
+또한 계산 과정에서 누락된 스크랩이나 스크랩 주기와 범위 시간이 완벽하게 일치하지 않는 경우를 보완하기 위해,
 범위의 시작과 끝 구간은 누락된 스크랩을 고려해 추정값을 계산합니다.
 
-다음 예시 표현식은 최근 5분 동안의 HTTP 요청 건수를 초당 증가율로 반환합니다.  
+다음 예시 표현식은 최근 5분 동안의 HTTP 요청 건수를 초당 증가율로 반환합니다.
 이는 range vector 내 각 시계열별로 계산됩니다.
 
 `rate(http_requests_total{job="api-server"}[5m])`
 
-`rate`는 오직 `counter` 메트릭에만 사용해야 합니다.  
+`rate`는 오직 `counter` 메트릭에만 사용해야 합니다.
 특히 알림이나 느리게 증가하는 `counter`를 그래프로 시각화할 때 가장 적합합니다.
 
-참고로 `rate()`를 집계 연산자(예: `sum()`)나 시간 단위 집계 함수(`_over_time`으로 끝나는 함수)와 함께 사용할 때는,  
-반드시 먼저 `rate()`를 적용한 후에 집계해야 합니다.  
+참고로 `rate()`를 집계 연산자(예: `sum()`)나 시간 단위 집계 함수(`_over_time`으로 끝나는 함수)와 함께 사용할 때는,
+반드시 먼저 `rate()`를 적용한 후에 집계해야 합니다.
 그렇지 않으면 대상이 재시작할 때 발생하는 `counter` 리셋을 `rate()`가 제대로 감지할 수 없습니다.

@@ -2,7 +2,7 @@
 external: false
 title: "DOM selector methods"
 tag: [JSChallenger, Javascript]
-date: 2024-04-17
+date: "2024-04-17"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1392"
 tag: [Baekjoon, Python]
-date: 2023-08-02
+date: "2023-08-02"
 ---
 
 ## 1. 문제
@@ -16,12 +16,12 @@ date: 2023-08-02
 def find_note_number(N, time_list, query_list):
     result = []  # 결과를 담을 리스트 초기화
     cumulative_time = [0] * N  # 누적된 시간을 저장할 리스트 초기화
-    
+
     # 누적된 시간을 계산합니다.
     for i in range(N):
         # i번째 누적 시간 = 현재 시간(time_list[i]) 또는 이전 누적 시간(cumulative_time[i-1]) + 현재 시간(time_list[i])
         cumulative_time[i] = time_list[i] if i == 0 else cumulative_time[i-1] + time_list[i]
-    
+
     # 각 쿼리에 대해 해당하는 음표 번호를 찾는 과정
     for t in query_list:
         for i in range(N):

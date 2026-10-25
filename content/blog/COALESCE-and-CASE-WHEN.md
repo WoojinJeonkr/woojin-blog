@@ -2,7 +2,7 @@
 external: false
 title: "COALESCE and CASE WHEN"
 tag: [SQL]
-date: 2025-03-31
+date: "2025-03-31"
 ---
 
 SQL을 사용하다 보면 NULL 값 처리는 피할 수 없는 과제입니다. 데이터가 누락되었거나 비어 있는 경우를 처리하지 않으면, 잘못된 결과를 초래하거나 쿼리가 실패할 수 있습니다.

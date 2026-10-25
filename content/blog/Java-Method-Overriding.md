@@ -2,7 +2,7 @@
 external: false
 title: "Java Method Overriding"
 tag: [Hackerrank, Java]
-date: 2024-03-08
+date: "2024-03-08"
 ---
 
 ## 1. Problem

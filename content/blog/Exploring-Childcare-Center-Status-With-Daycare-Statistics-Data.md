@@ -2,7 +2,7 @@
 external: false
 title: "Exploring Childcare Center Status With Daycare Statistics Data"
 tag: [EDA, Graph]
-date: 2022-09-17
+date: "2022-09-17"
 ---
 
 ## 1. 분석 목적

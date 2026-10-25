@@ -2,7 +2,7 @@
 external: false
 title: "Array of divisible numbers"
 tag: [Programmers, Java]
-date: 2024-11-07
+date: "2024-11-07"
 ---
 
 ## 1. Problem

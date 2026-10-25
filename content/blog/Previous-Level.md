@@ -2,7 +2,7 @@
 external: false
 title: "Previous Level"
 tag: [Baekjoon, Python]
-date: 2026-01-08
+date: "2026-01-08"
 ---
 
 ## 1. Problem

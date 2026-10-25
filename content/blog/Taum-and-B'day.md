@@ -2,7 +2,7 @@
 external: false
 title: "Taum and B'day"
 tag: [Hackerrank, Java]
-date: 2024-04-24
+date: "2024-04-24"
 ---
 
 ## 1. Problem

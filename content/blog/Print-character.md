@@ -2,7 +2,7 @@
 external: false
 title: "Print character"
 tag: [Programmers, Python]
-date: 2025-05-24
+date: "2025-05-24"
 ---
 
 ## 1. Problem

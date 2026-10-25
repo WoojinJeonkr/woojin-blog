@@ -2,7 +2,7 @@
 external: false
 title: "Substring"
 tag: [Programmers, Python]
-date: 2025-07-23
+date: "2025-07-23"
 ---
 
 ## 1. Problem

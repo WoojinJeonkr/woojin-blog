@@ -2,7 +2,7 @@
 external: false
 title: "Operation based on array length"
 tag: [Programmers, Python]
-date: 2025-04-25
+date: "2025-04-25"
 ---
 
 ## 1. Problem

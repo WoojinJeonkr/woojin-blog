@@ -2,7 +2,7 @@
 external: false
 title: "2 or fewer differing bits"
 tag: [Programmers, Java]
-date: 2024-10-12
+date: "2024-10-12"
 ---
 
 ## 1. Problem

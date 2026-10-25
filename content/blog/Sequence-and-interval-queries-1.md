@@ -2,7 +2,7 @@
 external: false
 title: "Sequence and interval queries 1"
 tag: [Programmers, Python]
-date: 2025-10-08
+date: "2025-10-08"
 ---
 
 ## 1. Problem

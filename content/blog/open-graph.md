@@ -3,7 +3,7 @@ external: false
 title: "open graph"
 description: "What is Open Graph and How to use it for website?"
 tag: [Study, Open Graph]
-date: 2022-10-02
+date: "2022-10-02"
 ---
 
 ## 1. Open Graph

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1673"
 tag: [Baekjoon, Python]
-date: 2023-05-13
+date: "2023-05-13"
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ date: 2023-05-13
 while 1:
     try:
         n, k = map(int, input().split())
-        result = 0 
+        result = 0
         result += n
         while n//k:
             result += n//k

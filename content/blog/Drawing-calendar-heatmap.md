@@ -2,7 +2,7 @@
 external: false
 title: "Drawing calendar heatmap"
 tag: [Python, Graph]
-date: 2022-09-24
+date: "2022-09-24"
 ---
 
 ## 1. calmap
@@ -15,12 +15,12 @@ date: 2022-09-24
 pip install calmap
 ```
 
-calmap을 통해 다음과 같은 깃허브의 Contribution 그래프를 그릴 수 있다.  
+calmap을 통해 다음과 같은 깃허브의 Contribution 그래프를 그릴 수 있다.
 ![GitHub Contribution Graph](/images/my_github_contribution_plot_20220923.png)
 
 ## 3. Calendar heatmap 그리기
 
-DatetimeIndex가 있는 Pandas 시리즈로 가중치 이벤트가 있다고 가정한다.  
+DatetimeIndex가 있는 Pandas 시리즈로 가중치 이벤트가 있다고 가정한다.
 
 ```python
 # 필요한 라이브러리 가져오기
@@ -33,7 +33,7 @@ import calmap
 np.random.seed(sum(map(ord, 'calmap')))
 ```
 
-700일 동안 임의의 날짜에 할당된 임의의 부동 소수점 값으로 500개의 이벤트 데이터를 생성한다.  
+700일 동안 임의의 날짜에 할당된 임의의 부동 소수점 값으로 500개의 이벤트 데이터를 생성한다.
 
 ```python
 # 데이터 생성

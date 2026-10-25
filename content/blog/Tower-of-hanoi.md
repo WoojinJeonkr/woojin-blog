@@ -2,7 +2,7 @@
 external: false
 title: "Tower of hanoi"
 tag: [Programmers, Python]
-date: 2025-03-02
+date: "2025-03-02"
 ---
 
 ## 1. Problem

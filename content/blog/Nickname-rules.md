@@ -2,7 +2,7 @@
 external: false
 title: "Nickname rules"
 tag: [Programmers, Python]
-date: 2025-05-23
+date: "2025-05-23"
 ---
 
 ## 1. Problem

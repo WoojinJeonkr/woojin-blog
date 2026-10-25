@@ -2,7 +2,7 @@
 external: false
 title: "Array Reversal"
 tag: [Hackerrank, C]
-date: 2024-05-18
+date: "2024-05-18"
 ---
 
 ## 1. Problem

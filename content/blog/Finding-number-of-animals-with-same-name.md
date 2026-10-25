@@ -2,7 +2,7 @@
 external: false
 title: "Finding number of animals with same name"
 tag: [Programmers, SQL]
-date: 2024-05-29
+date: "2024-05-29"
 ---
 
 ## 1. Problem

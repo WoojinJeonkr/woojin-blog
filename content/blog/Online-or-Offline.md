@@ -2,7 +2,7 @@
 external: false
 title: "Online or Offline"
 tag: [Codechef, Python]
-date: 2026-04-29
+date: "2026-04-29"
 ---
 
 ## 1. Problem

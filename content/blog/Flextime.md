@@ -2,7 +2,7 @@
 external: false
 title: "Flextime"
 tag: [Programmers, Python]
-date: 2025-03-03
+date: "2025-03-03"
 ---
 
 ## 1. Problem

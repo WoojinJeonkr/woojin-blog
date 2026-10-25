@@ -2,7 +2,7 @@
 external: false
 title: "Making a JadenCase string"
 tag: [Programmers, Java]
-date: 2024-11-30
+date: "2024-11-30"
 ---
 
 ## 1. Problem

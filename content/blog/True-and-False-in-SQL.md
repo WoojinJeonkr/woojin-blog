@@ -2,7 +2,7 @@
 external: false
 title: "True and False in SQL"
 tag: [SQL]
-date: 2023-11-17
+date: "2023-11-17"
 ---
 
 이번 글에서는 SQL 쿼리에서 사용되는 조건절 중 'WHERE 1=1'와 'WHERE 1=2'에 중점을 두어 이 두 조건의 차이와 활용에 대해 설명하겠습니다.

@@ -2,7 +2,7 @@
 external: false
 title: "modal, popup, alert"
 tag: [React, Typescript]
-date: 2022-10-11
+date: "2022-10-11"
 ---
 
 ## 1. modal

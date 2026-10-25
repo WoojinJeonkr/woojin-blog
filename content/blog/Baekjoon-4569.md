@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4569"
 tag: [Baekjoon, Python]
-date: 2023-10-05
+date: "2023-10-05"
 ---
 
 ## 1. 문제
@@ -23,8 +23,8 @@ def is_acceptable(s):
     # 문자열을 한 글자씩 확인
     for i in s:
         if i in vowel:  # 만약 현재 문자가 모음이라면
-            # 연속된 모음이 2회 이상이거나 (v_repeat) 
-            # 'e'나 'o'가 아닌 모음에서 이전 문자와 같은 경우 (i != 'e' and i != 'o' and last == i) 
+            # 연속된 모음이 2회 이상이거나 (v_repeat)
+            # 'e'나 'o'가 아닌 모음에서 이전 문자와 같은 경우 (i != 'e' and i != 'o' and last == i)
             # 또는 이전 문자와 현재 문자가 같은 경우 flag를 False로 설정하고 반복문을 빠져나감
             if v_repeat == 2 or ((i != 'e' and i != 'o') and last == i):
                 flag = False
@@ -45,9 +45,9 @@ def is_acceptable(s):
                 c_repeat += 1  # 연속된 자음의 개수를 증가
                 v_repeat = 0  # 연속된 모음의 개수 초기화
                 last = i  # 이전 문자를 현재 문자로 업데이트
-    
+
     # 모음이 하나도 없거나 (v_cnt == 0)
-    # 모음과 자음이 규칙에 맞게 나열되어 있지 않은 경우 (flag가 False로 설정된 경우) 
+    # 모음과 자음이 규칙에 맞게 나열되어 있지 않은 경우 (flag가 False로 설정된 경우)
     # 문자열은 acceptable하지 않음
     if v_cnt == 0:
         flag = False

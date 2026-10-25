@@ -2,7 +2,7 @@
 external: false
 title: "Hint stages"
 tag: [Programmers, Python]
-date: 2026-04-19
+date: "2026-04-19"
 ---
 
 ## 1. Problem

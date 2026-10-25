@@ -2,7 +2,7 @@
 external: false
 title: "Sum of cubes"
 tag: [Baekjoon, Python]
-date: 2025-11-25
+date: "2025-11-25"
 ---
 
 ## 1. Problem

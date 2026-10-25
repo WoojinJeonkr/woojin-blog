@@ -2,7 +2,7 @@
 external: false
 title: "Parking lot fee calculation"
 tag: [Python]
-date: 2026-10-02
+date: "2026-10-02"
 ---
 
 ## 1. Problem

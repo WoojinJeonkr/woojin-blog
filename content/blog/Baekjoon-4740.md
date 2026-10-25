@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4740"
 tag: [Baekjoon, Python]
-date: 2023-09-14
+date: "2023-09-14"
 ---
 
 ## 1. 문제
@@ -19,7 +19,7 @@ while True:
     # 입력받은 문장이 ***이면 중단한다.
     if sentence == "***":
         break
-    
+
     # 입력받은 문장을 역순으로 출력한다.
     print(sentence[::-1])
 ```

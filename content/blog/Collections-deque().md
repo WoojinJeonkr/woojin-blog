@@ -2,7 +2,7 @@
 external: false
 title: "Collections deque()"
 tag: [Hackerrank, Python]
-date: 2023-09-16
+date: "2023-09-16"
 ---
 
 ## 1. 문제

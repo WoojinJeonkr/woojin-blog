@@ -2,7 +2,7 @@
 external: false
 title: "Folding banknotes"
 tag: [Programmers, Python]
-date: 2025-04-26
+date: "2025-04-26"
 ---
 
 ## 1. Problem

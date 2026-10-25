@@ -2,7 +2,7 @@
 external: false
 title: "Beginning My Study of CS"
 tag: [CS]
-date: 2022-09-06
+date: "2022-09-06"
 ---
 
 ## 1. CS(Computer Science)란?

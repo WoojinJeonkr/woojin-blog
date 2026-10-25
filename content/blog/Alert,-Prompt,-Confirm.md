@@ -2,7 +2,7 @@
 external: false
 title: "Alert, Prompt, Confirm"
 tag: [React, Typescript]
-date: 2022-11-23
+date: "2022-11-23"
 ---
 
 ## 1. alert

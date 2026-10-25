@@ -2,7 +2,7 @@
 external: false
 title: "Querying XML Datastores with XPath Part 1"
 tag: [Hackerrank, Ruby]
-date: 2024-02-17
+date: "2024-02-17"
 ---
 
 ## 1. Problem

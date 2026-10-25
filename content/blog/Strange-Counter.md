@@ -2,7 +2,7 @@
 external: false
 title: "Strange Counter"
 tag: [Hackerrank, Java]
-date: 2024-04-12
+date: "2024-04-12"
 ---
 
 ## 1. Problem

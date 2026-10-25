@@ -2,7 +2,7 @@
 external: false
 title: "Adjacent cell"
 tag: [Programmers, Python]
-date: 2025-01-01
+date: "2025-01-01"
 ---
 
 ## 1. Problem

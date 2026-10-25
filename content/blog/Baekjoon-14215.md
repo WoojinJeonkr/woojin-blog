@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 14215"
 tag: [Baekjoon, Python, Java]
-date: 2023-07-04
+date: "2023-07-04"
 ---
 
 ## 1. Problem
@@ -39,7 +39,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         // 입력을 위한 BufferedReader 객체를 생성합니다.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
+
         // 공백을 기준으로 입력된 정수들을 받아와서 배열로 변환합니다.
         int[] input = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).sorted().toArray();
 
@@ -79,17 +79,17 @@ int main() {
     int a[3];
     // 사용자로부터 세 개의 정수를 입력받는다.
     cin >> a[0] >> a[1] >> a[2];
-    
+
     // 입력받은 정수를 정렬한다.
     sort(a, a + 3);
-    
+
     if (a[0] + a[1] > a[2])
         // 삼각형의 성립 조건을 만족하는 경우, 세 변의 길이의 합을 출력한다.
         cout << a[0] + a[1] + a[2] << endl;
     else
         // 삼각형의 성립 조건을 만족하지 않는 경우, 가장 작은 두 변의 합에 2를 곱하고 1을 뺀 값을 출력한다.
         cout << (a[0] + a[1]) * 2 - 1 << endl;
-    
+
     return 0;
 }
 ```

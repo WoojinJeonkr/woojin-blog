@@ -2,7 +2,7 @@
 external: false
 title: "Make all zero"
 tag: [Programmers, Python]
-date: 2025-09-27
+date: "2025-09-27"
 ---
 
 ## 1. Problem

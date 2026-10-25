@@ -2,7 +2,7 @@
 external: false
 title: "link and navigate"
 tag: [React, Typescript]
-date: 2022-10-12
+date: "2022-10-12"
 ---
 
 ## 1. react-router-dom

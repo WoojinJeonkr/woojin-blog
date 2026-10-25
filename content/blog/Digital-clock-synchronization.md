@@ -2,7 +2,7 @@
 external: false
 title: "Digital clock synchronization"
 tag: [Python]
-date: 2026-05-17
+date: "2026-05-17"
 ---
 
 ## 1. Problem

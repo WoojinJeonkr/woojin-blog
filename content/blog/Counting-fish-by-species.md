@@ -2,7 +2,7 @@
 external: false
 title: "Counting fish by species"
 tag: [Programmers, SQL]
-date: 2024-07-03
+date: "2024-07-03"
 ---
 
 ## 1. Problem

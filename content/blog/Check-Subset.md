@@ -2,7 +2,7 @@
 external: false
 title: "Check Subset"
 tag: [Hackerrank, Python]
-date: 2023-08-13
+date: "2023-08-13"
 ---
 
 ## 1. 문제
@@ -22,22 +22,22 @@ T = int(input())
 for _ in range(T):
     # A 집합의 길이를 입력받습니다.
     A_leng = input()
-    
+
     # A 집합의 원소들을 공백을 기준으로 분리하여 정수로 변환하고 리스트로 저장합니다.
     A_set = map(int, input().split())
-    
+
     # B 집합의 길이를 입력받습니다.
     B_leng = input()
-    
+
     # B 집합의 원소들을 공백을 기준으로 분리하여 정수로 변환하고 리스트로 저장합니다.
     B_set = map(int, input().split())
 
     # A 집합의 각 원소의 개수를 세어 Counter 객체를 생성합니다.
     counterA = Counter(A_set)
-    
+
     # B 집합의 각 원소의 개수를 세어 Counter 객체를 생성합니다.
     counterB = Counter(B_set)
-    
+
     # 모든 A 집합의 원소들에 대해, 해당 원소의 개수가 B 집합의 해당 원소의 개수보다 작거나 같은지 검사합니다.
     # 만약 모든 원소들이 조건을 만족하면 "True"를 출력하고, 그렇지 않으면 "False"를 출력합니다.
     if all(counterA[item] <= counterB[item] for item in counterA):

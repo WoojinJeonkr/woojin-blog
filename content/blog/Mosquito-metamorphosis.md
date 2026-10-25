@@ -2,7 +2,7 @@
 external: false
 title: "Mosquito metamorphosis"
 tag: [Python]
-date: 2026-09-08
+date: "2026-09-08"
 ---
 
 ## 1. Problem

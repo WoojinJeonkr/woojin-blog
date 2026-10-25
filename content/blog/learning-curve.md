@@ -2,7 +2,7 @@
 external: false
 title: "learning curve"
 tag: [CS]
-date: 2022-11-01
+date: "2022-11-01"
 ---
 
 ## 1. 학습곡선(Learning curve)

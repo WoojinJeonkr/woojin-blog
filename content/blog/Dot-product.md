@@ -2,7 +2,7 @@
 external: false
 title: "Dot product"
 tag: [Programmers, Java]
-date: 2024-11-04
+date: "2024-11-04"
 ---
 
 ## 1. Problem

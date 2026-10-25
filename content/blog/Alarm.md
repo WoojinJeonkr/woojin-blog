@@ -2,7 +2,7 @@
 external: false
 title: "Alarm"
 tag: [Arduino, C++]
-date: 2022-09-08
+date: "2022-09-08"
 ---
 
 ## ⛳️ 구현 목표
@@ -32,7 +32,7 @@ void loop(){
   for (int x = 0; x < 180; x++){
     // 사인파의 각도를 라디안 측도로 변환
     sinVal = (sin(x*(3.1412/180)));
-    
+
     // 정현파에 의해 다른 주파수의 소리 생성
     value
     toneVal = 2000 + (int(sinVal*1000));

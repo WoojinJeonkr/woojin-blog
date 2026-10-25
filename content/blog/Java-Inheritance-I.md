@@ -2,7 +2,7 @@
 external: false
 title: "Java Inheritance I"
 tag: [Hackerrank, Java]
-date: 2024-03-12
+date: "2024-03-12"
 ---
 
 ## 1. Problem

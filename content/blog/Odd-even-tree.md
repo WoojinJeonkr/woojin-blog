@@ -2,7 +2,7 @@
 external: false
 title: "Odd even tree"
 tag: [Programmers, Python]
-date: 2025-07-20
+date: "2025-07-20"
 ---
 
 ## 1. Problem

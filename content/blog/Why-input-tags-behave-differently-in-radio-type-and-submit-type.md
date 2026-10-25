@@ -2,7 +2,7 @@
 external: false
 title: "Why input tags behave differently in radio type and submit type"
 tag: [HTML]
-date: 2025-03-22
+date: "2025-03-22"
 ---
 
 커뮤니티를 돌아다니다가 아래의 질문을 발견하게 되었다.

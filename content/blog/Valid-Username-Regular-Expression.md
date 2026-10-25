@@ -2,7 +2,7 @@
 external: false
 title: "Valid Username Regular Expression"
 tag: [Hackerrank, Java]
-date: 2024-03-09
+date: "2024-03-09"
 ---
 
 ## 1. Problem

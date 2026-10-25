@@ -2,7 +2,7 @@
 external: false
 title: "Analog clock"
 tag: [Programmers, Python]
-date: 2025-03-20
+date: "2025-03-20"
 ---
 
 ## 1. Problem

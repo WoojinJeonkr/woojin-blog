@@ -2,7 +2,7 @@
 external: false
 title: "Find by swap string"
 tag: [Programmers, Python]
-date: 2025-07-16
+date: "2025-07-16"
 ---
 
 ## 1. Problem

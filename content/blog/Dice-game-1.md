@@ -2,7 +2,7 @@
 external: false
 title: "Dice game 1"
 tag: [Programmers, Python]
-date: 2025-03-26
+date: "2025-03-26"
 ---
 
 ## 1. Problem

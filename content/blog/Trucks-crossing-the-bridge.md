@@ -2,7 +2,7 @@
 external: false
 title: "Trucks crossing the bridge"
 tag: [Programmers, Java]
-date: 2024-10-01
+date: "2024-10-01"
 ---
 
 ## 1. Problem

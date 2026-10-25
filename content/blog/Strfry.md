@@ -2,7 +2,7 @@
 external: false
 title: "Strfry"
 tag: [Baekjoon, Python]
-date: 2026-01-01
+date: "2026-01-01"
 ---
 
 ## 1. Problem

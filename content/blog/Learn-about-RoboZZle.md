@@ -2,22 +2,22 @@
 external: false
 title: "Learn about RoboZZle"
 tag: [RoboZZle]
-date: 2023-12-01
+date: "2023-12-01"
 ---
 
 ## 1. RoboZZle이란?
 
-RoboZZle은 게임 보드의 모든 별을 선택하도록 로봇을 프로그래밍하는 소셜 퍼즐 게임입니다. 이 퍼즐은 루프와 조건문뿐만 아니라 추상화(서브루틴 정의)와 재귀를 사용하여 알고리즘과 프로그래밍의 주요 지적 요소를 제공합니다. 퍼즐의 난이도는 다양하며 이미 만들어져 있는 문제들을 풀어보거나 새로 본인이 문제를 생성할 수 있습니다.  
-RoboZZle을 풀어보고 싶다면 [여기](http://www.robozzle.com/beta/)에 접속하여 튜토리얼부터 다양한 문제를 풀어볼 수 있습니다.  
-접속하면 다음과 같은 튜토리얼을 통해 문제를 푸는 방법에 대해 학습할 수 있습니다.  
+RoboZZle은 게임 보드의 모든 별을 선택하도록 로봇을 프로그래밍하는 소셜 퍼즐 게임입니다. 이 퍼즐은 루프와 조건문뿐만 아니라 추상화(서브루틴 정의)와 재귀를 사용하여 알고리즘과 프로그래밍의 주요 지적 요소를 제공합니다. 퍼즐의 난이도는 다양하며 이미 만들어져 있는 문제들을 풀어보거나 새로 본인이 문제를 생성할 수 있습니다.
+RoboZZle을 풀어보고 싶다면 [여기](http://www.robozzle.com/beta/)에 접속하여 튜토리얼부터 다양한 문제를 풀어볼 수 있습니다.
+접속하면 다음과 같은 튜토리얼을 통해 문제를 푸는 방법에 대해 학습할 수 있습니다.
 
 ![RoboZZle Tutorial 1](/images/RoboZZle.png)
 
 ## 2. RoboZZle의 역사
 
-RoboZZle은 2009년에 [Igor Konovalov](https://twitter.com/igoro)(RoboZZle 메인 개발자), Mark Byers(서버 측 솔루션 확인 도구 & 퍼즐에 대한 '편집' 링크 생성기 개발), 그리고 Blake Coverett(자바스크립트 RoboZZle 클라이언트)에 의해 Microsoft의 Silverlight 기술을 사용하여 개발된 프로그래밍 및 로봇 제어 퍼즐 게임으로 사용자가 로봇을 프로그래밍하여 다양한 퍼즐을 해결하는 것을 목표로 합니다.  
-Silverlight는 Microsoft에서 개발한 웹 애플리케이션 및 Rich Internet Application (RIA)을 만들기 위한 플러그인 기반 프레임워크입니다. 이 기술은 주로 웹 브라우저에서 멀티미디어 컨텐츠를 제공하고 상호 작용성을 향상시키는 데 사용되었습니다.  
-Silverlight는 XAML을 사용하여 사용자 인터페이스를 정의하고 표현하며 멀티미디어가 지원되고 웹 브라우저에 플러그인을 설치해야했으며 여러 플랫폼에서 독립적으로 동작한다는 특징을 갖고 있었지만 HTML5, CSS3, JavaScript 등의 웹 표준 기술의 발전과 모바일 기기의 보급 및 Silverlight를 사용한 애플리케이션의 개발 및 유지 보수가 복잡하다는 단점으로 새로운 프로젝트에서의 사용이 감소하게 되어 Microsoft는 이러한 이유로 Silverlight의 개발 및 지원을 중단하고, 대신 웹 표준에 중점을 두는 방향으로 전환하였습니다.  
+RoboZZle은 2009년에 [Igor Konovalov](https://twitter.com/igoro)(RoboZZle 메인 개발자), Mark Byers(서버 측 솔루션 확인 도구 & 퍼즐에 대한 '편집' 링크 생성기 개발), 그리고 Blake Coverett(자바스크립트 RoboZZle 클라이언트)에 의해 Microsoft의 Silverlight 기술을 사용하여 개발된 프로그래밍 및 로봇 제어 퍼즐 게임으로 사용자가 로봇을 프로그래밍하여 다양한 퍼즐을 해결하는 것을 목표로 합니다.
+Silverlight는 Microsoft에서 개발한 웹 애플리케이션 및 Rich Internet Application (RIA)을 만들기 위한 플러그인 기반 프레임워크입니다. 이 기술은 주로 웹 브라우저에서 멀티미디어 컨텐츠를 제공하고 상호 작용성을 향상시키는 데 사용되었습니다.
+Silverlight는 XAML을 사용하여 사용자 인터페이스를 정의하고 표현하며 멀티미디어가 지원되고 웹 브라우저에 플러그인을 설치해야했으며 여러 플랫폼에서 독립적으로 동작한다는 특징을 갖고 있었지만 HTML5, CSS3, JavaScript 등의 웹 표준 기술의 발전과 모바일 기기의 보급 및 Silverlight를 사용한 애플리케이션의 개발 및 유지 보수가 복잡하다는 단점으로 새로운 프로젝트에서의 사용이 감소하게 되어 Microsoft는 이러한 이유로 Silverlight의 개발 및 지원을 중단하고, 대신 웹 표준에 중점을 두는 방향으로 전환하였습니다.
 2009년 5월 23일에 RoboZZle을 개발한 Igor Konovalov씨의 글에는 본인의 평가한 RoboZZle의 특징에 대한 등급(2009년 5월 기준)이 기재되어 있습니다.
 
 ### 2-1. 게임 중독성: A

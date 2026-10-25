@@ -2,7 +2,7 @@
 external: false
 title: "Viral Advertising"
 tag: [Hackerrank, Java]
-date: 2024-02-16
+date: "2024-02-16"
 ---
 
 ## 1. Problem

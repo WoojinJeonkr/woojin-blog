@@ -2,7 +2,7 @@
 external: false
 title: "Failure rate"
 tag: [Programmers, Python]
-date: 2025-01-02
+date: "2025-01-02"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Base N game"
 tag: [Programmers, Java]
-date: 2024-09-24
+date: "2024-09-24"
 ---
 
 ## 1. Problem

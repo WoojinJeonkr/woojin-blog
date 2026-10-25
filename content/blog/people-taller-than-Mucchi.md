@@ -2,7 +2,7 @@
 external: false
 title: "people taller than Mucchi"
 tag: [Programmers, Python]
-date: 2025-03-09
+date: "2025-03-09"
 ---
 
 ## 1. Problem

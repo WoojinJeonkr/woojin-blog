@@ -2,7 +2,7 @@
 external: false
 title: "Personal data retention period"
 tag: [Programmers, Python]
-date: 2025-02-26
+date: "2025-02-26"
 ---
 
 ## 1. Problem

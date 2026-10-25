@@ -2,7 +2,7 @@
 external: false
 title: "Sequence of events when domain address is entered into a web browser"
 tag: [Network]
-date: 2025-04-14
+date: "2025-04-14"
 ---
 
 ## 1. DNS 조회

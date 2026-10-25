@@ -2,7 +2,7 @@
 external: false
 title: "Beautiful Days at the Movies"
 tag: [Hackerrank, Java]
-date: 2024-04-13
+date: "2024-04-13"
 ---
 
 ## 1. Problem

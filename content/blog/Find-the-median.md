@@ -2,7 +2,7 @@
 external: false
 title: "Find the median"
 tag: [Hackerrank, PHP]
-date: 2025-10-16
+date: "2025-10-16"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Car rental status check"
 tag: [Programmers, SQL]
-date: 2025-02-04
+date: "2025-02-04"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Safe zone"
 tag: [Programmers, Python]
-date: 2025-05-10
+date: "2025-05-10"
 ---
 
 ## 1. Problem

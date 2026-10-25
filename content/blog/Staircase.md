@@ -2,7 +2,7 @@
 external: false
 title: "Staircase"
 tag: [Hackerrank, Java]
-date: 2023-12-19
+date: "2023-12-19"
 ---
 
 ## 1. 문제
@@ -24,18 +24,18 @@ class Result {
      * 'staircase' 함수는 정수 n을 매개변수로 받아, 계단 모양의 문자열을 출력합니다.
      * 계단의 높이는 n이며, 각 계단은 공백과 '#' 문자로 구성됩니다.
      */
-    
+
     public static void staircase(int n) {
     // 계단 모양을 출력하는 코드를 작성합니다.
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" "); // 현재 계단의 왼쪽에 필요한 공백을 출력합니다.
             }
-            
+
             for (int k = 1; k <= i; k++) {
                 System.out.print("#"); // 현재 계단의 '#' 문자를 출력합니다.
             }
-            
+
             System.out.print("\n"); // 한 계단이 끝나면 개행하여 다음 계단으로 이동합니다.
         }
     }

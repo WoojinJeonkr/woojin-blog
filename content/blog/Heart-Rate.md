@@ -2,7 +2,7 @@
 external: false
 title: "Heart Rate"
 tag: [Baekjoon, Python]
-date: 2026-01-31
+date: "2026-01-31"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4606"
 tag: [Baekjoon, Python]
-date: 2023-08-03
+date: "2023-08-03"
 ---
 
 ## 1. 문제
@@ -15,7 +15,7 @@ date: 2023-08-03
 # 주어진 문자열을 percent-encoding 방식으로 변환하는 함수
 def percent_encode(input_str):
     # URL 인코딩 테이블 정의
-    encoding_table = { " ": "%20", "!": "%21", "$": "%24", "%": "%25", 
+    encoding_table = { " ": "%20", "!": "%21", "$": "%24", "%": "%25",
                        "(": "%28", ")": "%29", "*": "%2a" }
     # 결과를 저장할 빈 문자열 생성
     result = ""

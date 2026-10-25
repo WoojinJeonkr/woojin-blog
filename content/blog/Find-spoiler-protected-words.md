@@ -2,7 +2,7 @@
 external: false
 title: "Find spoiler protected words"
 tag: [Baekjoon, Python]
-date: 2026-04-16
+date: "2026-04-16"
 ---
 
 ## 1. Problem

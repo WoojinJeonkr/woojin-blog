@@ -2,7 +2,7 @@
 external: false
 title: "Input and Output"
 tag: [Hackerrank, C++]
-date: 2023-08-18
+date: "2023-08-18"
 ---
 
 ## 1. 문제
@@ -23,18 +23,18 @@ using namespace std;
 int main() {
     vector<int> numbers;
     int num;
-    
+
     while (cin >> num) {
         numbers.push_back(num);
     }
-    
+
     int sum;
     for (int i = 0; i < numbers.size(); i++) {
         sum += numbers[i];
     }
-    
+
     cout << sum;
-    
+
     return 0;
 }
 ```

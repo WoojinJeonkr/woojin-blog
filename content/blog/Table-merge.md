@@ -2,7 +2,7 @@
 external: false
 title: "Table merge"
 tag: [Programmers, Python]
-date: 2025-09-13
+date: "2025-09-13"
 ---
 
 ## 1. Problem

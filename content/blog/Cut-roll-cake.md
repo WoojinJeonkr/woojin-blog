@@ -2,7 +2,7 @@
 external: false
 title: "Cut roll cake"
 tag: [Programmers, Java]
-date: 2024-09-25
+date: "2024-09-25"
 ---
 
 ## 1. Problem

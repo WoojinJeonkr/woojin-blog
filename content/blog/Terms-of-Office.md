@@ -2,7 +2,7 @@
 external: false
 title: "Terms of Office"
 tag: [Baekjoon, Python]
-date: 2026-02-18
+date: "2026-02-18"
 ---
 
 ## 1. Problem

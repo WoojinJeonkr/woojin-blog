@@ -2,7 +2,7 @@
 external: false
 title: "Weather temperature analysis"
 tag: [Python]
-date: 2026-10-05
+date: "2026-10-05"
 ---
 
 ## 1. Problem

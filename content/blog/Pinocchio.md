@@ -2,7 +2,7 @@
 external: false
 title: "Pinocchio"
 tag: [Baekjoon, Python]
-date: 2026-04-06
+date: "2026-04-06"
 ---
 
 ## 1. Problem

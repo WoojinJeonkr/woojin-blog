@@ -2,7 +2,7 @@
 external: false
 title: "God of parking"
 tag: [Baekjoon, Python]
-date: 2025-12-09
+date: "2025-12-09"
 ---
 
 ## 1. Problem

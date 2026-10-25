@@ -2,7 +2,7 @@
 external: false
 title: "Pencils from the 19th Century"
 tag: [Baekjoon, Python]
-date: 2025-12-14
+date: "2025-12-14"
 ---
 
 ## 1. Problem

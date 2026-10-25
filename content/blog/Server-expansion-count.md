@@ -2,7 +2,7 @@
 external: false
 title: "Server expansion count"
 tag: [Programmers, Python]
-date: 2025-05-31
+date: "2025-05-31"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Finding prime numbers"
 tag: [Programmers, Java]
-date: 2024-09-15
+date: "2024-09-15"
 ---
 
 ## 1. Problem

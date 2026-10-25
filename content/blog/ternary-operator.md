@@ -2,7 +2,7 @@
 external: false
 title: "ternary operator"
 tag: [Python]
-date: 2022-09-14
+date: "2022-09-14"
 ---
 
 ## 1. 삼항 연산자란?

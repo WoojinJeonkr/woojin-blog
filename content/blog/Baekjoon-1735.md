@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1735"
 tag: [Baekjoon, Python]
-date: 2022-12-03
+date: "2022-12-03"
 ---
 
 ## 1. Problem
@@ -15,7 +15,7 @@ date: 2022-12-03
 def gcd(x, y):
     if y == 0:
         return x
-    x, y = y, x % y 
+    x, y = y, x % y
     return gcd(x, y)
 
 n1, d1 = map(int, input().split())

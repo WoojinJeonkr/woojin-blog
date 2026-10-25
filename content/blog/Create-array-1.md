@@ -2,7 +2,7 @@
 external: false
 title: "Create array 1"
 tag: [Programmers, Java]
-date: 2024-07-09
+date: "2024-07-09"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Aquarium temperature monitoring"
 tag: [Python]
-date: 2026-09-25
+date: "2026-09-25"
 ---
 
 ## 1. Problem

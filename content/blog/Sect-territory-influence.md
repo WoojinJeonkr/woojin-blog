@@ -2,7 +2,7 @@
 external: false
 title: "Sect territory influence"
 tag: [Python]
-date: 2026-06-13
+date: "2026-06-13"
 ---
 
 ## 1. Problem

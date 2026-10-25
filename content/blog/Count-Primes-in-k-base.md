@@ -2,7 +2,7 @@
 external: false
 title: "Count Primes in k base"
 tag: [Programmers, Java]
-date: 2024-09-18
+date: "2024-09-18"
 ---
 
 ## 1. Problem

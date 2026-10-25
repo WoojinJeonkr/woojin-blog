@@ -2,7 +2,7 @@
 external: false
 title: "Global email delivery scheduling"
 tag: [Python]
-date: 2026-06-01
+date: "2026-06-01"
 ---
 
 ## 1. Problem

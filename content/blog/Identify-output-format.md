@@ -2,7 +2,7 @@
 external: false
 title: "Identify output format"
 tag: [C++]
-date: 2023-06-11
+date: "2023-06-11"
 ---
 
 ## 1. 헤더 파일 호출하기

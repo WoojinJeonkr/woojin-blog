@@ -2,7 +2,7 @@
 external: false
 title: "Intercept system"
 tag: [Programmers, Java]
-date: 2024-10-15
+date: "2024-10-15"
 ---
 
 ## 1. Problem

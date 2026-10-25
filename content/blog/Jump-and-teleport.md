@@ -2,7 +2,7 @@
 external: false
 title: "Jump and teleport"
 tag: [Programmers, Java]
-date: 2024-09-06
+date: "2024-09-06"
 ---
 
 ## 1. Problem

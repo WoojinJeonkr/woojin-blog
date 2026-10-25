@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1141"
 tag: [Baekjoon, Python]
-date: 2023-04-10
+date: "2023-04-10"
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ for i in range(n):
         if words[i] == words[j][0:len(words[i])]:
             flag = True
             break
-    
+
     if not flag:
         res += 1
 

@@ -2,7 +2,7 @@
 external: false
 title: "Rainfall data analysis"
 tag: [Python]
-date: 2026-10-14
+date: "2026-10-14"
 ---
 
 ## 1. Problem

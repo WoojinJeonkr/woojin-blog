@@ -2,7 +2,7 @@
 external: false
 title: "Calculating memory usage"
 tag: [PromLens, PromQL]
-date: 2025-10-01
+date: "2025-10-01"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Removing elements from an array"
 tag: [Programmers, Python]
-date: 2025-03-17
+date: "2025-03-17"
 ---
 
 ## 1. Problem

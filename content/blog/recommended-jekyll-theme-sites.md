@@ -2,7 +2,7 @@
 external: false
 title: "Recommended Jekyll Theme Sites"
 tag: [Jekyll, Site]
-date: 2022-09-20
+date: "2022-09-20"
 ---
 
 ## 1. [jekyllthemes.org](http://jekyllthemes.org/)

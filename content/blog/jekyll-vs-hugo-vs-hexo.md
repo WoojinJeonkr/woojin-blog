@@ -3,7 +3,7 @@ external: false
 title: "jekyll vs hugo vs hexo"
 description: Let's explore the differences between Jekyll, Hugo, and Hexo.
 tag: [Jekyll]
-date: 2022-09-30
+date: "2022-09-30"
 ---
 
 ## 1. 정적 웹사이트 생성기란?

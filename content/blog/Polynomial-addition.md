@@ -2,7 +2,7 @@
 external: false
 title: "Polynomial addition"
 tag: [Programmers, Python]
-date: 2025-08-14
+date: "2025-08-14"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Parallel"
 tag: [Programmers, Python]
-date: 2025-07-29
+date: "2025-07-29"
 ---
 
 ## 1. Problem

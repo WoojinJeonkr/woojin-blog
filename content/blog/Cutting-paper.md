@@ -2,7 +2,7 @@
 external: false
 title: "Cutting paper"
 tag: [Programmers, Python]
-date: 2025-06-03
+date: "2025-06-03"
 ---
 
 ## 1. Problem

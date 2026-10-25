@@ -2,7 +2,7 @@
 external: false
 title: "Restore the formula"
 tag: [Programmers, Python]
-date: 2025-10-06
+date: "2025-10-06"
 ---
 
 ## 1. Problem
@@ -24,7 +24,7 @@ def from_base10(num_10, base):
     """10진수 정수를 주어진 진법의 문자열로 변환"""
     if num_10 == 0:
         return "0"
-    
+
     res = ""
     temp_num = num_10
     while temp_num > 0:
@@ -34,16 +34,16 @@ def from_base10(num_10, base):
     return res
 
 def solution(expressions):
-    
+
     # 1. 최소 진법 결정을 위한 최대 자릿수 계산
     max_digit = 0
     for expr in expressions:
         parts = expr.split()
         A, op, B, C = parts[0], parts[1], parts[2], parts[4]
-        
+
         for char in A + B:
             max_digit = max(max_digit, int(char))
-        
+
         if C != 'X':
             for char in C:
                 max_digit = max(max_digit, int(char))
@@ -53,58 +53,58 @@ def solution(expressions):
 
     # 2. 알려진 수식을 통해 가능한 진법 집합 확정
     possible_bases = set(range(min_base, 10))
-    
+
     for expr in expressions:
         parts = expr.split()
         A, op, B, C = parts[0], parts[1], parts[2], parts[4]
-        
+
         if C != 'X': # 결과가 알려진 수식 확인
             valid_bases_for_expr = set()
             bases_to_check = list(possible_bases)
-            
+
             for base in bases_to_check:
                 val_A = to_base10(A, base)
                 val_B = to_base10(B, base)
                 val_C = to_base10(C, base)
-                
+
                 result = val_A + val_B if op == '+' else val_A - val_B
-                
+
                 if result == val_C:
                     valid_bases_for_expr.add(base)
-            
+
             possible_bases = possible_bases.intersection(valid_bases_for_expr)
 
     # 3. 'X' 수식 결과 복원 및 최종 결과 생성
     final_restored_expressions = []
-    
+
     for expr in expressions:
         parts = expr.split()
         A, op, B, C = parts[0], parts[1], parts[2], parts[4]
-        
+
         if C == 'X':
             base_results = set()
-            
+
             for base in possible_bases:
                 # 10진수 계산
                 val_A = to_base10(A, base)
                 val_B = to_base10(B, base)
                 result_10 = val_A + val_B if op == '+' else val_A - val_B
-                    
+
                 # 해당 진법으로 변환
                 result_base = from_base10(result_10, base)
                 base_results.add(result_base)
-            
+
             new_C = ""
             if not possible_bases:
                 new_C = "?"
             elif len(base_results) == 1:
                 # 결과가 유일하면 확정
                 new_C = base_results.pop()
-            else: 
+            else:
                 # 결과가 다르면 불확실(?)
                 new_C = "?"
-                
+
             final_restored_expressions.append(f"{A} {op} {B} = {new_C}")
-            
+
     return final_restored_expressions
 ```

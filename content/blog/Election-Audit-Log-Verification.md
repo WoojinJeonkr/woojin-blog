@@ -2,7 +2,7 @@
 external: false
 title: "Election Audit Log Verification"
 tag: [Python]
-date: 2026-06-05
+date: "2026-06-05"
 ---
 
 ## 1. Problem

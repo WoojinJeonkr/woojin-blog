@@ -2,7 +2,7 @@
 external: false
 title: "Minimum Distances"
 tag: [Hackerrank, Java]
-date: 2024-04-15
+date: "2024-04-15"
 ---
 
 ## 1. Problem

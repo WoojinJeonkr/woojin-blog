@@ -2,7 +2,7 @@
 external: false
 title: "Radar obstacle detection"
 tag: [Python]
-date: 2026-09-09
+date: "2026-09-09"
 ---
 
 ## 1. Problem

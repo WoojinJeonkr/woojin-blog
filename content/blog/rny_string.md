@@ -2,7 +2,7 @@
 external: false
 title: "rny_string"
 tag: [Programmers, Python]
-date: 2025-03-13
+date: "2025-03-13"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Get annual air pollution averages"
 tag: [Programmers, SQL]
-date: 2025-02-12
+date: "2025-02-12"
 ---
 
 ## 1. Problem

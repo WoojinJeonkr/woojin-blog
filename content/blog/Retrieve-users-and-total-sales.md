@@ -2,7 +2,7 @@
 external: false
 title: "Retrieve users and total sales"
 tag: [Programmers, SQL]
-date: 2024-07-06
+date: "2024-07-06"
 ---
 
 ## 1. Problem

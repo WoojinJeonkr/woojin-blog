@@ -2,7 +2,7 @@
 external: false
 title: "Candidate key"
 tag: [Programmers, Java]
-date: 2024-10-19
+date: "2024-10-19"
 ---
 
 ## 1. Problem

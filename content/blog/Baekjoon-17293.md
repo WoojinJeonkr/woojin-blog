@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 17293"
 tag: [Baekjoon, Python]
-date: 2023-07-30
+date: "2023-07-30"
 ---
 
 ## 1. 문제
@@ -21,7 +21,7 @@ def print_beer(n):
 
         # 현재 병의 개수로 노래의 첫 번째 구절을 출력합니다.
         print(f"{i} {bottles} of beer on the wall, {i} {bottles} of beer.")
-        
+
         # 다음 병의 개수로 노래의 두 번째 구절을 출력합니다.
         # 만약 i가 1보다 크다면, 다음 병의 개수로 i-1을 사용합니다.
         # 그렇지 않으면 "no more"를 사용하여 더 이상 병이 없음을 표시합니다.
@@ -29,7 +29,7 @@ def print_beer(n):
 
     # 더 이상 맥주 병이 없는 경우의 노래의 마지막 구절을 출력합니다.
     print("No more bottles of beer on the wall, no more bottles of beer.")
-    
+
     # 상점에서 더 많은 병을 사야하는 경우의 마지막 문장을 출력합니다.
     # 원래 n 값으로 구매할 병의 개수를 나타냅니다.
     print(f"Go to the store and buy some more, {n} {'bottle' if n == 1 else 'bottles'} of beer on the wall.")

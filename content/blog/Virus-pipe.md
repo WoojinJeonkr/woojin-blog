@@ -2,7 +2,7 @@
 external: false
 title: "Virus pipe"
 tag: [Programmers, Python]
-date: 2026-04-20
+date: "2026-04-20"
 ---
 
 ## 1. Problem

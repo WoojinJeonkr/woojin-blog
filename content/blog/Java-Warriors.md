@@ -2,7 +2,7 @@
 external: false
 title: "Java Warriors"
 tag: [Baekjoon, Python]
-date: 2026-02-12
+date: "2026-02-12"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Shortest path in game map"
 tag: [Programmers, Java]
-date: 2024-12-01
+date: "2024-12-01"
 ---
 
 ## 1. Problem

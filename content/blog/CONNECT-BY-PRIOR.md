@@ -2,7 +2,7 @@
 external: false
 title: "CONNECT BY PRIOR"
 tag: [Hackerrank, SQL]
-date: 2023-11-14
+date: "2023-11-14"
 ---
 
 ## 1. CONNECT BY PRIOR
@@ -13,7 +13,7 @@ CONNECT BY PRIOR 구문을 사용하면 부모-자식 간의 관계를 기반으
 ## 2. 구문
 
 ```sql
-SELECT * 
+SELECT *
 FROM table_name
 START WITH condition
 CONNECT BY PRIOR column_name = column_name;

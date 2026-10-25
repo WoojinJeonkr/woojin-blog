@@ -2,7 +2,7 @@
 external: false
 title: "Dedupe"
 tag: [Baekjoon, Python]
-date: 2026-02-21
+date: "2026-02-21"
 ---
 
 ## 1. Problem

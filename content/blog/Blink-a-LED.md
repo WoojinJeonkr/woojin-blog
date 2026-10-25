@@ -2,7 +2,7 @@
 external: false
 title: "Blink a LED"
 tag: [Arduino, C++]
-date: 2022-09-03
+date: "2022-09-03"
 ---
 
 ## 💡 Arduino

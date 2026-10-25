@@ -2,7 +2,7 @@
 external: false
 title: "PCCE storage cleanup"
 tag: [Programmers, Python]
-date: 2025-06-16
+date: "2025-06-16"
 ---
 
 ## 1. Problem

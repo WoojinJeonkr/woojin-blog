@@ -2,7 +2,7 @@
 external: false
 title: "Herbal prescription"
 tag: [Python]
-date: 2026-08-06
+date: "2026-08-06"
 ---
 
 ## 1. Problem

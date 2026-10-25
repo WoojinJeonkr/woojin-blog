@@ -2,7 +2,7 @@
 external: false
 title: "Diagonal Difference"
 tag: [Hackerrank, Python]
-date: 2023-12-07
+date: "2023-12-07"
 ---
 
 ## 1. 문제

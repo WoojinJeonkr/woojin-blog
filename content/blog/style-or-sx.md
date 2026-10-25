@@ -2,7 +2,7 @@
 external: false
 title: "style or sx"
 tag: [CSS]
-date: 2023-02-14
+date: "2023-02-14"
 ---
 
 ## 1. inline style
@@ -19,7 +19,7 @@ React/tsx에서의 style 속성은 html의 style 속성과 다르게 React.CSSPr
 <div style={{padding: 2}}>This is div element</div>
 ```
 
-이 때 html을 반환하는 tsx문법은 react가 변환할 때 모든 속성이 props 객체의 일부가 된다.  
+이 때 html을 반환하는 tsx문법은 react가 변환할 때 모든 속성이 props 객체의 일부가 된다.
 따라서 렌더링때마다 style 객체가 계산되기 때문에 성능적인 면과 재사용 부분에서 추천되지 않는다.
 
 ## 2. sx

@@ -2,7 +2,7 @@
 external: false
 title: "itertools permutations()"
 tag: [Hackerrank, Python]
-date: 2023-09-04
+date: "2023-09-04"
 ---
 
 ## 1. 문제

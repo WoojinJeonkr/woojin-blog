@@ -2,7 +2,7 @@
 external: false
 title: "Mini Max Sum"
 tag: [Hackerrank, Java]
-date: 2023-12-20
+date: "2023-12-20"
 ---
 
 ## 1. 문제
@@ -31,14 +31,14 @@ class Result {
         Collections.sort(arr); // 배열을 오름차순으로 정렬합니다.
 
         long totalSum = 0;
-        
+
         for (int i : arr) {
             totalSum += i; // 배열의 합을 계산합니다.
         }
-        
+
         long minimumSum = totalSum - arr.get(arr.size() - 1); // 최소값을 구합니다.
         long maximumSum = totalSum - arr.get(0); // 최대값을 구합니다.
-        
+
         System.out.printf("%d %d", minimumSum, maximumSum); // 최소값과 최대값을 출력합니다.
     }
 }

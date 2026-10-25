@@ -2,7 +2,7 @@
 external: false
 title: "Star sequence"
 tag: [Programmers, Java]
-date: 2024-08-24
+date: "2024-08-24"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Subway line avg station dist"
 tag: [Programmers, SQL]
-date: 2024-06-24
+date: "2024-06-24"
 ---
 
 ## 1. Problem

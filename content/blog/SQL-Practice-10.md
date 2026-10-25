@@ -2,7 +2,7 @@
 external: false
 title: "SQL Practice 10"
 tag: [SQL Practice, SQL]
-date: 2023-08-04
+date: "2023-08-04"
 ---
 
 ## 1. 문제 [[SQL Practice (Difficult: Easy) 15번](https://www.sql-practice.com/)]
@@ -21,8 +21,8 @@ date: 2023-08-04
 ## 2. 정답
 
 ```sql
-SELECT first_name, last_name, birth_date 
-FROM patients 
+SELECT first_name, last_name, birth_date
+FROM patients
 where height > 160 and weight > 70;
 ```
 

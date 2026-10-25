@@ -2,7 +2,7 @@
 external: false
 title: "Edit table"
 tag: [Programmers, Python]
-date: 2025-08-18
+date: "2025-08-18"
 ---
 
 ## 1. Problem

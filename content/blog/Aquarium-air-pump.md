@@ -2,7 +2,7 @@
 external: false
 title: "Aquarium air pump"
 tag: [Python]
-date: 2026-09-21
+date: "2026-09-21"
 ---
 
 ## 1. Problem

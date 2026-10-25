@@ -2,7 +2,7 @@
 external: false
 title: "Functions in C"
 tag: [Hackerrank, C]
-date: 2024-05-09
+date: "2024-05-09"
 ---
 
 ## 1. Problem

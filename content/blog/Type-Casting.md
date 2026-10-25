@@ -2,7 +2,7 @@
 external: false
 title: "Type Casting"
 tag: [Typescript]
-date: 2022-11-27
+date: "2022-11-27"
 ---
 
 ## 1. 타입 형변환

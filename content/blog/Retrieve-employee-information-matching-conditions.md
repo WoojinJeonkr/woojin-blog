@@ -2,7 +2,7 @@
 external: false
 title: "Retrieve employee information matching conditions"
 tag: [Programmers, SQL]
-date: 2024-06-26
+date: "2024-06-26"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Calculating number of fish caught per month"
 tag: [Programmers, SQL]
-date: 2024-06-20
+date: "2024-06-20"
 ---
 
 ## 1. Problem

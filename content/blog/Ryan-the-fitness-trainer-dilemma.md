@@ -2,7 +2,7 @@
 external: false
 title: "Ryan the fitness trainer dilemma"
 tag: [Programmers, Java]
-date: 2025-10-24
+date: "2025-10-24"
 ---
 
 ## 1. Problem

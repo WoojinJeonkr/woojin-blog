@@ -2,7 +2,7 @@
 external: false
 title: "Re split()"
 tag: [Hackerrank, Python]
-date: 2023-09-15
+date: "2023-09-15"
 ---
 
 ## 1. 문제

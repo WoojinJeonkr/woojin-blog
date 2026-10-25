@@ -2,7 +2,7 @@
 external: false
 title: "Branch pruning"
 tag: [Python]
-date: 2026-08-18
+date: "2026-08-18"
 ---
 
 ## 1. Problem

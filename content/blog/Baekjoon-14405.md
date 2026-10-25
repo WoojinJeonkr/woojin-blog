@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 14405"
 tag: [Baekjoon, Python]
-date: 2023-12-10
+date: "2023-12-10"
 ---
 
 ## 1. 문제
@@ -20,7 +20,7 @@ while문과 for문을 이용하여 문자열을 순회하며 "pi", "ka", "chu"�
 def is_pikachu(s):
     # 피카츄의 발음 가능한 단어들
     pikachu_words = ["pi", "ka", "chu"]
-    
+
     # 문자열 S를 모두 소진할 때까지 반복
     while s:
         found = False
@@ -35,7 +35,7 @@ def is_pikachu(s):
         # 어떤 단어와도 맞지 않는 경우 "NO" 반환
         if not found:
             return "NO"
-    
+
     # 모든 발음 가능한 단어를 찾았다면 "YES" 반환
     return "YES"
 

@@ -2,7 +2,7 @@
 external: false
 title: "Recycling waste classification"
 tag: [Python]
-date: 2026-10-25
+date: "2026-10-25"
 ---
 
 ## 1. Problem

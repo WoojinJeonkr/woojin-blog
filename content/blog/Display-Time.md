@@ -3,7 +3,7 @@ external: false
 title: "Display Time"
 description: How to display time in TypeScript?
 tag: [Typescript]
-date: 2022-10-27
+date: "2022-10-27"
 ---
 
 ## 1. TypeScript에서 시간 표시하기

@@ -2,7 +2,7 @@
 external: false
 title: "Identifying Third Generation E coli"
 tag: [Programmers, SQL]
-date: 2025-01-09
+date: "2025-01-09"
 ---
 
 ## 1. Problem

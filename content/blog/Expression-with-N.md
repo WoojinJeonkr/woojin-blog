@@ -2,7 +2,7 @@
 external: false
 title: "Expression with N"
 tag: [Programmers, Java]
-date: 2024-11-28
+date: "2024-11-28"
 ---
 
 ## 1. Problem

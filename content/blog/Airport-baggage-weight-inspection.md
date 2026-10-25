@@ -2,7 +2,7 @@
 external: false
 title: "Airport baggage weight inspection"
 tag: [Python]
-date: 2026-10-19
+date: "2026-10-19"
 ---
 
 ## 1. Problem

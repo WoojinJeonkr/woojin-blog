@@ -3,12 +3,12 @@ external: false
 title: "Cascading Dropdown"
 description: "Let's create a dropdown that receives values sequentially according to the key value"
 tag: [React, Typescript]
-date: 2022-11-25
+date: "2022-11-25"
 ---
 
 ## 1. Cascading Dropdown
 
-{% codepen url="https://codepen.io/calomys/full/yLEjxJX" title="cascading dropdowns" /%}
+{% codepen url="<https://codepen.io/calomys/full/yLEjxJX>" title="cascading dropdowns" /%}
 
 ## 2. Reference
 

@@ -2,7 +2,7 @@
 external: false
 title: "Finite decimal determination"
 tag: [Programmers, Python]
-date: 2025-05-12
+date: "2025-05-12"
 ---
 
 ## 1. Problem

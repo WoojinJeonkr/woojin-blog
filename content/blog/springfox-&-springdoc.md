@@ -2,7 +2,7 @@
 external: false
 title: "springfox & springdoc"
 tag: [Java, Swagger]
-date: 2023-01-21
+date: "2023-01-21"
 ---
 
 ## 1. Swagger란?
@@ -77,7 +77,7 @@ public class SwaggerConfig {
 
 ```java
 public class SwaggerConfig implements WebMvcConfigurer {
-    
+
   @Override
   public void addResourceHandlers(ResourceHandlerRegistry registry) {
     registry.addResourceHandler("swagger-ui.html")
@@ -132,7 +132,7 @@ import io.swagger.v3.oas.models.security.SecurityScheme;
 public class SwaggerConfig {
   @Bean
     public OpenAPI openAPI(@Value("${springdoc.version}") String version) {
-        
+
     Info info = new Info()
                 .title("Documentation Title") // 문서 제목
                 .version(version) // 문서 버전

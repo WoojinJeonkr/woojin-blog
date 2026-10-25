@@ -2,7 +2,7 @@
 external: false
 title: "Error Handling in Java"
 tag: [Java, Hackerrank]
-date: 2024-03-15
+date: "2024-03-15"
 ---
 
 ## 1. 서론

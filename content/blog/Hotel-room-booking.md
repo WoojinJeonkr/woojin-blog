@@ -2,7 +2,7 @@
 external: false
 title: "Hotel room booking"
 tag: [Programmers, Java]
-date: 2024-08-07
+date: "2024-08-07"
 ---
 
 ## 1. Problem

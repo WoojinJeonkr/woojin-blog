@@ -2,7 +2,7 @@
 external: false
 title: "Movie booking rush"
 tag: [Python]
-date: 2026-07-30
+date: "2026-07-30"
 ---
 
 ## 1. Problem

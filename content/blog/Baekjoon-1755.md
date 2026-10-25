@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1755"
 tag: [Baekjoon, Python]
-date: 2023-01-16
+date: "2023-01-16"
 ---
 
 ## 1. Problem
@@ -12,7 +12,7 @@ date: 2023-01-16
 ## 2. Solution
 
 ```python
-diction = {'1':'one', '2':'two', '3':'three', '4':'four', '5':'five', 
+diction = {'1':'one', '2':'two', '3':'three', '4':'four', '5':'five',
      '6':'six', '7':'seven', '8':'eight', '9':'nine', '0':'zero'}
 M, N = map(int, input().split())
 li = []

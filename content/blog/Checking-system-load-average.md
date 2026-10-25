@@ -2,13 +2,13 @@
 external: false
 title: "Checking system load average"
 tag: [PromLens, PromQL]
-date: 2025-10-04
+date: "2025-10-04"
 ---
 
 ## 1. 문제 설명
 
-서버의 시스템 부하는 CPU 사용량과 함께 서버 성능을 진단하는 데 중요한 지표입니다.  
-Prometheus node exporter는 node_load1, node_load5, node_load15 메트릭을 제공하며, 이는 각각 1분, 5분, 15분 평균 부하를 의미합니다.  
+서버의 시스템 부하는 CPU 사용량과 함께 서버 성능을 진단하는 데 중요한 지표입니다.
+Prometheus node exporter는 node_load1, node_load5, node_load15 메트릭을 제공하며, 이는 각각 1분, 5분, 15분 평균 부하를 의미합니다.
 이번 문제에서는 5분 평균 부하를 인스턴스별로 조회하는 PromQL 쿼리를 작성해보세요.
 
 ## 2. 요구사항
@@ -49,5 +49,5 @@ node_load5
 
 이 노드는 다음 조건을 모두 만족하는 시계열(series)에 대해, 최근 5분 이내의 최신(만료되지 않은) 샘플 값을 선택합니다.
 
-- 메트릭 이름이 `node_load5`일 것.  
+- 메트릭 이름이 `node_load5`일 것.
 - 만약 어떤 시계열이 최근 5분 동안 값을 갖고 있지 않다면, 그 시계열은 결과에 포함되지 않습니다.

@@ -2,7 +2,7 @@
 external: false
 title: "Language Analysis of Counseling Based on Monthly Performance at Seoul Global Center"
 tag: [EDA, Graph]
-date: 2022-09-13
+date: "2022-09-13"
 ---
 
 ## 1. 사용 데이터

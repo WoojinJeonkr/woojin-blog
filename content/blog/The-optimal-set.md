@@ -2,7 +2,7 @@
 external: false
 title: "The optimal set"
 tag: [Programmers, Python]
-date: 2025-02-07
+date: "2025-02-07"
 ---
 
 ## 1. Problem

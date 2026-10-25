@@ -2,7 +2,7 @@
 external: false
 title: "Office meeting room reservation optimizer"
 tag: [Python]
-date: 2026-05-31
+date: "2026-05-31"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Monthly user count by gender"
 tag: [Programmers, SQL]
-date: 2025-02-16
+date: "2025-02-16"
 ---
 
 ## 1. Problem

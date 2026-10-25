@@ -2,12 +2,12 @@
 external: false
 title: "SOS distress signal"
 tag: [Arduino, C++]
-date: 2022-09-04
+date: "2022-09-04"
 ---
 
 ## ⛳️ 구현 목표
 
-회로를 사용하여 SOS 신호를 보내는 모스 부호 생성기를 구현한다  
+회로를 사용하여 SOS 신호를 보내는 모스 부호 생성기를 구현한다
 
 ## ⚙️ 사용 부품
 

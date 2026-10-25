@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 13505"
 tag: [Baekjoon, Python]
-date: 2023-07-08
+date: "2023-07-08"
 ---
 
 ## 1. 문제
@@ -22,25 +22,25 @@ date: 2023-07-08
 def find_max_xor(nums):
     max_xor = 0  # 최대 XOR 결과를 저장하는 변수를 초기화합니다.
     mask = 0  # XOR 연산에 사용할 비트 마스크를 초기화합니다.
-    
+
     # 31부터 0까지 역순으로 반복합니다.
     for i in range(31, -1, -1):
         mask |= (1 << i)  # 현재 비트 위치에 대한 마스크를 설정합니다.
         xor_set = set()  # 현재 비트 위치에서 XOR 결과를 저장하는 집합을 초기화합니다.
-        
+
         # 주어진 정수 리스트에서 각 숫자를 현재 비트 마스크와 AND 연산하여 XOR 결과를 집합에 추가합니다.
         for num in nums:
             xor_set.add(num & mask)
-        
+
         candidate = max_xor | (1 << i)  # 현재 비트 위치에서 1을 설정한 후 XOR 결과의 후보값을 계산합니다.
-        
+
         # XOR 결과 집합을 순회하면서 후보값과 XOR 연산을 수행했을 때 결과가 집합에 있는지 확인합니다.
         # XOR 결과가 집합에 있으면 최대 XOR 값을 업데이트하고 반복문을 종료합니다.
         for prefix in xor_set:
             if candidate ^ prefix in xor_set:
                 max_xor = candidate
                 break
-    
+
     return max_xor
 
 n = int(input())  # 정수 개수를 입력받습니다.

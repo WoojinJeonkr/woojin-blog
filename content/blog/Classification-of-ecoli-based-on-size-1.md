@@ -2,7 +2,7 @@
 external: false
 title: "Classification of E. coli Based on Size 1"
 tag: [Programmers, SQL]
-date: 2024-07-17
+date: "2024-07-17"
 ---
 
 ## 1. Problem

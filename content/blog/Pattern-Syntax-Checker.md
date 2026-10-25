@@ -2,7 +2,7 @@
 external: false
 title: "Pattern Syntax Checker"
 tag: [Hackerrank, Java]
-date: 2024-03-05
+date: "2024-03-05"
 ---
 
 ## 1. Problem

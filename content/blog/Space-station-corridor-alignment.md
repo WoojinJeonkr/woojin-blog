@@ -2,7 +2,7 @@
 external: false
 title: "Space station corridor alignment"
 tag: [Python]
-date: 2026-05-18
+date: "2026-05-18"
 ---
 
 ## 1. Problem

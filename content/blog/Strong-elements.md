@@ -2,7 +2,7 @@
 external: false
 title: "Strong elements"
 tag: [Codechef, Python]
-date: 2026-05-06
+date: "2026-05-06"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Participant who did not finish"
 tag: [Programmers, Java]
-date: 2024-06-22
+date: "2024-06-22"
 ---
 
 ## 1. Problem

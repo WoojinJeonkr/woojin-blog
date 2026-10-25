@@ -2,7 +2,7 @@
 external: false
 title: "Budget"
 tag: [Programmers, Python]
-date: 2024-12-31
+date: "2024-12-31"
 ---
 
 ## 1. Problem

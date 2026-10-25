@@ -2,7 +2,7 @@
 external: false
 title: "Plant growth ranking"
 tag: [Python]
-date: 2026-07-17
+date: "2026-07-17"
 ---
 
 ## 1. Problem

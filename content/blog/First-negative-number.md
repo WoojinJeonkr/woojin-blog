@@ -2,7 +2,7 @@
 external: false
 title: "First negative number"
 tag: [Programmers, Javascript]
-date: 2025-05-30
+date: "2025-05-30"
 ---
 
 ## 1. Problem

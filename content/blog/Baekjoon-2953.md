@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2953"
 tag: [Baekjoon, Python]
-date: 2022-12-31
+date: "2022-12-31"
 ---
 
 ## 1. Problem
@@ -13,7 +13,7 @@ date: 2022-12-31
 
 ```python
 for i in range(5):
-    if i == 0: 
+    if i == 0:
         score = {i+1 : sum(map(int, input().split()))}
     else:
         score.update({i+1 : sum(map(int, input().split()))})

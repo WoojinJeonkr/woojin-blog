@@ -2,7 +2,7 @@
 external: false
 title: "Three Kingdoms General Deployment"
 tag: [Python]
-date: 2026-08-27
+date: "2026-08-27"
 ---
 
 ## 1. Problem

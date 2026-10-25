@@ -2,13 +2,13 @@
 external: false
 title: "number systems manipulation"
 tag: [Python]
-date: 2022-09-11
+date: "2022-09-11"
 ---
 
 ## 1. 진법이란?
 
-수를 셀 때, 자릿수가 올라가는 단위를 기준으로 하는 셈법의 총칭으로 '위치적 기수법'이라고도 한다.  
-일반적으로는 10진법을 주로 사용하며, 시계는 12진법과 60진법의 조합, 컴퓨터에서는 2진법과 16진법 또는 3진법 등이 이용된다.  
+수를 셀 때, 자릿수가 올라가는 단위를 기준으로 하는 셈법의 총칭으로 '위치적 기수법'이라고도 한다.
+일반적으로는 10진법을 주로 사용하며, 시계는 12진법과 60진법의 조합, 컴퓨터에서는 2진법과 16진법 또는 3진법 등이 이용된다.
 또한 암호학에서는 26진수가 사용되기도 한다.
 
 ## 2. 진법을 변환하는 방법
@@ -49,7 +49,7 @@ tmp = string.digits+string.ascii_lowercase
 def convert(num, base) :
     q, r = divmod(num, base)
     if q == 0 :
-        return tmp[r] 
+        return tmp[r]
     else :
         return convert(q, base) + tmp[r]
 print(convert(int(a), 16), 2)

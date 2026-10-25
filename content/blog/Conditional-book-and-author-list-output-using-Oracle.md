@@ -2,7 +2,7 @@
 external: false
 title: "Conditional book and author list output using Oracle"
 tag: [Programmers, SQL]
-date: 2025-04-11
+date: "2025-04-11"
 ---
 
 ## 1. Problem

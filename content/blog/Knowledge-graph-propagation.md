@@ -2,7 +2,7 @@
 external: false
 title: "Knowledge graph propagation"
 tag: [Python]
-date: 2026-07-18
+date: "2026-07-18"
 ---
 
 ## 1. Problem

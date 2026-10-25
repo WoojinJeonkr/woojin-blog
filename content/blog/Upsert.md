@@ -2,7 +2,7 @@
 external: false
 title: "Upsert"
 tag: [SQL]
-date: 2024-10-21
+date: "2024-10-21"
 ---
 
 ![what is upsert?](/public/images/sql_question.png)

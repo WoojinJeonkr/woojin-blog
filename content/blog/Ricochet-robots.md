@@ -2,7 +2,7 @@
 external: false
 title: "Ricochet robots"
 tag: [Programmers, Java]
-date: 2024-10-10
+date: "2024-10-10"
 ---
 
 ## 1. Problem

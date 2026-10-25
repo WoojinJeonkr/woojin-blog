@@ -2,7 +2,7 @@
 external: false
 title: "Greatest Common Divisor and Least Common Multiple"
 tag: [Baekjoon, Python]
-date: 2022-09-12
+date: "2022-09-12"
 ---
 
 ## 1. 약수란?

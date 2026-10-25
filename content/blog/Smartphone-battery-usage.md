@@ -2,7 +2,7 @@
 external: false
 title: "Smartphone battery usage"
 tag: [Python]
-date: 2026-10-07
+date: "2026-10-07"
 ---
 
 ## 1. Problem

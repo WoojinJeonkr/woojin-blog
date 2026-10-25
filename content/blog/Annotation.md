@@ -2,7 +2,7 @@
 external: false
 title: "Annotation"
 tag: [Java]
-date: 2023-01-26
+date: "2023-01-26"
 ---
 
 ## 1. JPA annotation
@@ -46,7 +46,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "member")
 public class Member {
- 
+
   @Column(name = "member_name")
   private String memberName;
 }
@@ -59,7 +59,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "member")
-public class Member { 
+public class Member {
   @Id
   @Column(name = "id")
   private int id;
@@ -73,7 +73,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "member")
-public class Member { 
+public class Member {
   @Id
   @Column(name = "id")
   // GenerationType.IDENTITY: 기본 키 생성을 데이터베이스에 위임 -> id값을 null로 하면 DB에서 알아서 AUTO_INCREMENT로 설정
@@ -119,7 +119,7 @@ Hibernate는 다음과 같이 세 가지 유형의 기본 상속 매핑 전략�
 @DiscriminatorColumn(name="cartype", discriminatorType=DiscriminatorType.STRING )
 @DiscriminatorValue("Car")
 public class Car {  }
- 
+
 @Entity
 @DiscriminatorValue("BMW")
 public class BMW extends Car {  }
@@ -131,7 +131,7 @@ public class BMW extends Car {  }
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
 public class Ship implements Serializable {}
- 
+
 @Entity
 @PrimaryKeyJoinColumn
 public class Titanic extends Ship {}

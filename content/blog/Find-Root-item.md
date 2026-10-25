@@ -2,7 +2,7 @@
 external: false
 title: "Find Root item"
 tag: [Programmers, SQL]
-date: 2025-03-25
+date: "2025-03-25"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Malicious user"
 tag: [Programmers, Python]
-date: 2025-07-31
+date: "2025-07-31"
 ---
 
 ## 1. Problem

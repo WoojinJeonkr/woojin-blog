@@ -2,7 +2,7 @@
 external: false
 title: "OLAP Opreation Types"
 tag: [Hackerrank]
-date: 2023-10-20
+date: "2023-10-20"
 ---
 
 ## 1. 문제

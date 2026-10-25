@@ -2,7 +2,7 @@
 external: false
 title: "Mining"
 tag: [Programmers, Java]
-date: 2024-10-11
+date: "2024-10-11"
 ---
 
 ## 1. Problem

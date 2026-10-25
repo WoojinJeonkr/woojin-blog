@@ -2,7 +2,7 @@
 external: false
 title: "Calculate deficit amount"
 tag: [Programmers, Java]
-date: 2024-07-25
+date: "2024-07-25"
 ---
 
 ## 1. Problem

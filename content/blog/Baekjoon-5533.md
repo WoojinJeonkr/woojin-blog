@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 5533"
 tag: [Baekjoon, Python]
-date: 2023-05-31
+date: "2023-05-31"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Cycles of light paths"
 tag: [Programmers, Python]
-date: 2025-06-06
+date: "2025-06-06"
 ---
 
 ## 1. Problem

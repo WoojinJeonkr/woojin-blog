@@ -2,7 +2,7 @@
 external: false
 title: "Digital root"
 tag: [Baekjoon, Python]
-date: 2026-01-20
+date: "2026-01-20"
 ---
 
 ## 1. Problem

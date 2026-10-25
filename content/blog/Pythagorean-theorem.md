@@ -2,7 +2,7 @@
 external: false
 title: "Pythagorean theorem"
 tag: [Programmers, Java]
-date: 2024-07-18
+date: "2024-07-18"
 ---
 
 ## 1. Problem

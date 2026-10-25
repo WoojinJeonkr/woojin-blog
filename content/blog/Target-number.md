@@ -2,7 +2,7 @@
 external: false
 title: "Target number"
 tag: [Programmers, Java]
-date: 2024-09-12
+date: "2024-09-12"
 ---
 
 ## 1. Problem

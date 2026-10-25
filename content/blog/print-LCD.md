@@ -2,7 +2,7 @@
 external: false
 title: "print LCD"
 tag: [Arduino, C++]
-date: 2022-09-10
+date: "2022-09-10"
 ---
 
 ## ⛳️ 구현 목표
@@ -25,7 +25,7 @@ LCD(Liquid Crystal Display)에 문장을 출력한다.
 
 int seconds = 0; // seconds를 0으로 정의
 
-Adafruit_LiquidCrystal lcd(0); 
+Adafruit_LiquidCrystal lcd(0);
 
 void setup()
 {

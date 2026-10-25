@@ -2,7 +2,7 @@
 external: false
 title: "Radar coverage"
 tag: [Python]
-date: 2026-09-14
+date: "2026-09-14"
 ---
 
 ## 1. Problem

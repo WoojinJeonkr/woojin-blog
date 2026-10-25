@@ -2,7 +2,7 @@
 external: False
 title: "Avant garde tiling"
 tag: [Programmers, Python]
-date: 2025-09-09
+date: "2025-09-09"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Water balance"
 tag: [Python]
-date: 2026-08-15
+date: "2026-08-15"
 ---
 
 ## 1. Problem

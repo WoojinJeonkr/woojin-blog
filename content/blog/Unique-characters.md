@@ -2,7 +2,7 @@
 external: false
 title: "Unique characters"
 tag: [Programmers, Python]
-date: 2025-07-06
+date: "2025-07-06"
 ---
 
 ## 1. Problem

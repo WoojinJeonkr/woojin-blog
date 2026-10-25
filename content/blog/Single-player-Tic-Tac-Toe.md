@@ -2,7 +2,7 @@
 external: false
 title: "Single player Tic Tac Toe"
 tag: [Programmers, Java]
-date: 2024-07-16
+date: "2024-07-16"
 ---
 
 ## 1. Problem

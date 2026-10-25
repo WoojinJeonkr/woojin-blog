@@ -3,7 +3,7 @@ external: false
 title: "3 Tips to help you learn code quickly"
 description: "Let's find out about advice that helps with learning to code"
 tag: [Study]
-date: 2022-09-29
+date: "2022-09-29"
 ---
 
 이 문서는 Coding with Lewis의 [**These 3 tips will help you learn code FASTER**]((https://youtu.be/UVxhEk3ph5w))이라는 영상의 내용과 댓글들을 정리하였습니다.

@@ -2,7 +2,7 @@
 external: false
 title: "Matrix multiplication"
 tag: [Programmers, Java]
-date: 2024-09-08
+date: "2024-09-08"
 ---
 
 ## 1. Problem

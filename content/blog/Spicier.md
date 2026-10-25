@@ -2,7 +2,7 @@
 external: false
 title: "Spicier"
 tag: [Programmers, Java]
-date: 2024-08-01
+date: "2024-08-01"
 ---
 
 ## 1. Problem

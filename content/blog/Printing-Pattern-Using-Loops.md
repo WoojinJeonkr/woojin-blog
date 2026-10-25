@@ -2,7 +2,7 @@
 external: false
 title: "Printing Pattern Using Loops"
 tag: [Hackerrank, C]
-date: 2024-05-22
+date: "2024-05-22"
 ---
 
 ## 1. Problem

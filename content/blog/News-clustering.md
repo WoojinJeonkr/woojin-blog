@@ -2,7 +2,7 @@
 external: false
 title: "News clustering"
 tag: [Programmers, Java]
-date: 2024-09-22
+date: "2024-09-22"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Collections Counter()"
 tag: [Hackerrank, Python]
-date: 2023-09-06
+date: "2023-09-06"
 ---
 
 ## 1. 문제
@@ -59,7 +59,7 @@ sum = 0
 for _ in range(N):
     # 신발 사이즈와 가격을 입력받습니다.
     size, price = map(int, input().split())
-    
+
     # 만약 신발 사이즈가 남아있다면 가격을 더하고 재고를 1 감소시킵니다.
     if shoe_sizes[size] > 0:
         sum += price

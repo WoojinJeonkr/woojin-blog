@@ -2,7 +2,7 @@
 external: false
 title: "Locate people"
 tag: [Codechef, SQL]
-date: 2026-05-11
+date: "2026-05-11"
 ---
 
 ## 1. Problem

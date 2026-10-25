@@ -2,7 +2,7 @@
 external: false
 title: "Number placeholder regular expression"
 tag: [Programmers, Python]
-date: 2025-05-14
+date: "2025-05-14"
 ---
 
 ## 1. Problem

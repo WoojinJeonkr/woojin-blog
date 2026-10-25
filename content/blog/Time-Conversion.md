@@ -2,7 +2,7 @@
 external: false
 title: "Time Conversion"
 tag: [Hackerrank, Python]
-date: 2023-12-22
+date: "2023-12-22"
 ---
 
 ## 1. 문제
@@ -33,7 +33,7 @@ def timeConversion(s):
 
     # 결과를 시, 분, 초를 포함한 24시간 형식의 문자열로 포맷팅합니다.
     result = "{:02d}:{:02d}:{:02d}".format(hour, minute, second)
-    
+
     return result
 
 if __name__ == '__main__':

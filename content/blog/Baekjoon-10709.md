@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 10709"
 tag: [Baekjoon, Python]
-date: 2023-11-28
+date: "2023-11-28"
 ---
 
 ## 1. 문제
@@ -25,7 +25,7 @@ for row in grid:
     for i in range(width):
         if row[i] == 'c':
             cloud_info[i] = 0
-    
+
     # 구름 간 거리 계산
     cloud_distance = 0
     for i in range(1, width):
@@ -35,7 +35,7 @@ for row in grid:
             if cloud_info[i] != 0:
                 cloud_distance += 1
                 cloud_info[i] = cloud_distance
-    
+
     # 결과 출력
     print(*cloud_info)
 ```

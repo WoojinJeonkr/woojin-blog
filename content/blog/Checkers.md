@@ -2,7 +2,7 @@
 external: false
 title: "Checkers"
 tag: [Baekjoon, Python]
-date: 2026-02-16
+date: "2026-02-16"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "StartUp Job Camp 2nd Edition"
 tag: [Study]
-date: 2022-09-18
+date: "2022-09-18"
 ---
 
 ## 1. 교육 명칭

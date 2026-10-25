@@ -2,7 +2,7 @@
 external: false
 title: "High price of products"
 tag: [Codechef, SQL]
-date: 2026-05-09
+date: "2026-05-09"
 ---
 
 ## 1. Problem

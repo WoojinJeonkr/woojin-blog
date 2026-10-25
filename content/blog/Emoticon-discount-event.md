@@ -2,7 +2,7 @@
 external: false
 title: "Emoticon discount event"
 tag: [Programmers, Java]
-date: 2024-12-05
+date: "2024-12-05"
 ---
 
 ## 1. Problem

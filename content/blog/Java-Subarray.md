@@ -2,7 +2,7 @@
 external: false
 title: "Java Subarray"
 tag: [Hackerrank, Java]
-date: 2024-02-20
+date: "2024-02-20"
 ---
 
 ## 1. Problem

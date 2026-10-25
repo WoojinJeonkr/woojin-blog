@@ -2,7 +2,7 @@
 external: false
 title: "Garden irrigation scheduler"
 tag: [Python]
-date: 2026-06-12
+date: "2026-06-12"
 ---
 
 ## 1. Problem

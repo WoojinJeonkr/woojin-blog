@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 27433"
 tag: [Baekjoon, Python]
-date: 2023-07-10
+date: "2023-07-10"
 ---
 
 ## 1. 문제
@@ -17,12 +17,12 @@ def factorial(n):
     # 정수 N이 0이라면 1을 반환합니다.
     if n == 0:
         return 1
-    
+
     # 정수 N을 1부터 N까지 차례대로 곱한 뒤 결과를 반환합니다.
     result = 1
     for i in range(1, n+1):
         result *= i
-    
+
     return result
 
 # 정수 N을 입력받습니다.

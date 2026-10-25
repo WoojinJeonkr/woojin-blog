@@ -2,7 +2,7 @@
 external: false
 title: "Counting bills"
 tag: [Baekjoon, Python]
-date: 2026-01-25
+date: "2026-01-25"
 ---
 
 ## 1. Problem

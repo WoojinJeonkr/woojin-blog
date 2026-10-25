@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2003"
 tag: [Baekjoon, Python]
-date: 2022-12-14
+date: "2022-12-14"
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ while low < n:
         cnt += 1
         tmp -= arr[low]
         low += 1
-    
+
     if high == n and tmp < m:
         break
     elif tmp < m:

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4583"
 tag: [Baekjoon, Python]
-date: 2023-08-22
+date: "2023-08-22"
 ---
 
 ## 1. 문제
@@ -16,17 +16,17 @@ date: 2023-08-22
 while True:
     # 입력 받은 문자열의 양쪽 공백을 제거하여 정리
     str = input().strip()
-    
+
     # 입력된 문자열이 "#"인 경우 루프 종료
     if str == "#":
         break
-    
+
     # 거울 문자 리스트
     reflect = ['b', 'd', 'p', 'q', 'i', 'o', 'v', 'w', 'x']
-    
+
     # 결과 문자열 초기화
     result = ""
-    
+
     # 입력된 문자열을 하나씩 순회하며 처리
     for char in str:
         # 만약 문자가 거울 문자 리스트에 속하지 않으면 결과를 "INVALID"로 설정하고 루프 종료
@@ -45,7 +45,7 @@ while True:
                 result += 'p'
             else:
                 result += char
-    
+
     # 결과 문자열이 "INVALID"가 아닌 경우, 결과를 뒤집어서 출력
     if result != "INVALID":
         print(result[::-1])

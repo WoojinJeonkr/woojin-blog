@@ -2,7 +2,7 @@
 external: false
 title: "Pilgrim records"
 tag: [Python]
-date: 2026-08-12
+date: "2026-08-12"
 ---
 
 ## 1. Problem

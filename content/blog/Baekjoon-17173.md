@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 17173"
 tag: [Baekjoon, Python, C++]
-date: 2023-06-26
+date: "2023-06-26"
 ---
 
 ## 1. Problem
@@ -35,12 +35,12 @@ using namespace std;
 int main() {
     int N, M;
     cin >> N >> M;
-    
+
     vector<int> lst(M);
     for (int i = 0; i < M; ++i) {
         cin >> lst[i];
     }
-    
+
     int result = 0;
     for (int i = 1; i <= N; ++i) {
         for (int n : lst) {
@@ -50,8 +50,8 @@ int main() {
             }
         }
     }
-    
-    cout << result;   
+
+    cout << result;
     return 0;
 }
 ```

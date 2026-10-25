@@ -2,7 +2,7 @@
 external: false
 title: "Collections OrderDicted()"
 tag: [Hackerrank, Python]
-date: 2023-09-08
+date: "2023-09-08"
 ---
 
 ## 1. 문제
@@ -22,13 +22,13 @@ all_items = {}
 for _ in range(N):
     # 사용자로부터 공백으로 구분된 문자열을 입력받고 리스트로 분할합니다.
     line = input().split()
-    
+
     # 마지막 요소를 정수로 변환하여 수량(count)으로 저장합니다.
     count = int(line[-1])
-    
+
     # 마지막 요소를 제외한 모든 요소를 하나의 문자열(item)로 결합합니다.
     item = ' '.join(line[:-1])
-    
+
     # 만약 해당 아이템이 이미 all_items 딕셔너리에 존재한다면 수량을 누적합니다.
     if item in all_items:
         all_items[item] += count
@@ -57,13 +57,13 @@ all_items = OrderedDict()
 for _ in range(N):
     # 사용자로부터 공백으로 구분된 문자열을 입력받고 리스트로 분할합니다.
     line = input().split()
-    
+
     # 마지막 요소를 정수로 변환하여 수량(count)으로 저장합니다.
     count = int(line[-1])
-    
+
     # 마지막 요소를 제외한 모든 요소를 하나의 문자열(item)로 결합합니다.
     item = ' '.join(line[:-1])
-    
+
     # 만약 해당 아이템이 이미 all_items 딕셔너리에 존재한다면 수량을 누적합니다.
     if item in all_items:
         all_items[item] += count

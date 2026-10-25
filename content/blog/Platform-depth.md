@@ -1,8 +1,8 @@
 ---
-external : false
-title : "Platform depth"
-tag : [Baekjoon, Python]
-date : 2026-03-12
+external: false
+title: "Platform depth"
+tag: [Baekjoon, Python]
+date: "2026-03-12"
 ---
 
 ## 1. Problem

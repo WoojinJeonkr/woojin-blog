@@ -2,7 +2,7 @@
 external: false
 title: "Java Factory Pattern"
 tag: [Hackerrank, Java]
-date: 2024-03-17
+date: "2024-03-17"
 ---
 
 소프트웨어 개발에서 객체 생성은 종종 복잡한 과정일 수 있습니다. 특히 객체 생성에 필요한 매개변수의 조합이 다양하고, 객체 생성 방식이 변할 수 있는 경우에는 이를 관리하기가 어려울 수 있습니다. 이런 상황에서 팩토리 패턴(Factory Pattern)은 객체 생성을 추상화하고, 유연성을 높여줍니다.

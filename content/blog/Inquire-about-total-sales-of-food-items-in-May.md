@@ -2,7 +2,7 @@
 external: false
 title: "Inquire about total sales of food items in May"
 tag: [Programmers, SQL]
-date: 2024-06-08
+date: "2024-06-08"
 ---
 
 ## 1. Problem

@@ -3,10 +3,10 @@ external: false
 title: "Creating Personal Blog Using Blogster Newspaper Theme"
 description: "Let's create blog using Blogster Newspaper theme, one of the Astro themes."
 tag: [Astro, Feature]
-date: 2023-12-28
+date: "2023-12-28"
 ---
 
-기존의 Jekyll theme에서 벗어나 새로운 theme를 사용해보고 싶던 와중에 Astro라는 웹 프레임워크를 통해서 github blog를 만들 수 있다는 글을 읽고 theme를 바꿔보기로 하였습니다.  
+기존의 Jekyll theme에서 벗어나 새로운 theme를 사용해보고 싶던 와중에 Astro라는 웹 프레임워크를 통해서 github blog를 만들 수 있다는 글을 읽고 theme를 바꿔보기로 하였습니다.
 [Astro Theme](https://astro.build/themes/)에서 무료 테마를 탐색하던 중 blogster-newspaper 테마의 Live Demo를 보고 깔끔하다고 생각하여 적용해보았습니다.
 
 ## 1. What is Astro?
@@ -53,7 +53,7 @@ npx create-blogster@latest --theme newspaper
 ? What directory should your blog be generated into? >>
 ```
 
-이제 저 `>>` 옆에 커서가 깜빡거릴텐데 저곳에는 만들고자 하는 폴더 이름을 적어주신 뒤 Enter를 누르시면 자동으로 파일이 다운받아집니다.  
+이제 저 `>>` 옆에 커서가 깜빡거릴텐데 저곳에는 만들고자 하는 폴더 이름을 적어주신 뒤 Enter를 누르시면 자동으로 파일이 다운받아집니다.
 모두 다운받으셨다면 터미널 창에 아래의 명령어를 입력하신 뒤 실행하시면 로컬 환경에서 Demo와 같은 화면을 띄울 수 있습니다.
 
 ```bash
@@ -127,13 +127,13 @@ const hash = url.split('/').pop();
 ></script>
 ```
 
-위의 코드에서 `{data-user}` 부분에는 CodePen에 본인 계정으로 접속 후 Profile에서 보이는 @ 뒤의 영어를 작성해주시면 됩니다.  
-작성하실 마크다운 파일에서는 [Guide](https://github.com/flexdinesh/blogster/blob/main/templates/newspaper/content/blog/extended-markdown-style-guide.md?plain=1)와 같이 사용하실 수 있습니다.  
+위의 코드에서 `{data-user}` 부분에는 CodePen에 본인 계정으로 접속 후 Profile에서 보이는 @ 뒤의 영어를 작성해주시면 됩니다.
+작성하실 마크다운 파일에서는 [Guide](https://github.com/flexdinesh/blogster/blob/main/templates/newspaper/content/blog/extended-markdown-style-guide.md?plain=1)와 같이 사용하실 수 있습니다.
 주소로 이동하셔서 CodePen 항목에서 작성한 것과 동일하게 작성해주시면 됩니다.
 
 ### 3-3. 이미지 경로 작성
 
-이미지 경로를 작성하실 때에는 기존의 마크다운에서 작성하는 이미지 문법으로 작성하되 경로를 image 폴더부터 시작되게 작성해주시면 됩니다.  
+이미지 경로를 작성하실 때에는 기존의 마크다운에서 작성하는 이미지 문법으로 작성하되 경로를 image 폴더부터 시작되게 작성해주시면 됩니다.
 예를 들어 public 폴더 안 image 폴더 안에 weather라는 폴더 안에 today.png라는 이미지가 있다면 `/public/iamge/weather/today.png`가 아닌 `/image/weather/today.png` 이런 형식으로 작성해주시면 됩니다.
 
 ## 4. Reference

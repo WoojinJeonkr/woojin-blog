@@ -2,7 +2,7 @@
 external: false
 title: "Drawing Organizational Chart"
 tag: [Python, Graph]
-date: 2022-09-23
+date: "2022-09-23"
 ---
 
 ## 1. Organization chart의 정의

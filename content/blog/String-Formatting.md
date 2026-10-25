@@ -2,7 +2,7 @@
 external: false
 title: "String Formatting"
 tag: [Hackerrank, Python]
-date: 2023-12-21
+date: "2023-12-21"
 ---
 
 ## 1. 문제
@@ -22,7 +22,7 @@ def print_formatted(number):
         octal = oct(i)[2:]  # 8진수 표현 (접두어 '0o' 제외)
         hexadecimal = hex(i)[2:].upper()  # 16진수 표현 (접두어 '0x' 제외, 대문자로 변환)
         binary = bin(i)[2:]  # 2진수 표현 (접두어 '0b' 제외)
-        
+
         # 각 형식에 대해 지정된 너비(width)에 맞춰 정렬하여 출력
         print("{:>{width}} {:>{width}} {:>{width}} {:>{width}}".format(decimal, octal, hexadecimal, binary, width=width))
 

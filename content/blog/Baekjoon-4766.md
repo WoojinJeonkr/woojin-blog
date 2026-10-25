@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4766"
 tag: [Baekjoon, Python]
-date: 2023-08-05
+date: "2023-08-05"
 ---
 
 ## 1. 문제
@@ -19,14 +19,14 @@ T1 = float(input())
 while True:
     # 사용자로부터 실수값을 입력받아 변수 T2에 저장합니다.
     T2 = float(input())
-    
+
     # 입력된 값이 999라면, 루프를 종료합니다.
     if T2 == 999:
         break
-    
+
     # T2에서 T1을 뺀 결과를 소수점 둘째 자리까지 출력합니다.
     print("%.2f" % (T2 - T1))
-    
+
     # 변수 T1의 값을 T2로 업데이트하여 다음 루프에서 사용합니다.
     T1 = T2
 ```

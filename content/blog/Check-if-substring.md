@@ -2,7 +2,7 @@
 external: false
 title: "Check if substring"
 tag: [Programmers, Python]
-date: 2025-07-27
+date: "2025-07-27"
 ---
 
 ## 1. Problem

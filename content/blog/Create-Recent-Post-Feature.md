@@ -2,7 +2,7 @@
 external: false
 title: "Create Recent Post Feature"
 tag: [Astro, Feature]
-date: 2023-12-30
+date: "2023-12-30"
 ---
 
 ## 1. Purpose
@@ -119,7 +119,7 @@ const recentPosts = sortedPosts.slice(0, 3);
 </ul>
 ```
 
-위의 코드에서는 리스트 형식으로 게시물의 제목을 표시하도록 구성했습니다.  
+위의 코드에서는 리스트 형식으로 게시물의 제목을 표시하도록 구성했습니다.
 만약 게시물의 날짜를 표시하고 싶다면 다음과 같이 작성하여 원하는 위치에 삽입하면 됩니다.
 
 ```astro
@@ -176,7 +176,7 @@ const recentPosts = sortedPosts.slice(0, 3);
 `src/components/AboutTheTheme.astro`에서 상위 디렉토리의 pages 폴더 안에 위치한 recent-page.astro 모듈을 가져와서 RecentPost 변수에 할당해줍니다.
 
 ```astro
-import RecentPost from "../pages/recent-page.astro"; 
+import RecentPost from "../pages/recent-page.astro";
 ```
 
 이제, `Recent Post`라는 제목을 가진 `텍스트 크기는 중간 크기(text-xl), 굵게(font-bold), 하단 마진은 4 (mb-4)`으로 지정한 `<h2>` 태그를 생성하고, RecentPost 변수에 할당된 recent-page.astro 모듈을 통해, 해당 모듈이 내보내는 컴포넌트 또는 기능을 사용하여 화면에 출력합니다.
@@ -192,7 +192,7 @@ import RecentPost from "../pages/recent-page.astro";
 
 ```astro
 ---
-import RecentPost from "../pages/recent-page.astro"; 
+import RecentPost from "../pages/recent-page.astro";
 ---
 
 <div>

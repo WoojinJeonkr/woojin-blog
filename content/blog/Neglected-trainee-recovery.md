@@ -2,7 +2,7 @@
 external: false
 title: "Neglected trainee recovery"
 tag: [Python]
-date: 2026-07-28
+date: "2026-07-28"
 ---
 
 ## 1. Problem

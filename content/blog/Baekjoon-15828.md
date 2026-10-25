@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 15828"
 tag: [Baekjoon, Python]
-date: 2023-07-22
+date: "2023-07-22"
 ---
 
 ## 1. 문제
@@ -29,11 +29,11 @@ for n in input_list:
     # 만약 요소가 -1이라면, 입력의 끝을 나타내므로 반복문을 종료합니다.
     if n == -1:
         break
-    
+
     # 요소가 0이 아니고 큐의 크기가 N보다 작다면, 해당 요소를 큐에 추가합니다.
     elif n != 0 and len(queue) < N:
         queue.append(n)
-    
+
     # 요소가 0이고 큐가 비어있지 않다면, 큐의 첫 번째 요소를 제거합니다.
     elif n == 0 and queue:
         queue.pop(0)

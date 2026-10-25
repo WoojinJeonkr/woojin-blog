@@ -2,7 +2,7 @@
 external: false
 title: "Prime number search"
 tag: [Programmers, Python]
-date: 2024-12-20
+date: "2024-12-20"
 ---
 
 ## 1. Problem

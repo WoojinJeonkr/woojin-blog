@@ -2,7 +2,7 @@
 external: false
 title: "Validate suffix"
 tag: [Programmers, Java]
-date: 2024-06-04
+date: "2024-06-04"
 ---
 
 ## 1. Problem

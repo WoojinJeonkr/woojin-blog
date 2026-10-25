@@ -2,7 +2,7 @@
 external: false
 title: jekyll mathjax
 tag: [Jekyll, Feature]
-date: 2022-10-20
+date: "2022-10-20"
 ---
 
 ## 1. Jekyll Mathjax

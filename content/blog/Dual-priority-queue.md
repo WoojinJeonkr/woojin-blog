@@ -2,7 +2,7 @@
 external: false
 title: "Dual priority queue"
 tag: [Programmers, Python]
-date: 2025-02-17
+date: "2025-02-17"
 ---
 
 ## 1. Problem

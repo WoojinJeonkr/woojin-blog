@@ -2,7 +2,7 @@
 external: false
 title: "Hate English"
 tag: [Programmers, Python]
-date: 2025-05-07
+date: "2025-05-07"
 ---
 
 ## 1. Problem

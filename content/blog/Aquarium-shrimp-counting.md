@@ -2,7 +2,7 @@
 external: false
 title: "Aquarium shrimp counting"
 tag: [Python]
-date: 2026-09-26
+date: "2026-09-26"
 ---
 
 ## 1. Problem

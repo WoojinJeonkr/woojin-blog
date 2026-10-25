@@ -2,7 +2,7 @@
 external: false
 title: "Differences Between JavaScript and TypeScript"
 tag: [Typescript, Javascript]
-date: 2022-10-13
+date: "2022-10-13"
 ---
 
 > GeekWeek 2022 -  [Difference between TypeScript and JavaScript](https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/?ref=lbp)를 번역한 글입니다.

@@ -2,7 +2,7 @@
 external: false
 title: "CSS Practice Website"
 tag: [Site, CSS]
-date: 2022-09-22
+date: "2022-09-22"
 ---
 
 ## 1. CSS란?

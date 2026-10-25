@@ -2,7 +2,7 @@
 external: false
 title: "Divided nation"
 tag: [Python]
-date: 2026-08-04
+date: "2026-08-04"
 ---
 
 ## 1. Problem

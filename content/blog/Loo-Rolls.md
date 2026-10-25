@@ -2,7 +2,7 @@
 external: false
 title: "Loo Rolls"
 tag: [Baekjoon, Python]
-date:  2026-04-07
+date:  "2026-04-07"
 ---
 
 ## 1. Problem

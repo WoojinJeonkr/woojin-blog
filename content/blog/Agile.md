@@ -2,7 +2,7 @@
 external: false
 title: "Agile"
 tag: [Study, CS]
-date: 2022-10-23
+date: "2022-10-23"
 ---
 
 ## 1. 애자일이란?

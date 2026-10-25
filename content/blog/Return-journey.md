@@ -2,7 +2,7 @@
 external: false
 title: "Return journey"
 tag: [Python]
-date: 2026-08-14
+date: "2026-08-14"
 ---
 
 ## 1. Problem

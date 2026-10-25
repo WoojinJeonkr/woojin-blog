@@ -2,7 +2,7 @@
 external: false
 title: "Odd sum pair"
 tag: [Codechef, Python]
-date: 2026-04-27
+date: "2026-04-27"
 ---
 
 ## 1. Problem

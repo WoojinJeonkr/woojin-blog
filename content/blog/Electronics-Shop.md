@@ -2,7 +2,7 @@
 external: false
 title: "Electronics Shop"
 tag: [Hackerrank, Java]
-date: 2024-04-05
+date: "2024-04-05"
 ---
 
 ## 1. Problem

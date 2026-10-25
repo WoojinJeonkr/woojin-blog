@@ -2,7 +2,7 @@
 external: false
 title: "Java Singleton Pattern"
 tag: [Hackerrank, Java]
-date: 2024-03-16
+date: "2024-03-16"
 ---
 
 ## 1. Java Singleton Pattern

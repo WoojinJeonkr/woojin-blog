@@ -2,7 +2,7 @@
 external: false
 title: "Triangular snail pattern"
 tag: [Programmers, Python]
-date: 2025-01-16
+date: "2025-01-16"
 ---
 
 ## 1. Problem

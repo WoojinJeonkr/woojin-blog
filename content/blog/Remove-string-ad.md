@@ -2,7 +2,7 @@
 external: false
 title: "Remove string ad"
 tag: [Programmers, Java]
-date: 2024-07-27
+date: "2024-07-27"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Stored Procedure"
 tag: [SQL]
-date: 2024-04-14
+date: "2024-04-14"
 ---
 
 ## 1. Stored Procedure란?

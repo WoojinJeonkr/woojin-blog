@@ -2,7 +2,7 @@
 external: false
 title: "learning solutions from errors"
 tag: [Study, Git]
-date: 2023-03-09
+date: "2023-03-09"
 ---
 
 ## 1. 'yarn'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는 배치 파일이 아닙니다

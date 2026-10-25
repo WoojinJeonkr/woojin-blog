@@ -2,7 +2,7 @@
 external: false
 title: "chocobar"
 tag: [Baekjoon, Python]
-date: 2025-11-28
+date: "2025-11-28"
 ---
 
 ## 1. Problem

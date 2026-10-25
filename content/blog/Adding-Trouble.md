@@ -2,7 +2,7 @@
 external: false
 title: "Adding Trouble"
 tag: [Baekjoon, Python]
-date: 2026-01-16
+date: "2026-01-16"
 ---
 
 ## 1. Problem

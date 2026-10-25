@@ -2,13 +2,13 @@
 external: false
 title: "Server memory change rate"
 tag: [PromLens, PromQL]
-date: 2025-10-03
+date: "2025-10-03"
 ---
 
 ## 1. 문제 설명
 
-운영 서버마다 node_memory_Active_bytes라는 메트릭이 수집되고 있습니다.  
-이 값은 각 인스턴스의 현재 활성 메모리 사용량(바이트)이며, 게이지 유형 메트릭입니다.  
+운영 서버마다 node_memory_Active_bytes라는 메트릭이 수집되고 있습니다.
+이 값은 각 인스턴스의 현재 활성 메모리 사용량(바이트)이며, 게이지 유형 메트릭입니다.
 최근 10분 동안 서버별 메모리의 증가 또는 감소 속도를 확인하기 위한 PromQL 쿼리를 작성해보세요.
 
 ## 2. 요구사항
@@ -47,6 +47,6 @@ deriv(node_memory_Active_bytes[10m])
 
 ![PromLens 쿼리 설명](/images/PromQL/server-memory-change-explain.png)
 
-이 노드는 제공된 입력값에 대해 [deriv()](https://prometheus.io/docs/prometheus/latest/querying/functions/#deriv) 함수를 호출합니다.  
-deriv는 [단순 선형 회귀](https://en.wikipedia.org/wiki/Simple_linear_regression)를 사용하여 범위 벡터 v에 있는 시계열의 초당 도함수를 계산합니다.  
+이 노드는 제공된 입력값에 대해 [deriv()](https://prometheus.io/docs/prometheus/latest/querying/functions/#deriv) 함수를 호출합니다.
+deriv는 [단순 선형 회귀](https://en.wikipedia.org/wiki/Simple_linear_regression)를 사용하여 범위 벡터 v에 있는 시계열의 초당 도함수를 계산합니다.
 deriv 함수는 반드시 게이지 타입에서만 사용해야 합니다.

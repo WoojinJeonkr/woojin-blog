@@ -2,7 +2,7 @@
 external: false
 title: "Doki Doki snack dreamy"
 tag: [Baekjoon, Python]
-date: 2025-11-24
+date: "2025-11-24"
 ---
 
 ## 1. Problem

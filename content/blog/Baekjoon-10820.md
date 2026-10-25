@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 10820"
 tag: [Baekjoon, Python]
-date: 2023-02-22
+date: "2023-02-22"
 ---
 
 ## 1. Problem
@@ -17,7 +17,7 @@ import sys
 while True:
     line = sys.stdin.readline().rstrip('\n')
     alphabet, lowercase, uppercase, number = 0, 0, 0, 0
-    
+
     if not line:
         break
     for s in line:
@@ -29,6 +29,6 @@ while True:
             number += 1
         elif s.isspace():
             alphabet += 1
-    
+
     sys.stdout.write("{} {} {} {}\n".format(lowercase, uppercase, number, alphabet))
 ```

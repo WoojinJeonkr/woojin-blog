@@ -2,7 +2,7 @@
 external: false
 title: "Advertising campaign"
 tag: [Python]
-date: 2026-08-08
+date: "2026-08-08"
 ---
 
 ## 1. Problem

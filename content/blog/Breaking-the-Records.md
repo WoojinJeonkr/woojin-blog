@@ -2,7 +2,7 @@
 external: false
 title: "Breaking the Records"
 tag: [Hackerrank, Java]
-date: 2024-04-04
+date: "2024-04-04"
 ---
 
 ## 1. Problem

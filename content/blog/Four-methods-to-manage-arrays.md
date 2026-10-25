@@ -2,7 +2,7 @@
 external: false
 title: "Four methods to manage arrays"
 tag: [Typescript]
-date: 2022-11-22
+date: "2022-11-22"
 ---
 
 ## 1. immutable
@@ -27,11 +27,11 @@ spread 연산자를 사용하여 배열, 문자열, 객체 등 반복 가능한 
 ### 2-1. Example
 
 ```ts
-var arr1 = [1,2,3]; 
-var arr2 = [4,5,6]; 
+var arr1 = [1,2,3];
+var arr2 = [4,5,6];
 
-var arr = [...arr1, ...arr2]; 
-console.log(arr); // [ 1, 2, 3, 4, 5, 6 ] 
+var arr = [...arr1, ...arr2];
+console.log(arr); // [ 1, 2, 3, 4, 5, 6 ]
 ```
 
 ## 3. filter
@@ -58,7 +58,7 @@ console.log(result); // ["exuberant", "destruction", "present"]
 import React, { Component } from 'react';
 
 class MyComponent extends Component
-{    
+{
     render(){
 
         const menus = ["Menu1", "Menu2", "Menu3", "Menu4"]
@@ -81,7 +81,7 @@ export default MyComponent;
 import React, { Component } from 'react';
 
 class MyComponent extends Component
-{    
+{
     render(){
         return(
             <ul>
@@ -105,7 +105,7 @@ export default MyComponent;
 ### 5-1. Example
 
 ```ts
-console.log([ [9,2], [8,7] ].reduce((acc, val) => [ ...acc, ...val ], [])) // [9, 2, 8, 7] 
+console.log([ [9,2], [8,7] ].reduce((acc, val) => [ ...acc, ...val ], [])) // [9, 2, 8, 7]
 ```
 
 ## 6. Reference

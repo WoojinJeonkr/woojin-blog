@@ -2,7 +2,7 @@
 external: false
 title: "2 x n tiling"
 tag: [Programmers, Python]
-date: 2025-01-03
+date: "2025-01-03"
 ---
 
 ## 1. Problem

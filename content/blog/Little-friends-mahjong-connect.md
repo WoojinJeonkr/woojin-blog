@@ -2,7 +2,7 @@
 external: false
 title: "Little friends mahjong connect"
 tag: [Programmers, Java]
-date: 2025-10-25
+date: "2025-10-25"
 ---
 
 ## 1. Problem

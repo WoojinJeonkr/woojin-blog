@@ -2,7 +2,7 @@
 external: false
 title: "StartLink"
 tag: [Baekjoon, Python]
-date: 2025-11-06
+date: "2025-11-06"
 ---
 
 ## 1. Problem

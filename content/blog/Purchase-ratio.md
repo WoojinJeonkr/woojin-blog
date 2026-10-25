@@ -2,7 +2,7 @@
 external: false
 title: "Purchase ratio"
 tag: [Programmers, SQL]
-date: 2025-02-14
+date: "2025-02-14"
 ---
 
 ## 1. Problem

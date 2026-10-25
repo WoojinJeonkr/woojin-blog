@@ -2,7 +2,7 @@
 external: false
 title: "Digit Frequency"
 tag: [Hackerrank, C]
-date: 2024-05-23
+date: "2024-05-23"
 ---
 
 ## 1. Problem

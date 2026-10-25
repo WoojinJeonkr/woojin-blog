@@ -2,7 +2,7 @@
 external: false
 title: "Video player"
 tag: [Programmers, Python]
-date: 2024-12-23
+date: "2024-12-23"
 ---
 
 ## 1. Problem

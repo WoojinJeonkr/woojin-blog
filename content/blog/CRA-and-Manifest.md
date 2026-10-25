@@ -2,7 +2,7 @@
 external: false
 title: "CRA and Manifest"
 tag: [React]
-date: 2022-10-21
+date: "2022-10-21"
 ---
 
 > cmd에서 `node -V` 명령어를 통해 버전 출력이 확인되는 것을 전제로 작성하였다.

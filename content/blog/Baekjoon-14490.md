@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 14490"
 tag: [Baekjoon, Python]
-date: 2023-07-18
+date: "2023-07-18"
 ---
 
 ## 1. 문제
@@ -30,7 +30,7 @@ def gcd(a, b):
     a, b = b, a % b
   return a
 
-# 두 수 n, m에 대해 최대한 약분한 값을 n:m의 형태로 출력하는 함수 
+# 두 수 n, m에 대해 최대한 약분한 값을 n:m의 형태로 출력하는 함수
 def reduce_fraction(n, m):
   return f"{n // gcd(n, m)}:{m // gcd(n, m)}"
 

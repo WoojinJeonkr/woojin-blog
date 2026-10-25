@@ -2,7 +2,7 @@
 external: false
 title: "Search for comments meeting criteria in used sales"
 tag: [Programmers, SQL]
-date: 2024-05-28
+date: "2024-05-28"
 ---
 
 ## 1. Problem

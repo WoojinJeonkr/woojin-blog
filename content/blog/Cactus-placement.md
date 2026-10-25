@@ -2,7 +2,7 @@
 external: false
 title: "Cactus placement"
 tag: [Programmers, Python]
-date: 2026-04-17
+date: "2026-04-17"
 ---
 
 ## 1. Problem

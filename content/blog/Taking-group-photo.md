@@ -2,7 +2,7 @@
 external: false
 title: "Taking group photo"
 tag: [Programmers, Java]
-date: 2024-10-24
+date: "2024-10-24"
 ---
 
 ## 1. Problem

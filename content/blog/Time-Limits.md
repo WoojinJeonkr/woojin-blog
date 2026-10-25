@@ -2,7 +2,7 @@
 external: false
 title: "Time Limits"
 tag: [Baekjoon, Python]
-date: 2025-11-29
+date: "2025-11-29"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Wall inspection"
 tag: [Programmers, Python]
-date: 2025-09-24
+date: "2025-09-24"
 ---
 
 ## 1. Problem

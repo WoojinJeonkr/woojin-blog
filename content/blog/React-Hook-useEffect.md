@@ -2,7 +2,7 @@
 external: false
 title: "React Hook useEffect"
 tag: [React, Typescript]
-date: 2022-11-09
+date: "2022-11-09"
 ---
 
 ## 1. useEffect Hook

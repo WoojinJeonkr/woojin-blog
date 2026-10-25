@@ -2,7 +2,7 @@
 external: false
 title: "Algorithm Visualization Website"
 tag: [Site, Python]
-date: 2022-09-21
+date: "2022-09-21"
 ---
 
 ## 1. [pythontutor.com](https://pythontutor.com)

@@ -2,7 +2,7 @@
 external: false
 title: "Maximum square"
 tag: [Programmers, Python]
-date: 2025-01-07
+date: "2025-01-07"
 ---
 
 ## 1. Problem

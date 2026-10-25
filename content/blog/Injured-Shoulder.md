@@ -2,7 +2,7 @@
 external: false
 title: "Injured Shoulder"
 tag: [Baekjoon, Python]
-date: 2026-03-26
+date: "2026-03-26"
 ---
 
 ## 1. Problem

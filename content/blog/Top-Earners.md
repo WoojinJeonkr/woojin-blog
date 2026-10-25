@@ -2,7 +2,7 @@
 external: false
 title: "Top Earners"
 tag: [Hackerrank, SQL]
-date: 2023-08-21
+date: "2023-08-21"
 ---
 
 ## 1. 문제

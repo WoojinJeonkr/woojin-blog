@@ -2,7 +2,7 @@
 external: false
 title: "Workout efficiency planner"
 tag: [Python]
-date: 2026-07-05
+date: "2026-07-05"
 ---
 
 ## 1. Problem

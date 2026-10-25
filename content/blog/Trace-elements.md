@@ -2,7 +2,7 @@
 external: false
 title: "Trace elements"
 tag: [Python]
-date: 2026-08-07
+date: "2026-08-07"
 ---
 
 ## 1. Problem

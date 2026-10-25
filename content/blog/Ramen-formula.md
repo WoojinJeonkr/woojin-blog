@@ -2,7 +2,7 @@
 external: false
 title: "Ramen formula"
 tag: [Baekjoon, Python]
-date: 2025-11-21
+date: "2025-11-21"
 ---
 
 ## 1. Problem

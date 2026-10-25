@@ -2,7 +2,7 @@
 external: false
 title: "Cut n2 array"
 tag: [Programmers, Java]
-date: 2024-09-11
+date: "2024-09-11"
 ---
 
 ## 1. Problem

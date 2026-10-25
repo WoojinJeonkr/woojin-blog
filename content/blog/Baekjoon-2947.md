@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2947"
 tag: [Baekjoon, Python]
-date: 2023-07-09
+date: "2023-07-09"
 ---
 
 ## 1. 문제
@@ -15,7 +15,7 @@ date: 2023-07-09
 def sort_pieces(pieces):
     # 정렬의 목표가 되는 순서를 지정한다.
     target_sequence = [1, 2, 3, 4, 5]
-    
+
     # 주어진 조각의 순서가 목표 순서와 일치할 때까지 반복한다.
     while pieces != target_sequence:
         # 인접한 두 조각의 순서를 비교하고 잘못된 경우 위치를 바꾼다.

@@ -2,7 +2,7 @@
 external: false
 title: "Number of duplicate numbers"
 tag: [Programmers, Java]
-date: 2024-07-10
+date: "2024-07-10"
 ---
 
 ## 1. Problem

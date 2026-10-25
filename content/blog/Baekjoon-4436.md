@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 4436"
 tag: [Baekjoon, Python]
-date: 2023-07-03
+date: "2023-07-03"
 ---
 
 ## 1. Problem
@@ -22,7 +22,7 @@ def find_smallest_k(n):
     # 각 숫자의 등장 여부를 추적하기 위한 딕셔너리입니다.
     # 초기에는 모든 값이 False로 설정됩니다.
     appear = {'0': False, '1': False, '2': False, '3': False, '4': False, '5': False, '6': False, '7': False, '8': False, '9': False}
-    
+
     # 찾아야 할 남은 숫자의 개수를 추적합니다.
     rest = 10
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
         # 입력을 사용하여 find_smallest_k 함수를 호출합니다.
         result = find_smallest_k(n)
-        
+
         # 결과를 출력합니다.
         print(result)
 ```

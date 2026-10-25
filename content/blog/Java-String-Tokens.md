@@ -2,7 +2,7 @@
 external: false
 title: "Java String Tokens"
 tag: [Hackerrank, Java]
-date: 2023-10-01
+date: "2023-10-01"
 ---
 
 ## 1. 문제
@@ -21,7 +21,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         // 사용자로부터 문장을 입력받습니다.
         String sentence = sc.nextLine();
-        
+
         // 입력받은 문장이 1글자 이상이고 400,000글자 이하인 경우 실행됩니다.
         if (sentence.trim().length() >= 1 || sentence.trim().length() >= 400000) {
             // 입력받은 문장을 공백과 구두점을 기준으로 나누어 토큰 배열로 만듭니다.

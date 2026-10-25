@@ -2,7 +2,7 @@
 external: false
 title: "Multiplication table"
 tag: [Baekjoon, Python]
-date: 2026-02-01
+date: "2026-02-01"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Find maximum value"
 tag: [Programmers, SQL]
-date: 2025-03-24
+date: "2025-03-24"
 ---
 
 ## 1. Problem

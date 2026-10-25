@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2857"
 tag: [Baekjoon, Python]
-date: 2023-03-18
+date: "2023-03-18"
 ---
 
 ## 1. Problem
@@ -12,13 +12,13 @@ date: 2023-03-18
 ## 2. Solution
 
 ```python
-lst = [] 
-for i in range(1, 6): 
-    w = input() 
-    if "FBI" in w: 
-        lst.append(i) 
-if lst: 
-    print(*lst) 
-else: 
+lst = []
+for i in range(1, 6):
+    w = input()
+    if "FBI" in w:
+        lst.append(i)
+if lst:
+    print(*lst)
+else:
     print("HE GOT AWAY!")
 ```

@@ -2,7 +2,7 @@
 external: false
 title: "Tuple"
 tag: [Programmers, Python]
-date: 2025-01-06
+date: "2025-01-06"
 ---
 
 ## 1. Problem

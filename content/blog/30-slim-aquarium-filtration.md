@@ -2,7 +2,7 @@
 external: false
 title: "30 slim aquarium filtration"
 tag: [Python]
-date: 2026-09-03
+date: "2026-09-03"
 ---
 
 ## 1. Problem

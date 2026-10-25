@@ -2,7 +2,7 @@
 external: false
 title: "Expressible binary tree"
 tag: [Programmers, Python]
-date: 2025-08-23
+date: "2025-08-23"
 ---
 
 ## 1. Problem

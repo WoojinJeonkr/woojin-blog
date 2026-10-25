@@ -2,7 +2,7 @@
 external: false
 title: "Optimal matrix multiplication"
 tag: [Programmers, Python]
-date: 2025-09-25
+date: "2025-09-25"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1862"
 tag: [Baekjoon, Python]
-date: 2023-10-03
+date: "2023-10-03"
 ---
 
 ## 1. 문제
@@ -16,7 +16,7 @@ def display_meter(meter):
     # 입력된 숫자의 자릿수를 계산합니다.
     length = len(str(meter))
     result = 0
-    
+
     # 각 자릿수를 처리하는 루프
     for i in range(length):
         # 현재 자릿수의 숫자를 가져옵니다.
@@ -31,7 +31,7 @@ def display_meter(meter):
         else:
             # 9진수에서 4 이하의 숫자는 그대로 9의 제곱(i)을 곱하여 결과에 더합니다.
             result += digit * (9 ** i)
-    
+
     # 최종 결과를 출력합니다.
     print(result)
 

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 9076"
 tag: [Baekjoon, Python]
-date: 2023-07-23
+date: "2023-07-23"
 ---
 
 ## 1. 문제
@@ -19,7 +19,7 @@ def count_points(lst):
     # 리스트 'lst'에서 최솟값을 찾아 제거합니다.
     lst.remove(min(lst))
     # 수정된 'lst'에서 새로운 최댓값과 최솟값을 찾습니다.
-    max_point, min_point = max(lst), min(lst) 
+    max_point, min_point = max(lst), min(lst)
     # 최댓값과 최솟값의 차이가 4 이상인 경우 "KIN"을 출력하고, 그렇지 않은 경우 나머지 요소들의 합을 출력합니다.
     print("KIN") if max_point - min_point >= 4 else print(sum(lst))
 

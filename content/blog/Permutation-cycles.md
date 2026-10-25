@@ -2,7 +2,7 @@
 external: false
 title: "Permutation cycles"
 tag: [Baekjoon, Python]
-date: 2025-12-29
+date: "2025-12-29"
 ---
 
 ## 1. Problem

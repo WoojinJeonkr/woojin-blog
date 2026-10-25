@@ -2,7 +2,7 @@
 external: false
 title: "Save the Prisoner!"
 tag: [Hackerrank, Java]
-date: 2024-04-27
+date: "2024-04-27"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "PCCP puzzle game challenge"
 tag: [Programmers, Python]
-date: 2025-06-28
+date: "2025-06-28"
 ---
 
 ## 1. Problem

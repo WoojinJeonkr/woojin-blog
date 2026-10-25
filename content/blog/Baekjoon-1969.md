@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 1969"
 tag: [Baekjoon, Python]
-date: 2023-05-23
+date: "2023-05-23"
 ---
 
 ## 1. Problem
@@ -24,14 +24,14 @@ for i in range(m):
 
     for j in range(n):
         nuc = arr[j][i]
-        
+
         if nuc == 'T': t += 1
         elif nuc == 'A': a += 1
         elif nuc == 'G': g += 1
         elif nuc == 'C': c += 1
-    
+
     max_count = max(a, c, g, t)
-    
+
     if max_count == a:
         result += 'A'
         hap += c + g + t

@@ -2,7 +2,7 @@
 external: false
 title: "Hall of fame 1"
 tag: [Programmers, Java]
-date: 2024-11-09
+date: "2024-11-09"
 ---
 
 ## 1. Problem

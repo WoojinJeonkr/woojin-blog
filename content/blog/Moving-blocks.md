@@ -2,7 +2,7 @@
 external: false
 title: "Moving blocks"
 tag: [Programmers, Java]
-date: 2025-10-17
+date: "2025-10-17"
 ---
 
 ## 1. Problem

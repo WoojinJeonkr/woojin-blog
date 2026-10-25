@@ -2,7 +2,7 @@
 external: false
 title: "Number of valid parentheses"
 tag: [Programmers, Python]
-date: 2025-08-31
+date: "2025-08-31"
 ---
 
 ## 1. Problem

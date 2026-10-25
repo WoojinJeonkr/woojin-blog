@@ -2,7 +2,7 @@
 external: false
 title: "CreateBrowserRouter"
 tag: [React, Typescript]
-date: 2023-05-09
+date: "2023-05-09"
 ---
 
 ## 1. CreateBrowserRouter

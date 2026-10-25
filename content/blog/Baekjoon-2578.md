@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2578"
 tag: [Baekjoon, Python]
-date: 2023-11-25
+date: "2023-11-25"
 ---
 
 ## 1. 문제
@@ -52,7 +52,7 @@ def check_bingo():
             right_diag += 1
     if right_diag == 5:
         bingo_count += 1
-    return bingo_count 
+    return bingo_count
 
 marked_count = 0
 

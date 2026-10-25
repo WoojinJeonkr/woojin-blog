@@ -2,7 +2,7 @@
 external: false
 title: "Vanishing platforms"
 tag: [Programmers, Python]
-date: 2025-10-18
+date: "2025-10-18"
 ---
 
 ## 1. Problem

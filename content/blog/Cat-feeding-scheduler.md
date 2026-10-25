@@ -2,7 +2,7 @@
 external: false
 title: "Cat feeding scheduler"
 tag: [Python]
-date: 2026-06-17
+date: "2026-06-17"
 ---
 
 ## 1. Problem

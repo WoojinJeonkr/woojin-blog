@@ -2,7 +2,7 @@
 external: false
 title: "Find largest number"
 tag: [Programmers, Python]
-date: 2025-04-13
+date: "2025-04-13"
 ---
 
 ## 1. Problem

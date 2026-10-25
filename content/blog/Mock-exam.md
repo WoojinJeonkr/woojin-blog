@@ -2,7 +2,7 @@
 external: false
 title: "Mock exam"
 tag: [Programmers, Java]
-date: 2024-08-03
+date: "2024-08-03"
 ---
 
 ## 1. Problem

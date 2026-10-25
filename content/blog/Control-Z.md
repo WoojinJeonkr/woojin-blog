@@ -2,7 +2,7 @@
 external: false
 title: "Control Z"
 tag: [Programmers, Python]
-date: 2025-05-02
+date: "2025-05-02"
 ---
 
 ## 1. Problem

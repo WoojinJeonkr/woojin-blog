@@ -2,7 +2,7 @@
 external: false
 title: "Airport connection scheduler"
 tag: [Python]
-date: 2026-06-07
+date: "2026-06-07"
 ---
 
 ## 1. Problem

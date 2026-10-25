@@ -2,7 +2,7 @@
 external: false
 title: "MapReduce Advanced Relational Join"
 tag: [Hackerrank, C]
-date: 2024-05-25
+date: "2024-05-25"
 ---
 
 ## 1. Problem

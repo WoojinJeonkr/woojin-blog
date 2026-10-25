@@ -2,7 +2,7 @@
 external: false
 title: "Count of K"
 tag: [Programmers, Python]
-date: 2025-07-24
+date: "2025-07-24"
 ---
 
 ## 1. Problem

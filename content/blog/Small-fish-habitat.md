@@ -2,7 +2,7 @@
 external: false
 title: "Small fish habitat"
 tag: [Python]
-date: 2026-08-20
+date: "2026-08-20"
 ---
 
 ## 1. Problem

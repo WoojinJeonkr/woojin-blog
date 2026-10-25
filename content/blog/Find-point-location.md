@@ -2,7 +2,7 @@
 external: false
 title: "Find point location"
 tag: [Programmers, Python]
-date: 2025-01-15
+date: "2025-01-15"
 ---
 
 ## 1. Problem

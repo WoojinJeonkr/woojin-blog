@@ -2,7 +2,7 @@
 external: false
 title: "Sherlock and Squares"
 tag: [Hackerrank, Java]
-date: 2024-05-01
+date: "2024-05-01"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "SQL Practice 12"
 tag: [SQL Practice, SQL]
-date: 2023-08-08
+date: "2023-08-08"
 ---
 
 ## 1. 문제 [[HACKKERRANK BASIC Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen)]
@@ -23,8 +23,8 @@ STATION 테이블이 다음과 같다고 할 때, 테이블에서 모음으로 �
 ```sql
 SELECT DISTINCT CITY
 FROM STATION
-WHERE 
-  LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U') 
+WHERE
+  LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
   AND RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
 ```
 

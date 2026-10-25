@@ -2,7 +2,7 @@
 external: false
 title: "Colored paper 2"
 tag: [Baekjoon, Java]
-date: 2025-09-19
+date: "2025-09-19"
 ---
 
 ## 1. Problem

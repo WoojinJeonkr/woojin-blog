@@ -2,7 +2,7 @@
 external: false
 title: "Parcel sorting system"
 tag: [Python]
-date: 2026-10-10
+date: "2026-10-10"
 ---
 
 ## 1. Problem

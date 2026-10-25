@@ -2,7 +2,7 @@
 external: false
 title: "Picking Numbers"
 tag: [Hackerrank, Java]
-date:  2024-04-10
+date:  "2024-04-10"
 ---
 
 ## 1. Problem

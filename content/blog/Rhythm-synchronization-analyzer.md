@@ -2,7 +2,7 @@
 external: false
 title: "Rhythm synchronization analyzer"
 tag: [Python]
-date: 2026-06-29
+date: "2026-06-29"
 ---
 
 ## 1. Problem

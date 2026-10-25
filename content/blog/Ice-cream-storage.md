@@ -2,7 +2,7 @@
 external: false
 title: "Ice Cream Storage"
 tag: [Python]
-date: 2026-09-02
+date: "2026-09-02"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 18110"
 tag: [Baekjoon, Python]
-date: 2023-01-01
+date: "2023-01-01"
 ---
 
 ## 1. Problem
@@ -16,7 +16,7 @@ import sys
 
 def round_exclusion(n):
     return int(n) + (1 if n - int(n) >= 0.5 else 0)
- 
+
 n = int(sys.stdin.readline())
 if not n:
     print(0)

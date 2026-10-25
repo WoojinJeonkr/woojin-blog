@@ -2,7 +2,7 @@
 external: false
 title: "Lambda DSL"
 tag: [Java, Spring]
-date: 2024-05-12
+date: "2024-05-12"
 ---
 
 이번 글에서는 Lambda DSL은 무엇이고 적용하기 위해 기존 코드를 어떻게 수정해야 하는지에 대해 알아보겠습니다.

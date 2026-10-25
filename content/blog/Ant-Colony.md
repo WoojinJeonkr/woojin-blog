@@ -2,7 +2,7 @@
 external: false
 title: "Ant Colony"
 tag: [Programmers, Python]
-date: 2025-07-25
+date: "2025-07-25"
 ---
 
 ## 1. Problem

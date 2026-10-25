@@ -2,7 +2,7 @@
 external: false
 title: "Make 1"
 tag: [Programmers, Python]
-date: 2025-07-17
+date: "2025-07-17"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Card matching"
 tag: [Programmers, Python]
-date: 2025-10-10
+date: "2025-10-10"
 ---
 
 ## 1. Problem

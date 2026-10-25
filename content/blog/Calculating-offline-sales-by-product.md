@@ -2,7 +2,7 @@
 external: false
 title: "Calculating offline sales by product"
 tag: [Programmers, SQL]
-date: 2025-04-10
+date: "2025-04-10"
 ---
 
 ## 1. Problem

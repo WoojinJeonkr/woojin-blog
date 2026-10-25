@@ -2,7 +2,7 @@
 external: false
 title: "drawing graphs with matplotlib (2)"
 tag: [Python, Graph]
-date: 2022-09-16
+date: "2022-09-16"
 ---
 
 ## 1. 선 그래프

@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 7595"
 tag: [Baekjoon, Python]
-date: 2022-11-30
+date: "2022-11-30"
 ---
 
 ## 1. Problem
@@ -20,6 +20,6 @@ while True:
     if n > 0:
         for i in range(n):
             print('*'*(i+1))
-    else: 
+    else:
         break
 ```

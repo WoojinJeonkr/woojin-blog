@@ -2,7 +2,7 @@
 external: false
 title: "Select ice creams by high order volumes"
 tag: [Programmers, SQL]
-date: 2025-01-23
+date: "2025-01-23"
 ---
 
 ## 1. Problem

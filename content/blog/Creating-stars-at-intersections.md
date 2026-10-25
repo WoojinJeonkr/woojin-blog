@@ -2,7 +2,7 @@
 external: false
 title: "Creating stars at intersections"
 tag: [Programmers, Java]
-date: 2024-10-25
+date: "2024-10-25"
 ---
 
 ## 1. Problem

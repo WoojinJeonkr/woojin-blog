@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 10949"
 tag: [Baekjoon, Python]
-date: 2023-11-04
+date: "2023-11-04"
 ---
 
 ## 1. 문제
@@ -17,11 +17,11 @@ import itertools  # itertools 모듈을 가져옵니다.
 def calculate_score(target, guess):
     """
     주어진 target과 guess 숫자를 비교하여 스트라이크와 볼을 계산하는 함수입니다.
-    
+
     Args:
         target (str): 비교할 대상 숫자.
         guess (str): 추측한 숫자.
-        
+
     Returns:
         int: 스트라이크의 수와 볼의 수를 기반으로 계산한 점수를 반환합니다.
     """
@@ -34,10 +34,10 @@ def calculate_score(target, guess):
 def find_matching_number(target_number):
     """
     주어진 target_number에 대한 맞는 숫자를 찾는 함수입니다.
-    
+
     Args:
         target_number (str): 맞추어야 할 대상 숫자.
-        
+
     Returns:
         str: 주어진 조건에 맞는 숫자를 찾았을 경우 해당 숫자를 반환합니다.
     """

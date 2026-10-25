@@ -2,7 +2,7 @@
 external: false
 title: "React CRUD Page"
 tag: [React, Typescript]
-date: 2022-11-11
+date: "2022-11-11"
 ---
 
 ## 1. React CRUD Page Example

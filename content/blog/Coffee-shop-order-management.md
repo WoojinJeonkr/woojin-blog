@@ -2,7 +2,7 @@
 external: false
 title: "Coffee shop order management"
 tag: [Python]
-date: 2026-10-08
+date: "2026-10-08"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Sheep and wolf"
 tag: [Programmers, Python]
-date: 2025-08-29
+date: "2025-08-29"
 ---
 
 ## 1. Problem

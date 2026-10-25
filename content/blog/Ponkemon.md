@@ -2,7 +2,7 @@
 external: False
 title: "Ponkemon"
 tag: [Programmers, Python]
-date: 2025-09-11
+date: "2025-09-11"
 ---
 
 ## 1. Problem

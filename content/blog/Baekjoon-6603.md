@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 6603"
 tag: [Python, Baekjoon]
-date: 2023-01-24
+date: "2023-01-24"
 ---
 
 ## 1. Problem
@@ -25,7 +25,7 @@ def dfs(dep):
         li.pop()
         for j in range(i+1, n):
             check[j] = 0
-        
+
 while 1:
     t = list(map(int, input().split()))
     n, nums = t[0], t[1:]

@@ -2,7 +2,7 @@
 external: false
 title: "Nearest number"
 tag: [Programmers, Python]
-date: 2025-08-05
+date: "2025-08-05"
 ---
 
 ## 1. Problem

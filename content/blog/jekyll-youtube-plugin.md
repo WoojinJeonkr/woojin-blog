@@ -3,7 +3,7 @@ external: false
 title: "jekyll youtube plugin"
 description: "Let's find out about jekyll-youtube among jekyll plugins"
 tag: [Jekyll]
-date: 2022-10-03
+date: "2022-10-03"
 ---
 
 ## 1. jekyll-youtube

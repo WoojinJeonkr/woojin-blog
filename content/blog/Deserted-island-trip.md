@@ -2,7 +2,7 @@
 external: false
 title: "Deserted island trip"
 tag: [Programmers, Java]
-date: 2024-12-03
+date: "2024-12-03"
 ---
 
 ## 1. Problem

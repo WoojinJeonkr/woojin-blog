@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 21736"
 tag: [Baekjoon, Python]
-date: 2023-09-12
+date: "2023-09-12"
 ---
 
 ## 1. 문제
@@ -26,7 +26,7 @@ for i in range(N):
         if row[j] == 'I':
             start = (i, j)
     campus.append(row)
-    
+
 
 # BFS
 direction = [(1, 0), (0, 1), (-1, 0), (0, -1)]
@@ -37,20 +37,20 @@ queue = deque([start])
 visited[start[0]][start[1]] = True
 while queue:
     x, y = queue.popleft()
-    
+
     for dx, dy in direction:
         nx, ny = x + dx, y + dy
-        
+
         # 캠퍼스를 벗어나지 않는 구역이고
         if 0 <= nx < N and 0 <= ny < M:
             # 벽이 아니고 방문하지 않은 곳이면 방문
             if campus[nx][ny] != 'X' and not visited[nx][ny]:
                 queue.append((nx, ny))
                 visited[nx][ny] = True
-                
+
                 # 사람이면 +1
                 if campus[nx][ny] == 'P':
                     result += 1
-                    
+
 print(result if result > 0 else 'TT')
 ```

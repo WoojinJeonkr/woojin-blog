@@ -2,7 +2,7 @@
 external: false
 title: "Rock Scissor Paper"
 tag: [Programmers, Python]
-date: 2025-08-11
+date: "2025-08-11"
 ---
 
 ## 1. Problem

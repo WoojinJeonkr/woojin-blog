@@ -2,7 +2,7 @@
 external: false
 title: "Smart farm crop growth monitoring"
 tag: [Python]
-date: 2026-10-23
+date: "2026-10-23"
 ---
 
 ## 1. Problem

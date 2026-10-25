@@ -2,7 +2,7 @@
 external: false
 title: "Chicken coupon"
 tag: [Programmers, Python]
-date: 2025-07-13
+date: "2025-07-13"
 ---
 
 ## 1. Problem

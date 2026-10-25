@@ -2,7 +2,7 @@
 external: false
 title: "Understanding Operational Principles of Apache Tomcat"
 tag: [Java]
-date: 2024-04-16
+date: "2024-04-16"
 ---
 
 Tomcat은 Java 기반 웹 애플리케이션 서버로서, 주로 서블릿 컨테이너의 역할을 수행합니다. 이 글에서는 Tomcat의 기본 동작 원리를 간단히 설명하도록 하겠습니다.

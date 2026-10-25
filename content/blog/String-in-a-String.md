@@ -2,7 +2,7 @@
 external: false
 title: "String in a String"
 tag: [Programmers, Python]
-date: 2025-02-19
+date: "2025-02-19"
 ---
 
 ## 1. Problem

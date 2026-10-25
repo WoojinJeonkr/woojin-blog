@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 9063"
 tag: [Baekjoon, Python]
-date: 2023-09-13
+date: "2023-09-13"
 ---
 
 ## 1. 문제
@@ -19,5 +19,5 @@ for i in range(n):
     x.append(a)
     y.append(b)
 
-print((max(x) - min(x)) * (max(y) - min(y))) 
+print((max(x) - min(x)) * (max(y) - min(y)))
 ```

@@ -2,7 +2,7 @@
 external: false
 title: "Enlarge picture"
 tag: [Programmers, Python]
-date: 2025-07-18
+date: "2025-07-18"
 ---
 
 ## 1. Problem

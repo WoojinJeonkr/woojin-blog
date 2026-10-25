@@ -2,7 +2,7 @@
 external: false
 title: "Gacha collection optimizer"
 tag: [Python]
-date: 2026-06-19
+date: "2026-06-19"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Number pair"
 tag: [Programmers, Java]
-date: 2024-12-17
+date: "2024-12-17"
 ---
 
 ## 1. Problem

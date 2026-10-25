@@ -2,7 +2,7 @@
 external: false
 title: "Memory score"
 tag: [Programmers, Java]
-date: 2024-08-25
+date: "2024-08-25"
 ---
 
 ## 1. Problem

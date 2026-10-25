@@ -2,7 +2,7 @@
 external: false
 title: "Vowel dictionary"
 tag: [Programmers, Java]
-date: 2024-07-15
+date: "2024-07-15"
 ---
 
 ## 1. Problem

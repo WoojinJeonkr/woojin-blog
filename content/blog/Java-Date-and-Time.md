@@ -2,7 +2,7 @@
 external: false
 title: "Java Date and Time"
 tag: [Hackerrank, Java]
-date: 2023-09-30
+date: "2023-09-30"
 ---
 
 ## 1. 문제
@@ -23,14 +23,14 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
-     
+
     public static String findDay(int month, int day, int year) {
         // Calendar 인스턴스를 생성하여 주어진 연, 월, 일을 설정합니다.
         Calendar cal = Calendar.getInstance();
         cal.set(Calendar.MONTH, month - 1); // 월은 0부터 시작하므로 1을 빼줍니다.
         cal.set(Calendar.DAY_OF_MONTH, day);
         cal.set(Calendar.YEAR, year);
-        
+
         // 요일을 저장한 문자열 배열을 만들고, Calendar에서 얻은 요일에 해당하는 문자열을 반환합니다.
         String[] DAY_OF_WEEK = {"일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"};
         return DAY_OF_WEEK[cal.get(Calendar.DAY_OF_WEEK) - 1];
@@ -81,7 +81,7 @@ class Result {
     public static String findDay(int month, int day, int year) {
         // 주어진 연, 월, 일로 LocalDate 객체를 생성합니다.
         LocalDate date = LocalDate.of(year, month, day);
-        
+
         // LocalDate 객체에서 날짜의 요일을 얻어옵니다.
         // getDayOfWeek() 메서드는 DayOfWeek 열거형 상수를 반환하고, 이를 이용하여 요일을 얻습니다.
         // getDisplayName() 메서드를 사용하여 요일의 풀네임을 얻어오며, 이때 로케일은 영어로 설정합니다.

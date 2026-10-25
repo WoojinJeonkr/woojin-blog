@@ -2,7 +2,7 @@
 external: false
 title: "Ghost talk"
 tag: [Baekjoon, Python]
-date: 2026-03-14
+date: "2026-03-14"
 ---
 
 ## 1. Problem

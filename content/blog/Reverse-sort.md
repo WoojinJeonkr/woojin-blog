@@ -2,7 +2,7 @@
 external: false
 title: "Reverse sort"
 tag: [Programmers, SQL]
-date: 2025-03-30
+date: "2025-03-30"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Concert ticket sales analysis"
 tag: [Python]
-date: 2026-10-24
+date: "2026-10-24"
 ---
 
 ## 1. Problem

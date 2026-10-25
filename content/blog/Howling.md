@@ -2,7 +2,7 @@
 external: false
 title: "Howling"
 tag: [Algorithm]
-date: 2026-08-03
+date: "2026-08-03"
 ---
 
 ## 1. Problem

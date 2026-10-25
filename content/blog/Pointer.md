@@ -2,7 +2,7 @@
 external: false
 title: "Pointer"
 tag: [Hackerrank, C++]
-date: 2023-09-17
+date: "2023-09-17"
 ---
 
 ## 1. 문제
@@ -25,7 +25,7 @@ void update(int *a,int *b) {
 int main() {
     int a, b;
     int *pa = &a, *pb = &b;
-    
+
     scanf("%d %d", &a, &b);
     update(pa, pb);
     printf("%d\n%d", a, b);

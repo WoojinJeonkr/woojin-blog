@@ -2,7 +2,7 @@
 external: false
 title: "Continuous pulse sum"
 tag: [Programmers, Python]
-date: 2025-02-06
+date: "2025-02-06"
 ---
 
 ## 1. Problem

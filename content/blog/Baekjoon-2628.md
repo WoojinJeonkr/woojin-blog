@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 2628"
 tag: [Baekjoon, Python]
-date: 2023-10-30
+date: "2023-10-30"
 ---
 
 ## 1. 문제
@@ -24,7 +24,7 @@ height_intervals = [0, height]
 # 색종이의 개수를 입력받아서 각 색종이의 위치와 길이를 리스트에 저장
 for _ in range(int(input())):
     position, length = map(int, input().split())
-    
+
     # 가로로 자를 때
     if position == 0:
         height_intervals.append(length)
@@ -47,7 +47,7 @@ for i in range(1, len(width_intervals)):
         # 현재 가로 길이와 세로 길이를 계산
         current_width = width_intervals[i] - width_intervals[i - 1]
         current_height = height_intervals[j] - height_intervals[j - 1]
-        
+
         # 현재 조합의 넓이 계산 후 최대 넓이와 비교하여 갱신
         max_square = max(max_square, current_width * current_height)
 

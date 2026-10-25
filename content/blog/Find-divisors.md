@@ -2,7 +2,7 @@
 external: false
 title: "Find divisors"
 tag: [Programmers, Python]
-date: 2025-03-23
+date: "2025-03-23"
 ---
 
 ## 1. Problem

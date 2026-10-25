@@ -2,7 +2,7 @@
 external: false
 title: "Air conditioner"
 tag: [Programmers, Java]
-date: 2024-07-29
+date: "2024-07-29"
 ---
 
 ## 1. Problem

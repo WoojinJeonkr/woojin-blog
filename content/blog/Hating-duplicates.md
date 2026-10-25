@@ -2,7 +2,7 @@
 external: false
 title: "Hating duplicates"
 tag: [Baekjoon, Python]
-date: 2026-01-02
+date: "2026-01-02"
 ---
 
 ## 1. Problem

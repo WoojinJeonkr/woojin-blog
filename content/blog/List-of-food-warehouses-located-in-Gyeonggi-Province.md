@@ -2,7 +2,7 @@
 external: false
 title: "List of food warehouses located in Gyeonggi Province"
 tag: [Programmers, SQL]
-date: 2024-05-30
+date: "2024-05-30"
 ---
 
 ## 1. Problem

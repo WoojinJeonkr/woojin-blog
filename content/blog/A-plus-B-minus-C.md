@@ -2,7 +2,7 @@
 external: false
 title: "A plus B minus C"
 tag: [Baekjoon, Python]
-date: 2025-11-07
+date: "2025-11-07"
 ---
 
 ## 1. Problem

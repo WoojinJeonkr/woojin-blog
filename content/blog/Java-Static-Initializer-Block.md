@@ -2,7 +2,7 @@
 external: false
 title: "Java Static Initializer Block"
 tag: [Hackerrank, Java]
-date: 2023-11-01
+date: "2023-11-01"
 ---
 
 ## 1. 문제
@@ -16,13 +16,13 @@ date: 2023-11-01
     static boolean flag;
     static int B;
     static int H;
-    
+
     // 정적 블록에서 사용자로부터 너비와 높이 값을 읽어옵니다.
     static {
         Scanner scanner = new Scanner(System.in);
         B = scanner.nextInt(); // 너비를 입력으로 읽어옴
         H = scanner.nextInt(); // 높이를 입력으로 읽어옴
-        
+
         // 입력된 너비와 높이가 양수인지 확인합니다. 양수라면 플래그를 true로 설정하고, 그렇지 않으면 오류 메시지를 출력합니다.
         if (B > 0 && H > 0) {
             flag = true;
@@ -30,7 +30,7 @@ date: 2023-11-01
             System.out.println("java.lang.Exception: 너비와 높이는 양수여야 합니다.");
             flag = false;
         }
-        
+
         scanner.close(); // 자원 누수를 방지하기 위해 스캐너를 닫습니다.
     }
 ```
@@ -50,13 +50,13 @@ public class Solution {
     static boolean flag;
     static int B;
     static int H;
-    
+
     // 정적 블록에서 사용자로부터 너비와 높이 값을 읽어옵니다.
     static {
         Scanner scanner = new Scanner(System.in);
         B = scanner.nextInt(); // 너비를 입력으로 읽어옴
         H = scanner.nextInt(); // 높이를 입력으로 읽어옴
-        
+
         // 입력된 너비와 높이가 양수인지 확인합니다. 양수라면 플래그를 true로 설정하고, 그렇지 않으면 오류 메시지를 출력합니다.
         if (B > 0 && H > 0) {
             flag = true;
@@ -64,7 +64,7 @@ public class Solution {
             System.out.println("java.lang.Exception: 너비와 높이는 양수여야 합니다.");
             flag = false;
         }
-        
+
         scanner.close(); // 자원 누수를 방지하기 위해 스캐너를 닫습니다.
     }
 

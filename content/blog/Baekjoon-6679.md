@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 6679"
 tag: [Baekjoon, Python]
-date: 2023-12-11
+date: "2023-12-11"
 ---
 
 ## 1. 문제
@@ -23,27 +23,27 @@ date: 2023-12-11
 ```python
 for number in range(2992, 10000):
     temp_number = number
-    
+
     # 16진수
-    hex_sum = 0 
+    hex_sum = 0
     while temp_number != 0:
         hex_sum += temp_number % 16
         temp_number //= 16
-    
+
     temp_number = number
     # 12진수
     twelve_sum = 0
     while temp_number != 0:
         twelve_sum += temp_number % 12
         temp_number //= 12
-    
+
     temp_number = number
     # 10진수
     decimal_sum = 0
     while temp_number != 0:
         decimal_sum += temp_number % 10
         temp_number //= 10
-    
+
     if hex_sum == twelve_sum == decimal_sum:
         print(number)
 ```

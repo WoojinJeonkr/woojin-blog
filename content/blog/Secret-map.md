@@ -2,7 +2,7 @@
 external: false
 title: "Secret map"
 tag: [Programmers, Python]
-date: 2025-03-21
+date: "2025-03-21"
 ---
 
 ## 1. Problem

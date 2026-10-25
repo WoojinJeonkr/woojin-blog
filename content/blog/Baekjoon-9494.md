@@ -2,7 +2,7 @@
 external: false
 title: "Baekjoon 9494"
 tag: [Baekjoon, Java]
-date: 2023-11-03
+date: "2023-11-03"
 ---
 
 ## 1. 문제
@@ -19,7 +19,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        
+
         while (true) {
             // 테스트 케이스의 줄 수를 읽어옵니다.
             int n = Integer.parseInt(reader.readLine());
@@ -27,7 +27,7 @@ public class Main {
             if (n == 0) {
                 break;
             }
-            
+
             // 테스트 케이스의 각 줄을 저장할 배열을 초기화합니다.
             String[] lines = new String[n];
             // 각 줄의 텍스트를 읽어와 배열에 저장합니다.
@@ -39,7 +39,7 @@ public class Main {
             int column = findBallColumn(lines);
             System.out.println(column);
         }
-        
+
         reader.close();
     }
 
@@ -55,7 +55,7 @@ public class Main {
                 lineIndex++;
                 continue;
             }
-            
+
             // 현재 문자가 공백이면 다음 줄로 이동합니다.
             if (lines[lineIndex].charAt(columnIndex) == ' ') {
                 lineIndex++;

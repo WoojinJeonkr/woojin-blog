@@ -2,7 +2,7 @@
 external: false
 title: "Find deviation of Ecoli size by year"
 tag: [Programmers, SQL]
-date: 2024-06-25
+date: "2024-06-25"
 ---
 
 ## 1. Problem

@@ -2,7 +2,7 @@
 external: false
 title: "Java Instanceof keyword"
 tag: [Hackerrank, Java]
-date: 2024-04-02
+date: "2024-04-02"
 ---
 
 ## 1. Problem
